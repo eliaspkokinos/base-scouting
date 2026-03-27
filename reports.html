@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Reports — B.A.S.E. Scouting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --cream:#f5f0e8; --cream2:#ede7d9; --cream3:#e4dccb;
+      --parchment:#d4c9b0; --brown:#3d2b1f; --brown2:#5c3d2e;
+      --brown3:#7a5445; --gold:#c49a2e; --gold2:#e8b84b;
+      --rust:#a0432f; --ink:#2a1f17; --muted:#8a7060;
+      --green:#4a7a30;
+      --border:rgba(61,43,31,0.12); --border2:rgba(61,43,31,0.07);
+    }
+    html { scroll-behavior:smooth; }
+    body { background:var(--cream); color:var(--brown); font-family:'Lora',Georgia,serif; font-size:16px; line-height:1.75; overflow-x:hidden; }
+
+    /* NAV */
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:0 48px; height:68px; background:rgba(245,240,232,0.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; letter-spacing:0.04em; color:var(--ink); text-decoration:none; }
+    .nav-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a { font-family:'DM Sans',sans-serif; font-size:12.5px; color:var(--muted); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--brown); }
+    .nav-links a.active { color:var(--brown); border-bottom:1px solid var(--brown3); padding-bottom:1px; }
+    .nav-contact { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.07em; color:var(--brown2); text-decoration:none; border-bottom:1px solid var(--brown3); padding-bottom:1px; transition:color 0.2s; }
+    .nav-contact:hover { color:var(--gold); border-color:var(--gold); }
+
+    /* PAGE HEADER */
+    .page-header { padding:120px 48px 64px; border-bottom:1px solid var(--border); }
+    .breadcrumb { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:24px; display:flex; align-items:center; gap:10px; }
+    .breadcrumb::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+    .breadcrumb a { color:var(--muted); text-decoration:none; transition:color 0.2s; }
+    .breadcrumb a:hover { color:var(--brown); }
+    .header-grid { display:grid; grid-template-columns:1fr 340px; gap:64px; align-items:start; }
+    .page-title { font-family:'Playfair Display',serif; font-size:clamp(52px,7vw,88px); font-weight:700; line-height:0.92; letter-spacing:-0.01em; color:var(--ink); margin-bottom:20px; }
+    .page-title em { font-style:italic; font-weight:400; color:var(--brown3); display:block; }
+    .page-intro { font-family:'Lora',serif; font-size:17px; font-style:italic; color:var(--brown3); line-height:1.8; max-width:520px; border-left:2px solid var(--parchment); padding-left:20px; }
+
+    /* STATS PANEL */
+    .stats-panel { background:var(--cream2); border:1px solid var(--border); padding:28px; }
+    .stats-panel-kicker { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:18px; }
+    .stat-row { padding:14px 0; border-bottom:1px solid var(--border2); display:grid; grid-template-columns:1fr 1fr; gap:0; }
+    .stat-row:last-child { border-bottom:none; }
+    .stat-item-num { font-family:'Playfair Display',serif; font-size:30px; font-weight:700; color:var(--brown); line-height:1; margin-bottom:2px; }
+    .stat-item-label { font-family:'DM Sans',sans-serif; font-size:9.5px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); }
+
+    /* FILTER BAR */
+    .filter-bar { padding:24px 48px; background:var(--cream2); border-bottom:1px solid var(--border); display:flex; flex-direction:column; gap:16px; }
+    .filter-row { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+    .filter-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); flex-shrink:0; width:60px; }
+    .filter-divider { width:1px; height:20px; background:var(--border); flex-shrink:0; }
+    .filter-pills { display:flex; gap:8px; flex-wrap:wrap; }
+    .pill { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.07em; padding:6px 14px; border:1px solid var(--border); background:var(--cream); color:var(--muted); cursor:pointer; transition:all 0.2s; text-decoration:none; white-space:nowrap; }
+    .pill:hover { border-color:var(--brown3); color:var(--brown); }
+    .pill.active { background:var(--brown); color:var(--cream); border-color:var(--brown); }
+
+    /* Scrollable country strip */
+    .country-strip-wrap { display:flex; align-items:center; gap:16px; min-width:0; flex:1; }
+    .country-strip {
+      display:flex; gap:6px;
+      overflow-x:auto; padding-bottom:4px;
+      scrollbar-width:none; -ms-overflow-style:none;
+      scroll-behavior:smooth;
+    }
+    .country-strip::-webkit-scrollbar { display:none; }
+    .country-pill {
+      font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500;
+      letter-spacing:0.05em; padding:6px 12px;
+      border:1px solid var(--border); background:var(--cream); color:var(--muted);
+      cursor:pointer; transition:all 0.2s; white-space:nowrap;
+      text-decoration:none; display:flex; align-items:center; gap:6px;
+      flex-shrink:0;
+    }
+    .country-pill:hover { border-color:var(--brown3); color:var(--brown); }
+    .country-pill.active { background:var(--brown); color:var(--cream); border-color:var(--brown); }
+    .strip-arrow {
+      font-family:'DM Sans',sans-serif; font-size:14px; color:var(--muted);
+      cursor:pointer; flex-shrink:0; padding:4px 8px; transition:color 0.2s;
+      user-select:none; background:var(--cream2); border:1px solid var(--border);
+    }
+    .strip-arrow:hover { color:var(--brown); border-color:var(--brown3); }
+
+    .sort-wrap { display:flex; align-items:center; gap:10px; margin-left:auto; flex-shrink:0; }
+    .sort-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); }
+    .sort-select { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--brown2); background:transparent; border:none; border-bottom:1px solid var(--parchment); padding-bottom:1px; cursor:pointer; outline:none; }
+
+    /* MAIN LAYOUT — featured + list */
+    .reports-body { padding:64px 48px 100px; }
+    .results-count { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:48px; display:flex; align-items:center; gap:10px; }
+    .results-count::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+
+    /* FEATURED REPORT — top of list, large card */
+    .featured-report {
+      display:grid; grid-template-columns:1fr 1fr;
+      gap:0; margin-bottom:2px;
+      background:var(--cream2); border:1px solid var(--border);
+      text-decoration:none;
+      transition:opacity 0.2s;
+    }
+    .featured-report:hover { opacity:0.85; }
+    .featured-report:hover .feat-photo { transform:scale(1.02); }
+    .feat-photo-wrap { overflow:hidden; aspect-ratio:4/3; }
+    .feat-photo { width:100%; height:100%; object-fit:cover; object-position:top center; filter:sepia(12%) contrast(1.04); transition:transform 0.5s ease; }
+    .feat-photo-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--cream3); font-size:72px; }
+    .feat-body { padding:40px; display:flex; flex-direction:column; justify-content:center; gap:14px; }
+    .feat-meta { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+    .feat-badge { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; background:var(--brown); color:var(--cream); padding:4px 12px; }
+    .feat-new { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); border:1px solid rgba(196,154,46,0.3); padding:4px 12px; }
+    .feat-date { font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); letter-spacing:0.04em; }
+    .feat-name { font-family:'Playfair Display',serif; font-size:clamp(28px,3.5vw,44px); font-weight:700; color:var(--ink); line-height:1.1; }
+    .feat-club { font-family:'DM Sans',sans-serif; font-size:12px; color:var(--muted); letter-spacing:0.04em; }
+    .feat-snippet { font-family:'Lora',serif; font-size:15px; font-style:italic; color:var(--brown3); line-height:1.75; }
+    .feat-score { font-family:'Playfair Display',serif; font-size:48px; font-weight:700; color:var(--brown); line-height:1; margin-top:auto; }
+    .feat-score span { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); display:block; margin-top:4px; }
+    .feat-tags { display:flex; gap:6px; flex-wrap:wrap; }
+    .ctag { font-family:'DM Sans',sans-serif; font-size:10px; padding:3px 9px; border:1px solid var(--border); color:var(--muted); letter-spacing:0.06em; }
+    .ctag.g { border-color:rgba(74,122,48,0.35); color:var(--green); }
+    .ctag.r { border-color:rgba(160,67,47,0.35); color:var(--rust); }
+    .ctag.gold { border-color:rgba(196,154,46,0.35); color:var(--gold); }
+
+    /* REPORT LIST — remaining reports as rows */
+    .reports-list { display:flex; flex-direction:column; gap:2px; margin-top:2px; }
+    .report-row {
+      display:grid; grid-template-columns:72px 1fr 200px 120px 80px;
+      gap:24px; align-items:center;
+      background:var(--cream2); border:1px solid var(--border);
+      padding:20px 28px;
+      text-decoration:none;
+      transition:background 0.2s;
+    }
+    .report-row:hover { background:var(--cream3); }
+    .row-photo-wrap { width:72px; height:72px; overflow:hidden; background:var(--cream3); flex-shrink:0; }
+    .row-photo { width:100%; height:100%; object-fit:cover; object-position:top center; filter:sepia(10%); }
+    .row-photo-placeholder { width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:var(--cream3); font-size:24px; }
+    .row-name { font-family:'Playfair Display',serif; font-size:19px; font-weight:700; color:var(--ink); margin-bottom:3px; line-height:1.2; }
+    .row-club { font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); letter-spacing:0.04em; }
+    .row-pos { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--brown2); background:var(--cream3); padding:5px 10px; text-align:center; }
+    .row-date { font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); letter-spacing:0.04em; text-align:center; }
+    .row-score { font-family:'Playfair Display',serif; font-size:22px; font-weight:700; color:var(--brown); text-align:right; }
+
+    /* MONTH DIVIDERS */
+    .month-divider {
+      padding:20px 0 10px;
+      font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500;
+      letter-spacing:0.18em; text-transform:uppercase; color:var(--muted);
+      display:flex; align-items:center; gap:12px;
+      margin-top:24px;
+    }
+    .month-divider:first-child { margin-top:0; }
+    .month-divider::after { content:''; flex:1; height:1px; background:var(--border); }
+
+    /* FOOTER */
+    footer { background:var(--cream2); border-top:1px solid var(--border); padding:56px 48px 36px; }
+    .footer-inner { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; margin-bottom:40px; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); text-decoration:none; display:block; margin-bottom:10px; }
+    .footer-brand p { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); line-height:1.7; max-width:240px; }
+    .fcol h6 { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+    .fcol ul { list-style:none; display:flex; flex-direction:column; gap:10px; }
+    .fcol a { font-family:'Lora',serif; font-size:14px; color:var(--brown2); text-decoration:none; transition:color 0.2s; }
+    .fcol a:hover { color:var(--ink); }
+    .footer-bottom { display:flex; justify-content:space-between; align-items:center; padding-top:20px; border-top:1px solid var(--border); font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); }
+
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+    .header-grid { animation:fadeUp 0.6s ease both 0.1s; }
+
+    @media(max-width:1024px){
+      .report-row { grid-template-columns:72px 1fr 160px 80px; }
+      .row-date { display:none; }
+    }
+    @media(max-width:900px){
+      nav{padding:0 24px;} .nav-links{display:none;}
+      .page-header{padding:100px 24px 48px;}
+      .header-grid{grid-template-columns:1fr;}
+      .stats-panel{margin-top:32px;}
+      .filter-bar{padding:20px 24px;}
+      .reports-body{padding:48px 24px 80px;}
+      .featured-report{grid-template-columns:1fr;}
+      .feat-photo-wrap{aspect-ratio:3/2;}
+      .report-row{grid-template-columns:56px 1fr 80px; gap:16px; padding:16px 20px;}
+      .row-pos{display:none;}
+      .footer-inner{grid-template-columns:1fr 1fr;}
+      footer{padding:40px 24px 28px;}
+    }
+    @media(max-width:540px){
+      .report-row{grid-template-columns:48px 1fr 60px;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">B.A.S.E. <em>Scouting</em></a>
+  <ul class="nav-links">
+    <li><a href="goalkeepers.html">Goalkeepers</a></li>
+    <li><a href="defenders.html">Defenders</a></li>
+    <li><a href="midfielders.html">Midfielders</a></li>
+    <li><a href="attackers.html">Attackers</a></li>
+    <li><a href="reports.html" class="active">Reports</a></li>
+  </ul>
+  <a href="/cdn-cgi/l/email-protection#8beee7e2eaf8fbe0e4e0e2e5e4f8cbece6eae2e7a5e8e4e6" class="nav-contact">Get in touch</a>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="breadcrumb"><a href="index.html">B.A.S.E. Scouting</a></div>
+  <div class="header-grid">
+    <div>
+      <h1 class="page-title">Scouting<br /><em>Reports</em></h1>
+      <p class="page-intro">Every published report, in one place. Each one is a full evaluation — behaviors, trait classification, league transferability, risk assessment. No summaries, no shortcuts.</p>
+    </div>
+    <div class="stats-panel">
+      <div class="stats-panel-kicker">Archive — at a glance</div>
+      <div class="stat-row">
+        <div>
+          <div class="stat-item-num">8</div>
+          <div class="stat-item-label">Reports published</div>
+        </div>
+        <div>
+          <div class="stat-item-num">11</div>
+          <div class="stat-item-label">Countries covered</div>
+        </div>
+      </div>
+      <div class="stat-row">
+        <div>
+          <div class="stat-item-num">5</div>
+          <div class="stat-item-label">Positions</div>
+        </div>
+        <div>
+          <div class="stat-item-num">8</div>
+          <div class="stat-item-label">Role archetypes</div>
+        </div>
+      </div>
+      <div class="stat-row" style="border-bottom:none;">
+        <div>
+          <div class="stat-item-num">Mar '26</div>
+          <div class="stat-item-label">Most recent</div>
+        </div>
+        <div>
+          <div class="stat-item-num">100%</div>
+          <div class="stat-item-label">Independent</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <!-- Row 1: Position + Sort -->
+  <div class="filter-row">
+    <span class="filter-label">Position</span>
+    <div class="filter-pills">
+      <a href="#" class="pill active" data-filter="position" data-val="all">All</a>
+      <a href="#" class="pill" data-filter="position" data-val="attacker">Attackers</a>
+      <a href="#" class="pill" data-filter="position" data-val="midfielder">Midfielders</a>
+      <a href="#" class="pill" data-filter="position" data-val="defender">Defenders</a>
+    </div>
+    <div class="sort-wrap">
+      <span class="sort-label">Sort by</span>
+      <select class="sort-select" onchange="sortReports(this.value)">
+        <option value="recent">Most recent</option>
+        <option value="potential">Potential rating</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+  </div>
+  <!-- Row 2: Country strip -->
+  <div class="filter-row">
+    <span class="filter-label">Country</span>
+    <div class="country-strip-wrap">
+      <span class="strip-arrow" id="strip-left" onclick="scrollStrip(-1)">←</span>
+      <div class="country-strip" id="country-strip">
+        <a href="#" class="country-pill active" data-filter="nation" data-val="all">🌍 All</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="serbia">🇷🇸 Serbia</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="croatia">🇭🇷 Croatia</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="greece">🇬🇷 Greece</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="romania">🇷🇴 Romania</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="bosnia">🇧🇦 Bosnia</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="bulgaria">🇧🇬 Bulgaria</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="north-macedonia">🇲🇰 N. Macedonia</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="montenegro">🇲🇪 Montenegro</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="albania">🇦🇱 Albania</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="kosovo">🇽🇰 Kosovo</a>
+        <a href="#" class="country-pill" data-filter="nation" data-val="slovenia">🇸🇮 Slovenia</a>
+      </div>
+      <span class="strip-arrow" id="strip-right" onclick="scrollStrip(1)">→</span>
+    </div>
+  </div>
+</div>
+
+<!-- REPORTS BODY -->
+<div class="reports-body">
+  <div class="results-count" id="results-count">8 reports</div>
+
+  <!-- FEATURED: most recent report gets the large card treatment -->
+  <a href="reports/matej-deket.html" class="featured-report" id="featured-card"
+     data-position="attacker" data-nation="bosnia" data-potential="9" data-date="2025-11-01" data-name="Matej Deket">
+    <div class="feat-photo-wrap">
+      <img class="feat-photo"
+        src="https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/3404d955-f975-4f39-b59e-c37827524164/ChatGPT+Image+Feb+21%2C+2026%2C+01_54_56+PM-Photoroom.png"
+        alt="Matej Deket"
+        onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=feat-photo-placeholder>⚡</div>')" />
+    </div>
+    <div class="feat-body">
+      <div class="feat-meta">
+        <span class="feat-badge">Shadow Striker</span>
+        <span class="feat-new">Latest report</span>
+        <span class="feat-date">Nov 2025</span>
+      </div>
+      <div class="feat-name">Matej Deket</div>
+      <div class="feat-club">🇧🇦 FK Borac Banja Luka · Premijer Liga BiH · b. Oct 2009</div>
+      <p class="feat-snippet">Technically refined in tight spaces, operating between the lines with a clarity that most players his age don't develop for years. The ceiling here is genuinely high — and the market still hasn't caught up with the quality.</p>
+      <div class="feat-tags">
+        <span class="ctag g">Technical ✓</span>
+        <span class="ctag g">Link-up ✓</span>
+        <span class="ctag r">Explosiveness ✗</span>
+      </div>
+      <div class="feat-score">9.0 <span>B.A.S.E. Potential</span></div>
+    </div>
+  </a>
+
+  <!-- REPORT LIST -->
+  <div class="reports-list" id="reports-list">
+
+    <div class="month-divider">December 2025</div>
+
+    <a href="reports/vasilis-konstantinou.html" class="report-row"
+       data-position="attacker" data-nation="greece" data-potential="8" data-date="2025-12-15" data-name="Vasilis Konstantinou">
+      <div class="row-photo-wrap">
+        <div class="row-photo-placeholder">⚡</div>
+      </div>
+      <div>
+        <div class="row-name">Vasilis Konstantinou</div>
+        <div class="row-club">🇬🇷 AEK Athens B · Super League 2 · Shadow Striker</div>
+      </div>
+      <div class="row-pos">Attacker</div>
+      <div class="row-date">Dec 2025</div>
+      <div class="row-score">8.1</div>
+    </a>
+
+    <a href="reports/luka-zaric.html" class="report-row"
+       data-position="attacker" data-nation="serbia" data-potential="8" data-date="2025-12-08" data-name="Luka Zarić">
+      <div class="row-photo-wrap">
+        <img class="row-photo"
+          src="https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/LZ-Photoroom.png"
+          alt="Luka Zarić"
+          onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=row-photo-placeholder>⚡</div>')" />
+      </div>
+      <div>
+        <div class="row-name">Luka Zarić</div>
+        <div class="row-club">🇷🇸 Explosive Winger</div>
+      </div>
+      <div class="row-pos">Attacker</div>
+      <div class="row-date">Dec 2025</div>
+      <div class="row-score">8.5</div>
+    </a>
+
+    <a href="reports/ridwan-popoola.html" class="report-row"
+       data-position="attacker" data-nation="other" data-potential="7" data-date="2025-12-01" data-name="Ridwan Popoola">
+      <div class="row-photo-wrap">
+        <img class="row-photo"
+          src="https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/RP+photo.png"
+          alt="Ridwan Popoola"
+          onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=row-photo-placeholder>⚡</div>')" />
+      </div>
+      <div>
+        <div class="row-name">Ridwan Popoola</div>
+        <div class="row-club">Inside Forward</div>
+      </div>
+      <div class="row-pos">Attacker</div>
+      <div class="row-date">Dec 2025</div>
+      <div class="row-score">7.5</div>
+    </a>
+
+    <div class="month-divider">November 2025</div>
+
+    <a href="reports/hamza-gureler.html" class="report-row"
+       data-position="midfielder" data-nation="other" data-potential="7" data-date="2025-11-20" data-name="Hamza Güreler">
+      <div class="row-photo-wrap">
+        <div class="row-photo-placeholder">⚙️</div>
+      </div>
+      <div>
+        <div class="row-name">Hamza Güreler</div>
+        <div class="row-club">Midfielder</div>
+      </div>
+      <div class="row-pos">Midfielder</div>
+      <div class="row-date">Nov 2025</div>
+      <div class="row-score">7.5</div>
+    </a>
+
+    <a href="reports/ognjen-ugresic.html" class="report-row"
+       data-position="attacker" data-nation="serbia" data-potential="7" data-date="2025-11-14" data-name="Ognjen Ugrešić">
+      <div class="row-photo-wrap">
+        <img class="row-photo"
+          src="https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/Ognjen-Ugresic.png"
+          alt="Ognjen Ugrešić"
+          onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=row-photo-placeholder>⚡</div>')" />
+      </div>
+      <div>
+        <div class="row-name">Ognjen Ugrešić</div>
+        <div class="row-club">🇷🇸 Advanced Forward</div>
+      </div>
+      <div class="row-pos">Attacker</div>
+      <div class="row-date">Nov 2025</div>
+      <div class="row-score">7.5</div>
+    </a>
+
+    <a href="reports/ognjen-bondzulic.html" class="report-row"
+       data-position="attacker" data-nation="serbia" data-potential="7" data-date="2025-11-07" data-name="Ognjen Bondžulić">
+      <div class="row-photo-wrap">
+        <img class="row-photo"
+          src="https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/OB-Photoroom-Photoroom.png"
+          alt="Ognjen Bondžulić"
+          onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=row-photo-placeholder>⚡</div>')" />
+      </div>
+      <div>
+        <div class="row-name">Ognjen Bondžulić</div>
+        <div class="row-club">🇷🇸 Inside Forward</div>
+      </div>
+      <div class="row-pos">Attacker</div>
+      <div class="row-date">Nov 2025</div>
+      <div class="row-score">7.5</div>
+    </a>
+
+    <a href="reports/andrej-kostic.html" class="report-row"
+       data-position="attacker" data-nation="serbia" data-potential="8" data-date="2025-11-01" data-name="Andrej Kostić">
+      <div class="row-photo-wrap">
+        <div class="row-photo-placeholder">⚡</div>
+      </div>
+      <div>
+        <div class="row-name">Andrej Kostić</div>
+        <div class="row-club">🇷🇸 FK Partizan · Poacher</div>
+      </div>
+      <div class="row-pos">Attacker</div>
+      <div class="row-date">Nov 2025</div>
+      <div class="row-score">8.0</div>
+    </a>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">B.A.S.E. Scouting</a>
+      <p>Balkan Analytical Scouting & Evaluation. An independent project identifying top emerging talent across 11 Balkan nations.</p>
+    </div>
+    <div class="fcol"><h6>Players</h6><ul><li><a href="goalkeepers.html">Goalkeepers</a></li><li><a href="defenders.html">Defenders</a></li><li><a href="midfielders.html">Midfielders</a></li><li><a href="attackers.html">Attackers</a></li></ul></div>
+    <div class="fcol"><h6>Reference</h6><ul><li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="fcol"><h6>Contact</h6><ul><li><a href="/cdn-cgi/l/email-protection#72171e1b130102191d191b1c1d0132151f131b1e5c111d1f"><span class="__cf_email__" data-cfemail="9efbf2f7ffedeef5f1f5f7f0f1eddef9f3fff7f2b0fdf1f3">[email&#160;protected]</span></a></li><li><a href="#">California, USA</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 B.A.S.E. Scouting. All rights reserved.</span>
+    <span style="font-family:'Lora',serif;font-style:italic;font-size:12px;">Balkan Analytical Scouting & Evaluation</span>
+  </div>
+</footer>
+
+<script>
+  let activePosition = 'all';
+  let activeNation = 'all';
+
+  function getRows() {
+    return Array.from(document.querySelectorAll('.report-row'));
+  }
+
+  function applyFilters() {
+    const rows = getRows();
+    const featured = document.getElementById('featured-card');
+    let visible = 0;
+
+    const featPos = featured.dataset.position;
+    const featNat = featured.dataset.nation;
+    const featShow =
+      (activePosition === 'all' || featPos === activePosition) &&
+      (activeNation === 'all' || featNat === activeNation);
+    featured.style.display = featShow ? '' : 'none';
+    if (featShow) visible++;
+
+    rows.forEach(row => {
+      const show =
+        (activePosition === 'all' || row.dataset.position === activePosition) &&
+        (activeNation === 'all' || row.dataset.nation === activeNation);
+      row.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    document.querySelectorAll('.month-divider').forEach(div => {
+      let next = div.nextElementSibling;
+      let hasVisible = false;
+      while (next && !next.classList.contains('month-divider')) {
+        if (next.classList.contains('report-row') && next.style.display !== 'none') { hasVisible = true; break; }
+        next = next.nextElementSibling;
+      }
+      div.style.display = hasVisible ? '' : 'none';
+    });
+
+    const noun = visible === 1 ? 'report' : 'reports';
+    document.getElementById('results-count').textContent = visible + ' ' + noun;
+  }
+
+  // Position pills
+  document.querySelectorAll('.pill[data-filter="position"]').forEach(pill => {
+    pill.addEventListener('click', e => {
+      e.preventDefault();
+      activePosition = pill.dataset.val;
+      document.querySelectorAll('.pill[data-filter="position"]').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      applyFilters();
+    });
+  });
+
+  // Country strip pills
+  document.querySelectorAll('.country-pill[data-filter="nation"]').forEach(pill => {
+    pill.addEventListener('click', e => {
+      e.preventDefault();
+      const val = pill.dataset.val;
+      if (val === 'all' || activeNation === val) {
+        activeNation = 'all';
+        document.querySelectorAll('.country-pill').forEach(p => p.classList.remove('active'));
+        document.querySelector('.country-pill[data-val="all"]').classList.add('active');
+      } else {
+        activeNation = val;
+        document.querySelectorAll('.country-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+      }
+      applyFilters();
+    });
+  });
+
+  // Strip scroll arrows
+  function scrollStrip(dir) {
+    document.getElementById('country-strip').scrollBy({ left: dir * 200, behavior: 'smooth' });
+  }
+
+  function sortReports(value) {
+    const list = document.getElementById('reports-list');
+    const rows = getRows();
+    rows.sort((a, b) => {
+      if (value === 'potential') return parseInt(b.dataset.potential) - parseInt(a.dataset.potential);
+      if (value === 'name') return a.dataset.name.localeCompare(b.dataset.name);
+      return new Date(b.dataset.date) - new Date(a.dataset.date);
+    });
+    document.querySelectorAll('.month-divider').forEach(d => d.remove());
+    rows.forEach(r => list.appendChild(r));
+    if (value === 'recent') {
+      let currentMonth = '';
+      rows.forEach(row => {
+        const d = new Date(row.dataset.date);
+        const month = d.toLocaleString('default', { month: 'long', year: 'numeric' });
+        if (month !== currentMonth) {
+          currentMonth = month;
+          const div = document.createElement('div');
+          div.className = 'month-divider';
+          div.textContent = month;
+          list.insertBefore(div, row);
+        }
+      });
+    }
+  }
+</script><script>
+  let activePosition = 'all';
+  let activeNation = 'all';
+
+  function getRows() {
+    return Array.from(document.querySelectorAll('.report-row'));
+  }
+
+  function applyFilters() {
+    const rows = getRows();
+    const featured = document.getElementById('featured-card');
+    let visible = 0;
+
+    // Check featured card
+    const featPos = featured.dataset.position;
+    const featNat = featured.dataset.nation;
+    const featShow =
+      (activePosition === 'all' || featPos === activePosition) &&
+      (activeNation === 'all' || featNat === activeNation);
+    featured.style.display = featShow ? '' : 'none';
+    if (featShow) visible++;
+
+    // Check list rows
+    rows.forEach(row => {
+      const pos = row.dataset.position;
+      const nat = row.dataset.nation;
+      const show =
+        (activePosition === 'all' || pos === activePosition) &&
+        (activeNation === 'all' || nat === activeNation);
+      row.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    // Hide month dividers if all rows under them are hidden
+    document.querySelectorAll('.month-divider').forEach(div => {
+      let next = div.nextElementSibling;
+      let hasVisible = false;
+      while (next && !next.classList.contains('month-divider')) {
+        if (next.classList.contains('report-row') && next.style.display !== 'none') {
+          hasVisible = true; break;
+        }
+        next = next.nextElementSibling;
+      }
+      div.style.display = hasVisible ? '' : 'none';
+    });
+
+    const noun = visible === 1 ? 'report' : 'reports';
+    document.getElementById('results-count').textContent = `${visible} ${noun}`;
+  }
+
+  // Wire up pills
+  document.querySelectorAll('.pill[data-filter]').forEach(pill => {
+    pill.addEventListener('click', e => {
+      e.preventDefault();
+      const filter = pill.dataset.filter;
+      const val = pill.dataset.val;
+
+      // Toggle nation pills (can deselect)
+      if (filter === 'nation') {
+        if (activeNation === val) {
+          activeNation = 'all';
+          pill.classList.remove('active');
+        } else {
+          activeNation = val;
+          document.querySelectorAll('.pill[data-filter="nation"]').forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+        }
+      } else {
+        activePosition = val;
+        document.querySelectorAll('.pill[data-filter="position"]').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+      }
+      applyFilters();
+    });
+  });
+
+  function sortReports(value) {
+    const list = document.getElementById('reports-list');
+    const rows = getRows();
+
+    rows.sort((a, b) => {
+      if (value === 'potential') return parseInt(b.dataset.potential) - parseInt(a.dataset.potential);
+      if (value === 'name') return a.dataset.name.localeCompare(b.dataset.name);
+      return new Date(b.dataset.date) - new Date(a.dataset.date);
+    });
+
+    // Remove dividers and re-add rows in sorted order
+    document.querySelectorAll('.month-divider').forEach(d => d.remove());
+    rows.forEach(r => list.appendChild(r));
+
+    // If sorting by recent, re-insert month dividers
+    if (value === 'recent') {
+      let currentMonth = '';
+      rows.forEach(row => {
+        const d = new Date(row.dataset.date);
+        const month = d.toLocaleString('default', { month: 'long', year: 'numeric' });

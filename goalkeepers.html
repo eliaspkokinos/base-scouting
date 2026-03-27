@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goalkeepers — B.A.S.E. Scouting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --cream:#f5f0e8; --cream2:#ede7d9; --cream3:#e4dccb;
+      --parchment:#d4c9b0; --brown:#3d2b1f; --brown2:#5c3d2e;
+      --brown3:#7a5445; --gold:#c49a2e; --gold2:#e8b84b;
+      --rust:#a0432f; --ink:#2a1f17; --muted:#8a7060;
+      --green:#4a7a30;
+      --border:rgba(61,43,31,0.12); --border2:rgba(61,43,31,0.07);
+    }
+    html { scroll-behavior:smooth; }
+    body { background:var(--cream); color:var(--brown); font-family:'Lora',Georgia,serif; font-size:16px; line-height:1.75; overflow-x:hidden; }
+
+    /* NAV */
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:0 48px; height:68px; background:rgba(245,240,232,0.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; letter-spacing:0.04em; color:var(--ink); text-decoration:none; }
+    .nav-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a { font-family:'DM Sans',sans-serif; font-size:12.5px; color:var(--muted); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--brown); }
+    .nav-links a.active { color:var(--brown); border-bottom:1px solid var(--brown3); padding-bottom:1px; }
+    .nav-contact { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.07em; color:var(--brown2); text-decoration:none; border-bottom:1px solid var(--brown3); padding-bottom:1px; transition:color 0.2s; }
+    .nav-contact:hover { color:var(--gold); border-color:var(--gold); }
+
+    /* PAGE HEADER */
+    .page-header { padding:120px 48px 64px; border-bottom:1px solid var(--border); }
+    .breadcrumb { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:24px; display:flex; align-items:center; gap:10px; }
+    .breadcrumb::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+    .breadcrumb a { color:var(--muted); text-decoration:none; transition:color 0.2s; }
+    .breadcrumb a:hover { color:var(--brown); }
+    .page-title { font-family:'Playfair Display',serif; font-size:clamp(52px,7vw,88px); font-weight:700; line-height:0.92; letter-spacing:-0.01em; color:var(--ink); margin-bottom:20px; }
+    .page-title em { font-style:italic; font-weight:400; color:var(--brown3); display:block; }
+
+    /* MAIN CONTENT */
+    .main { padding:80px 48px 100px; }
+    .main-inner { display:grid; grid-template-columns:1fr 400px; gap:80px; align-items:start; max-width:1100px; }
+
+    .essay h2 {
+      font-family:'Playfair Display',serif;
+      font-size:clamp(26px,3vw,36px);
+      font-weight:400; font-style:italic;
+      color:var(--ink); line-height:1.25;
+      margin-bottom:28px;
+    }
+    .essay p {
+      font-size:16px; color:var(--brown2);
+      line-height:1.9; margin-bottom:20px;
+    }
+    .essay p strong { color:var(--ink); font-weight:500; }
+    .pull-quote {
+      border-left:3px solid var(--gold);
+      padding:8px 0 8px 24px; margin:36px 0;
+      font-family:'Playfair Display',serif;
+      font-size:20px; font-style:italic;
+      color:var(--brown); line-height:1.5;
+    }
+
+    /* SIDE PANEL */
+    .side-panel { display:flex; flex-direction:column; gap:2px; }
+
+    .what-it-takes {
+      background:var(--cream2); border:1px solid var(--border);
+      padding:28px;
+    }
+    .panel-kicker { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:16px; }
+    .panel-title { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:16px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+    .dimension-list { display:flex; flex-direction:column; gap:0; }
+    .dimension-item { padding:14px 0; border-bottom:1px solid var(--border2); display:grid; grid-template-columns:16px 1fr; gap:12px; align-items:start; }
+    .dimension-item:last-child { border-bottom:none; }
+    .dim-dot { width:6px; height:6px; border-radius:50%; background:var(--parchment); margin-top:8px; }
+    .dimension-item h4 { font-family:'Playfair Display',serif; font-size:14px; font-weight:700; color:var(--ink); margin-bottom:2px; }
+    .dimension-item p { font-family:'Lora',serif; font-size:12.5px; font-style:italic; color:var(--muted); line-height:1.55; }
+
+    .notify-box {
+      background:var(--brown); padding:28px;
+    }
+    .notify-box .panel-kicker { color:rgba(245,240,232,0.5); }
+    .notify-box .panel-title { color:var(--cream); border-color:rgba(245,240,232,0.12); }
+    .notify-box p { font-family:'Lora',serif; font-size:14px; font-style:italic; color:rgba(245,240,232,0.65); line-height:1.7; margin-bottom:20px; }
+    .notify-link {
+      font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500;
+      letter-spacing:0.08em; text-transform:uppercase;
+      color:var(--cream); text-decoration:none;
+      border-bottom:1px solid rgba(245,240,232,0.3); padding-bottom:2px;
+      transition:border-color 0.2s;
+    }
+    .notify-link:hover { border-color:var(--gold2); color:var(--gold2); }
+
+    /* POSITION NAV */
+    .position-nav { background:var(--cream2); border-top:1px solid var(--border); padding:56px 48px; }
+    .position-nav-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:24px; }
+    .position-nav-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:var(--border); }
+    .pos-nav-card { background:var(--cream); padding:24px 20px; text-decoration:none; display:flex; flex-direction:column; gap:8px; transition:background 0.2s; }
+    .pos-nav-card:hover { background:#f9f5ee; }
+    .pos-nav-card.current { background:var(--brown); pointer-events:none; }
+    .pos-icon { font-size:18px; }
+    .pos-nav-name { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); }
+    .pos-nav-card.current .pos-nav-name { color:var(--cream); }
+    .pos-nav-count { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); }
+    .pos-nav-card.current .pos-nav-count { color:rgba(245,240,232,0.5); }
+
+    /* FOOTER */
+    footer { background:var(--cream2); border-top:1px solid var(--border); padding:56px 48px 36px; }
+    .footer-inner { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; margin-bottom:40px; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); text-decoration:none; display:block; margin-bottom:10px; }
+    .footer-brand p { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); line-height:1.7; max-width:240px; }
+    .fcol h6 { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+    .fcol ul { list-style:none; display:flex; flex-direction:column; gap:10px; }
+    .fcol a { font-family:'Lora',serif; font-size:14px; color:var(--brown2); text-decoration:none; transition:color 0.2s; }
+    .fcol a:hover { color:var(--ink); }
+    .footer-bottom { display:flex; justify-content:space-between; align-items:center; padding-top:20px; border-top:1px solid var(--border); font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); }
+
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+    .page-header { animation:fadeUp 0.6s ease both 0.1s; }
+    .main-inner { animation:fadeUp 0.6s ease both 0.2s; }
+
+    @media(max-width:900px){
+      nav{padding:0 24px;} .nav-links{display:none;}
+      .page-header{padding:100px 24px 48px;}
+      .main{padding:56px 24px 80px;}
+      .main-inner{grid-template-columns:1fr; gap:48px;}
+      .position-nav{padding:40px 24px;}
+      .position-nav-grid{grid-template-columns:1fr 1fr;}
+      .footer-inner{grid-template-columns:1fr 1fr;}
+      footer{padding:40px 24px 28px;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">B.A.S.E. <em>Scouting</em></a>
+  <ul class="nav-links">
+    <li><a href="goalkeepers.html" class="active">Goalkeepers</a></li>
+    <li><a href="defenders.html">Defenders</a></li>
+    <li><a href="midfielders.html">Midfielders</a></li>
+    <li><a href="attackers.html">Attackers</a></li>
+  </ul>
+  <a href="mailto:eliaspkokinos@gmail.com" class="nav-contact">Get in touch</a>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="breadcrumb"><a href="index.html">B.A.S.E. Scouting</a> &nbsp;·&nbsp; Players</div>
+  <h1 class="page-title">Goalkeeper<br /><em>Profiles</em></h1>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="main-inner">
+
+    <div class="essay">
+      <h2>"Goalkeeping is its own discipline. Evaluating it badly is worse than not evaluating it at all."</h2>
+      <p>
+        B.A.S.E. doesn't currently publish goalkeeper reports. That's a deliberate choice, not an oversight.
+      </p>
+      <p>
+        The framework behind every outfield report — behavioral tendencies, trait classification, league transferability, risk assessment — was built over time through watching a specific type of player in a specific context. Goalkeepers require an entirely different evaluative lens. <strong>Shot-stopping mechanics, distribution under pressure, sweeper-keeper range, command of the penalty area, decision-making on crosses</strong> — these demand a level of positional specialism that takes time to develop credibly.
+      </p>
+      <div class="pull-quote">
+        "The worst thing a scouting report can do is give false confidence. A poorly evaluated goalkeeper report is more dangerous than no report at all."
+      </div>
+      <p>
+        The Balkans have historically produced strong goalkeeping talent — the pipeline is real. But publishing reports before the framework is properly built would undermine everything B.A.S.E. is trying to do. The goal is always credibility over coverage.
+      </p>
+      <p>
+        When goalkeeper reports do appear here, they'll be built on the same analytical rigour as every outfield profile — with a framework specific to the position, not a repurposed version of the one used for attackers and midfielders.
+      </p>
+    </div>
+
+    <div class="side-panel">
+      <!-- What it takes panel -->
+      <div class="what-it-takes">
+        <div class="panel-kicker">What it requires</div>
+        <div class="panel-title">Evaluating a goalkeeper properly</div>
+        <div class="dimension-list">
+          <div class="dimension-item">
+            <div class="dim-dot"></div>
+            <div>
+              <h4>Shot-stopping mechanics</h4>
+              <p>Footwork, set position, diving technique, handling — the technical base that has to be assessed independent of shot quality.</p>
+            </div>
+          </div>
+          <div class="dimension-item">
+            <div class="dim-dot"></div>
+            <div>
+              <h4>Distribution under pressure</h4>
+              <p>Short passing, long distribution, decision speed. Does the quality hold when the press is on?</p>
+            </div>
+          </div>
+          <div class="dimension-item">
+            <div class="dim-dot"></div>
+            <div>
+              <h4>Sweeper-keeper range</h4>
+              <p>Willingness and ability to act as a libero behind the defensive line — not just comfort on the ball, but spatial reading.</p>
+            </div>
+          </div>
+          <div class="dimension-item">
+            <div class="dim-dot"></div>
+            <div>
+              <h4>Aerial & cross command</h4>
+              <p>Decision-making on when to come, claim or stay. Dominating the box without unnecessary risk.</p>
+            </div>
+          </div>
+          <div class="dimension-item">
+            <div class="dim-dot"></div>
+            <div>
+              <h4>Psychological profile</h4>
+              <p>How does the goalkeeper respond to errors? Reset speed and composure after conceding are often what separate levels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notify box -->
+      <div class="notify-box">
+        <div class="panel-kicker">Stay informed</div>
+        <div class="panel-title">Know a Balkan goalkeeper worth watching?</div>
+        <p>If you've seen a goalkeeper in the region who deserves serious evaluation, reach out. Building the right framework starts with watching the right players.</p>
+        <a href="mailto:eliaspkokinos@gmail.com" class="notify-link">Get in touch →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- POSITION NAV -->
+<div class="position-nav">
+  <div class="position-nav-title">Browse other positions</div>
+  <div class="position-nav-grid">
+    <a href="goalkeepers.html" class="pos-nav-card current">
+      <div class="pos-icon">🧤</div>
+      <div class="pos-nav-name">Goalkeepers</div>
+      <div class="pos-nav-count">You are here</div>
+    </a>
+    <a href="defenders.html" class="pos-nav-card">
+      <div class="pos-icon">🛡️</div>
+      <div class="pos-nav-name">Defenders</div>
+      <div class="pos-nav-count">View profiles</div>
+    </a>
+    <a href="midfielders.html" class="pos-nav-card">
+      <div class="pos-icon">⚙️</div>
+      <div class="pos-nav-name">Midfielders</div>
+      <div class="pos-nav-count">View profiles</div>
+    </a>
+    <a href="attackers.html" class="pos-nav-card">
+      <div class="pos-icon">⚡</div>
+      <div class="pos-nav-name">Attackers</div>
+      <div class="pos-nav-count">View profiles</div>
+    </a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">B.A.S.E. Scouting</a>
+      <p>Balkan Analytical Scouting & Evaluation. An independent project identifying top emerging talent across 11 Balkan nations.</p>
+    </div>
+    <div class="fcol"><h6>Players</h6><ul><li><a href="goalkeepers.html">Goalkeepers</a></li><li><a href="defenders.html">Defenders</a></li><li><a href="midfielders.html">Midfielders</a></li><li><a href="attackers.html">Attackers</a></li></ul></div>
+    <div class="fcol"><h6>Reference</h6><ul><li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="fcol"><h6>Contact</h6><ul><li><a href="mailto:eliaspkokinos@gmail.com">eliaspkokinos@gmail.com</a></li><li><a href="#">California, USA</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 B.A.S.E. Scouting. All rights reserved.</span>
+    <span style="font-family:'Lora',serif;font-style:italic;font-size:12px;">Balkan Analytical Scouting & Evaluation</span>
+  </div>
+</footer>
+
+</body>
+</html>

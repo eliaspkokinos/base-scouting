@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "slug": "matej-deket",
+      "firstName": "Matej",
+      "lastName": "Deket",
+      "positionTag": "Shadow Striker",
+      "positionCategory": "Attackers",
+      "photoUrl": "https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/3404d955-f975-4f39-b59e-c37827524164/ChatGPT+Image+Feb+21%2C+2026%2C+01_54_56+PM-Photoroom.png",
+      "photoAlt": "Matej Deket",
+      "verdictLine": "Technically refined in tight spaces, he operates between the lines with a clarity that most players his age don't develop for years. The ceiling here is genuinely high.",
+      "bio": {
+        "dob": "Oct 1, 2009",
+        "nationality": "🇧🇦 Bosnian",
+        "club": "FK Borac Banja Luka",
+        "league": "Premijer Liga BiH",
+        "contractExpiry": "Jun 2027",
+        "marketValue": "€50K",
+        "preferredFoot": "Left",
+        "height": "1.85m",
+        "agent": "Relatives"
+      },
+      "scores": {
+        "basePotential": "9.0",
+        "travelReadiness": "7.0",
+        "reportDate": "Nov '25"
+      },
+      "role": {
+        "primaryRole": "Shadow Striker",
+        "description": [
+          "Operates in the half-space behind the main striker, receiving between the lines and linking play through combination sequences rather than attacking depth. Needs freedom to roam, dictate tempo, and arrive late into the box.",
+          "Best in a 4-2-3-1 or 4-4-2 diamond where the #10 position is granted license to drop and receive. Struggles in pure single-striker high-press systems."
+        ],
+        "formationName": "4 — 2 — 3 — 1",
+        "formationLabelBottom": "Highlighted position — Deket",
+        "formationPositions": [
+          { "cx": 200, "cy": 546, "label": "GK" },
+          { "cx": 62,  "cy": 480, "label": "LB" },
+          { "cx": 148, "cy": 466, "label": "CB" },
+          { "cx": 252, "cy": 466, "label": "CB" },
+          { "cx": 338, "cy": 480, "label": "RB" },
+          { "cx": 148, "cy": 382, "label": "DM" },
+          { "cx": 252, "cy": 382, "label": "DM" },
+          { "cx": 48,  "cy": 264, "label": "LW" },
+          { "cx": 352, "cy": 264, "label": "RW" },
+          { "cx": 200, "cy": 168, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 200, "cy": 246, "label": "#10" },
+        "heatmapZones": [
+          { "cx": "50%", "cy": "38%", "r": "48%", "id": "h1", "stops": [
+            { "offset": "0%",   "opacity": 0.6 },
+            { "offset": "40%",  "opacity": 0.22 },
+            { "offset": "100%", "opacity": 0 }
+          ]},
+          { "cx": "40%", "cy": "52%", "r": "44%", "id": "h2", "stops": [
+            { "offset": "0%",   "opacity": 0.35 },
+            { "offset": "100%", "opacity": 0 }
+          ]},
+          { "cx": "60%", "cy": "52%", "r": "40%", "id": "h3", "stops": [
+            { "offset": "0%",   "opacity": 0.28 },
+            { "offset": "100%", "opacity": 0 }
+          ]}
+        ],
+        "heatmapEllipses": [
+          { "cx": 200, "cy": 228, "rx": 140, "ry": 95, "fill": "url(#h1)" },
+          { "cx": 145, "cy": 265, "rx": 95,  "ry": 72, "fill": "url(#h2)" },
+          { "cx": 258, "cy": 265, "rx": 88,  "ry": 68, "fill": "url(#h3)" }
+        ]
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Receives between lines to feet.", "text": "Prefers operating in pockets behind the striker rather than attacking depth early." },
+          { "title": "Plays comfortably with back to goal.", "text": "Uses touch and body positioning to link quickly in tight spaces." },
+          { "title": "Executes quick combinations.", "text": "Strong in one-twos and short interplay around the box." },
+          { "title": "Drops deeper to orchestrate.", "text": "Will leave the front line to influence buildup and dictate tempo." },
+          { "title": "Strikes cleanly from mid-range.", "text": "Capable of varied finishing techniques with both feet." },
+          { "title": "Dribbles through feints and control.", "text": "Beats defenders through manipulation rather than explosive separation." }
+        ],
+        "offBall": [
+          { "title": "Roams behind the main striker.", "text": "Occupies half-spaces and central pockets rather than holding fixed zones." },
+          { "title": "Makes late box arrivals.", "text": "Times movements to attack rebounds and second phases." },
+          { "title": "Limited explosive runs in behind.", "text": "Prefers receiving to feet over constant depth attacks." },
+          { "title": "Counter-press intensity fluctuates.", "text": "Not consistently aggressive after loss of possession." },
+          { "title": "Avoids prolonged physical wrestling.", "text": "Less effective when pinned in static duels." },
+          { "title": "Communicates actively.", "text": "Vocal presence and visible leadership on the pitch." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Technical ball control under pressure", "desc": "First touch, body orientation, and close control remain consistent across game states. Not system-protected and survives tempo shifts." },
+          { "name": "Combination play in tight spaces", "desc": "Executes quick one-twos and short link-ups naturally. Functional across multiple structures, not dependent on striker pairing." },
+          { "name": "Finishing technique variety", "desc": "Capable of placements, volleys, mid-range strikes, and weaker-foot finishes. Technical base translates across leagues." },
+          { "name": "Vision & creative passing", "desc": "Identifies forward solutions between lines consistently. Not inflated by transition-only environments." }
+        ],
+        "context": [
+          { "name": "Mid-range shot threat", "desc": "More effective in leagues that allow space at the edge of the box. Compact blocks reduce shot quality significantly." },
+          { "name": "Back-to-goal play vs moderate physicality", "desc": "Touch and control hold up against average defenders. Elite physical pressure narrows the margins considerably." }
+        ],
+        "system": [
+          { "name": "Free-roaming second striker role", "desc": "Most effective when granted freedom behind a main striker. Output drops in rigid single-striker or high-press-only systems." },
+          { "name": "Ball-dominant orchestration", "desc": "Impact rises when allowed repeated touches to feet. Influence reduces sharply in vertical, low-touch roles." }
+        ],
+        "exposed": [
+          { "name": "Lack of first-step explosiveness", "desc": "Limited separation over first meters. High-tempo leagues reduce time on ball and expose this gap quickly." },
+          { "name": "Counter-press intensity", "desc": "Energy after loss inconsistent. Risks becoming a luxury profile in pressing-heavy systems." },
+          { "name": "Physical robustness in duels", "desc": "Frame solid but not dominant. Sustained contact reduces effectiveness in physical leagues." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame",        "value": "Tall, elegant build with fluid movement once in stride" },
+          { "label": "Top Speed",    "value": "Good in open phases" },
+          { "label": "Acceleration", "valueBold": "Weak.", "valueText": "Lacks explosive first step — separation is not burst-based" },
+          { "label": "Mobility",     "value": "Functional and coordinated, not acceleration-driven" }
+        ],
+        "cognitive": [
+          { "label": "Football IQ",        "valueBold": "High.", "valueText": "Reads space well between the lines" },
+          { "label": "Decision Quality",   "value": "Generally sound, especially in combination phases" },
+          { "label": "Risk Profile",       "value": "Prefers controlled touches over quick vertical risk" },
+          { "label": "Adaptability",       "value": "May depend on tactical freedom within the system" }
+        ],
+        "psychological": [
+          { "label": "Composure",          "value": "Present in decisive moments. Takes responsibility in advanced zones" },
+          { "label": "Leadership",         "value": "Vocal and confident in attacking phases" },
+          { "label": "Energy Consistency", "valueBold": "Inconsistent.", "valueText": "Pressing intensity fluctuates across phases" }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Improve first-step explosiveness.", "text": "The most important physical development needed to survive high-tempo leagues without structural protection." },
+        { "num": "02", "title": "Increase counter-pressing consistency.", "text": "Needs to become reliable without the ball — can't be a selective presser at the next level." },
+        { "num": "03", "title": "Add physical robustness in duels.", "text": "Frame is there — needs to develop comfort and effectiveness in sustained contact situations." },
+        { "num": "04", "title": "Adapt role to modern single-striker systems.", "text": "Learning to function in a 4-3-3 or 4-2-3-1 without the classic #10 freedom will significantly widen his market." }
+      ],
+      "travelScore": {
+        "score": 7,
+        "prose": [
+          "Strong base of transferable technical traits, particularly in tight-space control, combination play, and spatial intelligence. <strong>Adaptation is likely across multiple tactical environments</strong> where tempo is not purely acceleration-driven.",
+          "The 7 reflects genuine confidence in the technical and cognitive base. The ceiling on this score is the physical limitations — specifically the first-step gap and inconsistent pressing. In a system that protects him from those exposures early, he develops quickly. In one that doesn't, the adaptation period gets longer.",
+          "Success depends on avoiding systems that magnify first-step limitations or demand constant high-intensity pressing without reward."
+        ]
+      },
+      "leagueScores": [
+        { "name": "Premier League", "score": "5.0", "widthPct": 50, "isHigh": false, "note": "Physical demands expose the first-step gap. Needs structural protection — hard to guarantee in England." },
+        { "name": "La Liga",        "score": "7.5", "widthPct": 75, "isHigh": true,  "note": "Positional structure and controlled tempo suit him well. One of his two best T5 fits right now." },
+        { "name": "Bundesliga",     "score": "6.0", "widthPct": 60, "isHigh": false, "note": "Transition speed and pressing intensity expose the acceleration gap. Functional, not optimized." },
+        { "name": "Serie A",        "score": "7.5", "widthPct": 75, "isHigh": true,  "note": "Compact, intelligence-rewarding systems. Link-up and finishing technique translate cleanly here." },
+        { "name": "Ligue 1",        "score": "6.5", "widthPct": 65, "isHigh": false, "note": "Athletic duels and recovery speed matter more. Technical base keeps him competitive but not dominant." },
+        { "name": "Eredivisie",     "score": "7.0", "widthPct": 70, "isHigh": true,  "note": "High lines create space for late arrivals. Technical freedom suits his tempo-control game." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "🔧 Development", "meaning": "Low risk",     "note": "Senior minutes at 15/16, clear upward trajectory, no injury concerns." },
+        { "score": 2, "label": "🧠 Psychological","meaning": "Low risk",     "note": "Vocal leader, takes responsibility, no off-field concerns." },
+        { "score": 1, "label": "💰 Market",       "meaning": "Minimal risk", "note": "€50K from under-scouted league. No hype, no bidding war." },
+        { "score": 3, "label": "🧩 Systemic",     "meaning": "Medium risk",  "note": "Clearly has a best system. Output drops in purely vertical setups." }
+      ],
+      "trajectoryNote": "The shaded band around the projected trajectory reflects genuine uncertainty — player development is volatile, shaped by environment, playing time, injuries, and coaching. The gap between the technical development potential and physical curve is the key variable: if it narrows between ages 19–22, the overall tier accelerates. If physical maturation stalls, the right system becomes non-negotiable.",
+      "nowAge": 16,
+      "verdict": {
+        "statement": "Technically refined shadow striker with elite tight-space control, advanced spatial awareness, and varied finishing technique. Best suited to structured possession systems where intelligence and combination play are valued over raw explosiveness. The physical ceiling is the question — but at this age, with this technical base, that question feels answerable.",
+        "travels": [
+          "Elite first touch and ball control in pressure zones",
+          "High-level link-up and combination quality",
+          "Strong spatial awareness between the lines",
+          "Varied and technically clean finishing profile",
+          "Composed in decisive moments"
+        ],
+        "targeted": [
+          "Lacks first-step explosiveness",
+          "Counter-press intensity inconsistent",
+          "Physical duel robustness still developing",
+          "Role specificity limits plug-and-play versatility"
+        ],
+        "potentialRating": "9/10",
+        "potentialBalls": 9,
+        "potentialProjection": "Projects as a high-level UCL starter capable of shaping games through intelligence and technical authority. Ceiling depends on physical maturation — likely to grow with age — and whether he can maintain influence without structural protection."
+      }
+    }
+  ]
+}

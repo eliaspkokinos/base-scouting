@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — B.A.S.E. Scouting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --cream:#f5f0e8; --cream2:#ede7d9; --cream3:#e4dccb;
+      --parchment:#d4c9b0; --brown:#3d2b1f; --brown2:#5c3d2e;
+      --brown3:#7a5445; --gold:#c49a2e;
+      --ink:#2a1f17; --muted:#8a7060;
+      --border:rgba(61,43,31,0.12); --border2:rgba(61,43,31,0.07);
+    }
+    html { scroll-behavior:smooth; }
+    body { background:var(--cream); color:var(--brown); font-family:'Lora',Georgia,serif; font-size:16px; line-height:1.75; overflow-x:hidden; }
+
+    /* NAV */
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:0 48px; height:68px; background:rgba(245,240,232,0.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; letter-spacing:0.04em; color:var(--ink); text-decoration:none; }
+    .nav-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a { font-family:'DM Sans',sans-serif; font-size:12.5px; color:var(--muted); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--brown); }
+    .nav-links a.active { color:var(--brown); border-bottom:1px solid var(--brown3); padding-bottom:1px; }
+    .nav-contact { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.07em; color:var(--brown2); text-decoration:none; border-bottom:1px solid var(--brown3); padding-bottom:1px; transition:color 0.2s; }
+    .nav-contact:hover { color:var(--gold); border-color:var(--gold); }
+
+    /* PAGE */
+    .page { padding:148px 48px 100px; max-width:740px; margin:0 auto; }
+
+    .breadcrumb { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:48px; display:flex; align-items:center; gap:10px; }
+    .breadcrumb::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+    .breadcrumb a { color:var(--muted); text-decoration:none; transition:color 0.2s; }
+    .breadcrumb a:hover { color:var(--brown); }
+
+    .page-title { font-family:'Playfair Display',serif; font-size:clamp(42px,6vw,72px); font-weight:700; line-height:0.95; letter-spacing:-0.01em; color:var(--ink); margin-bottom:56px; }
+    .page-title em { font-style:italic; font-weight:400; color:var(--brown3); display:block; }
+
+    .essay p { font-size:17px; color:var(--brown2); line-height:1.9; margin-bottom:24px; }
+    .essay p:last-child { margin-bottom:0; }
+    .essay p strong { color:var(--ink); font-weight:500; }
+
+    .divider { width:40px; height:1px; background:var(--parchment); margin:48px 0; }
+
+    /* BYLINE */
+    .byline { display:flex; align-items:center; gap:20px; padding:28px 0; border-top:1px solid var(--border); margin-top:56px; }
+    .byline-name { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; color:var(--ink); }
+    .byline-detail { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin-top:3px; }
+    .byline-divider { width:1px; height:32px; background:var(--border); }
+    .byline-link { font-family:'Lora',serif; font-size:14px; font-style:italic; color:var(--brown3); text-decoration:none; border-bottom:1px solid var(--parchment); padding-bottom:1px; transition:color 0.2s, border-color 0.2s; }
+    .byline-link:hover { color:var(--gold); border-color:var(--gold); }
+
+    /* FOOTER */
+    footer { background:var(--cream2); border-top:1px solid var(--border); padding:56px 48px 36px; }
+    .footer-inner { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; margin-bottom:40px; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); text-decoration:none; display:block; margin-bottom:10px; }
+    .footer-brand p { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); line-height:1.7; max-width:240px; }
+    .fcol h6 { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+    .fcol ul { list-style:none; display:flex; flex-direction:column; gap:10px; }
+    .fcol a { font-family:'Lora',serif; font-size:14px; color:var(--brown2); text-decoration:none; transition:color 0.2s; }
+    .fcol a:hover { color:var(--ink); }
+    .footer-bottom { display:flex; justify-content:space-between; align-items:center; padding-top:20px; border-top:1px solid var(--border); font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); }
+
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+    .page { animation:fadeUp 0.5s ease both 0.1s; }
+
+    @media(max-width:900px){
+      nav{padding:0 24px;} .nav-links{display:none;}
+      .page{padding:112px 24px 80px;}
+      footer{padding:40px 24px 28px;}
+      .footer-inner{grid-template-columns:1fr 1fr;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">B.A.S.E. <em>Scouting</em></a>
+  <ul class="nav-links">
+    <li><a href="goalkeepers.html">Goalkeepers</a></li>
+    <li><a href="defenders.html">Defenders</a></li>
+    <li><a href="midfielders.html">Midfielders</a></li>
+    <li><a href="attackers.html">Attackers</a></li>
+  </ul>
+  <a href="mailto:eliaspkokinos@gmail.com" class="nav-contact">Get in touch</a>
+</nav>
+
+<div class="page">
+  <div class="breadcrumb"><a href="index.html">B.A.S.E. Scouting</a></div>
+
+  <h1 class="page-title">About<br /><em>B.A.S.E.</em></h1>
+
+  <div class="essay">
+
+    <p>
+      B.A.S.E. stands for <strong>Balkan Analytical Scouting & Evaluation</strong>. It's an independent scouting project covering emerging talent across eleven Balkan nations — Serbia, Croatia, Bosnia, Greece, Romania, Bulgaria, North Macedonia, Montenegro, Albania, Kosovo, and Slovenia.
+    </p>
+
+    <p>
+      I started it in college. The thinking was straightforward: the best way to break into football was to build a portfolio that already demonstrated the work, rather than wait for someone to give me the opportunity to do it. If I could put together 100+ professionally evaluated players — real reports, real methodology, consistent standards — then somewhere along the line, someone would take a chance on that. That's still the goal.
+    </p>
+
+    <p>
+      The Balkans specifically made sense for two reasons. I'm Greek, so the region isn't foreign to me culturally. And the analytical coverage of this part of Europe is genuinely thin relative to what's actually here. The talent pipeline is real — the clubs that have figured that out are already benefiting from it. Most haven't yet.
+    </p>
+
+    <div class="divider"></div>
+
+    <p>
+      Every report follows the same structure. It starts with observed behaviors — what the player actually does on and off the ball across multiple matches, not what the highlights suggest. From there it covers <strong>Player DNA classification</strong>, mapping the player across four trait dimensions that describe what kind of football they're built for and how their best qualities hold up under different conditions.
+    </p>
+
+    <p>
+      The second half of each report is about the transfer question. A <strong>league transferability section</strong> rates how the player's core qualities would hold at six target leagues, with honest notes on what travels and what probably doesn't. A <strong>four-axis risk assessment</strong> covers technical, physical, psychological, and contextual risk — because a profile without a risk breakdown is only half a picture. Everything feeds into a <strong>B.A.S.E. Potential Rating</strong> that reflects ceiling, not current level.
+    </p>
+
+    <p>
+      The underlying question throughout is always the same: which specific problems on the pitch is this player reliably comfortable handling, and for which kind of team does that matter? Scouting is problem-solving. A player who makes the game simpler for the people around him, who reduces uncertainty rather than adding to it, is almost always more transferable than one whose individual highlights look better but whose actual game effect is harder to pin down.
+    </p>
+
+    <div class="divider"></div>
+
+    <p>
+      I'm 23 and currently work as a video analyst in MLS. B.A.S.E. runs alongside that — it's the longer project, the one building toward a career in recruitment and sporting direction at the club level.
+    </p>
+
+    <p>
+      If you're a club looking at this part of the world, or an agent with a player you think belongs in the database, feel free to reach out.
+    </p>
+
+  </div>
+
+  <div class="byline">
+    <div>
+      <div class="byline-name">Elias Kokinos</div>
+      <div class="byline-detail">Founder · B.A.S.E. Scouting · Video Analyst, MLS</div>
+    </div>
+    <div class="byline-divider"></div>
+    <a href="mailto:eliaspkokinos@gmail.com" class="byline-link">eliaspkokinos@gmail.com</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">B.A.S.E. Scouting</a>
+      <p>Balkan Analytical Scouting & Evaluation. An independent project identifying top emerging talent across 11 Balkan nations.</p>
+    </div>
+    <div class="fcol"><h6>Players</h6><ul><li><a href="goalkeepers.html">Goalkeepers</a></li><li><a href="defenders.html">Defenders</a></li><li><a href="midfielders.html">Midfielders</a></li><li><a href="attackers.html">Attackers</a></li></ul></div>
+    <div class="fcol"><h6>Reference</h6><ul><li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="fcol"><h6>Contact</h6><ul><li><a href="mailto:eliaspkokinos@gmail.com">eliaspkokinos@gmail.com</a></li><li><a href="#">California, USA</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 B.A.S.E. Scouting. All rights reserved.</span>
+    <span style="font-family:'Lora',serif;font-style:italic;font-size:12px;">Balkan Analytical Scouting & Evaluation</span>
+  </div>
+</footer>
+
+</body>
+</html>

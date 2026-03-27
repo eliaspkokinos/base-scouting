@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Methodology — B.A.S.E. Scouting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --cream:#f5f0e8; --cream2:#ede7d9; --cream3:#e4dccb;
+      --parchment:#d4c9b0; --brown:#3d2b1f; --brown2:#5c3d2e;
+      --brown3:#7a5445; --gold:#c49a2e; --gold2:#e8b84b;
+      --rust:#a0432f; --ink:#2a1f17; --muted:#8a7060;
+      --green:#4a7a30;
+      --border:rgba(61,43,31,0.12); --border2:rgba(61,43,31,0.07);
+    }
+    html { scroll-behavior:smooth; }
+    body { background:var(--cream); color:var(--brown); font-family:'Lora',Georgia,serif; font-size:16px; line-height:1.75; overflow-x:hidden; }
+
+    /* NAV */
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:0 48px; height:68px; background:rgba(245,240,232,0.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; letter-spacing:0.04em; color:var(--ink); text-decoration:none; }
+    .nav-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a { font-family:'DM Sans',sans-serif; font-size:12.5px; color:var(--muted); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--brown); }
+    .nav-links a.active { color:var(--brown); border-bottom:1px solid var(--brown3); padding-bottom:1px; }
+    .nav-contact { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.07em; color:var(--brown2); text-decoration:none; border-bottom:1px solid var(--brown3); padding-bottom:1px; transition:color 0.2s; }
+    .nav-contact:hover { color:var(--gold); border-color:var(--gold); }
+
+    /* HERO */
+    .meth-hero {
+      padding:120px 48px 72px;
+      border-bottom:1px solid var(--border);
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:80px;
+      align-items:end;
+    }
+    .breadcrumb { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:32px; display:flex; align-items:center; gap:10px; }
+    .breadcrumb::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+    .breadcrumb a { color:var(--muted); text-decoration:none; }
+    .page-title { font-family:'Playfair Display',serif; font-size:clamp(46px,6.5vw,82px); font-weight:700; line-height:0.92; letter-spacing:-0.01em; color:var(--ink); margin-bottom:28px; }
+    .page-title em { font-style:italic; font-weight:400; color:var(--brown3); display:block; }
+    .page-intro { font-family:'Lora',serif; font-size:17px; font-style:italic; color:var(--brown3); line-height:1.85; max-width:520px; border-left:2px solid var(--parchment); padding-left:20px; }
+
+    /* FRAMEWORK OVERVIEW — right col of hero */
+    .framework-overview {
+      background:var(--cream2);
+      border:1px solid var(--border);
+      padding:32px;
+    }
+    .fo-kicker { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:16px; }
+    .fo-title { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:16px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+    .fo-steps { display:flex; flex-direction:column; gap:0; }
+    .fo-step { display:grid; grid-template-columns:28px 1fr; gap:12px; align-items:start; padding:14px 0; border-bottom:1px solid var(--border2); }
+    .fo-step:last-child { border-bottom:none; }
+    .fo-num { font-family:'Playfair Display',serif; font-size:13px; font-weight:700; color:var(--gold); padding-top:1px; }
+    .fo-step-name { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.05em; color:var(--ink); margin-bottom:2px; }
+    .fo-step-desc { font-family:'Lora',serif; font-size:12.5px; font-style:italic; color:var(--muted); line-height:1.55; }
+
+    /* SECTIONS */
+    .meth-section {
+      padding:72px 48px;
+      border-bottom:1px solid var(--border);
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:80px;
+      align-items:start;
+    }
+    .meth-section.full { grid-template-columns:1fr; max-width:860px; }
+    .section-kicker { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:14px; display:block; }
+    .section-title { font-family:'Playfair Display',serif; font-size:clamp(28px,3.5vw,42px); font-weight:700; color:var(--ink); line-height:1.1; margin-bottom:24px; }
+    .section-title em { font-style:italic; font-weight:400; color:var(--brown3); }
+    .section-body p { font-size:16px; color:var(--brown2); line-height:1.9; margin-bottom:18px; }
+    .section-body p:last-child { margin-bottom:0; }
+    .section-body p strong { color:var(--ink); font-weight:500; }
+
+    /* DNA TRAITS */
+    .dna-grid { display:flex; flex-direction:column; gap:2px; }
+    .dna-trait {
+      padding:20px 24px;
+      display:grid; grid-template-columns:10px 1fr; gap:16px; align-items:start;
+    }
+    .dna-trait.pure   { background:rgba(74,122,48,0.07);  border-left:3px solid var(--green); }
+    .dna-trait.system { background:rgba(196,154,46,0.07); border-left:3px solid var(--gold); }
+    .dna-trait.context{ background:rgba(160,107,47,0.07); border-left:3px solid #a06b2f; }
+    .dna-trait.exposed{ background:rgba(160,67,47,0.08);  border-left:3px solid var(--rust); }
+    .dna-dot { width:8px; height:8px; border-radius:50%; margin-top:6px; flex-shrink:0; }
+    .pure   .dna-dot { background:var(--green); }
+    .system .dna-dot { background:var(--gold); }
+    .context .dna-dot { background:#a06b2f; }
+    .exposed .dna-dot { background:var(--rust); }
+    .dna-trait-name { font-family:'Playfair Display',serif; font-size:16px; font-weight:700; color:var(--ink); margin-bottom:4px; }
+    .dna-trait-sub { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+    .dna-trait-desc { font-family:'Lora',serif; font-size:13.5px; font-style:italic; color:var(--brown2); line-height:1.65; }
+
+    /* RISK AXES */
+    .risk-grid { display:grid; grid-template-columns:1fr 1fr; gap:2px; }
+    .risk-axis {
+      background:var(--cream2);
+      border:1px solid var(--border);
+      padding:24px;
+    }
+    .risk-axis-num { font-family:'DM Sans',sans-serif; font-size:9.5px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:10px; }
+    .risk-axis-name { font-family:'Playfair Display',serif; font-size:20px; font-weight:700; color:var(--ink); margin-bottom:8px; }
+    .risk-axis-q { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--brown3); line-height:1.6; }
+    .risk-scale {
+      margin-top:32px;
+      background:var(--brown);
+      padding:24px 28px;
+    }
+    .risk-scale-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:rgba(245,240,232,0.4); margin-bottom:16px; }
+    .risk-scale-row { display:flex; align-items:baseline; gap:12px; padding:10px 0; border-bottom:1px solid rgba(245,240,232,0.06); }
+    .risk-scale-row:last-child { border-bottom:none; }
+    .risk-score { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--gold); min-width:32px; }
+    .risk-desc { font-family:'Lora',serif; font-size:13px; font-style:italic; color:rgba(245,240,232,0.6); line-height:1.5; }
+
+    /* TRAVEL READINESS */
+    .travel-grid { display:flex; flex-direction:column; gap:2px; }
+    .travel-band {
+      display:grid; grid-template-columns:80px 1fr;
+      align-items:center;
+      padding:18px 24px; gap:20px;
+      border:1px solid var(--border);
+    }
+    .travel-band.t-high   { background:rgba(74,122,48,0.06); }
+    .travel-band.t-good   { background:rgba(196,154,46,0.06); }
+    .travel-band.t-mid    { background:rgba(160,107,47,0.05); }
+    .travel-band.t-low    { background:rgba(160,67,47,0.05); }
+    .travel-score { font-family:'Playfair Display',serif; font-size:26px; font-weight:700; color:var(--brown); }
+    .travel-label { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink); margin-bottom:3px; }
+    .travel-desc { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); line-height:1.5; }
+
+    /* POTENTIAL RATING */
+    .potential-explainer {
+      background:var(--cream2);
+      border:1px solid var(--border);
+      padding:32px;
+    }
+    .pe-title { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:14px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+    .pe-body { font-family:'Lora',serif; font-size:14.5px; color:var(--brown2); line-height:1.8; }
+    .pe-body strong { color:var(--ink); font-weight:500; }
+
+    /* CTA */
+    .meth-cta {
+      padding:72px 48px;
+      display:flex; align-items:center; justify-content:space-between; gap:40px;
+      flex-wrap:wrap;
+    }
+    .cta-left h3 { font-family:'Playfair Display',serif; font-size:32px; font-weight:700; color:var(--ink); margin-bottom:10px; }
+    .cta-left p { font-family:'Lora',serif; font-size:16px; font-style:italic; color:var(--brown3); max-width:480px; }
+    .cta-btn { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; background:var(--brown); color:var(--cream); padding:16px 32px; text-decoration:none; transition:background 0.2s; white-space:nowrap; }
+    .cta-btn:hover { background:var(--ink); }
+
+    /* FOOTER */
+    footer { background:var(--cream2); border-top:1px solid var(--border); padding:56px 48px 36px; }
+    .footer-inner { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; margin-bottom:40px; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); text-decoration:none; display:block; margin-bottom:10px; }
+    .footer-brand p { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); line-height:1.7; max-width:240px; }
+    .fcol h6 { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+    .fcol ul { list-style:none; display:flex; flex-direction:column; gap:10px; }
+    .fcol a { font-family:'Lora',serif; font-size:14px; color:var(--brown2); text-decoration:none; transition:color 0.2s; }
+    .fcol a:hover { color:var(--ink); }
+    .footer-bottom { display:flex; justify-content:space-between; align-items:center; padding-top:20px; border-top:1px solid var(--border); font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); }
+
+    @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+    .meth-hero { animation:fadeUp 0.6s ease both 0.1s; }
+
+    @media(max-width:1024px){
+      .risk-grid { grid-template-columns:1fr; }
+    }
+    @media(max-width:900px){
+      nav{padding:0 24px;} .nav-links{display:none;}
+      .meth-hero { padding:100px 24px 56px; grid-template-columns:1fr; gap:40px; }
+      .meth-section { padding:56px 24px; grid-template-columns:1fr; gap:40px; }
+      .meth-cta { padding:56px 24px; }
+      footer{padding:40px 24px 28px;}
+      .footer-inner{grid-template-columns:1fr 1fr;}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">B.A.S.E. <em>Scouting</em></a>
+  <ul class="nav-links">
+    <li><a href="goalkeepers.html">Goalkeepers</a></li>
+    <li><a href="defenders.html">Defenders</a></li>
+    <li><a href="midfielders.html">Midfielders</a></li>
+    <li><a href="attackers.html">Attackers</a></li>
+  </ul>
+  <a href="mailto:eliaspkokinos@gmail.com" class="nav-contact">Get in touch</a>
+</nav>
+
+<!-- HERO -->
+<div class="meth-hero">
+  <div>
+    <div class="breadcrumb"><a href="index.html">B.A.S.E. Scouting</a></div>
+    <h1 class="page-title">The B.A.S.E.<br /><em>Framework</em></h1>
+    <p class="page-intro">Statistics tell you what happened. They don't tell you why, or whether it'll happen somewhere else. The whole point of this framework is to separate what a player genuinely is from what their environment is letting them look like.</p>
+  </div>
+
+  <div class="framework-overview">
+    <div class="fo-kicker">How every report is structured</div>
+    <div class="fo-title">Five components, one picture</div>
+    <div class="fo-steps">
+      <div class="fo-step">
+        <div class="fo-num">01</div>
+        <div>
+          <div class="fo-step-name">Observed Behaviors</div>
+          <div class="fo-step-desc">On and off the ball tendencies across multiple matches — what the player actually does, not what the highlights suggest.</div>
+        </div>
+      </div>
+      <div class="fo-step">
+        <div class="fo-num">02</div>
+        <div>
+          <div class="fo-step-name">Player DNA Classification</div>
+          <div class="fo-step-desc">Each trait mapped across four axes — Pure, System, Context, and Exposed — to determine what travels and what doesn't.</div>
+        </div>
+      </div>
+      <div class="fo-step">
+        <div class="fo-num">03</div>
+        <div>
+          <div class="fo-step-name">Athletic & Cognitive Profile</div>
+          <div class="fo-step-desc">Physical and mental qualities assessed independently of technical traits.</div>
+        </div>
+      </div>
+      <div class="fo-step">
+        <div class="fo-num">04</div>
+        <div>
+          <div class="fo-step-name">League Transferability</div>
+          <div class="fo-step-desc">Six target leagues rated on how well the player's core qualities hold at each level.</div>
+        </div>
+      </div>
+      <div class="fo-step">
+        <div class="fo-num">05</div>
+        <div>
+          <div class="fo-step-name">Four-Axis Risk Assessment</div>
+          <div class="fo-step-desc">Development, Psychological, Market, and Systemic risk — each scored 1–5 independently.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 1: PLAYER DNA -->
+<div class="meth-section">
+  <div class="section-body">
+    <span class="section-kicker">Player DNA Classification</span>
+    <h2 class="section-title">What travels.<br /><em>What doesn't.</em></h2>
+    <p>The DNA framework shifts evaluation away from simply asking whether a player is good toward asking <strong>why they look good</strong> — and whether that performance will survive a change in level, league, or tactical environment.</p>
+    <p>Every trait a player demonstrates gets classified across four axes. The classification isn't a judgment of quality — it's a judgment of <strong>stability</strong>. A player can be highly effective right now and still carry significant classification risk if most of what they're doing depends on conditions that won't exist at the next level.</p>
+    <p>This is what makes the framework diagnostic rather than just descriptive. It doesn't just describe what the player does — it tells you how much of it you can actually rely on.</p>
+  </div>
+
+  <div class="dna-grid">
+    <div class="dna-trait pure">
+      <div class="dna-dot"></div>
+      <div>
+        <div class="dna-trait-name">Pure Traits</div>
+        <div class="dna-trait-sub">Will Travel</div>
+        <p class="dna-trait-desc">Inherent to the player rather than dependent on the environment. First touch under pressure, scanning, decision-making speed, spatial awareness, composure, coordination — these survive system changes and league transitions because they reflect how the player fundamentally processes the game.</p>
+      </div>
+    </div>
+    <div class="dna-trait system">
+      <div class="dna-dot"></div>
+      <div>
+        <div class="dna-trait-name">System Traits</div>
+        <div class="dna-trait-sub">Environment Dependent</div>
+        <p class="dna-trait-desc">Performance supported or enhanced by the tactical setup. A midfielder accumulating progressive passes in a possession-dominant team, a winger collecting assists because the team overloads wide areas — these outputs are real, but they're less stable when the supporting structure disappears.</p>
+      </div>
+    </div>
+    <div class="dna-trait context">
+      <div class="dna-dot"></div>
+      <div>
+        <div class="dna-trait-name">Context Traits</div>
+        <div class="dna-trait-sub">Situation Dependent</div>
+        <p class="dna-trait-desc">Performance influenced by league level or opposition quality. A winger completing multiple dribbles against slower defenders, a midfielder who appears calm under pressure in a passive league — these traits can exaggerate a player's perceived level, particularly in youth competitions or lower divisions.</p>
+      </div>
+    </div>
+    <div class="dna-trait exposed">
+      <div class="dna-dot"></div>
+      <div>
+        <div class="dna-trait-name">Exposed Traits</div>
+        <div class="dna-trait-sub">Will Be Targeted</div>
+        <p class="dna-trait-desc">Known weaknesses that stronger competition will find and exploit. Weak foot limitations, poor scanning, limited mobility, slow recovery — these may not hurt the player now but are predictably problematic at higher levels. Identifying them is what makes scouting predictive rather than reactive.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 2: RISK ASSESSMENT -->
+<div class="meth-section">
+  <div class="section-body">
+    <span class="section-kicker">Risk Assessment</span>
+    <h2 class="section-title">Four axes,<br /><em>scored 1–5.</em></h2>
+    <p>Every report includes a four-axis risk assessment scored independently. <strong>1 = minimal risk, 5 = extreme risk.</strong> Each axis is evaluated on its own — a player can score low on three and high on one, and that tells you something specific about where the danger lies.</p>
+    <p>A profile without a risk breakdown is only half a picture. The risk section is where the honest part of the evaluation lives.</p>
+
+    <div class="risk-scale">
+      <div class="risk-scale-title">Score guide</div>
+      <div class="risk-scale-row"><span class="risk-score">1–2</span><span class="risk-desc">Minimal. Unlikely to become a problem at the next level.</span></div>
+      <div class="risk-scale-row"><span class="risk-score">3</span><span class="risk-desc">Moderate. Worth monitoring — conditions-dependent.</span></div>
+      <div class="risk-scale-row"><span class="risk-score">4–5</span><span class="risk-desc">High. A known vulnerability that better competition will target.</span></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="risk-grid">
+      <div class="risk-axis">
+        <div class="risk-axis-num">Axis 1</div>
+        <div class="risk-axis-name">Development</div>
+        <p class="risk-axis-q">How likely is this player not to reach their expected potential?</p>
+      </div>
+      <div class="risk-axis">
+        <div class="risk-axis-num">Axis 2</div>
+        <div class="risk-axis-name">Psychological</div>
+        <p class="risk-axis-q">Uncertainty around mentality, motivation, and adaptability.</p>
+      </div>
+      <div class="risk-axis">
+        <div class="risk-axis-num">Axis 3</div>
+        <div class="risk-axis-name">Market</div>
+        <p class="risk-axis-q">How risky from a valuation and transfer perspective?</p>
+      </div>
+      <div class="risk-axis">
+        <div class="risk-axis-num">Axis 4</div>
+        <div class="risk-axis-name">Systemic</div>
+        <p class="risk-axis-q">How heavily does this player rely on a specific system to perform?</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 3: TRAVEL READINESS & POTENTIAL -->
+<div class="meth-section">
+  <div class="section-body">
+    <span class="section-kicker">Travel Readiness</span>
+    <h2 class="section-title">The transfer<br /><em>question.</em></h2>
+    <p>League transferability rates how a player's core qualities would hold across six target leagues — from domestic mid-level competition up to UCL-standard football. The score reflects whether the traits that make the player effective right now are the kind that survive a step up in level, pace, and tactical intensity.</p>
+    <p>It's not a prediction of whether the transfer will work. It's an honest assessment of how much of the player's game would still be there if you moved them tomorrow.</p>
+  </div>
+
+  <div>
+    <div class="travel-grid">
+      <div class="travel-band t-high">
+        <div class="travel-score">9–10</div>
+        <div>
+          <div class="travel-label">UCL-level ceiling</div>
+          <div class="travel-desc">Elite transferability across systems. Core traits hold at the highest level.</div>
+        </div>
+      </div>
+      <div class="travel-band t-good">
+        <div class="travel-score">7–8</div>
+        <div>
+          <div class="travel-label">Top division ready</div>
+          <div class="travel-desc">Transferable across multiple leagues right now. Limited adjustment required.</div>
+        </div>
+      </div>
+      <div class="travel-band t-mid">
+        <div class="travel-score">5–6</div>
+        <div>
+          <div class="travel-label">System dependent</div>
+          <div class="travel-desc">Needs the right environment. Functional at mid-level with conditions.</div>
+        </div>
+      </div>
+      <div class="travel-band t-low">
+        <div class="travel-score">1–4</div>
+        <div>
+          <div class="travel-label">High risk</div>
+          <div class="travel-desc">Significant adaptation required. Profile may not survive a step up.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SECTION 4: POTENTIAL RATING -->
+<div class="meth-section" style="border-bottom:1px solid var(--border);">
+  <div class="section-body">
+    <span class="section-kicker">B.A.S.E. Potential Rating</span>
+    <h2 class="section-title">Ceiling,<br /><em>not current level.</em></h2>
+    <p>Every report ends with a single number: the B.A.S.E. Potential Rating. It's a holistic judgment — not a formula, not a weighted average of component scores. It reflects the ceiling of what this player could become if development goes well, based on everything the report covers.</p>
+    <p>The key word is potential, not present. A player rated 8.5 isn't necessarily better than a player rated 7.0 right now — they may be significantly worse. The rating is a projection of what they're building toward, adjusted for the risk that they don't get there.</p>
+  </div>
+
+  <div class="potential-explainer">
+    <div class="pe-title">What the number reflects</div>
+    <p class="pe-body">
+      The rating draws on the full picture — the stability of the player's Pure traits, the degree to which System and Context traits inflate the current profile, the severity of Exposed weaknesses, the four risk axes, and the overall transferability score. <strong>A player with a high proportion of Pure traits, low risk scores, and strong transferability will tend to rate highly.</strong> A player who looks good right now but whose performance depends heavily on Context and System conditions will rate lower regardless of current output.
+      <br /><br />
+      It is not a measure of how good the player currently is. It is a measure of how good they could be — and how confident the evaluation is in that projection.
+    </p>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="meth-cta">
+  <div class="cta-left">
+    <h3>See it in practice.</h3>
+    <p>The methodology only means something when you see it applied to a real player. Browse the full report archive.</p>
+  </div>
+  <a href="reports.html" class="cta-btn">Browse all reports →</a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">B.A.S.E. Scouting</a>
+      <p>Balkan Analytical Scouting & Evaluation. An independent project identifying top emerging talent across 11 Balkan nations.</p>
+    </div>
+    <div class="fcol"><h6>Players</h6><ul><li><a href="goalkeepers.html">Goalkeepers</a></li><li><a href="defenders.html">Defenders</a></li><li><a href="midfielders.html">Midfielders</a></li><li><a href="attackers.html">Attackers</a></li></ul></div>
+    <div class="fcol"><h6>Reference</h6><ul><li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="fcol"><h6>Contact</h6><ul><li><a href="mailto:eliaspkokinos@gmail.com">eliaspkokinos@gmail.com</a></li><li><a href="#">California, USA</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 B.A.S.E. Scouting. All rights reserved.</span>
+    <span style="font-family:'Lora',serif;font-style:italic;font-size:12px;">Balkan Analytical Scouting & Evaluation</span>
+  </div>
+</footer>
+
+</body>
+</html>

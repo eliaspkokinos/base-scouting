@@ -1,0 +1,3 @@
+# Netlify redirects
+# Clean URLs for player reports (no .html extension)
+/reports/:slug       /reports/:slug.html             200
