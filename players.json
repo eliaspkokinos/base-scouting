@@ -174,6 +174,176 @@
         "potentialBalls": 9,
         "potentialProjection": "Projects as a high-level UCL starter capable of shaping games through intelligence and technical authority. Ceiling depends on physical maturation — likely to grow with age — and whether he can maintain influence without structural protection."
       }
+    },
+    {
+      "slug": "ridwan-popoola",
+      "firstName": "Ridwan",
+      "lastName": "Popoola",
+      "positionTag": "Hybrid #6",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://images.squarespace-cdn.com/content/v1/68546f1bc015800d74b70b52/RP+photo.png",
+      "photoAlt": "Ridwan Popoola",
+      "verdictLine": "A young hybrid #6 with real defensive instincts and composure beyond his age, already comfortable anchoring midfield phases. His game is built on timing, awareness, and control rather than volume or dominance — which gives him a strong base but leaves clear next steps.",
+      "bio": {
+        "dob": "Nov 19, 2006",
+        "nationality": "🇳🇬 Nigerian",
+        "club": "Kisvárda FC",
+        "league": "NB 1 (Hungary)",
+        "contractExpiry": "Jun 2030",
+        "marketValue": "€500K",
+        "preferredFoot": "Right",
+        "height": "1.88m",
+        "agent": "BFM"
+      },
+      "scores": {
+        "basePotential": "7.0",
+        "travelReadiness": "6.0",
+        "reportDate": "Jan '26"
+      },
+      "role": {
+        "primaryRole": "Hybrid #6",
+        "description": [
+          "A modern pivot capable of anchoring the midfield defensively while also driving forward into more advanced zones. Reads second balls early, screens well in central areas, and provides structure without sacrificing forward momentum entirely.",
+          "Best in a double pivot or as a single #6 in a team with clear positional discipline. Needs a progressive partner or licence from the coach to step — otherwise his vertical ceiling goes untapped."
+        ],
+        "formationName": "4 — 2 — 3 — 1",
+        "formationLabelBottom": "Highlighted position — Popoola",
+        "formationPositions": [
+          { "cx": 200, "cy": 546, "label": "GK" },
+          { "cx": 62,  "cy": 480, "label": "LB" },
+          { "cx": 148, "cy": 466, "label": "CB" },
+          { "cx": 252, "cy": 466, "label": "CB" },
+          { "cx": 338, "cy": 480, "label": "RB" },
+          { "cx": 252, "cy": 382, "label": "RDM" },
+          { "cx": 48,  "cy": 264, "label": "LW" },
+          { "cx": 352, "cy": 264, "label": "RW" },
+          { "cx": 200, "cy": 246, "label": "#10" },
+          { "cx": 200, "cy": 168, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 148, "cy": 382, "label": "LDM" },
+        "heatmapZones": [
+          { "cx": "50%", "cy": "38%", "r": "48%", "id": "h1", "stops": [
+            { "offset": "0%",   "opacity": 0.6 },
+            { "offset": "40%",  "opacity": 0.22 },
+            { "offset": "100%", "opacity": 0 }
+          ]},
+          { "cx": "40%", "cy": "52%", "r": "44%", "id": "h2", "stops": [
+            { "offset": "0%",   "opacity": 0.35 },
+            { "offset": "100%", "opacity": 0 }
+          ]},
+          { "cx": "60%", "cy": "52%", "r": "40%", "id": "h3", "stops": [
+            { "offset": "0%",   "opacity": 0.28 },
+            { "offset": "100%", "opacity": 0 }
+          ]}
+        ],
+        "heatmapEllipses": [
+          { "cx": 165, "cy": 340, "rx": 130, "ry": 90, "fill": "url(#h1)" },
+          { "cx": 200, "cy": 420, "rx": 100, "ry": 75, "fill": "url(#h2)" },
+          { "cx": 240, "cy": 290, "rx": 80,  "ry": 60, "fill": "url(#h3)" }
+        ]
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Positions centrally to block passing lanes.", "text": "Disrupts build-up rather than drifting wide to chase actions." },
+          { "title": "Reads loose balls and second phases early.", "text": "Consistently reacts first to regain possession." },
+          { "title": "Steps into duels with conviction.", "text": "Relies on timing and anticipation to break opposition rhythm." },
+          { "title": "Covers large defensive zones with energy.", "text": "Though occasional forward overcommitment can leave space behind him." }
+        ],
+        "offBall": [
+          { "title": "Calm and secure under pressure.", "text": "Receives cleanly and protects the ball well in tight central areas." },
+          { "title": "Favours control and retention.", "text": "Prioritises tempo stability over forcing progression." },
+          { "title": "Rarely loses possession.", "text": "But vertical intent is inconsistent — more recycler than line-breaker at this stage." },
+          { "title": "Passing choices are safe and measured.", "text": "Clear room to grow in decisiveness and forward ambition." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Defensive positioning and lane-blocking", "desc": "Reads the game early and positions centrally to cut passing options. Consistent across game states, not system-dependent." },
+          { "name": "Ball security under pressure", "desc": "First touch and retention in tight central areas hold up against pressure. Translates across multiple tactical environments." },
+          { "name": "Second-ball anticipation", "desc": "Reacts early to loose balls and regains possession reliably. Functional across structures, not dependent on a specific system." },
+          { "name": "Defensive duel timing", "desc": "Steps into challenges with conviction based on anticipation rather than athleticism. Transferable at the core." }
+        ],
+        "context": [
+          { "name": "Press intensity and counter-press activity", "desc": "More effective in systems that are well-organised defensively. Isolated pressing demands without structure overexpose his energy management." },
+          { "name": "Aerial duels", "desc": "Timing can compensate for physical authority in moderate aerial contests. Elite aerial battles at higher levels reduce effectiveness." }
+        ],
+        "system": [
+          { "name": "Double pivot structure", "desc": "Impact is highest with a defined partner who takes the progressive role. Output drops when asked to combine both anchoring and driving functions alone." },
+          { "name": "Positional clarity from coach", "desc": "Executes a well-defined role effectively. Growth depends on moving from executing to dictating — requires coaching intent." }
+        ],
+        "exposed": [
+          { "name": "Limited vertical ambition on the ball", "desc": "Prefers security over progression at this stage. High-tempo leagues demand more line-breaking — this gap is immediately targetable." },
+          { "name": "Forward overcommitment", "desc": "Occasional stepping out aggressively can leave space behind him. Structural exposure when pressing triggers are miscalibrated." },
+          { "name": "Aerial authority in contested duels", "desc": "Timing helps but physical dominance is absent. Aerial-heavy environments will target this consistently." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Acceleration", "valueBold": "Quick.", "valueText": "Sharp first reaction, especially on loose balls and counter-press moments" },
+          { "label": "Endurance",    "value": "Repeat intensity, natural ground coverage — doesn't fade out of games" },
+          { "label": "Strength",     "valueBold": "Average.", "valueText": "Solid in ground duels, less convincing in vertical or purely physical contests" },
+          { "label": "Agility",      "value": "Good in short spaces, shifts laterally well, closes passing lanes quickly" }
+        ],
+        "cognitive": [
+          { "label": "Decision Speed",    "valueBold": "Quick", "valueText": "defensively. On-ball progression more deliberate, sometimes too polite" },
+          { "label": "Risk Profile",      "value": "Cautious — security-first passer; stays clean but limits ceiling without more intent" },
+          { "label": "Spatial Awareness", "value": "Good — positions centrally to block lanes and read danger rather than chasing wide actions" },
+          { "label": "Adaptability",      "value": "Role-clarity dependent — give him a defined job and he executes; growth hinges on moving from executing to dictating" }
+        ],
+        "psychological": [
+          { "label": "Big Game Performance", "valueBold": "Stable.", "valueText": "Defensive output feels repeatable rather than opponent-dependent" },
+          { "label": "Mistake Reaction",     "value": "Resilient — doesn't spiral; returns to the next action quickly" },
+          { "label": "Consistency",          "value": "Reliable — defensive habits show up every match; strong base" },
+          { "label": "Competitive Mentality","value": "Fighter — plays like he enjoys contact and disruption, not like he's surviving it" }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Develop vertical passing intent.", "text": "The most important on-ball upgrade needed. Must move from recycler to line-breaker to compete at higher levels." },
+        { "num": "02", "title": "Build aerial authority in contested duels.", "text": "Timing helps but isn't sufficient — physical assertiveness in the air needs deliberate development." },
+        { "num": "03", "title": "Calibrate press triggers to avoid leaving space.", "text": "Occasional overcommitment is the main structural risk — learning when not to step is as important as stepping." },
+        { "num": "04", "title": "Grow from executor to dictator.", "text": "Executes a defined role effectively. The next level requires imposing on games, not just fitting into them." }
+      ],
+      "travelScore": {
+        "score": 6,
+        "prose": [
+          "Strong base of transferable traits that adapt to multiple environments, yet weaknesses can be targeted without proper development. <strong>Success depends on avoiding systems that exaggerate aerial progression limitations.</strong>",
+          "The 6 reflects a player who is ready to step up but hasn't yet demonstrated the vertical threat or aerial assertiveness needed to score higher. The defensive tools translate — the progressive side of his game is still catching up.",
+          "In a well-structured double pivot or with a coach who actively coaches verticality into him, that number moves. Right now it's honest."
+        ]
+      },
+      "leagueScores": [
+        { "name": "Premier League", "score": "4.5", "widthPct": 45, "isHigh": false, "note": "Physical and tempo demands would likely rush his decision-making and overexpose his limited vertical ambition. He'd survive moments, but development would skew toward containment rather than growth." },
+        { "name": "La Liga",        "score": "6.0", "widthPct": 60, "isHigh": false, "note": "Tactical rhythm and emphasis on positional discipline suit his reading of the game. However, the slower pace may not consistently force improvement in his assertiveness or aerial competitiveness." },
+        { "name": "Bundesliga",     "score": "6.0", "widthPct": 60, "isHigh": false, "note": "Transition-heavy environments would highlight his defensive instincts and engine, but the speed of play could amplify his hesitancy in progressive actions unless paired with a very structured role." },
+        { "name": "Serie A",        "score": "6.0", "widthPct": 60, "isHigh": false, "note": "Strong fit for learning spacing, timing, and defensive nuance as a #6. Would benefit his positional intelligence, though ball progression demands may remain secondary unless deliberately coached." },
+        { "name": "Ligue 1",        "score": "7.0", "widthPct": 70, "isHigh": true,  "note": "A good balance of physical duels and transitional moments without overwhelming tactical complexity. Offers regular exposure to athletic midfield battles while still allowing room to refine on-ball bravery." },
+        { "name": "Eredivisie",     "score": "8.0", "widthPct": 80, "isHigh": true,  "note": "Best environment for controlled development. Press resistance and ball security are rewarded, while the league naturally encourages growth in vertical passing and decision-making without punishing early mistakes." }
+      ],
+      "riskGauges": [
+        { "score": 1, "label": "🔧 Development", "meaning": "Minimal risk",  "note": "Already playing at high level for age, consistent starter, no major injury history, strong learning curve." },
+        { "score": 2, "label": "🧠 Psychological","meaning": "Low risk",     "note": "Good profile, small worries about competitiveness and emotionality. May need mentorship but highly coachable." },
+        { "score": 1, "label": "💰 Market",       "meaning": "Minimal risk", "note": "€500K from under-scouted market. Cheap buy from under-scouted leagues — no hype premium." },
+        { "score": 2, "label": "🧩 Systemic",     "meaning": "Low risk",     "note": "Better in some setups but still contributes in multiple roles. Slight drop in output outside ideal role." }
+      ],
+      "trajectoryNote": "The shaded band around the projected trajectory reflects genuine uncertainty — player development is volatile, shaped by environment, playing time, injuries, and coaching. The key variable here is whether his progressive passing and physical assertiveness catch up to his defensive instincts. If they do between ages 20–23, the ceiling accelerates. If they stall, the right system becomes non-negotiable.",
+      "nowAge": 19,
+      "verdict": {
+        "statement": "A young hybrid #6 with real defensive instincts and composure beyond his age, already comfortable anchoring midfield phases. His game is built on timing, awareness, and control rather than volume or dominance — which gives him a strong base but leaves clear next steps. The ceiling depends on whether his progressive passing and physical assertiveness develop to match what he already does defensively.",
+        "travels": [
+          "Strong defensive reading for a 19 year old — anticipates second balls and disrupts rhythm early",
+          "Calm and secure in possession under pressure, especially centrally",
+          "Covers ground well and stays connected to the defensive structure",
+          "Competitive profile without being chaotic — plays within himself"
+        ],
+        "targeted": [
+          "Limited vertical ambition on the ball at this stage",
+          "Aerial duels are inconsistent — more timing than authority",
+          "Can step out aggressively and leave space behind if structure breaks"
+        ],
+        "potentialRating": "7/10",
+        "potentialBalls": 7,
+        "potentialProjection": "Projects as a reliable top-division midfielder who can anchor or support a double pivot, particularly in leagues that value structure and game intelligence. Ceiling depends on whether his progressive passing and physical assertiveness catch up to his defensive instincts."
+      }
     }
   ]
 }
