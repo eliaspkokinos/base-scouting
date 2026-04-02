@@ -176,32 +176,6 @@
       }
     },
     {
-      "slug": "hamza-gureler",
-      "firstName": "Hamza",
-      "lastName": "Güreler",
-      "positionTag": "Right Center Back / Complete CB",
-      "positionCategory": "Defenders",
-      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/hamza-gureler.png",
-      "photoAlt": "Hamza Güreler",
-      "verdictLine": "A 19-year-old center-back at Başakşehir who was one of the most complete CB profiles in the Süper Lig last season — dominant in the air, reliable in duels, technically progressive. His current season raises a different question entirely: is a talent suppressed, or a player being overtaken?",
-      "bio": {
-        "dob": "Apr 10, 2006",
-        "nationality": "🇹🇷 Turkish",
-        "club": "Başakşehir FK",
-        "league": "Trendyol Süper Lig",
-        "contractExpiry": "Jun 2028",
-        "marketValue": "€2.0M",
-        "preferredFoot": "Right",
-        "height": "1.92m",
-        "agent": "4YOURDREAM"
-      },
-      "scores": {
-        "basePotential": "8.0",
-        "travelReadiness": "8.0",
-        "reportDate": "Jan '26"
-      }
-    },
-    {
       "slug": "ridwan-popoola",
       "firstName": "Ridwan",
       "lastName": "Popoola",
