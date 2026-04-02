@@ -326,12 +326,12 @@ function generatePlayerPage(player) {
       </div>`;
 
   // Behavior lists
-  const behaviorItems = (items) => items.map(item =>
+  const behaviorItems = (items) => (items ?? []).map(item =>
     `<li class="behavior-item"><div class="b-dot"></div><p><strong>${item.title}</strong> ${item.text}</p></li>`
   ).join('\n          ');
 
   // DNA traits
-  const dnaTraits = (traits) => traits.map(t =>
+  const dnaTraits = (traits) => (traits ?? []).map(t =>
     `<div class="dna-trait">
               <div class="dna-trait-name">${t.name}</div>
               <div class="dna-trait-desc">${t.desc}</div>
@@ -339,22 +339,22 @@ function generatePlayerPage(player) {
   ).join('\n            ');
 
   // Profile items
-  const profileItems = (items) => items.map(item =>
+  const profileItems = (items) => (items ?? []).map(item =>
     `<div class="profile-item"><div class="profile-label">${item.label}</div><div class="profile-value">${profileValue(item)}</div></div>`
   ).join('\n          ');
 
   // Dev priorities
-  const devItems = p.devPriorities.map(d =>
+  const devItems = (p.devPriorities ?? []).map(d =>
     `<div class="dev-item"><div class="dev-num">${d.num}</div><p><strong>${d.title}</strong> ${d.text}</p></div>`
   ).join('\n        ');
 
   // Travel prose
-  const traveProse = p.travelScore.prose.map(para =>
+  const traveProse = (p.travelScore?.prose ?? []).map(para =>
     `<p>${para}</p>`
   ).join('\n        ');
 
   // League bars
-  const leagueBars = p.leagueScores.map(l =>
+  const leagueBars = (p.leagueScores ?? []).map(l =>
     `<div class="league-bar-row">
         <div class="lb-name">${l.name}</div>
         <div class="lb-track"><div class="lb-fill${l.isHigh ? ' high' : ''}" style="width:${l.widthPct}%"><span class="lb-score">${l.score}</span></div></div>
@@ -363,7 +363,7 @@ function generatePlayerPage(player) {
   ).join('\n      ');
 
   // Risk gauges
-  const gaugeCards = p.riskGauges.map(g =>
+  const gaugeCards = (p.riskGauges ?? []).map(g =>
     `<div class="gauge-card">
         <div class="gauge-wrap">${gaugeSvg(g.score)}</div>
         <div class="gauge-label">${g.label}</div>
@@ -373,9 +373,9 @@ function generatePlayerPage(player) {
   ).join('\n      ');
 
   // Verdict lists
-  const travelsList   = v.travels.map(t  => `<li>${t}</li>`).join('\n          ');
-  const targetedList  = v.targeted.map(t => `<li>${t}</li>`).join('\n          ');
-  const potentialBalls = repeat('⚽', v.potentialBalls);
+  const travelsList   = (v?.travels ?? []).map(t  => `<li>${t}</li>`).join('\n          ');
+  const targetedList  = (v?.targeted ?? []).map(t => `<li>${t}</li>`).join('\n          ');
+  const potentialBalls = repeat('⚽', v?.potentialBalls ?? 0);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -702,19 +702,19 @@ function generatePlayerPage(player) {
       <!-- Role description -->
       <div class="role-display">
         <div class="role-badge">Primary Role</div>
-        <div class="role-name">${p.role.primaryRole}</div>
+        <div class="role-name">${p.role?.primaryRole ?? ''}</div>
         <div class="role-desc-scroll">
-          ${p.role.description.map((d, i) =>
+          ${(p.role?.description ?? []).map((d, i) =>
             `<p class="role-desc"${i > 0 ? ' style="margin-top:8px;"' : ''}>${d}</p>`
           ).join('\n          ')}
         </div>
       </div>
 
       <!-- Formation SVG -->
-      ${formationSvg(p.role)}
+      ${p.role ? formationSvg(p.role) : ''}
 
       <!-- Heatmap SVG -->
-      ${heatmapSvg(p.role)}
+      ${p.role ? heatmapSvg(p.role) : ''}
     </div>
   </div>
 
@@ -726,13 +726,13 @@ function generatePlayerPage(player) {
       <div class="behavior-col">
         <h3>On the Ball</h3>
         <ul class="behavior-list">
-          ${behaviorItems(p.behaviors.onBall)}
+          ${behaviorItems(p.behaviors?.onBall)}
         </ul>
       </div>
       <div class="behavior-col">
         <h3>Off the Ball</h3>
         <ul class="behavior-list">
-          ${behaviorItems(p.behaviors.offBall)}
+          ${behaviorItems(p.behaviors?.offBall)}
         </ul>
       </div>
     </div>
@@ -751,7 +751,7 @@ function generatePlayerPage(player) {
             <span>Will Travel 🟢</span>
           </div>
           <div class="dna-traits">
-            ${dnaTraits(p.dna.pure)}
+            ${dnaTraits(p.dna?.pure)}
           </div>
         </div>
         <div class="dna-group">
@@ -761,7 +761,7 @@ function generatePlayerPage(player) {
             <span>Situation Dependent 🟡</span>
           </div>
           <div class="dna-traits">
-            ${dnaTraits(p.dna.context)}
+            ${dnaTraits(p.dna?.context)}
           </div>
         </div>
       </div>
@@ -773,7 +773,7 @@ function generatePlayerPage(player) {
             <span>Environment Dependent 🔴</span>
           </div>
           <div class="dna-traits">
-            ${dnaTraits(p.dna.system)}
+            ${dnaTraits(p.dna?.system)}
           </div>
         </div>
         <div class="dna-group">
@@ -783,7 +783,7 @@ function generatePlayerPage(player) {
             <span>Will Be Targeted ⚫</span>
           </div>
           <div class="dna-traits">
-            ${dnaTraits(p.dna.exposed)}
+            ${dnaTraits(p.dna?.exposed)}
           </div>
         </div>
       </div>
@@ -798,19 +798,19 @@ function generatePlayerPage(player) {
       <div class="profile-box">
         <h3>Athletic Profile</h3>
         <div class="profile-row">
-          ${profileItems(p.profiles.athletic)}
+          ${profileItems(p.profiles?.athletic)}
         </div>
       </div>
       <div class="profile-box">
         <h3>Cognitive Profile</h3>
         <div class="profile-row">
-          ${profileItems(p.profiles.cognitive)}
+          ${profileItems(p.profiles?.cognitive)}
         </div>
       </div>
       <div class="profile-box">
         <h3>Psychological Markers</h3>
         <div class="profile-row">
-          ${profileItems(p.profiles.psychological)}
+          ${profileItems(p.profiles?.psychological)}
         </div>
       </div>
     </div>
@@ -833,7 +833,7 @@ function generatePlayerPage(player) {
     <h2 class="section-title">Travel Readiness <em>Score</em></h2>
     <div class="travel-display">
       <div class="travel-score-big">
-        <div class="travel-score-num">${p.travelScore.score}</div>
+        <div class="travel-score-num">${p.travelScore?.score ?? ''}</div>
         <div class="travel-score-denom">out of 10</div>
         <div class="travel-score-label">Travel Ready</div>
       </div>
@@ -898,7 +898,7 @@ function generatePlayerPage(player) {
     <h2 class="section-title">Verdict & <em>Potential Rating</em></h2>
     <div class="verdict-statement">
       <div class="vs-label">Scout's Verdict</div>
-      <p>${v.statement}</p>
+      <p>${v?.statement ?? ''}</p>
     </div>
     <div class="verdict-grid">
       <div class="verdict-box good">
@@ -916,9 +916,9 @@ function generatePlayerPage(player) {
     </div>
     <div class="potential-display">
       <div class="potential-label">B.A.S.E. Potential Rating</div>
-      <div class="potential-num">${v.potentialRating}</div>
+      <div class="potential-num">${v?.potentialRating ?? ''}</div>
       <span class="potential-balls">${potentialBalls}</span>
-      <p class="potential-projection">${v.potentialProjection}</p>
+      <p class="potential-projection">${v?.potentialProjection ?? ''}</p>
     </div>
   </div>
 
