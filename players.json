@@ -344,6 +344,162 @@
         "potentialBalls": 7,
         "potentialProjection": "Projects as a reliable top-division midfielder who can anchor or support a double pivot, particularly in leagues that value structure and game intelligence. Ceiling depends on whether his progressive passing and physical assertiveness catch up to his defensive instincts."
       }
+    },
+    {
+      "slug": "vasilije-novicic",
+      "firstName": "Vasilije",
+      "lastName": "Novičić",
+      "positionTag": "Deep-Lying Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/vasilije-novicic.png",
+      "photoAlt": "Vasilije Novičić",
+      "verdictLine": "A 17-year-old captain in the Serbian SuperLiga who ranks 5th in passes to the final third among all U19 midfielders in Europe. The physicality ceiling is real and it needs to be managed. Everything else about this profile is ahead of schedule.",
+      "bio": {
+        "dob": "May 7, 2008",
+        "nationality": "🇷🇸 Serbian",
+        "club": "IMT Novi Beograd",
+        "league": "Serbian SuperLiga",
+        "position": "DM / LCM",
+        "preferredFoot": "Right",
+        "height": "1.75m",
+        "marketValue": "€2.0M",
+        "contractExpiry": "Jun 2027",
+        "agent": "Family Football"
+      },
+      "scores": {
+        "basePotential": "8",
+        "travelReadiness": "7.0",
+        "reportDate": "Sep '25"
+      },
+      "role": {
+        "primaryRole": "Deep-Lying Playmaker",
+        "description": [
+          "Organizes from deep, circulates the ball quickly, and releases with precision rather than carrying or forcing. Prefers short verticals and wall passes to retain possession and progress through lines. Reads defensive shape intelligently — an interceptor, not a tackler.",
+          "Best in a double pivot or as a left-sided 8 in a 4-2-3-1, where the right side of the pitch is always available to his stronger foot. Long-term, a commanding left-sided 8 at a possession-oriented club that builds from back to front."
+        ],
+        "formationName": "4–2–3–1 Shape",
+        "formationLabelBottom": "Novičić — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 252, "cy": 368, "label": "RDM" },
+          { "cx": 200, "cy": 262, "label": "AM" },
+          { "cx": 60,  "cy": 220, "label": "LW" },
+          { "cx": 340, "cy": 220, "label": "RW" },
+          { "cx": 200, "cy": 155, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 148, "cy": 368, "label": "LDM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Secure first touch.", "text": "Opens body to face forward. Clean reception under pressure — creates time that most players at this age have to fight for." },
+          { "title": "Quick circulation.", "text": "Prefers short verticals and wall passes. Rarely holds — releases early to maintain tempo and keep the ball moving through lines." },
+          { "title": "Calm under press.", "text": "Uses quick feet and rhythm shifts to escape tight zones rather than forcing. Rarely panics. Composure in tight spaces is already a natural trait." },
+          { "title": "Conservative by design.", "text": "Organizer more than line-breaker. Values security of possession and rarely loses it. Risk appetite is measured — this is a cognitive choice, not a technical limitation." },
+          { "title": "Set-piece quality.", "text": "Can take corners and free kicks with finesse delivery. An underrated asset for a player this age — adds value beyond the ninety minutes." },
+          { "title": "Long diagonals — inconsistent.", "text": "Looks for switches when the moment is right, but execution at range remains unreliable. The range is there; the consistency under pressure is still developing." }
+        ],
+        "offBall": [
+          { "title": "Intelligent positioning.", "text": "Closes passing lanes rather than chasing the ball. Anticipates well, stays connected to defensive shape, and is rarely caught out of position." },
+          { "title": "Interceptor, not tackler.", "text": "Prefers stepping into spaces rather than engaging physically. Works with his brain, not his body — which is the right approach given his frame." },
+          { "title": "Determined presser.", "text": "Focused and covers ground relentlessly in transition. When the trigger is there, the press is committed and directional." },
+          { "title": "Physically bypassed in direct duels.", "text": "Lightweight frame and lack of physical bite mean he gets overrun when opponents choose to go through him rather than around him. This is the ceiling constraint." },
+          { "title": "Mature temperament.", "text": "Concentrated, doesn't hide, always offers himself as an outlet. Captain at 17 — the leadership is already embedded in how he plays." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Ball security and press resistance", "desc": "Secure first touch, quick release, calm under press — already formed at 17 and not a product of the current system. This travels across leagues because it is a technical and cognitive habit, not a comfort-zone output." },
+          { "name": "Passing vision and final-third delivery", "desc": "5th in passes to the final third among all U19 midfielders in Europe. The vision to find pockets before they close and the precision to thread passes into them is already elite. This is not amplified by the league — it is the trait that makes him stand out in it." },
+          { "name": "Tempo control and scanning", "desc": "Adjusts game speed cleanly, reads momentum shifts early, scans regularly during buildup. The habit of pre-receive scanning is already in place — most players don't develop this until their mid-twenties if at all." },
+          { "name": "Leadership and maturity", "desc": "First-team captain at 17, playing alongside players twice his age. The composure, the communication, the refusal to hide — these are character traits that do not change with a transfer. Already one of the strongest psychological profiles in this report archive for his age group." }
+        ],
+        "context": [
+          { "name": "Long-range passing variety", "desc": "The diagonal switches and longer distributions are present but inconsistent. They emerge when the system provides width and time — against tighter, higher-tempo structures, the long pass output falls. A real trait, but not yet reliable under duress." }
+        ],
+        "system": [
+          { "name": "Defensive coverage volume", "desc": "Active between boxes, but stamina is used more to maintain structure than to win ball aggressively. The defensive numbers at this level are solid — in a higher-tempo league where the defensive workload multiplies, the physical demands of sustaining that coverage change materially." }
+        ],
+        "exposed": [
+          { "name": "Physical duel authority", "desc": "The defining ceiling question. Lightweight, lacks bite in direct challenges, gets bypassed physically. At 175cm and 17 years old this is partly a maturation question — but it is also the reason he needs a system built around collective structure rather than individual duel-winning. The right environment manages it. The wrong one exposes it immediately." },
+          { "name": "Pre-receive decision quality", "desc": "Quick reactions in tight areas — but pre-receive choices can telegraph passes at times. The scanning habit is there; the disguise in delivery is still developing. Against higher-quality defensive midfielders, the reads will come faster and the telegraphing will be punished." },
+          { "name": "Aerial presence", "desc": "Aerial impact is minimal for his role — currently not a meaningful part of his game. In a true lone pivot role at a higher level, set pieces and second-ball situations in the middle third will test this. Manageable as a second pivot; limiting as a sole 6." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame", "value": "1.75m, lightweight. Uses both feet well. Agile with quick feet and good rhythm changes — the physical tools that suit his role are present. The tools that don't — power, aerial reach, duel strength — are the ceiling constraints." },
+          { "label": "Pace", "value": "Fast-paced in circulation and transition pressing. Not a burst sprinter but covers ground relentlessly across a full match." },
+          { "label": "Strength", "value": "Weak. Bypassed in direct challenges. Shielding is improving through body angle use, but physical contact situations are a consistent liability right now." },
+          { "label": "Durability", "value": "2,200 minutes this season. No injuries. The engine is there — he does not break down and does not fade out of matches." }
+        ],
+        "cognitive": [
+          { "label": "Decision Speed", "value": "Quick in tight areas. Retains clarity under pressure. Pre-receive choices still developing — can telegraph at times, but the in-play speed is already a strength." },
+          { "label": "Scanning", "value": "Regular and disciplined. Head-up frequency during buildup is the cognitive foundation of everything else he does well. Already a habit, not a coached behaviour." },
+          { "label": "Risk Profile", "value": "Conservative — organizer more than line-breaker. This is a deliberate cognitive choice and the right one for his age and role. Risk appetite will expand naturally as physicality and range develop." },
+          { "label": "Adaptability", "value": "Mid-match adjustments are visible but not yet reliable. Reads momentum shifts early — the translation of that reading into positional adjustment is the developing edge." }
+        ],
+        "psychological": [
+          { "label": "Leadership", "value": "First-team captain at 17. Leads players twice his age. This is not a ceremonial captaincy — it reflects how his teammates and coaching staff actually read his presence on the pitch." },
+          { "label": "Composure", "value": "Composed after errors. Decision quality stabilizes quickly. Does not spiral or go into his shell — one of the clearest psychological strengths at this age." },
+          { "label": "Consistency", "value": "2,200 minutes, 7 goals, 4 assists in what is genuinely his second season as a regular starter. Output is not a spike — it is sustained across a full campaign." },
+          { "label": "National Team", "value": "Serbia youth national teams. The pathway is confirmed and the representation validates the level — this is not a player operating only in a comfortable domestic bubble." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Physical development — body strength and duel resistance.", "text": "The most important development priority and the one with the least coaching leverage. Upper body strength, shielding technique under contact, and ground duel assertiveness need to grow materially. Some of this is time — at 17 his frame is still forming. A targeted physical program over the next two to three years is what converts the ceiling question into an answered one." },
+        { "num": "02", "title": "Disguise in distribution.", "text": "Telegraphing passes in tight areas will be punished at higher levels. The scanning and vision are there — the next layer is disguising the intention before releasing. This is a technical refinement that can be coached directly and is well within reach." },
+        { "num": "03", "title": "Long-range passing consistency.", "text": "The diagonal switches are in the repertoire but not yet reliable under pressure. Deliberate repetition on weighted distribution at range — particularly from deep-left to wide-right positions — builds the tool that completes his profile as a left-sided 8." },
+        { "num": "04", "title": "Expand the risk register.", "text": "The conservative risk profile is correct right now. As physicality develops and the system around him becomes more structured, the next growth layer is learning when to break lines rather than always recycling. The vision is there — the trigger calibration is the development task." }
+      ],
+      "travelScore": {
+        "score": "7.0",
+        "prose": [
+          "The technical and cognitive base travels. Ball security, passing vision, press resistance, tempo control, and leadership are already formed and already producing at a high level in a competitive domestic league. None of that changes with an address.",
+          "The score sits at 7.0 because a transfer is a physical exposure event. At 17 and 175cm, moving to a higher-tempo league before the body can handle what better midfielders will do to him physically is the risk. The right next move is an environment where the collective structure protects him — not one that asks him to win individual duels he currently cannot win.",
+          "Think: compact shape, possession-based, technically demanding. La Liga and Eredivisie are the natural fits. A double pivot with a physical partner is the deployment that unlocks everything without exposing the gaps. A sole 6 role in a direct league is the deployment that ends careers before they start."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League", "score": 2.0, "width": "20%", "high": false, "note": "Physicality and transition intensity are too demanding right now. The lightweight frame makes him a liability in the duel-heavy midfield battles the Premier League asks for. Only viable long-term with significant physical growth — not a realistic first step from the SuperLiga at 17." },
+        { "league": "La Liga",        "score": 7.0, "width": "70%", "high": true,  "note": "Excellent fit for his composure, short passing, and positional intelligence. A cognitive and technical league where his weaknesses are less immediately exposed. With the right club structure — possession-based, compact collective — this is the ideal developmental environment." },
+        { "league": "Bundesliga",     "score": 5.0, "width": "50%", "high": false, "note": "High tempo and pressing traps could overwhelm him. He reads play well, but the vertical chaos and physical midfield contests of the Bundesliga are not the right developmental environment at this stage. System-dependent — workable with the right protection, difficult without it." },
+        { "league": "Serie A",        "score": 7.0, "width": "70%", "high": true,  "note": "Strong tactical fit. Compact spaces, emphasis on positioning, and structured defensive phases align with his intelligence and calmness. Less duel-heavy than the Premier League or Bundesliga. A club that builds from the back and values a technical second pivot is the match." },
+        { "league": "Ligue 1",        "score": 4.0, "width": "40%", "high": false, "note": "Physical chaos and duel intensity expose the lightweight frame. Transitional awareness helps, but Ligue 1's open zones and athletic midfield contests make it a difficult environment before physical development catches up." },
+        { "league": "Eredivisie",     "score": 8.0, "width": "80%", "high": true,  "note": "Ideal developmental fit. High-possession, technically demanding, lower physical thresholds than most top-five leagues. The perfect environment to refine long-range passing, expand the risk register, and develop physically with competitive minutes. Best first step out of the SuperLiga." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",     "note": "2,200 minutes at 17, first-team captain, consistent output across a full season, no injuries. Strong upward trajectory. The physical development question keeps this from a 1 — the pathway is clear, the ceiling is real, the timeline is still open." },
+        { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Mature beyond years, proven adaptability, team-first leadership. Captain at 17 in a professional first-team. No off-field concerns. Thrives under pressure and self-regulates. The psychological profile here is exceptional — among the best in this report archive for his age." },
+        { "score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€2M from an under-scouted market, family-represented, no agent inflating the price. Under the radar relative to the output. This is a classic Balkan undervaluation window — the exposure gap between what he is doing and what the market knows about it is still wide open." },
+        { "score": 3, "label": "Systemic",      "meaning": "Medium risk",  "note": "Clearly has a best system — double pivot, possession-based, compact collective, structured rest defense. Output drops meaningfully outside it. Not unusable in other setups, but the physical limitations mean the wrong system doesn't just reduce performance, it exposes it." }
+      ],
+      "trajectoryNote": "Long-term left-sided 8 or double-pivot organizer at a top-five league club. The ceiling depends on physical development — the base underneath it is already exceptional.",
+      "nowAge": 17,
+      "verdict": {
+        "statement": "A lightweight but intelligent organizing midfielder whose technical security and maturity are well ahead of his age. The physicality ceiling is real and it requires the right system to manage — but his intelligence, composure, ball-retention, and final-pass delivery give him a strong and already-functioning base. The long-term ceiling is a commanding left-sided 8 at a possession-oriented club in one of Europe's top leagues. The conditions for reaching it are clear and available.",
+        "travels": [
+          "Elite passing vision — 5th in passes to final third among all U19 midfielders in Europe",
+          "Secure on the ball under pressure, strong short passing and circulation quality",
+          "Mature spatial awareness and tempo control — already a formed cognitive habit at 17",
+          "Exceptional leadership and psychological profile — first-team captain, self-regulating, composed",
+          "Solid defensive intelligence — reads spaces and intercepts rather than relying on physicality"
+        ],
+        "targeted": [
+          "Physically weak in direct duels — lightweight frame gets bypassed; needs system protection",
+          "Long-range passing inconsistency — 25th-percentile long pass accuracy is an active gap",
+          "Pre-receive disguise still developing — telegraphs passes at times against attentive opponents",
+          "Aerial presence minimal — not a sole 6 profile until physical development catches up"
+        ],
+        "potentialRating": "8/10",
+        "potentialBalls": 8,
+        "potentialProjection": "Long-term left-sided 8 or double-pivot organizer at a top-five league club. Consistent, trustworthy, and already producing at an age where most players at this level are still learning to survive senior football. The ceiling depends on physical development — but the base underneath it is exceptional."
+      }
     }
   ]
 }
