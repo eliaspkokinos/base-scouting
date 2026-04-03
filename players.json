@@ -2,6 +2,7 @@
   "players": [
     {
       "slug": "matej-deket",
+      "handcrafted": true,
       "firstName": "Matej",
       "lastName": "Deket",
       "positionTag": "Shadow Striker",
@@ -177,6 +178,7 @@
     },
     {
       "slug": "ridwan-popoola",
+      "handcrafted": true,
       "firstName": "Ridwan",
       "lastName": "Popoola",
       "positionTag": "Hybrid #6",
