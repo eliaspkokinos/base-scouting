@@ -956,8 +956,12 @@ function build() {
   }
 
   for (const player of data.players) {
-    const html     = generatePlayerPage(player);
-    const outFile  = path.join(outDir, `${player.slug}.html`);
+    const outFile = path.join(outDir, `${player.slug}.html`);
+    if (player.handcrafted) {
+      console.log(`Skipped (handcrafted): reports/${player.slug}.html`);
+      continue;
+    }
+    const html = generatePlayerPage(player);
     fs.writeFileSync(outFile, html, 'utf8');
     console.log(`Built: reports/${player.slug}.html`);
   }

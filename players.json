@@ -347,6 +347,7 @@
     },
     {
       "slug": "vasilije-novicic",
+      "handcrafted": true,
       "firstName": "Vasilije",
       "lastName": "Novičić",
       "positionTag": "Deep-Lying Playmaker",
@@ -500,6 +501,39 @@
         "potentialBalls": 8,
         "potentialProjection": "Long-term left-sided 8 or double-pivot organizer at a top-five league club. Consistent, trustworthy, and already producing at an age where most players at this level are still learning to survive senior football. The ceiling depends on physical development — but the base underneath it is exceptional."
       }
+    },
+    {
+      "slug": "hamza-gureler",
+      "handcrafted": true,
+      "firstName": "Hamza",
+      "lastName": "Güreler",
+      "positionTag": "Ball-Playing CB",
+      "positionCategory": "Defenders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/hamza-gureler.png",
+      "photoAlt": "Hamza Güreler",
+      "verdictLine": "Dominant in the air and reliable in duels, Güreler was one of the most complete CB profiles in the Süper Lig last season — technically progressive and physically imposing at just 19."
+    },
+    {
+      "slug": "adem-avdic",
+      "handcrafted": true,
+      "firstName": "Adem",
+      "lastName": "Avdić",
+      "positionTag": "Complete Fullback",
+      "positionCategory": "Defenders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/adem-avdic.png",
+      "photoAlt": "Adem Avdić",
+      "verdictLine": "An aggressive and technically capable fullback who combines defensive solidity with genuine attacking output."
+    },
+    {
+      "slug": "andrei-borza",
+      "handcrafted": true,
+      "firstName": "Andrei",
+      "lastName": "Borza",
+      "positionTag": "Complete Fullback",
+      "positionCategory": "Defenders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/andrei-borza.png",
+      "photoAlt": "Andrei Borza",
+      "verdictLine": "Plays with the composure and tactical intelligence of someone three or four years older. The playmaking output is genuine and already elite for his league."
     }
   ]
 }
