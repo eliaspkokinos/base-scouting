@@ -505,6 +505,302 @@
       }
     },
     {
+      "slug": "vasilije-kostov",
+      "handcrafted": true,
+      "firstName": "Vasilije",
+      "lastName": "Kostov",
+      "positionTag": "Advanced Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/vasilije-kostov.png",
+      "photoAlt": "Vasilije Kostov",
+      "verdictLine": "A 17-year-old at Red Star Belgrade who leads all 60 Serbian SuperLiga midfielders in non-penalty goals, npxG, assists, and box touches per 90. The range is the defining quality: he builds, creates, and scores from the same position, on either foot, in the same match.",
+      "bio": {
+        "dob": "May 11, 2008",
+        "nationality": "🇷🇸🇲🇰 Serb/Mac.",
+        "club": "Red Star Belgrade",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2027",
+        "marketValue": "€3.5M",
+        "preferredFoot": "Right (Both)",
+        "height": "1.76m",
+        "agent": "Unnak Sports"
+      },
+      "scores": { "basePotential": "9", "travelReadiness": "8.5", "reportDate": "Oct '25" },
+      "role": {
+        "primaryRole": "Advanced Playmaker",
+        "description": [
+          "Operates between the lines and inside the box with equal comfort. Plays with the press resistance and technical calm of a deep builder, but the goalscoring output of a forward, on either foot. Scans before receiving and acts on what he has already seen.",
+          "Best behind a single striker with freedom to arrive late into the box and spray passes from the half-space. The position on the pitch shifts depending on what the team needs; the output does not."
+        ],
+        "formationName": "4–2–1–3 Shape",
+        "formationLabelBottom": "Kostov — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 148, "cy": 368, "label": "LDM" },
+          { "cx": 252, "cy": 368, "label": "RDM" },
+          { "cx": 70,  "cy": 185, "label": "LW" },
+          { "cx": 200, "cy": 158, "label": "ST" },
+          { "cx": 330, "cy": 185, "label": "RW" }
+        ],
+        "highlightedPosition": { "cx": 200, "cy": 270, "label": "AM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Scans before receiving, decides before contact.", "text": "Head-up frequency during buildup is already a formed habit. The technical speed this enables — playing quickly in tight spaces without appearing rushed — is the foundation of everything else." },
+          { "title": "Passes with intent, not just accuracy.", "text": "Distribution rarely circulates for its own sake. Each ball either breaks a line, changes the angle of attack, or releases a runner. 100th-percentile long pass accuracy reflects quality and selectivity in combination." },
+          { "title": "Secure first touch in tight central areas.", "text": "Absorbs contact using balance and body positioning. Rarely loses the ball to a bad touch on the receive — the technique is already reliable, not developing." },
+          { "title": "Finishes with conviction from range.", "text": "97th-percentile npxG per shot reflects good selection as much as technique. He attempts the strikes worth attempting and converts them at an elite rate." },
+          { "title": "Two-footed without telegraphing the switch.", "text": "Uses both feet in combination play and set-piece delivery. The choice of foot does not signal the direction of the pass, which is what makes the two-footedness genuinely dangerous rather than merely functional." }
+        ],
+        "offBall": [
+          { "title": "Finds space between the lines before the ball arrives.", "text": "Positions off the shoulder of opposing midfielders to receive on the half-turn. The habit of staying off defensive shoulders is consistent across match states." },
+          { "title": "Times late arrivals into the box precisely.", "text": "98th-percentile box touches and 18 G/A from 23 starts reflect arrival timing as much as positional sense. Arrives when the ball is ready, not before — which means arriving unmarked more often than expected." },
+          { "title": "Directs teammates on the pitch.", "text": "Vocal in buildup, points to space. A natural leadership pattern at 17, as one of the youngest players in a senior squad." },
+          { "title": "Reactive in the defensive phase.", "text": "Intercepts angles rather than hunting duels. 5th percentile in defensive actions. Not a defensive midfielder, and the energy management is deliberate — he conserves output to be available for the moments that matter." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Technical press resistance", "desc": "First touch, ball security, and composure under pressure are already formed at 17 and not system-dependent. Travels across leagues." },
+          { "name": "Two-foot distribution quality", "desc": "100th-percentile long pass accuracy without telegraphing foot choice. A genuine two-footedness that makes every pass an option." },
+          { "name": "Clutch goalscoring", "desc": "100th percentile np goals per 90. Decisive in high-stakes matches. Derby goals. The mentality is already there." },
+          { "name": "Pre-reception scanning", "desc": "Already a cognitive habit at 17. The foundation of his technical speed in tight areas — most players don't develop this until their mid-twenties." }
+        ],
+        "context": [
+          { "name": "Progressive passing frequency", "desc": "The quality exists at the 100th percentile; the default habit to attempt it does not yet. A system that rewards the attempt is needed before the habit becomes consistent." }
+        ],
+        "system": [
+          { "name": "Defensive contribution", "desc": "5th percentile in defensive actions. System matching matters — a double-pivot partner who handles defensive duties is a structural requirement, not a luxury." }
+        ],
+        "exposed": [
+          { "name": "Duel engagement", "desc": "10th percentile. A physical double-pivot partner is a system requirement. The wrong setup asks him to win midfield battles he currently cannot win consistently." },
+          { "name": "Physical development against mature opponents", "desc": "The technical base is there. The sequencing matters. A developmental environment before top-five league exposure is the responsible route." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame", "value": "1.76m, still developing. The foundation for physicality is present. Whether he learns to impose it in duels is a habits question as much as a size one." },
+          { "label": "Acceleration", "value": "97th percentile. Gets to speed quickly over short distances, which makes late box arrivals harder to track than his starting position suggests." },
+          { "label": "Two-footedness", "value": "Technically functional on both feet in combination play, distribution, and finishing. Right is stronger; left-foot actions are genuine options rather than forced alternatives." },
+          { "label": "Durability", "value": "No injury history. 23 starts and nearly 2,000 minutes at 17 in a single senior season. Physical availability at this output volume is itself a data point." }
+        ],
+        "cognitive": [
+          { "label": "Pre-reception scanning", "value": "The defining trait. Processes the picture before the ball arrives. Already a habit, not coached behaviour — the foundation of his technical speed in tight areas." },
+          { "label": "Decision quality", "value": "High. Rarely attempts the progressive ball when it is not on. The 42nd-percentile progressive pass volume is partly this: he chooses the right pass rather than the ambitious one." },
+          { "label": "Risk calibration", "value": "Takes risks in the final third rather than in dangerous defensive areas. 84th-percentile fouls drawn reflects a player who invites contact in positions where winning the foul is a positive outcome." },
+          { "label": "Spatial awareness", "value": "Constantly shifts position to maintain passing lanes and stay off defensive shoulders. Consistent across match states." }
+        ],
+        "psychological": [
+          { "label": "Leadership", "value": "Directs teammates on the pitch at 17. Natural inclination toward organising the play around him. Not a coached habit — it is simply how he engages with the game." },
+          { "label": "Clutch mentality", "value": "Derby goals, decisive contributions in high-stakes matches. The mental profile of a player who wants the ball when it matters is already present and observable." },
+          { "label": "Composure", "value": "Unflappable under press. Rarely rushed, rarely panics with the ball. The psychological stability that lets the technical qualities operate under pressure is already formed." },
+          { "label": "National Team", "value": "Called into the senior Serbia squad at 17, not yet earning minutes. The call-up validates the level at which the club performance is being read by the federation." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Build the progressive passing habit, not just the quality.", "text": "Long pass accuracy at the 100th percentile. The frequency of progressive attempts at the 42nd. The gap between what he is capable of and what he defaults to is the most important developmental question — and it requires a system that rewards the attempt before the habit becomes consistent." },
+        { "num": "02", "title": "Physical duel engagement.", "text": "Duels won at the 10th percentile. Partly a habits question — he does not currently seek contact — and partly a physical development question. A double-pivot partner is the structural near-term solution." },
+        { "num": "03", "title": "Expand the defensive action floor.", "text": "He is not going to become a defensive midfielder. But modest improvement in defensive volume would meaningfully widen the range of systems he can operate in. A calibration task, not a profile change." },
+        { "num": "04", "title": "Accumulate experience against physically mature opponents.", "text": "The technical base is there. The sequencing matters. A developmental environment before top-five league exposure is the responsible route and the one most likely to protect what is already exceptional." }
+      ],
+      "travelScore": {
+        "score": "8.5",
+        "prose": [
+          "The technical and cognitive qualities that make him exceptional are not system-dependent. Press resistance, two-foot distribution, scanning habits, clutch goalscoring — these will show up in any possession-based environment that gives him the ball in central areas. That is the basis for the score.",
+          "The discount is honest rather than cautious. Physical maturity against older, stronger midfielders is still an open question. The progressive passing habit needs a system that rewards it before it becomes consistent. The defensive contribution floor is low enough that system matching matters more for him than for most players at this age.",
+          "Think: possession-based, technically demanding, double-pivot structure behind him. La Liga and Eredivisie are the natural fits. A transition-heavy system that asks him to win individual duels acquires the wrong version of this player and may not develop the right one."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League", "score": 4.0, "width": "40%", "high": false, "note": "Physical intensity in central midfield would test him before his other qualities could establish themselves. The 10th-percentile duels profile becomes a weekly problem in a league where midfield battles are consistently physical. Long-term ceiling is very high; the immediate environment is wrong." },
+        { "league": "La Liga",        "score": 9.0, "width": "90%", "high": true,  "note": "The best stylistic fit. Possession systems at technical clubs reward the scanning habit, press resistance, and two-foot distribution. A mid-table Spanish club with a structured possession approach gives him license to develop the progressive passing habit in the right environment." },
+        { "league": "Bundesliga",     "score": 7.5, "width": "75%", "high": true,  "note": "High-tempo vertical play suits his instincts and scanning speed. Physical demands are higher than La Liga. A technical club with a duel-winning double-pivot partner gets the best version." },
+        { "league": "Serie A",        "score": 7.5, "width": "75%", "high": true,  "note": "Tactical compactness and technical demands suit the profile. Ball security and passing intelligence stand out in possession-heavy Italian setups. The emphasis on positional intelligence rather than raw athleticism plays to his natural strengths." },
+        { "league": "Ligue 1",        "score": 5.5, "width": "55%", "high": false, "note": "Athletic and physically direct in midfield, which is the profile most likely to limit his influence before it can develop. His technical qualities would show in possession sequences, but Ligue 1's directness would challenge him in defensive transitions." },
+        { "league": "Eredivisie",     "score": 9.0, "width": "90%", "high": true,  "note": "The natural development bridge. High possession volume, technical identity, a style that explicitly develops creative midfielders. His scanning habits, press resistance, and goalscoring output would be central to a team's offensive identity." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",     "note": "No injury history. Consistent starter at Red Star at 17, senior national team call-up, strong upward trajectory. The physical development question is the only thing keeping this from a 1." },
+        { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Leadership, clutch performance, composure under pressure at 17. Derby goals. Senior national team. Nothing in the profile suggests a psychological question worth flagging." },
+        { "score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€3.5M for the 17-year-old who leads all SuperLiga midfielders in four attacking categories simultaneously, with no injury history, called into the senior national squad. This valuation does not survive another full season of this output." },
+        { "score": 2, "label": "Systemic",      "meaning": "Low risk",     "note": "Press resistance, distribution quality, goalscoring are all system-stable. The slight drop outside a possession-based setup with a physical partner alongside him is the reason this is a 2 rather than a 1." }
+      ],
+      "trajectoryNote": "A 9 projects as a consistent starter and meaningful contributor at a top-five European club, with Champions League impact potential as a creator and scorer from midfield.",
+      "nowAge": 17,
+      "verdict": {
+        "statement": "A 17-year-old advanced playmaker who leads all Serbian SuperLiga midfielders in four attacking output categories simultaneously, with no injury history, a senior national team call-up, and a leadership profile that does not usually arrive at this age. The defensive contribution is minimal and system matching matters because of it. The progressive passing habit is developing rather than settled. Both are honest limitations in a profile that is otherwise among the strongest seen at this age in the Balkan region.",
+        "travels": [
+          "Technical press resistance in tight central areas — a formed habit, not a developing tendency",
+          "Two-foot distribution quality, including 100th-percentile long pass accuracy without telegraphing foot choice",
+          "Clutch goalscoring — 100th percentile np goals per 90, decisive in high-stakes matches",
+          "Pre-reception scanning and spatial positioning — already a cognitive habit at 17",
+          "Leadership pattern and competitive composure against senior opposition"
+        ],
+        "targeted": [
+          "Progressive passing frequency — the quality exists; the default habit to attempt it does not yet",
+          "Duel engagement — 10th percentile; a physical double-pivot partner is a system requirement",
+          "Defensive contribution floor — 5th percentile in defensive actions limits viable system types",
+          "Physical development against mature, stronger midfield opponents at the next level"
+        ],
+        "potentialRating": "9/10",
+        "potentialBalls": 9,
+        "potentialProjection": "A 9 projects as a consistent starter and meaningful contributor at a top-five European club, with Champions League impact potential as a creator and scorer from midfield. The output is already historic for his age in this league. The cognitive and psychological profile suggests the ceiling is real. The honest deduction from a 10 is the defensive contribution floor and the progressive passing habit still forming — not the talent, which is not in question."
+      }
+    },
+    {
+      "slug": "ognjen-ugresic",
+      "handcrafted": true,
+      "firstName": "Ognjen",
+      "lastName": "Ugrešić",
+      "positionTag": "Box-Crashing Engine",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/ognjen-ugresic.png",
+      "photoAlt": "Ognjen Ugrešić",
+      "verdictLine": "A 19-year-old at Partizan Belgrade who already knows where the ball is going before most players around him have figured out where it is. The execution lags the spatial intelligence — sometimes significantly — which is why he is still here and not elsewhere.",
+      "bio": {
+        "dob": "Apr 10, 2006",
+        "nationality": "🇷🇸 Serbian",
+        "club": "FK Partizan Belgrade",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2030",
+        "marketValue": "€6.5M",
+        "preferredFoot": "Right (both)",
+        "height": "1.88m",
+        "agent": "Football Family"
+      },
+      "scores": { "basePotential": "7", "travelReadiness": "8.0", "reportDate": "Jan '26" },
+      "role": {
+        "primaryRole": "Box-Crashing Engine",
+        "description": [
+          "Operates as a vertical connector and second-line attacker. His natural habitat is the space between the opponent's midfield and defensive lines, arriving late into the box with timing that feels pre-programmed. Uses his 1.88m frame to cover ground, shield possession, and win duels without relying on elegance.",
+          "Best deployed in a double pivot alongside a true anchor who covers the space behind him when he surges forward. The engine is always running. The question is whether the system asks him to do anything other than run."
+        ],
+        "formationName": "4–2–3–1 Shape",
+        "formationLabelBottom": "Ugrešić — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 148, "cy": 368, "label": "DM" },
+          { "cx": 200, "cy": 262, "label": "AM" },
+          { "cx": 60,  "cy": 220, "label": "LW" },
+          { "cx": 340, "cy": 220, "label": "RW" },
+          { "cx": 200, "cy": 155, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 252, "cy": 368, "label": "CM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Carries with intent through central zones.", "text": "Not a decorative carrier. Drives forward to commit midfielders and force defensive reactions, using momentum and long strides rather than close control or feints." },
+          { "title": "Vertical-minded distributor.", "text": "Always looking to break lines or find runners early. Sees ambitious passes consistently, even when the execution — weight, timing, disguise — lags behind the vision." },
+          { "title": "Arrives to finish, not to circulate.", "text": "When he gets on the ball near the box, the mindset is goal-oriented. The 92nd-percentile non-penalty goals reflect this orientation." },
+          { "title": "Comfortable receiving under pressure — mostly.", "text": "Uses his body well to shield, turn, and play forward. The first touch can occasionally escape him at speed — at higher levels, occasional becomes frequent." }
+        ],
+        "offBall": [
+          { "title": "Elite second-line runner.", "text": "Times late box arrivals from deep with unusual precision. Attacks central channels and arrives unmarked — a major source of his goal threat. This is the trait most likely to transfer cleanly to a higher level." },
+          { "title": "Presses aggressively in midfield.", "text": "Steps forward to engage ball-carriers, closes space quickly, and uses size and reach to disrupt buildup. The engine never stops. The discipline of when not to press is still developing." },
+          { "title": "Covers large defensive zones.", "text": "Tracks runners diligently, shuttles laterally to plug gaps, and recovers quickly when shape breaks. The work rate is not the issue. The question is whether the covering translates to a league where the ball moves faster than he can recover." },
+          { "title": "Wins duels through timing and power — sometimes.", "text": "58th-percentile aerial duels won is lower than his frame suggests. The physical platform is there. The consistency of applying it is not." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Spatial awareness and second-line timing", "desc": "Always in the right spot at the right time. A natural understanding of spacing that relieves pressure on teammates and pulls defensive structures out of shape. This travels." },
+          { "name": "Engine and work rate", "desc": "Covers ground, presses aggressively, does not fade. Maintains pressing and late box entries deep into matches. The engine is not a coached behaviour — it is a trait." },
+          { "name": "Composure and big-game temperament", "desc": "Exceptional for his age. Rises in big matches. Does not hide after mistakes. European football at Partizan has not exposed a psychological ceiling." }
+        ],
+        "context": [
+          { "name": "Passing execution and distribution weight", "desc": "The vision is consistently ahead of the execution. Passing weight inconsistent — sometimes too firm, sometimes too soft. In a faster, more demanding environment, the gap narrows but the margin for error also shrinks." }
+        ],
+        "system": [
+          { "name": "Defensive role discipline", "desc": "Attacking impact spikes when he has defensive security behind him. In a lone pivot or double pivot without a true holder, his forward surges can destabilize midfield structure." }
+        ],
+        "exposed": [
+          { "name": "Technical execution under pressure", "desc": "First touch can escape him at speed. When the game slows and he has to create rather than react, he looks clumsier than his frame suggests. The gap between what he sees and executes is the central question of his career." },
+          { "name": "Aerial duel consistency", "desc": "58th percentile with a 1.88m frame. Lower than it should be. The physical platform is there; the consistent application of it is not. Coachable, but not guaranteed to improve." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame", "value": "1.88m, still developing. The physical platform is already a weapon. Whether he learns to impose it consistently in duels is an application question, not a size question." },
+          { "label": "Acceleration", "value": "Not explosive off the first step. Needs two or three strides to reach full speed. This matters less for his game — he arrives from deep, not from standing starts." },
+          { "label": "Endurance", "value": "Elite engine. Maintains pressing and late box entries deep into matches. Does not fade." },
+          { "label": "Strength", "value": "Powerful in duels when he engages correctly. Uses hands too much — a correctable habit that currently costs him fouls. The raw strength is there. The technique of applying it is not yet refined." }
+        ],
+        "cognitive": [
+          { "label": "Spatial awareness", "value": "The defining trait. Always in the right spot at the right time. A natural understanding of spacing that relieves pressure on teammates and pulls defensive structures out of shape. This travels." },
+          { "label": "Decision speed", "value": "Quick when reacting to the game, slower when he has to create. The gap between reactive intelligence and creative intelligence is visible and consistent. He is better when the game comes to him." },
+          { "label": "Risk calibration", "value": "Attempts ambitious passes and box arrivals with good frequency. The judgment of when to take the risk is mostly correct. The execution when the risk is taken is not yet reliable." },
+          { "label": "Press discipline", "value": "Knows when to press, mostly. Still developing the judgment of when to hold shape rather than commit forward. A club that pairs him with a disciplined anchor solves half the problem." }
+        ],
+        "psychological": [
+          { "label": "Composure", "value": "Exceptional for his age. Rises in big matches. Does not hide after mistakes. The moment does not shrink him. Rare at any age, vanishingly rare at 19." },
+          { "label": "Big-game temperament", "value": "European football at Partizan has not exposed a psychological ceiling. He has handled the pressure of meaningful matches without regression in output or demeanor." },
+          { "label": "Resilience", "value": "Technical errors do not cascade. Recovers quickly and returns to full intensity within the same sequence. This is what makes the technical gap manageable." },
+          { "label": "Maturity", "value": "2,000+ senior minutes at 19 in a club with genuine expectations. The context is not junior development football. He has performed where it counts." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Technical refinement under pressure.", "text": "The first touch can betray him at speed. The passing weight is inconsistent. When the game slows down and he has to create rather than react, he looks clumsier than his frame suggests. At SuperLiga level, the margin for error is wide. In the Bundesliga, it narrows immediately." },
+        { "num": "02", "title": "Physical application, not just physical presence.", "text": "He is 1.88m. He should win more than 58% of his aerial duels. The habit of using hands instead of body positioning is correctable. The question is whether he corrects it before higher-level opponents exploit it." },
+        { "num": "03", "title": "Role discipline without an anchor.", "text": "His attacking impact spikes when he has defensive security behind him. Learning when to hold and when to go — independent of who is next to him — is the cognitive development task that determines how portable his profile actually is." }
+      ],
+      "travelScore": {
+        "score": "8.0",
+        "prose": [
+          "The pure traits — spatial awareness, second-line timing, engine, composure — travel unconditionally. They are habits, not products of Partizan's system. A club acquiring Ugrešić knows what he does off the ball. The question is what happens when the technical demands of the new environment expose the roughness in his on-ball execution.",
+          "The score sits at 8.0 because the physical and cognitive foundation is strong enough that the technical gaps feel like development tasks rather than ceiling constraints. But that is a feeling, not a guarantee. The Bundesliga is the natural fit — vertical, transitional, tolerant of technical roughness if the engine and physicality are there.",
+          "The right environment is one that runs forward and asks him to run with it. A double pivot with a disciplined anchor. A high block that compresses space. A system that values arrival timing over possession maintenance. The wrong environment is one that asks him to slow down and play through pressure. He is not that player yet, and he may never be."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",     "score": 6.0, "width": "60%", "high": false, "note": "Athleticism and work rate translate. The tempo and decision punishment expose technical rawness. Viable with the right role and partner behind him, but not the right first move." },
+        { "league": "La Liga",            "score": 5.0, "width": "50%", "high": false, "note": "Intelligence and movement fit, but the slower rhythm and technical demands highlight first-touch limitations. The riskiest of the top-five leagues for his profile." },
+        { "league": "Bundesliga",         "score": 8.0, "width": "80%", "high": true,  "note": "Verticality, transition volume, and emphasis on athletic interiors suit his engine, box-crashing, and pressing instincts. Technical refinement can be developed without suppressing impact. The best fit." },
+        { "league": "Serie A",            "score": 7.0, "width": "70%", "high": true,  "note": "Tactical structure and emphasis on timing favor his spatial intelligence and second-line runs. Needs composure growth, but the profile fits well alongside a true holding midfielder." },
+        { "league": "Ligue 1",            "score": 5.5, "width": "55%", "high": false, "note": "Athletic and physically direct in midfield, which suits his engine, but the technical variance in Ligue 1 creates environments where his on-ball roughness is both hidden and then suddenly punished." },
+        { "league": "Eredivisie",         "score": 7.5, "width": "75%", "high": true,  "note": "Space and tempo allow his box entries and vertical game to shine while smoothing technical edges. Strong developmental environment before a top-five move." },
+        { "league": "Jupiler Pro League", "score": 7.5, "width": "75%", "high": true,  "note": "Physically demanding enough to test the application of his frame, but technical thresholds are forgiving. Clubs like Club Brugge or Anderlecht deploy box-to-box midfielders in exactly the double-pivot structure that unlocks his profile." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",     "note": "2,000+ senior minutes at 19. Clear upward trajectory. Technical gaps are coachable. The physical and cognitive foundation is strong. The only flag is whether the technical refinement happens quickly enough for the next step." },
+        { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Exceptional composure for his age. Rises in big matches. Does not hide after mistakes. No off-field concerns. This is the strongest part of the profile." },
+        { "score": 2, "label": "Market",        "meaning": "Low risk",     "note": "€6.5M for a 19-year-old starter at Partizan with European experience. Contract until 2030 gives the club leverage. The price is fair for the profile and the upside. Not a bargain. Not a reach." },
+        { "score": 2, "label": "Systemic",      "meaning": "Low risk",     "note": "Better in some setups than others, but his core strengths — spatial awareness, engine, second-line timing — are not system-dependent. The drop-off outside his ideal environment is manageable." }
+      ],
+      "trajectoryNote": "Regular starter at a top-division Bundesliga club. Raises team floor through energy, structure, and secondary goal threat rather than serving as a tempo-controlling centerpiece.",
+      "nowAge": 19,
+      "verdict": {
+        "statement": "A 19-year-old who already knows where the ball is going before most of the players around him have figured out where it is. That is not a skill you coach. That is a way of seeing the game, and Ugrešić has it. The technical execution is behind the spatial imagination — sometimes significantly behind — which is why he is still at Partizan and not elsewhere. The clubs that understand that his value is structural, not stylistic — that he raises the floor of any midfield simply by being in the right places at the right times — will move now.",
+        "travels": [
+          "Spatial awareness — always in the right place at the right time. Not coachable. He has it.",
+          "Second-line arrival timing — 98th percentile npxG, 92nd percentile goals, 5th percentile dribbles. He arrives; he does not create.",
+          "Engine and work rate — covers ground, presses aggressively, does not fade",
+          "Composure and big-game temperament — the moment does not shrink him. Rare at any age, vanishingly rare at 19.",
+          "Physical platform — 1.88m, still developing, already a weapon in duels when he engages correctly"
+        ],
+        "targeted": [
+          "Technical execution under pressure — first touch can escape him, passing weight inconsistent. The gap between what he sees and what he executes is the central question of his career.",
+          "Aerial duel consistency — 58th percentile with his frame is lower than it should be. Coachable, but not guaranteed to improve.",
+          "Defensive physicality — covers ground but does not always impose himself. The engine is there. The authority is not yet.",
+          "Role discipline without an anchor — needs a holder behind him to unlock his attacking instincts safely."
+        ],
+        "potentialRating": "7/10",
+        "potentialBalls": 7,
+        "potentialProjection": "Regular starter at a top-division Bundesliga club. Raises team floor through energy, structure, and secondary goal threat rather than serving as a tempo-controlling centerpiece. The ceiling depends on technical refinement. The floor is already high enough that the 7 feels like a conservative rating — but conservative is where this report should land, because the gap between the SuperLiga and top European leagues is meaningful, and no one should pretend otherwise."
+      }
+    },
+    {
       "slug": "hamza-gureler",
       "handcrafted": true,
       "firstName": "Hamza",
