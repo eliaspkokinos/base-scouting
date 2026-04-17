@@ -832,6 +832,154 @@
       "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/andrei-borza.png",
       "photoAlt": "Andrei Borza",
       "verdictLine": "Plays with the composure and tactical intelligence of someone three or four years older. The playmaking output is genuine and already elite for his league."
+    },
+    {
+      "slug": "douglas-owusu",
+      "handcrafted": true,
+      "firstName": "Douglas",
+      "lastName": "Owusu",
+      "positionTag": "Inside Forward",
+      "positionCategory": "Attackers",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/douglas-owusu.png",
+      "photoAlt": "Douglas Owusu",
+      "verdictLine": "A 19-year-old inside forward who ranked 2nd among all U21 wingers in Europe's non-big-five leagues on the CIES/Impect index. The explosiveness is genuine, the creation numbers are strong, and the left-foot dependency is the thing to watch.",
+      "bio": {
+        "dob": "Apr 10, 2006",
+        "nationality": "🇬🇭 Ghanaian",
+        "club": "Radnik Surdulica*",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2027",
+        "marketValue": "€700K",
+        "preferredFoot": "Left",
+        "height": "1.80m",
+        "agent": "Do It Soccer Agency"
+      },
+      "scores": { "basePotential": "7", "travelReadiness": "7.5", "reportDate": "Dec '25" },
+      "role": {
+        "primaryRole": "Explosive Inside Forward",
+        "description": [
+          "Receives wide on the right and drives inward onto his left foot, looking for the shot lane rather than the crossing position. His value is in the first two seconds after receiving: the first step separates him from his marker before defenders can set, and what follows is pressure, chaos, and usually a left-footed attempt from wherever he ends up.",
+          "Best behind a striker with width provided by the fullback. The 7th-ranked player in accelerations per 90 among all U21 offensive players in top divisions by SkillCorner tells you the engine is real before you see a single touch."
+        ],
+        "formationName": "4–3–3 Shape",
+        "formationLabelBottom": "Owusu — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 100, "cy": 360, "label": "LCM" },
+          { "cx": 200, "cy": 375, "label": "CDM" },
+          { "cx": 300, "cy": 360, "label": "RCM" },
+          { "cx": 70,  "cy": 200, "label": "LW" },
+          { "cx": 200, "cy": 175, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 330, "cy": 200, "label": "RW" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Attacks his marker immediately upon receiving.", "text": "Does not check the ball or reset. The decision to drive at the defender is made before contact, which means the first step is already in motion by the time the opponent reacts. This is what the acceleration numbers measure; they describe a choice, not just a physical attribute." },
+          { "title": "Keeps the ball tight under contact from multiple defenders.", "text": "Body posture looks precarious while dribbling — a slight forward lean that makes him look like he might lose the ball — but he almost never does. The balance is functional, not aesthetic. Balkan defenders who want to kill the play find him surprisingly difficult to dispossess." },
+          { "title": "Cuts inside onto his left and shoots with conviction from any angle.", "text": "The 73rd-percentile shots volume and shoot-first mentality mean defenders cannot settle into passive positions. He will pull the trigger from positions where most wingers would recycle. Whether it goes in is secondary to whether the habit forces defensive reactions." },
+          { "title": "Creates for teammates off the dribble with genuine quality.", "text": "87th-percentile shot assists and 73rd-percentile xA identify him as a winger who creates for others while also pursuing his own shot. Smart passes at the 81st percentile suggest the vision is there even when he chooses not to use it." },
+          { "title": "Overwhelmingly left-footed in execution.", "text": "Almost every shot, every significant dribble, every cross attempt involves the left foot. The right foot exists for shielding and balance. At higher levels, where defenders have more time to set and force the weaker foot, it will be targeted." }
+        ],
+        "offBall": [
+          { "title": "Explodes forward immediately on ball recovery.", "text": "One of the first players to attack space in transition. Does not wait to confirm possession is secure — reads the moment the press is won and commits immediately to the attacking run." },
+          { "title": "Positions wide and early to create 1v1 opportunities.", "text": "Drops to receive away from defenders in wide channels, looking to isolate rather than combine. The move is about manufacturing the duel, not about linking play." },
+          { "title": "Tracks back and presses with genuine intensity.", "text": "76th-percentile successful defensive actions and 64th-percentile pAdj tackles and interceptions are meaningful for an inside forward. The defensive contribution reflects willingness and tempo, not repositioning reluctantly. A right midfielder role is viable if the occasion demands it." },
+          { "title": "Uses momentum rather than physical wrestling.", "text": "Avoids prolonged contact situations and does not try to hold ground against defenders who outweigh him. Looks to attack space before defenders can set their feet. The 1.80m frame is adequate; the light-contact preference is a deliberate choice rather than a physical limitation." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "First-step acceleration", "desc": "7th among all U21 offensive players in top divisions by accelerations per 90. The separation is immediate — the threat is created before defenders can respond." },
+          { "name": "Ball retention under contact", "desc": "The unconventional forward lean conceals genuine body control. Balkan senior defenders find him difficult to dispossess. This travels." },
+          { "name": "Creation output", "desc": "87th-percentile shot assists, 88th-percentile cross accuracy, 81st-percentile smart passes. The vision and delivery exist alongside the shoot-first profile." }
+        ],
+        "context": [
+          { "name": "Pressing intensity", "desc": "76th-percentile defensive actions is real, but the opposition quality in the SuperLiga is a factor. The willingness is genuine; the difficulty level will increase." }
+        ],
+        "system": [
+          { "name": "Defensive resilience without the ball", "desc": "Best in transition-heavy systems that create wide isolations. In settled possession structures his influence drops and the decision inconsistency is exposed in tighter spaces." }
+        ],
+        "exposed": [
+          { "name": "Right foot", "desc": "Almost every significant action uses the left foot. Defenders at higher levels will steer him right and wait. The development window is now." },
+          { "name": "Shot quality", "desc": "13th-percentile npxG per shot. Volume compensates currently; at the next level, where closing speed is faster, it will not fully compensate." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Acceleration", "value": "The headline attribute. 7th among all U21 offensive players in top divisions by accelerations per 90 per SkillCorner. The separation in the first two steps is what makes him difficult to plan against." },
+          { "label": "Endurance", "value": "Strong engine. Maintains pressing intensity and attacking runs across 90 minutes. Nearly 2,000 minutes at Radnik without an injury history suggests the physical base is robust." },
+          { "label": "Agility", "value": "Sharp directional changes with good balance. The odd dribbling posture conceals genuine body control — the lean that looks like he might fall is the same lean that keeps defenders guessing." },
+          { "label": "Strength", "value": "Light frame. Less effective when defenders get tight and hold him off with body weight. At higher levels, more defenders will make that contact deliberately." }
+        ],
+        "cognitive": [
+          { "label": "Decision speed", "value": "Fast when instinctive, inconsistent when multiple options are present. When the decision is drive-and-shoot, execution is immediate. When the game asks him to choose between dribble, pass, and shoot simultaneously, the hesitation is visible." },
+          { "label": "Risk profile", "value": "Aggressive and consistent. Prefers action over control, takes responsibility, and seeks the ball rather than hiding after errors. High-variance: produces danger repeatedly, but also cedes possession in ways more conservative players would not." },
+          { "label": "Spatial awareness", "value": "Good in transition and in wide isolation. Reads 1v1 positions intelligently. Weaker in settled positional phases where movement is less intuitive." },
+          { "label": "Decision hierarchy", "value": "Similar situations can produce dribble, shot, or pass without a visible pattern. The vision is there — 81st-percentile smart passes — but the trigger for using it is not yet reliable." }
+        ],
+        "psychological": [
+          { "label": "Mentality", "value": "Fighter. Demands the ball, embraces duels, presses willingly. No evidence of avoiding involvement after errors. The shoot-first profile is a psychological as much as technical feature." },
+          { "label": "Consistency", "value": "Impact arrives in bursts rather than as sustained control. A 7/30 shooting run does not appear to alter either volume or approach. The resilience to sustain a high-attempt model despite variable returns is a real attribute." },
+          { "label": "Big game performance", "value": "Stable confidence across match contexts. Composure under defensive pressure from multiple defenders simultaneously is a genuine psychological strength." },
+          { "label": "Durability", "value": "No injury history. ~1,928 minutes at Radnik. Physical and psychological availability across a full season, at 19, with this intensity of movement and contact volume, is worth noting." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Build a clearer decision hierarchy in the final third.", "text": "The raw materials for all three outcomes — dribble, shoot, pass — are present. The 87th-percentile shot assists confirm he can create for teammates; the 81st-percentile smart passes confirm the vision exists. What is inconsistent is the selection process when all three options are available. Reducing volatility in identical situations will lift the end-product reliability significantly without requiring any new skills." },
+        { "num": "02", "title": "Develop the right foot as at least a viable threat.", "text": "The left-foot dependency is currently manageable because he generates directional variety spatially — going both ways while finishing left. At higher levels, where defensive shape is better organized and defenders have more time to steer him right, the absence of a right-foot threat becomes a structural problem. The development window is now, not later." },
+        { "num": "03", "title": "Improve physical robustness in contact situations.", "text": "The frame at 1.80m is there. The habit of avoiding prolonged contact is sensible now but will limit effectiveness when defenders in better leagues routinely get tight and hold ground. Shielding technique and the ability to draw fouls from physical positioning — rather than from momentum alone — is the next layer of the profile." }
+      ],
+      "travelScore": {
+        "score": "7.5",
+        "prose": [
+          "The acceleration, the dribbling under pressure, the defensive willingness, and the creation output are not products of the SuperLiga environment. They are observable in how he plays regardless of the opposition quality. Those travel. A club acquiring Owusu knows what it is getting in the first two seconds of any attacking sequence.",
+          "The score sits at 7.5 because the left-foot dependency and the decision inconsistency are genuine questions at the next level, not minor concerns. They are coachable — the ranking among U21 wingers across Europe confirms the physical and creative base is real — but coachable is not the same as already resolved. The right system speeds that resolution considerably.",
+          "The best immediate environment is one that creates space through vertical play, tolerates high-attempt profiles, and does not ask him to hold width patiently. Eredivisie and Jupiler Pro League are the structural fits. La Liga's technical environment would accelerate the creative development but expose the decision inconsistency in tighter spaces before it is ready to handle them."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",    "score": 4.0, "width": "40%", "high": false, "note": "Explosiveness and directness translate but decision volatility and physical fragility in contact situations would be punished before the other qualities could establish themselves. Not the right first move out of the SuperLiga." },
+        { "league": "La Liga",           "score": 5.0, "width": "50%", "high": false, "note": "The technical environment suits the dribbling quality. The slower rhythm and compactness of defensive blocks expose decision inconsistency and the left-foot dependency more than a transition-heavy league would." },
+        { "league": "Bundesliga",        "score": 7.0, "width": "70%", "high": true,  "note": "Transition-heavy play, wide isolations, and vertical attacks amplify the acceleration and 1v1 threat. The best top-five environment for his profile right now, though not the optimal first step." },
+        { "league": "Serie A",           "score": 5.0, "width": "50%", "high": false, "note": "Tactical structure limits freedom to attack instinctively. Decision hesitation is punished in tight spaces. The profile does not fit Serie A's typical demands for wingers in positional structures." },
+        { "league": "Ligue 1",           "score": 6.5, "width": "65%", "high": false, "note": "Athletic pace and isolation opportunities suit the profile. The open nature of Ligue 1 defensive structures gives him room to generate momentum before defenders can get set. Impact likely streaky, but present." },
+        { "league": "Eredivisie",        "score": 8.0, "width": "80%", "high": true,  "note": "Open games, high transitions, and frequent 1v1 opportunities maximize explosiveness and confidence. The natural first step out of the SuperLiga for this profile — and likely where the decision hierarchy develops fastest." },
+        { "league": "Jupiler Pro League","score": 7.5, "width": "75%", "high": true,  "note": "Physical demands test the frame without overwhelming it. Belgian clubs regularly deploy direct wide players in exactly the transition-first structures that suit him. A legitimate bridge alongside the Eredivisie." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",     "note": "No injury history, nearly 2,000 senior minutes at 19, ranked 2nd among U21 wingers in Europe's non-big-five leagues. The left-foot dependency and decision consistency are the open questions — neither is a ceiling, both are coachable with the right environment." },
+        { "score": 2, "label": "Psychological", "meaning": "Low risk",     "note": "Resilient after errors, demands the ball in difficult moments, presses willingly. The shoot-first mentality that continues regardless of recent returns signals a psychological profile that is not fragile." },
+        { "score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€700K for the 2nd-ranked U21 winger in non-big-five Europe is not a valuation that reflects the output. The market has not yet processed what the CIES ranking, the SkillCorner acceleration data, and the top-10 U20 take-on chart are collectively saying." },
+        { "score": 3, "label": "Systemic",      "meaning": "Medium risk",  "note": "A clearly defined best environment: vertical, transition-heavy, wide isolations, tolerance for high-attempt profiles. In settled possession systems or compact defensive structures, the impact drops significantly." }
+      ],
+      "trajectoryNote": "A 7 projects as a regular starter at top-division level in a transition-based league, with consistent attacking threat through pace and 1v1 ability. If the decision hierarchy and right-foot threat develop, the number moves.",
+      "nowAge": 19,
+      "verdict": {
+        "statement": "A high-variance, high-threat inside forward whose game is built on explosiveness, 1v1 dominance, and a shoot-first mentality. He consistently creates danger through individual action, running past defenders as though they do not exist and keeping the ball under pressure that would force most wide players to release early. The ceiling is defined by two things: whether the decision hierarchy in the final third stabilises, and whether a right-foot threat ever develops. Both are open questions. The floor, even without those developments, is a winger who contributes at a level that justifies significantly more than the current valuation.",
+        "travels": [
+          "Elite acceleration and 1v1 separation — top-10 U20 take-ons globally, 7th in U21 accelerations per 90 across top divisions",
+          "Ball retention under contact from multiple defenders — tight body control despite unconventional posture",
+          "Creation output — 87th-percentile shot assists, 88th-percentile cross accuracy, 81st-percentile smart passes",
+          "Defensive work rate — 76th-percentile defensive actions, viable in right midfield role",
+          "Mental resilience — shoot-first model sustained regardless of recent conversion returns"
+        ],
+        "targeted": [
+          "Left-foot dependency — almost every shot and significant dribble is left-footed; defenders at higher levels will force this immediately",
+          "Shot quality — 13th-percentile npxG per shot; volume compensates now, will not fully compensate at the next level",
+          "Decision hierarchy — identical situations can produce dribble, shoot, or pass without a consistent hierarchy",
+          "Physical robustness in sustained contact — avoids prolonged duels; defenders who get tight and hold ground reduce effectiveness"
+        ],
+        "potentialRating": "7/10",
+        "potentialBalls": 7,
+        "potentialProjection": "Regular starter at top-division level in a transition-based league. Consistent attacking threat through pace and 1v1 ability, with a genuine secondary contribution through creation and pressing. A 7 feels conservative given the CIES ranking and the physical data — but it reflects honest uncertainty about whether the left-foot dependency and shot quality gap close sufficiently for the ceiling to move higher. If they do, the number moves."
+      }
     }
   ]
 }
