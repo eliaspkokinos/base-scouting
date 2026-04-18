@@ -823,6 +823,155 @@
       "verdictLine": "An aggressive and technically capable fullback who combines defensive solidity with genuine attacking output."
     },
     {
+      "slug": "ognjen-bondzulic",
+      "handcrafted": true,
+      "firstName": "Ognjen",
+      "lastName": "Bondžulić",
+      "positionTag": "Inside Forward",
+      "positionCategory": "Attackers",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/ognjen-bondzulic.png",
+      "photoAlt": "Ognjen Bondžulić",
+      "verdictLine": "A 17-year-old who scored seven goals in 18 SuperLiga appearances through movement and timing alone, without the technical elaboration you would expect the numbers to require. Currently sidelined with an ACL tear sustained September 2025. The profile is worth understanding now.",
+      "bio": {
+        "dob": "Jul 24, 2007",
+        "nationality": "🇷🇸 Serbian",
+        "club": "FK Mladost Lučani",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2027",
+        "marketValue": "€1M",
+        "preferredFoot": "Right (solid left)",
+        "height": "1.78m",
+        "agent": "Unrepresented"
+      },
+      "scores": { "basePotential": "7", "travelReadiness": "6.0", "reportDate": "Oct '25" },
+      "role": {
+        "primaryRole": "Movement-Based Finisher",
+        "description": [
+          "Plays left wing and cuts inside onto his right foot, with a first instinct that is always goal rather than assist. The goals come not from technical dominance or physical power but from positioning — arriving in the right place at the right time, consistently, in ways that look obvious only after the fact.",
+          "Rides the offside line with precise timing, reads deflections before they happen, and positions for second balls while others are still tracking the first. The technical execution is imperfect; the spatial intelligence underneath it is not."
+        ],
+        "formationName": "4–3–3 Shape",
+        "formationLabelBottom": "Bondžulić — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 100, "cy": 310, "label": "LCM" },
+          { "cx": 200, "cy": 325, "label": "CDM" },
+          { "cx": 300, "cy": 310, "label": "RCM" },
+          { "cx": 200, "cy": 128, "label": "ST" },
+          { "cx": 345, "cy": 155, "label": "RW" }
+        ],
+        "highlightedPosition": { "cx": 55, "cy": 155, "label": "LW" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Cuts inside to finish, not to combine.", "text": "Receives from the left and the first read is always the shooting lane. The instinct is automatic — it makes him predictable to organized defenses and effective against disorganized ones." },
+          { "title": "Composed in 1v1 finishing situations.", "text": "Calm close to goal even when the setup was not. Low, precise, toward the far corner. The execution holds even when body balance is imperfect. Cold at 17 in senior football." },
+          { "title": "Beats defenders through timing, not burst.", "text": "Reads the defender's weight and goes when they are committed. Around-average separation; relies on reading the moment rather than creating it athletically." },
+          { "title": "Avoids the left foot in high-leverage moments.", "text": "Will take a harder right-foot attempt from a worse angle rather than use the left in a simpler position. The preference is absolute enough to be a habit, not a gap." }
+        ],
+        "offBall": [
+          { "title": "Elite blindside timing.", "text": "Works the line between offside and onside with precision. The two goals against TSC in the Conference League came from reading the defensive line's movement and committing at the exact moment it was wrong-footed." },
+          { "title": "Rebound and deflection reader.", "text": "Positions for the second ball while others are still tracking the first. The header scored at 178cm in a packed box against bigger defenders was positioning, not athleticism." },
+          { "title": "Anticipates opposition distribution to press.", "text": "Gets in the right place before the ball arrives, which is why the fouls-drawn number is so high — defenders run out of options." },
+          { "title": "Most dangerous when the game is stretched.", "text": "Less effective in slow positional attacks against set defenses. The movement that generates his advantage requires space that compact blocks do not provide." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Blindside run timing", "desc": "Not league-inflated. Present against both Serbian SuperLiga and Conference League opposition. Survives tactical shifts." },
+          { "name": "Box arrival instinct", "desc": "Finds rebounds and second balls independent of team dominance. The header against bigger defenders at 178cm was positioning, not athleticism." },
+          { "name": "1v1 finishing composure", "desc": "Calm in close-range situations under pressure. Holds even when the setup is imperfect. Already stable at 17." }
+        ],
+        "context": [
+          { "name": "Pressing effectiveness", "desc": "Anticipates distribution to press intelligently at this level. Whether the sharpness of the press translates against teams with faster recycling needs to be observed at the next level." }
+        ],
+        "system": [
+          { "name": "Movement-based value", "desc": "Most dangerous in open, stretched games with high defensive lines. In settled positional attacks against compact blocks the output drops significantly. System matching is not optional." }
+        ],
+        "exposed": [
+          { "name": "First-step acceleration post-ACL", "desc": "Was below average before the injury. The movement reads that generate goal output depend on timing that a half-step of lost sharpness will compromise. This is the primary unknown in the entire profile." },
+          { "name": "Creation output", "desc": "5th-percentile shot assists. Usable as a pure finisher; limiting as a complete wide attacker who needs to create as well as score." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Top speed", "value": "Above average in stride. More dangerous receiving a ball already moving than generating separation from a standing start." },
+          { "label": "Acceleration", "value": "Below average from static starts before injury. The most significant athletic limitation. He compensates by reading when to move rather than creating the moment athletically." },
+          { "label": "Endurance", "value": "Strong engine. Played 90 minutes in every appearance before the injury. Work rate does not fluctuate with the scoreline." },
+          { "label": "Injury", "value": "Left leg ACL, September 2025. Non-contact tear while running in behind. The key question post-surgery is not whether the speed returns but whether the sharpness of the first step does. Those are different things." }
+        ],
+        "cognitive": [
+          { "label": "Spatial awareness", "value": "The defining attribute. Processes where space will be before it exists. The blindside timing and rebound reading are both expressions of the same underlying quality." },
+          { "label": "Decision speed", "value": "Fast in transition, inconsistent in compact buildup. Scoring decisions are quick and mostly correct. Playmaking decisions are slower — he sometimes commits to the shot before checking what else is available." },
+          { "label": "Risk profile", "value": "Scoring-oriented. Will take the shot when the pass is the better option. The vision is there when he looks — the habit of looking first is what is still forming." },
+          { "label": "Adaptability", "value": "More effective in dynamic matches. The spatial reads that generate danger in open play arrive too slowly in compact phases where the windows close faster." }
+        ],
+        "psychological": [
+          { "label": "Composure", "value": "Exceptional for the context. Calm in 1v1 finishing situations at 17 in senior professional football. Stable after missed chances. The coldness in scoring moments is consistent and visible." },
+          { "label": "Competitiveness", "value": "Engages in every duel regardless of match state, presses at both ends, does not disengage when the game is difficult." },
+          { "label": "Mental bias", "value": "Goal-driven mentality overrides the pass option more often than it should. A minor concern now; more significant as the level rises and creation is expected alongside the finishing." },
+          { "label": "Rehabilitation", "value": "No data on his response to the injury yet. The psychological recovery matters as much as the physical one. Worth watching — how he handles the first setbacks in rehab will say more than the injury itself." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Recover first-step sharpness post-surgery.", "text": "The acceleration was below average before the injury. Everything in this development list sits behind this question in importance — the profile does not unlock at the next level if the physical sharpness to execute the movement reads does not return. That takes 12 to 18 months of match data to answer honestly." },
+        { "num": "02", "title": "Integrate the left foot as a genuine threat.", "text": "The avoidance is a preference, not a capability gap, which makes it coachable. Higher-level defenses will steer him right consistently. Rehabilitation is the right window to build the habit — technical work is available when physical load is not." },
+        { "num": "03", "title": "Develop a pre-shot scan habit.", "text": "The 5th-percentile shot assists are not a ceiling — they are a cognitive habit. The same spatial intelligence that generates his goal threat would generate assists if directed outward before the shot decision. It requires a consistent check, not new skills." },
+        { "num": "04", "title": "Build physical robustness in static duels.", "text": "When defenders get goal-side and hold without space to accelerate through, his effectiveness drops sharply. Upper-body strength and shielding technique are the practical levers. The frame is there; the application is not yet." }
+      ],
+      "travelScore": {
+        "score": "6.0",
+        "prose": [
+          "The pre-injury score sits closer to 7.5. The blindside timing, the finishing composure, the spatial intelligence — none of those are products of the SuperLiga environment, and none disappear with a knee injury. A club buying the profile as it existed through summer 2025 was buying something genuine.",
+          "The 6.0 reflects the honest discount for what is currently unknown. A ligament injury on a winger whose game depends on timing and directional change carries a different risk than the same injury on a central midfielder. The movement patterns that produce the goal output are exactly the ones under the most uncertainty in recovery.",
+          "The right acquisition model is patient. Monitor the return, acquire somewhere in the 12 months post-comeback, and commit to the full development cycle. A club that moves before the return data exists is taking a genuine gamble, however attractive the pre-injury profile was."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",    "score": 4.5, "width": "45%", "high": false, "note": "Tempo and physicality expose the first-step deficit before the movement intelligence can establish itself. A viable long-term destination; not a realistic first move." },
+        { "league": "La Liga",           "score": 6.5, "width": "65%", "high": true,  "note": "Spatial awareness and blindside timing fit La Liga's positional structure, where intelligent movement is rewarded. A strong long-term fit once the technical execution becomes more reliable." },
+        { "league": "Bundesliga",        "score": 6.5, "width": "65%", "high": true,  "note": "Verticality and transition volume suit the off-ball running and pressing instinct. The best top-five environment if the physical recovery is full." },
+        { "league": "Serie A",           "score": 6.0, "width": "60%", "high": false, "note": "Structured movement fits disciplined systems. Tight marking amplifies the static duel weakness. Can function in a well-defined role; unlikely to dominate." },
+        { "league": "Ligue 1",           "score": 5.5, "width": "55%", "high": false, "note": "Physical duel frequency highlights the acceleration limitation. Open phases help, but overall compatibility is lower for a player who depends on timing over burst." },
+        { "league": "Eredivisie",        "score": 7.0, "width": "70%", "high": true,  "note": "Higher lines and more forgiving tempo allow timing and box instincts to operate without constant physical pressure. The cleanest immediate fit post-return." },
+        { "league": "Jupiler Pro League","score": 6.5, "width": "65%", "high": true,  "note": "Physically demanding enough to test the frame without overwhelming a recovering player. Transition-first setups generate exactly the open-phase conditions where the movement reads are most dangerous." }
+      ],
+      "riskGauges": [
+        { "score": 3, "label": "Development",   "meaning": "Medium risk",  "note": "Significant injury at 17 on the plant leg of a movement-dependent winger. The cognitive and technical base is strong. Whether the physical base recovers fully enough to unlock them at the next level requires 12 to 18 months of post-return data to answer." },
+        { "score": 2, "label": "Psychological", "meaning": "Low risk",     "note": "Composure in scoring situations, consistent defensive engagement, stable mentality after errors. The injury response is unobserved; the pre-injury profile gives reason for cautious optimism." },
+        { "score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€1M is a reasonable valuation in normal circumstances. Post-surgery the market will discount further — which is exactly when attentive clubs can move on a profile the price does not yet reflect." },
+        { "score": 3, "label": "Systemic",      "meaning": "Medium risk",  "note": "Clearly has a best environment — transition-heavy, high defensive lines, game state that creates stretched phases. In settled positional systems against compact blocks, the output drops significantly." }
+      ],
+      "trajectoryNote": "A 7 projects as a consistent starter at top-division level in a transition-based system. The ceiling of the profile is higher than the rating suggests. The surgery is the reason it is not higher — if the physical sharpness returns fully, the number moves.",
+      "nowAge": 17,
+      "verdict": {
+        "statement": "A movement-driven inside forward whose value is built on timing, spatial intelligence, and finishing composure that does not follow naturally from his technical level. At 17, in senior football, he was already generating and converting chances through cognitive qualities most wingers spend years trying to develop. The profile is worth understanding now, monitoring through recovery, and reassessing when return data gives a clearer picture. The worst-case surgical outcome does not erase the intelligence. It only limits the speed at which it can operate.",
+        "travels": [
+          "Blindside run timing — not league-inflated, survives tactical shifts, present in both transition and settled phases",
+          "Box arrival instinct — finds rebounds and second balls independent of team dominance",
+          "1v1 finishing composure — calm in close-range situations under pressure, holds even when the setup is imperfect",
+          "Anticipation of second actions — reads deflections and loose phases early, impactful independent of structure",
+          "Pressing instinct — reads opposition distribution, positions to intercept rather than chase"
+        ],
+        "targeted": [
+          "First-step recovery post-surgery — below-average before the injury; the primary unknown in the whole profile",
+          "Right-foot finishing bias — predictable at higher levels; left-foot development achievable but not yet started",
+          "Static duel resistance — loses balance and possession when tightly marked without momentum",
+          "Pre-shot scanning habit — takes the shot when the pass is the better option; the vision is there when he looks",
+          "Creation output — 5th-percentile shot assists; usable as a pure finisher, limiting as a complete wide attacker"
+        ],
+        "potentialRating": "7/10",
+        "potentialBalls": 7,
+        "potentialProjection": "A 7 projects as a consistent starter at top-division level in a transition-based system. The ceiling of the profile is higher than the rating suggests. The surgery is the reason it is not higher — if the physical sharpness returns fully, the number moves. If it does not, it does not."
+      }
+    },
+    {
       "slug": "andrei-borza",
       "handcrafted": true,
       "firstName": "Andrei",
