@@ -972,6 +972,155 @@
       }
     },
     {
+      "slug": "luka-zaric",
+      "handcrafted": true,
+      "firstName": "Luka",
+      "lastName": "Zarić",
+      "positionTag": "Explosive Winger",
+      "positionCategory": "Attackers",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/luka-zaric.png",
+      "photoAlt": "Luka Zarić",
+      "verdictLine": "A 17-year-old on loan at Grafičar Beograd from Red Star who ranks among the top forwards in the Serbian SuperLiga on both creation and defensive contribution simultaneously. The same player. The same position. At the same time.",
+      "bio": {
+        "dob": "Oct 31, 2008",
+        "nationality": "🇷🇸 Serbian",
+        "club": "Grafičar (loan, Red Star)",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2028",
+        "marketValue": "€1M",
+        "preferredFoot": "Left",
+        "height": "1.81m",
+        "agent": "Unrepresented"
+      },
+      "scores": { "basePotential": "8", "travelReadiness": "7.5", "reportDate": "Feb '26" },
+      "role": {
+        "primaryRole": "Explosive Winger",
+        "description": [
+          "Plays right wing on his left foot, cutting inside to threat with the stronger foot rather than crossing from the touchline. First-step acceleration is the primary physical weapon — he creates separation quickly and attacks space before defenders can set.",
+          "The half-space between fullback and center-back is his natural habitat, used both for shooting lanes and as the channel for vertical runs in behind. At this stage his game is driven by individual action over combination, but the creation numbers suggest the capacity to do both is already present."
+        ],
+        "formationName": "4–2–3–1 Shape",
+        "formationLabelBottom": "Zarić — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 148, "cy": 465, "label": "LCB" },
+          { "cx": 252, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 148, "cy": 368, "label": "LDM" },
+          { "cx": 252, "cy": 368, "label": "RDM" },
+          { "cx": 200, "cy": 268, "label": "AM" },
+          { "cx": 55,  "cy": 168, "label": "LW" },
+          { "cx": 200, "cy": 145, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 345, "cy": 168, "label": "RW" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Attacks his marker directly.", "text": "Actively isolates and drives at defenders, especially in wide areas. Comfortable engaging the same defender repeatedly rather than recycling possession." },
+          { "title": "Keeps the ball tight under contact.", "text": "Very tight control while dribbling, rarely letting it travel away from his feet. Prioritises balance and control over pushing the ball into space — which explains the paradox of elite dribble success alongside low acceleration-with-ball numbers." },
+          { "title": "Cuts inside to shoot.", "text": "Strong preference for receiving on the left and driving inward onto the stronger foot. Looks for the shooting lane early rather than drifting wide to cross." },
+          { "title": "Shoots frequently and with conviction.", "text": "Will pull the trigger from a variety of distances and angles without hesitation. Favours far-post finishes. Does not need a perfect setup." },
+          { "title": "Decision outcome varies in identical situations.", "text": "Can choose to dribble, shoot, or pass without a consistent hierarchy. The playmaking option exists — 99th-percentile shot assists confirm the vision — but it is not always selected." }
+        ],
+        "offBall": [
+          { "title": "Explodes forward in transition.", "text": "Immediate forward runs on ball recovery, one of the first players to sprint into attacking lanes. Looks to attack space aggressively rather than waiting for the play to develop." },
+          { "title": "Consistent blindside and vertical runs.", "text": "Targets the FB–CB gap with timing that shows up across multiple match contexts. Not role-protected — the movement survives in different tactical setups." },
+          { "title": "Tracks back with genuine intensity.", "text": "Recovers shape quickly, shows real effort in defensive phases. 92nd-percentile defensive actions for a winger signals willingness, not just proximity." },
+          { "title": "Presses to win the ball, not just discourage.", "text": "Actively closes down, engages defensively rather than jogging through press phases. The 96th-percentile pAdj tackles and interceptions is not a positional accident." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "First-step acceleration", "desc": "Explosive over 3–5 metres. Straight-line separation is a defining weapon independent of system or opposition quality." },
+          { "name": "Elite creation output", "desc": "99th-percentile shot assists and 97th-percentile xA at 17. The spatial reads required to set up shots for teammates do not inflate with soft opposition." },
+          { "name": "Defensive pressing instinct", "desc": "96th-percentile pAdj Tkl+Int for a winger. Active pressing that produces results, not positional proximity. The most rare combination at this age." }
+        ],
+        "context": [
+          { "name": "Contact dribbling", "desc": "91st-percentile success built on balance and direction change against defenders who commit early. Works reliably at this level; the question is how it holds when defenders wait rather than commit." }
+        ],
+        "system": [
+          { "name": "Game-state dependence", "desc": "Involvement fluctuates in slower match phases. Best in transition-heavy, open games. In controlled positional systems, engagement and impact both drop." }
+        ],
+        "exposed": [
+          { "name": "Finishing efficiency", "desc": "54th-percentile goals against 83rd-percentile shot quality positions. The conversion is not yet matching the setup — coachable, but the gap is real." },
+          { "name": "Physical duel resistance", "desc": "Upper-body still developing. Can be displaced in sustained shoulder-to-shoulder contact at this level; more so at the next." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Acceleration", "value": "Explosive over first 3–5 metres. Straight-line separation is a defining weapon. The 7th-percentile accelerations-with-ball figure describes a different phenomenon — tight ball-carrying deliberately slows him, not an athletic limitation." },
+          { "label": "Agility", "value": "Sharp directional changes, balance at speed. The ability to execute sharp cuts while keeping the ball close is the technical expression of the athletic base." },
+          { "label": "Physical maturity", "value": "Upper-body duel strength still developing. Can be displaced in sustained shoulder-to-shoulder contact. The 1.81m frame provides the base; the application in physical duels is not yet consistent." },
+          { "label": "Recovery speed", "value": "Good in open phases. Less effective under repeated physical engagement — the defensive effort is genuine but the physical cost accumulates across long sequences." }
+        ],
+        "cognitive": [
+          { "label": "Decision speed", "value": "Aggressive but inconsistent under pressure. In-transition decisions are fast and mostly correct. In compact buildup, the tendency to hold the ball too long is the visible cognitive lag." },
+          { "label": "Spatial awareness", "value": "Strong in transition. Half-space reads and vertical run timing are already consistent. Positioning in settled phases still developing — less reliable when the game is slow." },
+          { "label": "Risk profile", "value": "Action-first over control. Takes responsibility, seeks involvement, not afraid of difficult situations. The tendency to choose complex options over simple ones is the same instinct that produces elite creation numbers." },
+          { "label": "Adaptability", "value": "Better in open games than structured systems. Involvement fluctuates in slower match phases — the cognitive engagement tracks the physical freedom available." }
+        ],
+        "psychological": [
+          { "label": "Bravery", "value": "Demands the ball and embraces 1v1s. Not afraid to take responsibility in attacking phases. The 96th-percentile fouls-drawn reflects a player who invites contact rather than avoiding it." },
+          { "label": "Involvement", "value": "Can drift when uninvolved. Engagement level in slower phases is lower than in transition moments. A coaching target that becomes more important as the level of opposition rises." },
+          { "label": "Defensive attitude", "value": "The defensive numbers are not produced by a player who was told to press. They suggest a genuine instinct — the concentration consistency must improve, but the foundation is real." },
+          { "label": "Composure", "value": "Finishing efficiency below chance volume suggests the composure in the box is not yet matching the composure in the duel. The shot selection quality (83rd-percentile npxG per shot) is there; the end-product consistency is not." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Build a decision hierarchy in the final third.", "text": "The 99th-percentile shot assists and 97th-percentile xA confirm the creative ceiling is real. The goal numbers (54th percentile) confirm it is not yet being realised. The same player who sets up the chance needs a clearer internal answer to when he takes it versus gives it. That is a cognitive task, not a technical one." },
+        { "num": "02", "title": "Composure and shot selection inside the box.", "text": "The npxG per shot at the 83rd percentile tells you the positions are good. The conversion rate at the 55th percentile tells you the execution is not yet matching them. Finishing under pressure — particularly when the ball-body shape is not ideal — is the specific gap to close." },
+        { "num": "03", "title": "Upper-body strength for duel resistance.", "text": "Can be displaced in sustained shoulder-to-shoulder contact. At higher levels, defenders get physical before the separation is created. Building upper-body strength and improving ball-shielding technique protects the dribbling advantage that currently defines him." },
+        { "num": "04", "title": "Consistent involvement in slower match phases.", "text": "The fluctuation in engagement when the game is controlled rather than chaotic is a concentration habit, not a motivational problem. Learning to generate danger in settled possession — rather than waiting for the game to open — is what separates a transition-only threat from a complete wide attacker." }
+      ],
+      "travelScore": {
+        "score": "7.5",
+        "prose": [
+          "The acceleration, the dribbling quality, the creation output, and the defensive contribution are not products of the environment. A player with 99th-percentile shot assists at 17 in this league is doing something that does not inflate with soft opposition — the spatial reads required to set up shots for teammates travel unconditionally.",
+          "The 2.5-point discount is honest. Finishing consistency, decision volatility in the final third, and physical duel resistance are all genuine limitations at the next level. None of them destroy the profile. All of them are coachable. The systemic risk is real — this profile requires space and transition to operate at its ceiling, and not every environment provides that.",
+          "The right immediate environment is transition-heavy, high defensive lines, and gives wide players freedom to engage rather than hold position. Eredivisie or Jupiler Pro League as a first step. A system that asks him to press, carry, and create in rapid sequences will get the best version immediately."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",    "score": 4.5, "width": "45%", "high": false, "note": "First-step burst is real but duels are stronger and space closes faster — decision volatility and finishing inconsistency get exposed before the other qualities can establish themselves. Viable long-term with physical development; not the right first move." },
+        { "league": "La Liga",           "score": 6.0, "width": "60%", "high": true,  "note": "Off-ball timing and half-space comfort fit La Liga's positional structure. Compact blocks and controlled buildup slow attacks and reduce separation efficiency. Can function with refinement; the style doesn't fully suit the current profile." },
+        { "league": "Bundesliga",        "score": 7.0, "width": "70%", "high": true,  "note": "The most natural top-five fit. Verticality, open transitions, and willingness to attack space align with his acceleration and direct style. Consistency issues remain in tighter moments, but the league's pace and chaos protect his strengths more than others." },
+        { "league": "Serie A",           "score": 6.0, "width": "60%", "high": true,  "note": "Movement and willingness to run behind defensive lines translate. Tight marking and compact structures punish decision volatility. Can operate here, but development would require tactical maturity that is still forming." },
+        { "league": "Ligue 1",           "score": 5.5, "width": "55%", "high": false, "note": "Athletic profile helps in isolated duels and broken phases. Physical contact intensity and wide defenders who engage physically test the current strength base. Open phases suit him; controlled physical battles do not." },
+        { "league": "Eredivisie",        "score": 8.0, "width": "80%", "high": true,  "note": "High lines, forgiving tempo, and frequent attacking sequences allow timing and acceleration to operate without constant physical stress. The cleanest developmental bridge for this profile." },
+        { "league": "Jupiler Pro League","score": 7.5, "width": "75%", "high": true,  "note": "Physical demand is real enough to build duel resistance without overwhelming a still-developing body. Transition-first clubs generate the space his game requires. A strong alternative to the Eredivisie." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",  "note": "No injury history. Strong upward trajectory at 17. Starting for a senior loan club, producing elite numbers in creation and defensive contribution simultaneously. The finishing and decision consistency are genuine questions, but both are coachable with the right environment." },
+        { "score": 2, "label": "Psychological", "meaning": "Low risk",  "note": "Bravery, defensive engagement, and ownership in attacking phases at 17 are all positive signals. Involvement drifts in slower phases — a concentration habit to correct, not a character concern. No off-field flags." },
+        { "score": 2, "label": "Market",        "meaning": "Low risk",  "note": "€1M for this profile is not a reflection of the output — it is a reflection of how under-scouted this market is. Unrepresented, contracted until 2028, owned by Red Star. The valuation gap between current price and where this goes in 12 months is notable." },
+        { "score": 2, "label": "Systemic",      "meaning": "Low risk",  "note": "A clearly preferred environment — transition-heavy, open games, wide isolation opportunities. The output drops in controlled positional systems, but the core attributes (dribbling, pressing, creation) are not system-dependent. A slight drop outside ideal conditions, not a cliff edge." }
+      ],
+      "trajectoryNote": "An 8 projects as a consistent starter at a top-division club contributing directly through creation, pressing, and duel-winning simultaneously. If the finishing catches the creative output, the number moves.",
+      "nowAge": 17,
+      "verdict": {
+        "statement": "A 17-year-old right winger on loan from Red Star who is already producing the most complete forward profile in the 25–26 SuperLiga dataset — elite on creation, elite on defensive contribution, simultaneously, in the same matches. The finishing is the gap between the current rating and a higher one. The decision hierarchy needs work. The physical duel resistance is still developing. None of those things change what the dual output already represents: a profile that most wingers at any age in this league do not produce. The ceiling depends on whether the end-product catches up to the setup. The floor is already high.",
+        "travels": [
+          "First-step acceleration and 1v1 separation — genuine across phases, not system-produced",
+          "Elite creation output — 99th-percentile shot assists and 97th-percentile xA at 17, confirmed by the assist chain across all three levels",
+          "Defensive contribution — 96th-percentile pAdj Tkl+Int for a winger; active pressing instinct, not positional proximity",
+          "Contact dribbling under pressure — 91st-percentile success rate built on balance and direction change, not burst",
+          "Vertical run timing and half-space reads — consistent across match contexts"
+        ],
+        "targeted": [
+          "Finishing efficiency — 54th-percentile goals against 83rd-percentile shot quality; the positions are good, the conversion is not yet matching them",
+          "Final-third decision hierarchy — dribble, shoot, or pass chosen without consistent logic; the creative ceiling requires a clearer trigger",
+          "Dribbling against patient defenders — contact style works when opponents commit; narrows when they wait and force him wide",
+          "Physical duel resistance — upper-body still developing; can be displaced in sustained shoulder-to-shoulder contact"
+        ],
+        "potentialRating": "8/10",
+        "potentialBalls": 8,
+        "potentialProjection": "An 8 projects as a consistent starter at a top-division club contributing directly through creation, pressing, and duel-winning in the same role simultaneously. The athletic base and dual contribution profile are strong enough to scale. If the finishing catches the creative output, the number moves."
+      }
+    },
+    {
       "slug": "andrei-borza",
       "handcrafted": true,
       "firstName": "Andrei",
