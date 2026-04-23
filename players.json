@@ -1121,6 +1121,159 @@
       }
     },
     {
+      "slug": "adriano-jagusic",
+      "handcrafted": true,
+      "firstName": "Adriano",
+      "lastName": "Jagušić",
+      "positionTag": "Advanced Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/adriano-jagusic.png",
+      "photoAlt": "Adriano Jagušić",
+      "verdictLine": "A technically advanced right half-space playmaker whose value is built on ball-carrying, set-piece quality, and genuine goal threat from midfield. The short passing and defensive discipline are the gaps. A possession-oriented club buying him now is buying a future top-division starter at a price the market has not yet recalibrated to the output.",
+      "bio": {
+        "dob": "Sep 6, 2005",
+        "nationality": "🇭🇷 Croatian",
+        "club": "Slaven Belupo",
+        "league": "SuperSport HNL",
+        "contractExpiry": "Jun 2026",
+        "marketValue": "€1.5M",
+        "preferredFoot": "Left",
+        "height": "1.78m",
+        "agent": "MSports PRO"
+      },
+      "scores": {
+        "basePotential": "7.5",
+        "travelReadiness": "7.0",
+        "reportDate": "Jan '26"
+      },
+      "role": {
+        "primaryRole": "Advanced Playmaker",
+        "description": ["Primarily a right central midfielder who gravitates toward the right half-space, where he receives between the lines, drives forward, and either shoots or unlocks runners.", "Left-footed on the right side creates the same inside-cutting dynamic as an inverted winger, but from deeper.", "The ball-carrying volume is extreme; the forward passing volume is not. He moves the game forward primarily with his body rather than his distribution."],
+        "formationName": "4-2-3-1 Shape",
+        "formationLabelBottom": "Jagušić — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 148, "cy": 465, "label": "LCB" },
+          { "cx": 252, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 148, "cy": 368, "label": "LDM" },
+          { "cx": 252, "cy": 368, "label": "RDM" },
+          { "cx": 55,  "cy": 228, "label": "LW" },
+          { "cx": 345, "cy": 228, "label": "RW" },
+          { "cx": 200, "cy": 148, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 200, "cy": 235, "label": "CAM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Receives between the lines facing goal", "text": "Consistently positions to take the ball on the half-turn. The first touch sets up the next action rather than just securing possession — he is already deciding where the play goes when the ball arrives." },
+          { "title": "Drives forward rather than passing forward", "text": "100th-percentile progressive runs, 58th-percentile progressive passes. When the opportunity to advance exists, the default is to carry, not to play. Combines body control and close touch to escape pressure in tight areas rather than relying on explosive separation." },
+          { "title": "Unlocks play with disguised, incisive distribution", "text": "Delivers through balls, diagonal switches, and weighted slips into runners. When he does pass forward, the decision is usually sharp. 92nd-percentile xA and 90th-percentile shot assists confirm the quality when it arrives." },
+          { "title": "High-volume, range-confident shooter", "text": "95th percentile in shots per 90. Generates power and accuracy from mid-range with clean mechanics. Dangerous from direct free kicks. The volume and goal output are elite; the positions those shots come from are not." },
+          { "title": "Short passing is the weak link", "text": "24th-percentile short and medium pass accuracy against 98th-percentile long pass accuracy. Ball circulation in tight areas breaks down when the next action is a short combination rather than a carry or a longer ball." }
+        ],
+        "offBall": [
+          { "title": "Connects zones rather than staying fixed", "text": "Drops to offer passing angles in deeper phases, then advances quickly to be available in the final third. Not a positional player in the traditional sense — the zone he occupies changes with the game state." },
+          { "title": "Attacks space selectively", "text": "Drives forward when gaps open but prefers to receive to feet over repeated runs in behind. The carrying profile is about exploiting space he finds, not space he manufactures through movement." },
+          { "title": "Willing but unstructured defensively", "text": "Engages in pressing phases and tracks back. 86th percentile in fouls committed and 95th in cards signal aggression without discipline — competing without always knowing when to stop competing." },
+          { "title": "More decisive with freedom than structure", "text": "Output increases when allowed to receive facing play with room to drive. Compact, high-intensity defensive blocks reduce separation opportunity and limit his involvement. System-freedom is a clear performance variable." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Ball-Carrying", "desc": "100th-percentile progressive runs in the 1. HNL. The elite tool — built on agility and coordination, not pace." },
+          { "name": "Long-Range Passing", "desc": "98th-percentile long pass accuracy. Switches play, finds runners over distance, and delivers on set pieces with rare precision." },
+          { "name": "Goal Threat from Midfield", "desc": "98th-percentile non-penalty goals at 20 in senior football. The volume, conviction, and technique is a real skill." }
+        ],
+        "context": [
+          { "name": "Creation Output", "desc": "92nd-percentile xA and 90th-percentile shot assists. When he plays the final ball, it arrives with genuine danger." },
+          { "name": "Half-Space Intelligence", "desc": "Finds the right half-space pockets consistently and adjusts positioning to stay available across zones. The between-lines positioning is a formed habit." }
+        ],
+        "system": [
+          { "name": "Freedom Dependency", "desc": "Output increases significantly in possession-oriented systems that give advanced midfielders rotational freedom. Rigid pressing structures limit involvement." },
+          { "name": "Set-Piece Threat", "desc": "Dangerous from dead balls — direct shots, deliveries, and long throws add secondary value to every set-piece phase." }
+        ],
+        "exposed": [
+          { "name": "Short Passing", "desc": "24th-percentile short and medium pass accuracy. The single most important technical gap for progression into possession-based systems." },
+          { "name": "Defensive Duels", "desc": "29th-percentile duels won, 10th-percentile aerial. Structurally exposed in transition without a protecting pivot underneath him." },
+          { "name": "Discipline", "desc": "95th-percentile cards at 20 is unsustainable at higher levels with tighter referee standards and accumulated suspension risk." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Agility", "value": "The primary athletic tool. Strong balance and clean mechanics in tight areas. The 100th-percentile carrying is built on agility and coordination rather than pace." },
+          { "label": "Acceleration", "value": "Moderate initial burst. Adequate once in motion. Not an explosive first-step player — the separation in carrying comes from timing and body movement, not speed." },
+          { "label": "Physical frame", "value": "Needs further strength development for higher-intensity central midfield duels. 29th-percentile duels won reflects both the current physical ceiling and a style that avoids extended contact." },
+          { "label": "Aerial", "value": "10th percentile. A genuine weakness — not a positional issue, not a sample-size concern. Will be targeted in physical leagues." }
+        ],
+        "cognitive": [
+          { "label": "Spatial reading", "value": "Advanced understanding of tempo and passing angles. Finds the right half-space pockets consistently and adjusts positioning to stay available across zones." },
+          { "label": "Decision speed", "value": "Controlled rather than rushed. Prioritises clarity over pace — which produces composed play but occasionally slows attacks when a quick combination window exists." },
+          { "label": "Carry vs. pass selection", "value": "100th-percentile carrying alongside 24th-percentile short pass accuracy suggests he may be over-carrying in situations where the short pass is the correct choice. The key developmental question." },
+          { "label": "Adaptability", "value": "Best when granted creative freedom. Positional rigidity in structured systems reduces involvement — the tactical demands of the next level will require more disciplined positioning." }
+        ],
+        "psychological": [
+          { "label": "Confidence", "value": "Comfortable taking responsibility in decisive moments. The shooting volume and willingness to carry from deep both reflect a player who seeks the ball in difficult situations." },
+          { "label": "Composure", "value": "Calm under pressure on the ball. Capable of dictating rhythm in possession phases. Technical composure is ahead of physical composure in duels." },
+          { "label": "Discipline", "value": "95th-percentile cards. The aggression is real and directional — he competes — but the inability to stop competing at the right moment is a problem at the next level." },
+          { "label": "Set-piece mentality", "value": "Dangerous from dead balls — direct shots, deliveries, and long throws add secondary value. The set-piece output can inflate contribution metrics relative to open-play influence." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Short passing reliability", "text": "24th-percentile short and medium pass accuracy is the single most important technical gap. Ball circulation breaks down specifically in the short-combination moments that define possession-based play at higher levels." },
+        { "num": "02", "title": "Carry vs. pass decision calibration", "text": "Whether the elite carrying rate reflects intelligence or avoidance of unreliable short passing is the most important unanswered question. As the short passing improves, the decision calibration should shift naturally." },
+        { "num": "03", "title": "Defensive positional discipline", "text": "The willingness to press and compete is genuine. The shape awareness during pressing phases and the positioning off the ball in defensive structures is not yet reliable. This is a tactical education task — the effort is already there." },
+        { "num": "04", "title": "Physical robustness for central midfield duels", "text": "The 29th-percentile duel win rate and 10th-percentile aerial success are genuine exposure points. Upper-body strength development and body contact technique are the practical levers." }
+      ],
+      "travelScore": {
+        "score": "7.0",
+        "prose": [
+          "The ball control, first touch, spatial reading, and long-range technical quality are not products of the 1. HNL environment — they would show at a higher level.",
+          "The 7.0 reflects the honest gaps. Short passing accuracy at the 24th percentile is a structural weakness in possession-based systems. The contract situation — expiring June 2026 — adds time pressure but also creates a market opportunity.",
+          "The best immediate environment is possession-oriented, gives advanced midfielders rotational freedom, and has a protecting double-pivot underneath him. La Liga or Serie A structures would accelerate the technical development."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",     "score": 5.0, "width": "50%", "high": false, "note": "Physical load and transition intensity would test him immediately. Without explosiveness and short-passing reliability, sustained influence would fluctuate." },
+        { "league": "La Liga",            "score": 7.5, "width": "75%", "high": true,  "note": "The best current fit. Possession orientation, technical emphasis, and rotational freedom for advanced midfielders align precisely with his profile." },
+        { "league": "Bundesliga",         "score": 6.0, "width": "60%", "high": false, "note": "Verticality helps in open games. Transition speed reduces margin for error in tight moments. Moments of real quality but consistency requires physical development." },
+        { "league": "Serie A",            "score": 7.0, "width": "70%", "high": true,  "note": "Compact structures suit his spatial reading and between-lines comfort. Can operate here; development would require added strength." },
+        { "league": "Ligue 1",            "score": 6.0, "width": "60%", "high": false, "note": "Athletic duels are frequent and the physicality can be unforgiving. Repeated contact situations would challenge him over time." },
+        { "league": "Eredivisie",         "score": 7.0, "width": "70%", "high": true,  "note": "Space and technical emphasis allow him to dictate phases and grow into games. A clean developmental bridge." },
+        { "league": "Jupiler Pro League", "score": 6.5, "width": "65%", "high": true,  "note": "Physical demands test the frame without the transition intensity of Germany or France. System-dependent more than league-dependent here." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",    "note": "1,876 senior minutes at 20, consistent starter, upward trajectory season on season. The short-passing and defensive discipline gaps are coachable. No injury history." },
+        { "score": 2, "label": "Psychological", "meaning": "Low risk",    "note": "Confident, composed on the ball, takes responsibility in decisive moments. Card accumulation reflects competitive instinct rather than attitude problems." },
+        { "score": 3, "label": "Market",        "meaning": "Medium risk", "note": "€1.5M with a contract expiring June 2026 creates urgency on both sides. The valuation is reasonable but the contract situation creates a bidding window that closes quickly." },
+        { "score": 3, "label": "Systemic",      "meaning": "Medium risk", "note": "Output is clearly higher in possession-oriented, rotationally free systems. A club that acquires him for the wrong system will not see the profile the data describes." }
+      ],
+      "trajectoryNote": "Projects as a consistent starter in a possession-oriented top-division system. The ceiling moves toward 8 if the short-passing gap closes. It stays at 7.5 if it does not.",
+      "nowAge": 20,
+      "verdict": {
+        "statement": "A technically advanced right half-space playmaker whose value is built on ball-carrying, set-piece quality, and genuine goal threat from midfield. The profile is real and the output is consistent. The short passing and defensive discipline are the gaps that separate the current ceiling from a higher one. The contract situation in June 2026 creates a window that is not permanent. A possession-oriented club that acquires him now, builds the right protective structure behind him, and addresses the short-passing gap directly is buying a future top-division starter at a price the market has not yet recalibrated to the output.",
+        "travels": [
+          "Ball-carrying quality — 100th-percentile progressive runs built on agility and coordination, not speed-dependent",
+          "Creation output — 92nd-percentile xA and 90th-percentile shot assists; the forward passing is elite when it arrives",
+          "Goal threat from midfield — 98th-percentile goals at 20 in senior football, with set-piece danger adding secondary value",
+          "Long passing range — 98th-percentile long pass accuracy; switches play and delivers over distance with rare precision",
+          "Spatial reading and half-space occupation — consistently finds the right pockets, functional across multiple structures"
+        ],
+        "targeted": [
+          "Short passing accuracy — 24th percentile; the single most important technical gap for progression into possession-based systems",
+          "Defensive positioning and duel resistance — 29th-percentile duels won, 10th-percentile aerial; structurally exposed in transition without a protecting pivot",
+          "Disciplinary record — 95th-percentile cards at 20 is unsustainable at higher levels with tighter referee standards",
+          "System dependency — output drops measurably in rigid structures that require quick short combinations"
+        ],
+        "potentialRating": "7.5/10",
+        "potentialBalls": 7,
+        "potentialProjection": "Projects as a consistent starter in a possession-oriented top-division system — a midfielder who contributes through carrying, creation, set-piece threat, and goal scoring simultaneously. The ceiling moves toward 8 if the short-passing gap closes."
+      }
+    },
+    {
       "slug": "andrei-borza",
       "handcrafted": true,
       "firstName": "Andrei",
