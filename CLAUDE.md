@@ -41,6 +41,7 @@ Do these steps in order:
 ### 4. Update the results count
 - Increment the `results-count` on the position page by 1
 - `reports.html` count updates dynamically via JS — just add the row, no manual count needed there
+- **Also increment the `stat-num` hero stat in `index.html`** (currently "11+") — this is a static string, it does not auto-update
 
 ### 5. Commit and push
 ```
@@ -109,16 +110,23 @@ git pull origin main --no-rebase --no-edit && git add . && git commit -m "add [P
 
 ## Current players
 
-| Player | File | players.json | handcrafted |
-|---|---|---|---|
-| Matej Deket | `reports/matej-deket.html` (generated) | ✓ full entry | ✓ |
-| Ridwan Popoola | `reports/ridwan-popoola-final-report.html` | ✓ full entry | ✓ |
-| Vasilije Novičić | `reports/vasilije-novicic-report.html` | ✓ full entry | ✓ |
-| Hamza Güreler | `reports/hamza-gureler-report.html` | ✓ minimal entry | ✓ |
-| Adem Avdić | `reports/adem-avdic.html` | ✓ minimal entry | ✓ |
-| Andrei Borza | `reports/andrei-borza.html` | ✓ minimal entry | ✓ |
+| Player | Position | File | players.json | handcrafted |
+|---|---|---|---|---|
+| Matej Deket | Attacker | `reports/matej-deket.html` (generated) | ✓ full entry | ✓ |
+| Ridwan Popoola | Midfielder | `reports/ridwan-popoola-final-report.html` | ✓ full entry | ✓ |
+| Vasilije Novičić | Midfielder | `reports/vasilije-novicic-report.html` | ✓ full entry | ✓ |
+| Hamza Güreler | Defender | `reports/hamza-gureler-report.html` | ✓ minimal entry | ✓ |
+| Adem Avdić | Attacker | `reports/adem-avdic.html` | ✓ minimal entry | ✓ |
+| Andrei Borza | Defender | `reports/andrei-borza.html` | ✓ minimal entry | ✓ |
+| Adriano Jagušić | Midfielder | `reports/adriano-jagusic-report.html` | ✓ full entry | ✓ |
+| Luka Stojković | Midfielder | `reports/luka-stojkovic-report.html` | ✓ full entry | ✓ |
+| Douglas Owusu | Attacker | `reports/douglas-owusu-report.html` | ✓ full entry | ✓ |
+| Vasilije Kostov | Midfielder | `reports/vasilije-kostov-report.html` | ✓ minimal entry | ✓ |
+| Ognjen Ugrešić | Midfielder | `reports/ognjen-ugresic-report.html` | ✓ minimal entry | ✓ |
+| Luka Zarić | Attacker | `reports/luka-zaric-report.html` | ✓ minimal entry | ✓ |
 
-Position pages: `defenders.html` (6 cards), `midfielders.html` (7 cards), `attackers.html`
+Position pages: `defenders.html` (3 cards), `midfielders.html` (6 cards), `attackers.html` (4 cards)
+Hero stat `index.html`: currently **11+** — increment manually each time a player is added.
 
 ---
 

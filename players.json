@@ -1274,6 +1274,162 @@
       }
     },
     {
+      "slug": "luka-stojkovic",
+      "handcrafted": true,
+      "firstName": "Luka",
+      "lastName": "Stojković",
+      "positionTag": "Advanced Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/luka-stojkovic.png",
+      "photoAlt": "Luka Stojković",
+      "verdictLine": "A 22-year-old Dinamo Zagreb midfielder who leads all 1. HNL central midfielders in xA, assists, and combined assist chain simultaneously — ranked 5th among all U23 midfielders in Eastern Europe by the CIES/Impect index. The output is not a function of his teammates. It is despite them.",
+      "bio": {
+        "dob": "Oct 28, 2003",
+        "nationality": "🇭🇷 Croatian",
+        "club": "Dinamo Zagreb",
+        "league": "SuperSport HNL",
+        "contractExpiry": "Jun 2028",
+        "marketValue": "€3M",
+        "preferredFoot": "Right",
+        "height": "1.82m",
+        "agent": "PROSPORTM"
+      },
+      "scores": {
+        "basePotential": "8",
+        "travelReadiness": "8.0",
+        "reportDate": "Apr '26"
+      },
+      "role": {
+        "primaryRole": "No. 10 / Advanced Playmaker",
+        "description": [
+          "A natural number 10 who moves everywhere in the attacking third, connecting zones rather than occupying one. The playmaking instinct is primary — he prefers the ball to move rather than to carry it, understanding that the pass arrives faster than the run.",
+          "When the game opens, he carries at an 89th-percentile rate anyway. Sets pieces are a genuine additional weapon. Works defensively with willingness that his positional profile does not demand."
+        ],
+        "formationName": "4-2-3-1 Shape",
+        "formationLabelBottom": "Stojković — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 148, "cy": 465, "label": "LCB" },
+          { "cx": 252, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 148, "cy": 368, "label": "LDM" },
+          { "cx": 252, "cy": 368, "label": "RDM" },
+          { "cx": 55,  "cy": 228, "label": "LW" },
+          { "cx": 345, "cy": 228, "label": "RW" },
+          { "cx": 200, "cy": 148, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 200, "cy": 235, "label": "CAM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Moves into pockets and returns to sender — quickly", "text": "Comfortable receiving between lines, never looks rushed despite delayed reactions around him. Prefers combination play to carrying, understanding the ball arrives faster than the man. 83rd-percentile progressive passes alongside 89th-percentile progressive runs: he does both, and knows which one the situation calls for." },
+          { "title": "Final pass is his specialist skill", "text": "100th-percentile xA, 100th-percentile assists, 100th-percentile combined assist chain among all HNL central midfielders. These numbers do not come from volume alone — 88th-percentile xA per shot assist confirms the quality of each individual creative action, not just how many he attempts." },
+          { "title": "Pulls the trigger with both feet, confidently", "text": "100th-percentile shots per 90. Will shoot from his own half, out of stride, without hesitation. The goal in question — collecting in his own box, running the full length, waiting for the keeper to commit — was a demonstration of how unhurried his decision-making is even at full pace." },
+          { "title": "First touch under pressure needs attention", "text": "Despite his intelligence in finding pockets, the touch that sets up the next action lets him down in tighter situations — even against the slower defensive reactions in the HNL. He tends to play backwards when facing forward play would be available." },
+          { "title": "Set-piece threat across all delivery types", "text": "93rd-percentile crosses and cross accuracy simultaneously. Dangerous from direct free kicks, deliveries, and offers a rare long-throw option." }
+        ],
+        "offBall": [
+          { "title": "Genuinely interested in the defensive phase", "text": "60th-percentile pAdj tackles and interceptions, 62nd-percentile pAdj interceptions — above what the position and the club's style demand. He counter-presses immediately on transition and commits to defensive duels without being instructed to." },
+          { "title": "Arrives in the box at the right moment", "text": "88th-percentile box touches. Good sense of where space is and where the defensive shape is lax — partly a product of his constant movement, but the timing of arrivals in dangerous areas is a genuine trait rather than lucky positioning." },
+          { "title": "Reads the game before his teammates", "text": "Surrounded by players who see things after they have already happened. The freedom he currently enjoys is partly a product of being significantly smarter than the players around him. At a higher level, that gap closes — and the true ceiling becomes visible for the first time." },
+          { "title": "Will step into 1v1 duels when not the right choice", "text": "Ambitious and adventurous in his defensive reads. Does not always wait for the right moment, occasionally committing when holding position is correct. The competitive instinct is genuine; the spatial discipline in defensive 1v1s needs calibration." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Creative Output", "desc": "100th-percentile xA, assists, and combined assist chain simultaneously. The vision and execution are real and system-independent." },
+          { "name": "Goal Threat from Midfield", "desc": "100th-percentile shots, 98th-percentile npxG. Will shoot from anywhere, both feet, without hesitation." },
+          { "name": "Acceleration and Carrying", "desc": "98th-percentile accelerations, 88th-percentile progressive runs. Covers all phases of the attacking third continuously." }
+        ],
+        "context": [
+          { "name": "Set-Piece Quality", "desc": "93rd-percentile crosses and cross accuracy. Dangerous from dead balls — direct free kicks, deliveries, long throws." },
+          { "name": "Defensive Willingness", "desc": "Counter-presses immediately, engages in both phases, does not treat the defensive phase as recovery time." }
+        ],
+        "system": [
+          { "name": "Teammate Dependency", "desc": "Currently the best player at Dinamo by a measurable gap. The suppression from below-average teammates means statistics represent a floor, not a ceiling." },
+          { "name": "Space Creation", "desc": "Output is consistent across settled play, transition, and set pieces — the profile travels across multiple systems." }
+        ],
+        "exposed": [
+          { "name": "Temperament", "desc": "Three-match suspension for slapping a player. A separate incident involving a kick to an opponent's chest. Requires direct management at the next club, not hope." },
+          { "name": "First Touch in Tight Pockets", "desc": "Forces backwards play in moments where the forward option is available. The gap between what he sees and what he can execute under pressure." },
+          { "name": "Physical Duel Resistance", "desc": "12th-percentile duels won. Will contest and lose in a higher-intensity central midfield environment." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Stride and acceleration", "value": "98th-percentile accelerations. Long-stride athlete who gets to top speed quickly over 10–15 metres. The carry numbers emerge from this." },
+          { "label": "Engine", "value": "Does not stop running — covers ground in both directions across 90 minutes without visible fatigue." },
+          { "label": "Physical duels", "value": "12th-percentile duels won. The commitment is not the problem. The physicality for repeated high-intensity contact in a more demanding midfield environment is still developing." },
+          { "label": "ACL history", "value": "Cruciate tear Aug 2023, return Feb 2024. Moving freely, full stride, no visible physical limitation on current tape." }
+        ],
+        "cognitive": [
+          { "label": "Game reading", "value": "Sees things before his teammates act on them. The playmaking numbers come from this — consistently identifies the receiver and moment before the defence has recognized the threat." },
+          { "label": "Decision speed", "value": "Controlled, never rushed. Smiling in games, unhurried even under pressure. The shot from his own half is the clearest illustration." },
+          { "label": "Pass weight", "value": "Sees the option clearly; does not always execute it at the right weight. Touch in tight pockets can force backwards play when forward is available." },
+          { "label": "Spatial ambition", "value": "Adventurous in both phases. The same instinct that produces the assist from an unexpected angle also produces the defensive commitment at the wrong moment." }
+        ],
+        "psychological": [
+          { "label": "Temperament", "value": "The primary non-technical concern. A three-match ban for slapping a player and a separate incident involving a kick to an opponent's chest. The competitive fire is real and is part of what makes him effective." },
+          { "label": "Ego and environment", "value": "Currently the best player at Dinamo by a measurable gap. A player who gets used to operating at a level well below his ceiling can develop habits — of freedom, of dominance — that require adjustment when the context changes." },
+          { "label": "Composure in big moments", "value": "Confident, smiles in games, chirps at referees. He takes responsibility and does not hide from the ball when the game is difficult." },
+          { "label": "Cards", "value": "27th-percentile cards — moderate, not extreme. The suspension was for a specific incident rather than a chronic card pattern." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "First touch quality in tight spaces", "text": "The most important technical task. Seeing the forward option and executing the touch that allows delivery on it are two different skills. The first is already elite. The second occasionally forces the ball backwards even in the current environment." },
+        { "num": "02", "title": "Temperament management in high-stakes moments", "text": "Not a character concern — a specific competitive impulse that needs a practical outlet. At a club with better teammates and higher-stakes fixtures, the frustration that produces incidents will find more meaningful triggers." },
+        { "num": "03", "title": "Physical robustness in midfield duels", "text": "12th-percentile duels won is the profile's most exposed number in a higher-level central midfield environment. Building upper-body strength and shielding technique while retaining the athletic freedom that produces the acceleration numbers." },
+        { "num": "04", "title": "Defensive positioning calibration", "text": "The pressing instinct is there and is a genuine asset. The moment of commitment — when to step, when to hold — is not yet consistently correct in central 1v1 situations." }
+      ],
+      "travelScore": {
+        "score": "8.0",
+        "prose": [
+          "The creative output, the movement range, the defensive contribution, and the shooting threat are not products of the 1. HNL. The data would look different with better players around him — almost certainly better, not worse.",
+          "The 8.0 is grounded in the profile's completeness. There are no structural technical gaps. The first-touch limitation is a ceiling question, not a floor question. The temperament is the only non-technical concern that warrants genuine attention.",
+          "Serie A and Eredivisie are the natural immediate environments — fluid systems that use the number 10 as an orchestrator and give creative players space to connect rather than track."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",     "score": 5.5, "width": "55%", "high": false, "note": "Physical load and transition intensity are the specific challenges. The duel-winning deficit and the first-touch gap both compress under Premier League defensive pressure." },
+        { "league": "La Liga",            "score": 8.0, "width": "80%", "high": true,  "note": "Technical environment rewards exactly the playmaking skillset. Space between lines is more available, tempo is controlled, and possession structures give him the time to execute what he already sees." },
+        { "league": "Bundesliga",         "score": 6.5, "width": "65%", "high": true,  "note": "Transition speed compresses the creative windows. The shooting instinct and carry in open space suit German football, but the physical intensity in midfield duels arrives faster than his current frame can absorb." },
+        { "league": "Serie A",            "score": 8.5, "width": "85%", "high": true,  "note": "The most natural immediate fit. Compact defensive structures reward spatial intelligence over athleticism. Number 10 roles in Italian football are built around players who orchestrate rather than overpower." },
+        { "league": "Ligue 1",            "score": 7.0, "width": "70%", "high": true,  "note": "Athletic pace and open game structures suit the carrying and transition instinct. Physical contact in duels is more demanding than Croatia but the creative freedom creates meaningful opportunity." },
+        { "league": "Eredivisie",         "score": 8.5, "width": "85%", "high": true,  "note": "The other natural immediate fit alongside Serie A. High lines, technical emphasis, and frequent central creative involvement give him the repetition in the role he was built for." },
+        { "league": "Jupiler Pro League", "score": 7.0, "width": "70%", "high": true,  "note": "Physically demanding enough to build duel resistance. System variety means fit is club-dependent — at a technically-oriented side with a number 10 role, the output would transfer directly." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",    "note": "Upward trajectory, 1,639 senior minutes at a high-profile HNL club, ranked 5th among all U23 Eastern European midfielders. First-touch and physical robustness are the development tasks — both are coachable." },
+        { "score": 3, "label": "Psychological", "meaning": "Medium risk", "note": "Suspension and physical altercation incidents are documented facts. The fire that produces them also produces the defensive pressure and the ambitious carry from his own half. A coach who manages it directly is the key variable." },
+        { "score": 2, "label": "Market",        "meaning": "Low risk",    "note": "€3M for a player leading the league in three assist categories simultaneously, contracted until 2028, at 22. Represented. The valuation has not yet caught up to the output." },
+        { "score": 2, "label": "Systemic",      "meaning": "Low risk",    "note": "The profile travels across multiple systems. He creates in transition, in settled play, from set pieces, and off carries. A slight drop outside ideal conditions but no cliff edge — the skillset is genuinely versatile." }
+      ],
+      "trajectoryNote": "Projects as a consistent starter and creative fulcrum at a top-division club. The ceiling is higher — a player this complete at 22, being suppressed by his environment, has room to grow into a 9-level contributor given the right setting and coaching.",
+      "nowAge": 22,
+      "verdict": {
+        "statement": "A modern number 10 with complete creative output, genuine goal threat, and a defensive contribution that his positional profile does not demand. The data represents a floor, not a ceiling — a player operating well above his current teammates is not being measured at his actual level. The temperament is real, requires direct management, and is the single variable that separates this from a straightforward acquisition case.",
+        "travels": [
+          "Creation output — 100th-percentile xA, assists, and combined assist chain; the vision and execution are real and system-independent",
+          "Movement range — 98th-percentile accelerations and 88th-percentile progressive runs; covers all phases of the attacking third continuously",
+          "Shooting instinct — 100th-percentile shots, both feet, from any distance; the trigger instinct does not require coaching",
+          "Set-piece quality — 93rd-percentile crosses and accuracy; additional value that travels unconditionally",
+          "Defensive willingness — counter-presses immediately, engages in both phases, does not treat the defensive phase as recovery"
+        ],
+        "targeted": [
+          "Temperament — documented suspension and physical incident; requires explicit management at the next club, not hope",
+          "First touch in tight pockets — forces backwards play in moments where the forward option is available",
+          "Physical duel resistance — 12th-percentile duels won; will contest and lose in a higher-intensity central midfield environment",
+          "Defensive positioning precision — steps into 1v1s at the wrong moment; the instinct is good, the spatial discipline is not yet calibrated"
+        ],
+        "potentialRating": "8/10",
+        "potentialBalls": 8,
+        "potentialProjection": "An 8 projects as a consistent starter and creative fulcrum at a top-division club. The ceiling is higher — a player this complete at 22, being suppressed by his environment, has room to grow into a 9-level contributor given the right setting and coaching. The temperament is the only variable that could prevent the move."
+      }
+    },
+    {
       "slug": "andrei-borza",
       "handcrafted": true,
       "firstName": "Andrei",
