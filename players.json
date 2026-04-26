@@ -1274,6 +1274,162 @@
       }
     },
     {
+      "slug": "alex-toth",
+      "handcrafted": true,
+      "firstName": "Alex",
+      "lastName": "Tóth",
+      "positionTag": "Roaming Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/alex-toth.png",
+      "photoAlt": "Alex Tóth",
+      "verdictLine": "A 20-year-old at Ferencváros who already controls the tempo of games from central midfield, generates chances at an elite rate in a competitive comparison pool, and has nine senior international caps before turning 21. The aerial limitation is real and will not disappear. Everything else is either already at the level needed or trending in the right direction.",
+      "bio": {
+        "dob": "Oct 23, 2005",
+        "nationality": "🇭🇺 Hungarian",
+        "club": "Ferencváros",
+        "league": "Nemzeti Bajnokság I",
+        "contractExpiry": "Jun 2027",
+        "marketValue": "€2.50M",
+        "preferredFoot": "Right",
+        "height": "1.81m",
+        "agent": "Bence Papp"
+      },
+      "scores": {
+        "basePotential": "8",
+        "travelReadiness": "9.0",
+        "reportDate": "Sep '25"
+      },
+      "role": {
+        "primaryRole": "Roaming Playmaker",
+        "description": [
+          "Operates in the right central channel of Ferencváros's midfield, dropping between lines to receive and immediately turning play forward. The underlying habit is consistent across every role he occupies: receive on the half-turn, face play, look for the forward option first.",
+          "Takes corners and direct free-kicks for Ferencváros — the delivery quality is ready-made, not in development. Comfortable at no. 8 and no. 10; asks more of him structurally as a deeper creator in a double pivot."
+        ],
+        "formationName": "4-3-3 Shape",
+        "formationLabelBottom": "Tóth — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 100, "cy": 315, "label": "LCM" },
+          { "cx": 200, "cy": 330, "label": "CDM" },
+          { "cx": 70,  "cy": 185, "label": "LW" },
+          { "cx": 200, "cy": 158, "label": "ST" },
+          { "cx": 330, "cy": 185, "label": "RW" }
+        ],
+        "highlightedPosition": { "cx": 308, "cy": 308, "label": "RCM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Half-turn receiver who faces play before the ball arrives", "text": "Drops consistently between lines to offer an outlet, and receives already turning. The first touch sets up the next action rather than protecting possession. He is deciding where the play goes as the ball leaves the passer's foot, not after it lands at his feet." },
+          { "title": "Short-to-medium range is his primary progression tool", "text": "Prefers vertical passes of 10 to 25 metres over switches or long diagonals. The 88th-percentile short and medium pass completion does not reflect conservative choices — it reflects precise ones. He plays forward and makes it stick." },
+          { "title": "Selective with the long ball", "text": "Attempts the diagonal only when a clear overload is visible. Long pass completion in the 28th percentile tells you the sample is small and the attempts are ambitious rather than speculative." },
+          { "title": "Shields and retains under pressure on his right side", "text": "Uses frame and arms to hold off contact while protecting the ball. Under a press he invites the pressure and plays through it rather than retreating. The 100th-percentile progressive run rate reflects how consistently this results in forward ball movement." },
+          { "title": "Set-piece delivery is a deployable weapon", "text": "Takes corners and direct free-kicks for Ferencváros. The delivery quality holds up on film and transfers immediately. A buying club does not need to develop this — it is available from day one." }
+        ],
+        "offBall": [
+          { "title": "Press trigger with fast reaction speed", "text": "Steps forward to close ball-carriers in the middle third, forcing play wide before the build-up develops. The pressing is trigger-based and reactive rather than systematic." },
+          { "title": "Lateral roamer who holds connection to the shape", "text": "Shifts across midfield to support the ball-near teammate and provide a passing link. The 28th-percentile pAdj tackles and interceptions reflects this positional contribution style. He defends through presence and proximity rather than through aggressive ball-winning volume." },
+          { "title": "Bait and release in tight central areas", "text": "Draws pressure onto himself deliberately, then uses one-touch play to exploit the space created. The 96th-percentile shot assists are the data signature of this pattern. He does not just retain the ball under pressure — he uses the pressure to generate chances for others." },
+          { "title": "Aerial limitation is confirmed and structural", "text": "Competes in aerial duels at the 17th percentile. The issue is timing and aggression rather than frame — he is 1.81m and 20, meaning the physical platform is largely set. A buying club manages this permanently through set-piece structure, not through development investment." },
+          { "title": "Ground duel engagement is selective but effective when committed", "text": "The 43rd-percentile overall duel win rate sits alongside a 96th-percentile defensive duel win rate — he does not seek duels out, but completes them at an elite rate when he does." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Pre-receive scanning", "desc": "Decisions are formed before the pressure begins. The speed he appears to play at is partly a function of this — built in, not coached, and not adjustable by a tighter press." },
+          { "name": "Chance creation quality", "desc": "100th-percentile xA, 96th-percentile shot assists from a comparison pool that includes players with European experience. The quality is real against a competitive group, not a soft one." },
+          { "name": "Progressive run engine", "desc": "100th percentile. Constant forward availability as a function of directional habit, not sprinting ability." }
+        ],
+        "context": [
+          { "name": "Set-piece delivery", "desc": "Takes corners and direct free-kicks for Ferencváros. A deployable weapon from day one at a new club — no development timeline required." },
+          { "name": "Press resistance", "desc": "Ball retention in tight central areas already tested in Europa League football. He invites pressure and plays through it rather than retreating." }
+        ],
+        "system": [
+          { "name": "Possession dependency", "desc": "Creation output requires possession context and a protecting pivot. A direct team without that structure will not see the profile this data describes." },
+          { "name": "Tempo reading", "desc": "Reads momentum shifts early and adjusts his passing pace accordingly. Speeds the game up when space opens and slows it deliberately when structure is needed." }
+        ],
+        "exposed": [
+          { "name": "Aerial duels", "desc": "17th percentile. Structural, not developmental. Set-piece defensive planning must account for this before signing, not after." },
+          { "name": "Dribble success under pressure", "desc": "26th percentile. When passing lanes close, the ball can go with them. Surfaces more often in a better league." },
+          { "name": "Progressive pass frequency", "desc": "50th percentile in attempts despite 100th-percentile quality from those attempts. The habit of attempting what he is capable of has to match the quality already present." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame", "value": "1.81m, proportionate. Holds ground in duels well enough that physicality is not a structural concern at the next level. The aerial gap is a timing and aggression problem, not a height one." },
+          { "label": "Engine", "value": "Box-to-box availability sustained across 90 minutes. The 100th-percentile progressive run rate comes from constant forward movement, not explosive pace. No injury history across a full competitive season." },
+          { "label": "Ground duels", "value": "43rd percentile overall, 96th when committed. He selects his engagements and converts them at an elite rate. Systems that require high-volume defensive dueling will find a mismatch; systems that provide a protecting pivot will not." },
+          { "label": "Physical ceiling", "value": "The frame is largely set at 20. What you see now is approximately what transfers — an adequate physical profile for a no. 8 or no. 10, as long as the system accounts for the aerial gap at set pieces." }
+        ],
+        "cognitive": [
+          { "label": "Pre-receive scanning", "value": "The defining habit. Decisions are formed before the pressure begins. This is built in, not adjustable by a tighter press." },
+          { "label": "Tempo reading", "value": "Reads momentum shifts early and adjusts his passing pace accordingly. At 20, this is an unusual trait. It is already present, not arriving through coaching." },
+          { "label": "Risk calibration", "value": "Conservative with possession risk, proactive with physical risk. Takes the line-breaking ball when the overload is real, not theoretical." },
+          { "label": "Progressive pass frequency", "value": "50th percentile in progressive pass attempts against 100th in expected assists from those attempts. The quality exists. The habit of attempting it at the rate the quality warrants is the most important developmental question." }
+        ],
+        "psychological": [
+          { "label": "Composure under pressure", "value": "Rare for his age, supported by actual evidence rather than projection. Stable reaction to errors. Adapts mid-match when the system shifts. The Europa League has provided a real pressure environment, and nothing visible has broken down under it." },
+          { "label": "International trust", "value": "Nine senior Hungary caps at 20. A national coaching staff does not award those minutes to potential — they award them to reliability." },
+          { "label": "Risk appetite balance", "value": "Conservative with the ball, proactive off it. Produces clean possession and competitive off-ball engagement simultaneously rather than trading one for the other." },
+          { "label": "Off-field profile", "value": "No injury history. No reported concerns. The profile reads cleanly, and at €2.50M there is almost no downside protection required." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Progressive pass frequency relative to quality", "text": "He sits at the 50th percentile for attempts and the 100th for quality from those attempts. At a higher level, windows open and close faster. The scanning already supports more attempts — the question is whether the confidence to act on what he sees follows the move up." },
+        { "num": "02", "title": "Carrying under pressure when passing options disappear", "text": "26th-percentile dribble success is the gap between his normal ball retention and what happens when the passing lane closes. He rarely dribbles, mostly correctly, but when forced into it the success rate drops. It surfaces more often at the next level." },
+        { "num": "03", "title": "Aerial defending at set pieces — managed structurally", "text": "17th-percentile aerial duel win rate reflects timing and aggression rather than frame. The right response at any buying club is to assign a defensive header partner and position him accordingly. Development investment here is not well spent." }
+      ],
+      "travelScore": {
+        "score": "9.0",
+        "prose": [
+          "The 9 is justified as much by the absence of risk as by the presence of elite traits. No injury history. No off-field concerns. Europa League minutes at 19. Senior international football at 20. The scanning, tempo reading, and press resistance are cognitive and technical habits — they survive environmental change because they formed before any specific environment shaped them.",
+          "The one point withheld is honest. The aerial limitation requires structural management at any level, and the dribble success rate will be tested harder in a better league. Neither is a ceiling constraint. Both require a plan before the acquisition, not after."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",     "score": 7.0, "width": "70%", "high": true,  "note": "A mid-table technical club — Brentford, Bournemouth, Brighton — provides the possession structure and protecting pivot he needs while the physical ceiling develops. The aerial gap requires set-piece management but does not prevent weekly involvement." },
+        { "league": "La Liga",            "score": 7.5, "width": "75%", "high": true,  "note": "Cognitive and technical demands suit his profile well. The lower average tempo relative to Germany allows his scanning and playmaking to operate without the immediate intensity that most exposes the aerial and duel weaknesses." },
+        { "league": "Bundesliga",         "score": 7.0, "width": "70%", "high": true,  "note": "High tempo and transition volume align well with his press resistance and scanning quality. Viable between 6th and 12th in the table with a structured double pivot behind him." },
+        { "league": "Serie A",            "score": 5.5, "width": "55%", "high": false, "note": "Tactical discipline is a genuine fit. Compact defensive spaces will expose the aerial limitation more than other leagues, and Italy's shift toward more physically direct central midfield play adds a demand he is not built for right now." },
+        { "league": "Ligue 1",            "score": 4.5, "width": "45%", "high": false, "note": "Athletic and physically chaotic midfields will expose his limitations more consistently than Germany or Spain. His strengths require a structural predictability that Ligue 1's variance does not reliably provide." },
+        { "league": "Eredivisie",         "score": 8.5, "width": "85%", "high": true,  "note": "High-possession, structured environments maximise his scanning, composure, and progressive passing while keeping the aerial and duel exposure manageable. Ajax, AZ, and PSV carry structures that unlock what he does. The strongest immediate fit." },
+        { "league": "Jupiler Pro League", "score": 7.5, "width": "75%", "high": true,  "note": "Technically demanding enough to develop him further, physically manageable for his current profile. Club Brugge and Anderlecht carry possession-based structures that suit his playmaking. A legitimate first-step alternative to the Eredivisie." }
+      ],
+      "riskGauges": [
+        { "score": 1, "label": "Development",   "meaning": "Minimal risk", "note": "Regular starter at the top Hungarian club, Europa League minutes, nine senior international caps at 20. Clear upward trajectory in the data from 24-25 to 25-26. No injury history." },
+        { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "No off-field concerns. Mature beyond his age by observable evidence rather than projection. Self-regulating under pressure. The psychological case for this move is as clean as any profile at this price point." },
+        { "score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€2.50M for a player the CIES Football Observatory ranked first among all under-20 chance-providing midfielders across 60 leagues globally in the 2025–26 season. The 2027 contract expiry concentrates the timeline." },
+        { "score": 2, "label": "Systemic",      "meaning": "Low risk",    "note": "Creation output drops outside possession-oriented systems, and the defensive exposure widens without a protecting pivot. Not system-dependent to a dangerous degree, but the coaching environment is a meaningful variable." }
+      ],
+      "trajectoryNote": "Projects as a consistent starter and genuine creative influence at a top-five European club. Contributes at Champions League level as a playmaker and chance-creator. The ceiling above 8 moves if the progressive pass frequency normalises to match the quality already present.",
+      "nowAge": 20,
+      "verdict": {
+        "statement": "A 20-year-old who already has the two things you cannot coach into a midfielder: the habit of scanning before the ball arrives, and the ability to read when the game needs speeding up versus slowing down. The creation output is confirmed in European football, not projected from domestic data alone. The aerial gap is permanent and manageable. The dribble gap and progressive pass frequency are both trending in the right direction. A possession-oriented club that builds the right structure around him is making an accurate bet.",
+        "travels": [
+          "Elite chance creation — 100th-percentile xA, 96th-percentile shot assists. The quality is real against a competitive comparison pool, not a soft one.",
+          "Pre-receive scanning and tempo reading — cognitive habits built before any specific system shaped them. They do not degrade under pressure.",
+          "Press resistance and ball retention in tight central areas, already tested in European football before turning 20.",
+          "Progressive run engine — 100th percentile. Constant forward availability as a function of directional habit, not sprinting ability.",
+          "Set-piece delivery — a deployable weapon from day one at a new club, with no development timeline required.",
+          "Composure and international reliability. Nine senior Hungary caps at 20 reflect consistency evidenced by a coaching staff, not projected by a scouting report."
+        ],
+        "targeted": [
+          "Aerial duels — 17th percentile. Structural, not developmental. Set-piece defensive planning must account for this before signing, not after.",
+          "Dribble success under pressure — 26th percentile. When passing lanes close, the ball can go with them. A coachable gap, but one that surfaces more often in a better league.",
+          "Progressive pass frequency — 50th percentile despite 100th-percentile quality. The habit of attempting what he is capable of has to match the quality already present.",
+          "System dependency — creation output requires possession context and a protecting pivot. A direct team without that structure will not see the profile this data describes."
+        ],
+        "potentialRating": "8/10",
+        "potentialBalls": 8,
+        "potentialProjection": "Projects as a consistent starter and genuine creative influence at a top-five European club. Contributes at Champions League level as a playmaker and chance-creator rather than a controlling midfielder. The ceiling above 8 moves if the progressive pass frequency normalises to match the quality already present."
+      }
+    },
+    {
       "slug": "luka-stojkovic",
       "handcrafted": true,
       "firstName": "Luka",

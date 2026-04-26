@@ -119,14 +119,15 @@ git pull origin main --no-rebase --no-edit && git add . && git commit -m "add [P
 | Adem Avdić | Attacker | `reports/adem-avdic.html` | ✓ minimal entry | ✓ |
 | Andrei Borza | Defender | `reports/andrei-borza.html` | ✓ minimal entry | ✓ |
 | Adriano Jagušić | Midfielder | `reports/adriano-jagusic-report.html` | ✓ full entry | ✓ |
+| Alex Tóth | Midfielder | `reports/alex-toth-report.html` | ✓ full entry | ✓ |
 | Luka Stojković | Midfielder | `reports/luka-stojkovic-report.html` | ✓ full entry | ✓ |
 | Douglas Owusu | Attacker | `reports/douglas-owusu-report.html` | ✓ full entry | ✓ |
 | Vasilije Kostov | Midfielder | `reports/vasilije-kostov-report.html` | ✓ minimal entry | ✓ |
 | Ognjen Ugrešić | Midfielder | `reports/ognjen-ugresic-report.html` | ✓ minimal entry | ✓ |
 | Luka Zarić | Attacker | `reports/luka-zaric-report.html` | ✓ minimal entry | ✓ |
 
-Position pages: `defenders.html` (3 cards), `midfielders.html` (6 cards), `attackers.html` (4 cards)
-Hero stat `index.html`: currently **11+** — increment manually each time a player is added.
+Position pages: `defenders.html` (3 cards), `midfielders.html` (7 cards), `attackers.html` (4 cards)
+Hero stat `index.html`: currently **12+** — increment manually each time a player is added.
 
 ---
 
