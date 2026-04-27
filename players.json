@@ -1904,6 +1904,163 @@
         "potentialBalls": 7,
         "potentialProjection": "Regular starter at top-division level in a transition-based league. Consistent attacking threat through pace and 1v1 ability, with a genuine secondary contribution through creation and pressing. A 7 feels conservative given the CIES ranking and the physical data — but it reflects honest uncertainty about whether the left-foot dependency and shot quality gap close sufficiently for the ceiling to move higher. If they do, the number moves."
       }
+    },
+    {
+      "slug": "ahmed-hadzimujovic",
+      "handcrafted": true,
+      "firstName": "Ahmed",
+      "lastName": "Hadžimujović",
+      "positionTag": "No-Nonsense CB",
+      "positionCategory": "Defenders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/ahmed-hadzimujovic.png",
+      "photoAlt": "Ahmed Hadžimujović",
+      "verdictLine": "An 18-year-old from Novi Pazar. 97th-percentile defensive duel success. 85th-percentile aerial duels won. Three yellow cards in 2,528 minutes. He dominates physically, stays clean, and does it at 18 against professional footballers. The build-up game needs work. Everything else is already here.",
+      "bio": {
+        "dob": "Aug 17, 2007",
+        "nationality": "🇷🇸 Serbian",
+        "club": "FK Novi Pazar",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2027",
+        "marketValue": "€1.5M",
+        "preferredFoot": "Right",
+        "height": "1.90m",
+        "agent": "Serbia U19"
+      },
+      "scores": {
+        "basePotential": "8",
+        "travelReadiness": "7",
+        "reportDate": "Apr '26"
+      },
+      "role": {
+        "primaryRole": "No-Nonsense Centre-Back",
+        "description": [
+          "A right-sided centre-back who defends on the front foot and keeps it simple. He wins the ball, he wins headers, and he moves it. Best in a back four with a ball-playing partner alongside him who handles the distribution responsibility.",
+          "The step-out defending and set-piece aerial threat are ready now. The build-up needs a year of deliberate work before it holds up under pressure at the next level."
+        ],
+        "formationName": "4-3-3 Shape",
+        "formationLabelBottom": "Hadžimujović — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 60,  "cy": 460, "label": "LB" },
+          { "cx": 160, "cy": 465, "label": "LCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 110, "cy": 355, "label": "CM" },
+          { "cx": 200, "cy": 345, "label": "CM" },
+          { "cx": 290, "cy": 355, "label": "CM" },
+          { "cx": 80,  "cy": 215, "label": "LW" },
+          { "cx": 200, "cy": 200, "label": "ST" },
+          { "cx": 320, "cy": 215, "label": "RW" }
+        ],
+        "highlightedPosition": { "cx": 260, "cy": 460, "label": "RCB" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Long passing is a weapon", "text": "65th percentile long pass accuracy among all SuperLiga defenders. He clips diagonals with his right foot and uses them to switch play or release forward runners. Selective and accurate when he has time to pick the pass." },
+          { "title": "Right foot dominant", "text": "The left is not functional in possession. He resets to his right in tight situations, which opponents at a higher level will target systematically. This is the single clearest technical gap in the profile and the most addressable one." },
+          { "title": "Scanning before receiving is inconsistent", "text": "He occasionally plays to a pressured player because he has not processed the picture before the ball arrives. The passing quality is there; the pre-receive habits need work before he faces a high press that punishes the gap." },
+          { "title": "Comfortable carrying from the back", "text": "Ball control is tidy and he uses long strides to cover ground when space opens. Does not do it at high volume — 14th percentile progressive runs — but the quality when he does it is clean." }
+        ],
+        "offBall": [
+          { "title": "Steps out to intercept early", "text": "Reads diagonal passes and forward balls proactively and steps to cut them before they reach their target. When it works, the attack dies in midfield. The hit rate, at 97th-percentile defensive duel success, is high." },
+          { "title": "Aerial quality is purposeful", "text": "He does not just win headers — he directs them. Clearances tend to land in space or with a teammate rather than back to an opponent. The 85th-percentile aerial duels won per 90 is the output; the directing is what separates it from raw size." },
+          { "title": "Physically dominant in duels, clean in the challenge", "text": "Gets tight quickly, times the tackle well, and rarely fouls. Three yellow cards in 2,528 minutes is a composed return for a defender playing this aggressively." },
+          { "title": "Forward runs from defence", "text": "Drives into midfield territory during build-up phases — a genuine tactical asset for Novi Pazar's system. He picks the moments reasonably well. An occasional feature, not a habit that compromises his defensive position." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Aerial Dominance", "desc": "He does not just win headers — he directs them. The technique of attacking the ball first, generating pace through the header, and picking a landing zone is a formed habit at 18. It works at 1.90m and it will work at 1.90m in any league." },
+          { "name": "Duel Aggression and Timing", "desc": "97th percentile defensive duel success. He wins the duels he enters at an elite rate. The timing and body positioning required to produce this in a physically demanding league is already present and transferable." },
+          { "name": "Mentality and Competitiveness", "desc": "The willingness to put the body in front of everything, to treat every duel as a personal test, to be genuinely unbothered by contact and consequence. This is background, not coaching. It travels anywhere." }
+        ],
+        "context": [
+          { "name": "Long Passing Range", "desc": "65th percentile accuracy on long passes is genuinely useful and contextually driven. Against a pressing opponent who forces him to play quickly, the accuracy will drop. The quality is there; it needs time and space to express itself." },
+          { "name": "Ball-Carrying from Deep", "desc": "Works well against passive mid-blocks that allow a centre-back to advance. Against high press systems that actively hunt the ball-carrying defender, his spatial awareness gaps will be exposed." }
+        ],
+        "system": [
+          { "name": "Forward Runs from Defence", "desc": "Effective at Novi Pazar because the system creates the space and his partner holds. In a higher-intensity system where those runs require tracking back at full sprint, the cost in physical output is higher." },
+          { "name": "Set-Piece Threat", "desc": "His aerial quality at set pieces is a genuine attacking weapon. The extent to which this is a weapon depends entirely on the delivery quality of the team around him." }
+        ],
+        "exposed": [
+          { "name": "Left Foot in Possession", "desc": "Active avoidance, not a stylistic preference. He resets to his right in tight situations rather than executing with his left. Opponents at the next level will press his left side specifically." },
+          { "name": "Pre-Receive Scanning", "desc": "His defensive scanning is sharp. His possession scanning is not. He occasionally receives without a formed plan and plays to the pressured option. Against a high press at the next level, the cost is direct and immediate." },
+          { "name": "Overcommitting in 1v1", "desc": "Occasionally commits when holding would be smarter. Good forwards at a higher level will engineer the step-and-go if the habit is not refined. A learnable adjustment, not a structural problem." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame", "value": "1.90m, imposing build. Not yet fully filled out at 18, but the foundation is already physically authoritative. The frame will add mass over the next two to three years without compromising pace." },
+          { "label": "Pace & Recovery", "value": "Above average for a centre-back at this size. Covers ground with long strides and recovers quickly in defensive transitions. Fast enough that his step-out defending does not leave an immediately gaping hole behind him." },
+          { "label": "Aerial Ability", "value": "85th percentile aerial duels won per 90. Both the winning and the directing of headers are strong. He attacks the ball rather than jumping to contest it." },
+          { "label": "Strength", "value": "Strong in the challenge at current level. Uses his frame well to shield, block, and hold ground. Will face larger, stronger forwards at the next level — a gap to manage, not an obstacle." },
+          { "label": "Injury record", "value": "Clean. No significant injury history. 2,555 minutes played in 25-26 alone." }
+        ],
+        "cognitive": [
+          { "label": "Defensive Reading", "value": "Strong for his age. He reads diagonal passes and forward runs proactively. The gaps in his reading appear in the possession phase, not the defensive one." },
+          { "label": "Pre-Receive Scanning", "value": "Inconsistent in possession. His defensive scanning is ahead of his possession scanning — he processes what is coming at him better than he processes what is available to him." },
+          { "label": "Decision Timing", "value": "Front-foot to a fault. His decisions about when to commit versus when to hold — particularly in 1v1 situations at pace — occasionally tip into overcommitting. The discipline to delay is a learnable cognitive habit." },
+          { "label": "Leadership", "value": "Described by his coach as a natural leader on and off the pitch. At 18, holding down a starting spot and earning an international call-up while apparently not thinking the occasion is bigger than him — a meaningful signal." }
+        ],
+        "psychological": [
+          { "label": "Competitive Nature", "value": "Elite. He treats every duel as a test he expects to win, and the data says he usually does. That psychological relationship with competition is not something you coach in. You manage it." },
+          { "label": "Fearlessness", "value": "Playing with this aggression at 18 against senior professionals in a first division — forwards who are older, heavier, and more experienced — and winning duels at the 97th percentile. The fearlessness is clearly functional, not performative." },
+          { "label": "Character Reference", "value": "His coach's assessment — top kid on and off the pitch — matters. Three bookings in 28 starts while fouling at the 83rd percentile: the aggression has a ceiling he imposes on himself." },
+          { "label": "International Exposure", "value": "Serbia U19 call-up during the Euro U19 2026 qualification campaign. Being trusted at international level while holding a first-team spot at this age places him in a very small group of Serbian defenders." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Left foot availability under pressure", "text": "This is the most urgent development priority. He needs to use the left foot in low-stakes situations until the avoidance reflex disappears. It is not a question of technique — it is a question of habit. Against a high-press system at a higher level, the right-only restriction will be hunted systematically." },
+        { "num": "02", "title": "Pre-receive scanning in possession", "text": "The gap between his defensive scanning (good) and his possession scanning (inconsistent) is the central cognitive development target. He needs to scan before the ball arrives and have his next action formed before he receives it." },
+        { "num": "03", "title": "Contact discipline — reading when to hold", "text": "The overcommitting in duels is not frequent enough to be classified as a structural problem, but it is visible often enough that higher-level opponents will engineer it deliberately. The specific skill is the delay: staying on his feet long enough that the forward makes the first move." },
+        { "num": "04", "title": "Accumulate exposure to faster, stronger attackers", "text": "The SuperLiga is physically demanding, but the forwards he faces are not yet the size and speed of what a Jupiler Pro League or Eredivisie forward line presents. A step-up environment that gives him competitive minutes against better forwards before a top-five league move is the responsible pathway." }
+      ],
+      "travelScore": {
+        "score": "7",
+        "prose": [
+          "The 7 reflects a specific and honest assessment: his build-up skills are at a level that is currently adequate for the Serbian SuperLiga and would be tested directly in any of the target leagues. The long pass accuracy is real but contextual — he has time to pick his pass in Serbia. In a higher-intensity pressing environment, the left-foot avoidance becomes a structural liability.",
+          "What is not in question is the portability of his defensive core. Aerial dominance, duel-winning, and the mentality to back it up — these are not league-specific traits. A 97th-percentile duel success rate is 97th percentile because the defenders in the comparison pool are trying to win those duels too, and he is winning them anyway.",
+          "The right landing environment is a club that uses a back four, has a ball-dominant system that gives him time in possession to develop the scanning habit, and plays a forward defensive line where his step-out instinct is an asset. At €1.5M with a 2027 contract, the acquisition cost is substantially below what this profile will cost in twelve months."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",     "score": 6.0, "width": "60%", "high": false, "note": "Brentford have shown genuine interest — their system is the PL environment most aligned with his current profile. Not a first-season starter at any top-half PL club. A squad role with significant development potential." },
+        { "league": "Bundesliga",         "score": 7.5, "width": "75%", "high": true,  "note": "RB Salzburg interest is the most obvious pathway. German-style football rewards aggressive, ball-hunting defenders in high press systems — exactly his natural environment. Strong fit at the right club." },
+        { "league": "Ligue 1",            "score": 6.5, "width": "65%", "high": false, "note": "Ligue 1 has the physical intensity his profile needs, but the league's better attacking players will test his spatial awareness gaps more directly. A mid-table club in a direct system is workable." },
+        { "league": "Serie A",            "score": 7.0, "width": "70%", "high": true,  "note": "Udinese's interest is well-matched. Serie A rewards defensive solidity and aerial dominance. Italian coaches typically excel at drilling the specific habits he needs to develop." },
+        { "league": "La Liga",            "score": 5.0, "width": "50%", "high": false, "note": "La Liga's best teams ask centre-backs to be primary ball-distributors in possession-based systems. His current possession profile is the weakest fit for this environment." },
+        { "league": "Eredivisie",         "score": 8.0, "width": "80%", "high": true,  "note": "The optimal developmental step. Dutch football rewards athletic, aggressive defending and physical aerial dominance, while the possession demands on centre-backs are more forgiving than in Spain or Germany's elite." },
+        { "league": "Jupiler Pro League", "score": 8.2, "width": "82%", "high": true,  "note": "The highest-rated target league for the current profile. Belgian football is direct, physical, and rewards exactly the attributes that are already fully formed. Club Brugge and Anderlecht operate systems that would stretch his possession game without breaking it." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",     "note": "2,555 senior minutes at 18 in a first division, no injury history, improving trajectory across the season. The raw edges are specific and addressable. The foundation is already better than most defenders twice his age in this league." },
+        { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "The mentality is the best thing in this profile. Fearless, disciplined off the pitch, trusted by his coach, and already handling international football at 18 without any apparent dip in club output." },
+        { "score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€1.5M for this profile, with Brentford, Salzburg, and Udinese already interested. This is below replacement cost for a position of need at any of those clubs. The price is going one direction." },
+        { "score": 3, "label": "Systemic",      "meaning": "Medium risk",  "note": "The defensive core travels broadly. The possession side of the profile is system-dependent in a way that limits the range of viable environments. A possession-dominant, high-press back-line system at a top club would expose the current gaps before they are resolved." }
+      ],
+      "trajectoryNote": "Projects as a regular starter at a top-five European club — a physically dominant, aerially elite centre-back who wins his duels at a consistent rate and brings genuine set-piece threat at both ends.",
+      "nowAge": 18,
+      "verdict": {
+        "statement": "Hadžimujović is a no-nonsense centre-back in the best sense of the term. He wins his duels, wins his headers, stays clean, and does not overcomplicate it. At 18, in a first division, those tools are already formed and they travel. The build-up game is the honest limitation — right-foot dependent, inconsistent scanning, not yet tested under a high press. That is a year's work in the right environment, not a disqualifier.",
+        "travels": [
+          "Aerial heading quality — attacks the ball, directs it, 85th percentile aerial duels won per 90",
+          "Defensive duel success — 97th percentile; the timing and body positioning do not change with the league",
+          "Mentality — fearless, disciplined off the pitch, already handling international pressure without output dip",
+          "Long passing range — 65th percentile accuracy on long balls; a genuine weapon when he has time to pick the pass",
+          "Set-piece threat — aerial quality at both ends; a weapon at any club that delivers the ball well",
+          "Physical foundation — 1.90m, clean injury record, still filling out; the frame will only improve this profile"
+        ],
+        "targeted": [
+          "Left foot in possession — active avoidance; will be pressed systematically at the next level",
+          "Pre-receive scanning — possession phase reading lags defensive phase reading; needs deliberate coaching",
+          "Overcommitting in 1v1 — occasional, but good forwards will engineer the step if the habit is not refined",
+          "Build-up under high press — the specific cost of moving before the left-foot and scanning habits are resolved"
+        ],
+        "potentialRating": "8/10",
+        "potentialBalls": 8,
+        "potentialProjection": "An 8 projects as a regular starter at a top-five European club — a physically dominant, aerially elite centre-back who wins his duels at a consistent rate and brings genuine set-piece threat at both ends. The honest deduction from a 9 is the build-up profile: until the left foot is reliable and the possession scanning is consistent, the range of systems that can deploy him optimally is narrower than his defensive quality deserves."
+      }
     }
   ]
 }
