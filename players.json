@@ -1586,6 +1586,167 @@
       }
     },
     {
+      "slug": "rokas-pukstas",
+      "handcrafted": true,
+      "firstName": "Rokas",
+      "lastName": "Pukštas",
+      "positionTag": "Box-to-Box Midfielder",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/rokas-pukstas.png",
+      "photoAlt": "Rokas Pukštas",
+      "verdictLine": "A 21-year-old who leads the 1. HNL in box presence and aerial duels among all midfielders — not because he controls games, but because he crashes them. The profile is specific, unusual, and considerably more transferable than it first appears.",
+      "bio": {
+        "dob": "Aug 25, 2004",
+        "nationality": "🇺🇸 🇱🇹 USA / LTU",
+        "club": "HNK Hajduk Split",
+        "league": "1. HNL (Croatia)",
+        "contractExpiry": "May 2027",
+        "marketValue": "€5.0M",
+        "preferredFoot": "Right",
+        "height": "1.81m",
+        "agent": "CAA Stellar"
+      },
+      "scores": {
+        "basePotential": "8.5",
+        "travelReadiness": "8.5",
+        "reportDate": "Apr '26"
+      },
+      "role": {
+        "primaryRole": "Box-to-Box Midfielder",
+        "description": [
+          "Covers the full vertical range of the pitch with and without the ball. The attacking orientation is dominant: he positions high, attacks second balls, and arrives into the box with the timing and aggression of a striker rather than a midfielder.",
+          "Best deployed as the more advanced of two central midfielders, in a 4-2-3-1 or 4-3-3, where he can operate between the lines and arrive late into the box without leaving a structural gap."
+        ],
+        "formationName": "4-2-3-1 Shape",
+        "formationLabelBottom": "Pukštas — highlighted position",
+        "formationPositions": [
+          { "cx": 200, "cy": 548, "label": "GK" },
+          { "cx": 50,  "cy": 460, "label": "LB" },
+          { "cx": 150, "cy": 465, "label": "LCB" },
+          { "cx": 250, "cy": 465, "label": "RCB" },
+          { "cx": 350, "cy": 460, "label": "RB" },
+          { "cx": 140, "cy": 370, "label": "DM" },
+          { "cx": 80,  "cy": 255, "label": "LW" },
+          { "cx": 200, "cy": 248, "label": "AM" },
+          { "cx": 320, "cy": 255, "label": "RW" },
+          { "cx": 200, "cy": 145, "label": "ST" }
+        ],
+        "highlightedPosition": { "cx": 260, "cy": 365, "label": "CM" },
+        "heatmapZones": [],
+        "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          { "title": "Box arrival timing", "text": "His most distinctive offensive habit: he reads crosses and set pieces early and attacks the ball in the air while defenders are still reacting. The majority of his goals this season have been headers, which is unusual for a midfielder and reflects genuine spatial anticipation, not athleticism alone." },
+          { "title": "Ball carrying over distance", "text": "He covers ground with the ball, particularly in transition. His progressive run percentile (98th among HNL midfielders) reflects a habit of driving rather than releasing. He keeps the ball close and changes direction under pressure rather than passing out of it — a Barcelona academy residue that makes him hard to press in isolation." },
+          { "title": "Two-footed execution", "text": "He is right-footed but regularly uses his left for passes and finishes in traffic. The frequency is notable — this is not a desperation foot, it is a functional second option that he deploys selectively." },
+          { "title": "Short passing accuracy with tempo lapses", "text": "His short passing accuracy is around the 16th percentile in the midfield group, but the mechanism matters. When he plays short, he is accurate. The problem is that he sometimes forces tempo and tries to get rid of the ball quickly — the passes that go wrong are the hurried ones rather than the deliberate ones." },
+          { "title": "First touch inconsistency", "text": "When the ball is played sharply into a tight area, his first touch occasionally bounces too far or leaves him side-on. This is not constant — his close control in dribbling situations is genuinely good — but the receive-under-pressure touch is the part of his technical profile that still needs cleaning up." }
+        ],
+        "offBall": [
+          { "title": "Roaming movement pattern", "text": "He does not stay in one channel. He scans quickly and regularly appears in wide areas, then returns centrally, which confuses man-marking systems and creates positional overloads in the final third. The habit is an asset when the team has the ball; it creates exposure in transition when he is out wide and the team loses possession." },
+          { "title": "Set-piece positioning", "text": "He positions himself specifically for deliveries — near post, back post, the penalty spot — and times his run to arrive late. This is a deliberate movement pattern, not coincidental, and it is what makes his aerial win rate at 100th percentile among HNL midfielders credible despite his frame not being unusually large." },
+          { "title": "Pressing effort without structure", "text": "He presses with energy when the team presses but does not lead the press. His defensive actions against the forward group sit in the 75th percentile, which is real output, but his positioning in recovery is inconsistent. He drops back often but rarely deep." },
+          { "title": "Transition jogging", "text": "A noted tendency to jog rather than sprint in transition, particularly back toward his own half. At Hajduk, who control possession and lead games frequently, this is partially contextual. At a higher level, this will be tested directly and should be monitored." },
+          { "title": "Tackling quality", "text": "When he commits to a tackle, his timing is generally good. His sliding and standing tackle success is solid, and his anticipatory positioning in ground duels — using his frame to shield and redirect — compensates for a strength level that is below average for his size." }
+        ]
+      },
+      "dna": {
+        "pure": [
+          { "name": "Box Arrival Intelligence", "desc": "His ability to read the moment a cross or delivery is played and arrive at the right spot is not pace-dependent. It is a habit of attention — he reads the first phase and positions for the second before most defenders have processed the first. This survives any system or league environment." },
+          { "name": "Two-Footed Execution", "desc": "Functional use of the left foot in real game situations — not just a fallback. This is set by this age and reflects his Barcelona academy background. Translates directly across environments: defenders cannot shade one side and feel protected." },
+          { "name": "Aerial Heading Ability", "desc": "He generates power and accuracy from a standing or running jump that outperforms his physical frame. The technical habit — attacking the ball first rather than jumping and hoping — is what produces this. Reliable and transferable." },
+          { "name": "Athletic Genetics", "desc": "Son of a Lithuanian marathon runner and triple jumper. His natural physical attributes — vertical jump, body composition, recovery capacity — reflect that background. The frame is mesomorphic without being bulky, which should serve him well as he fills out physically." }
+        ],
+        "context": [
+          { "name": "Dribbling Effectiveness", "desc": "89th percentile dribble success against HNL midfielders, 93rd against forwards. Strong in isolation, against a single opponent in space. In tighter, more intense defensive environments this number will come under pressure." },
+          { "name": "Shot Creation for Others", "desc": "His xA (76th vs midfielders, 64th vs forwards) suggests he generates half-chances for teammates when he carries into dangerous areas. But this is incidental to his primary mechanism. A system that asks him to be a primary chance creator will find his output drops." }
+        ],
+        "system": [
+          { "name": "High Box Presence", "desc": "At Hajduk, who dominate possession and generate cross volume, he arrives in the box frequently. The number — 100th percentile touches in box among HNL midfielders — reflects a system that creates the conditions for him to exploit. The quality remains even as volume compresses." },
+          { "name": "Progressive Running Volume", "desc": "98th percentile progressive runs. In a Hajduk side that transitions quickly and has space to exploit, he drives forward constantly. In a lower block or a team that builds slowly, this trait is compressed. The capacity is there; the environment either activates it or suppresses it." }
+        ],
+        "exposed": [
+          { "name": "Pass Selection Under Pressure", "desc": "His passing percentile vs midfielders (9th passes per 90, 30th accuracy) is low. The problem is not volume but the rushed passes when he is pressed: he forces it rather than retaining. This is a habit question, not a technical question, which makes it addressable but not automatic." },
+          { "name": "Defensive Transition Intensity", "desc": "The jogging tendency in recovery is partly contextual, partly habitual. At the next level, where pressing intensity is maintained for longer periods, the habit will be exposed in specific match situations." },
+          { "name": "Injury Resilience (Monitor)", "desc": "A cruciate ligament strain in 2023 (70 days, 11 games missed) and an ankle injury in late 2025 (54 days, 4 games missed). Two significant soft-tissue injuries before the age of 22 warrant monitoring." }
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          { "label": "Frame", "value": "1.81m, mesomorphic build. Slight frame relative to height — not bulky, but not slight. Core strength is sufficient for ground duels currently; physical growth over the next two to three years should close the gap at a higher level." },
+          { "label": "Pace & Acceleration", "value": "Decent, not elite. Covers ground well over distance, turns quickly in tight spaces. His 72nd percentile accelerations are functional rather than explosive." },
+          { "label": "Aerial Ability", "value": "100th percentile aerial duels per 90 against both midfielders and forwards. Exceptional vertical leap, strong heading technique. The output is not size-dependent — it is timing and aggression." },
+          { "label": "Strength", "value": "Below average for his frame, above average in application. Core positioning in duels compensates for raw strength. Not yet a dominant physical presence in contact." },
+          { "label": "Injury Context", "value": "Two significant injuries before age 22. Cruciate strain (2023), ankle (2025–26). Both recovered within expected timelines. Screening recommended at this valuation." }
+        ],
+        "cognitive": [
+          { "label": "Spatial Awareness", "value": "High, particularly in the final third. His box arrival patterns reflect genuine anticipatory reading of the game's next phase. He processes where the ball will land before it leaves the delivery." },
+          { "label": "Scanning", "value": "Quick scanner in both phases. He checks his surroundings before receiving, which partly explains his ability to find pocket space. The scanning habit is clearly established — a Barcelona academy marker." },
+          { "label": "Decision Speed Under Pressure", "value": "Inconsistent. His best decisions are instinctive — the carry, the box run, the header. When pressed into a passing decision quickly, the tempo occasionally gets ahead of his processing and forces a rushed ball." },
+          { "label": "Positional Flexibility", "value": "High tactical adaptability. Can operate as an AM, central 8, or wider midfielder. His versatility is genuine because his scanning and movement patterns do not depend on a fixed starting position." }
+        ],
+        "psychological": [
+          { "label": "Competitive Background", "value": "Born into elite athletic family. Both parents competed at international level in endurance and power disciplines. The psychological baseline for competition and physical dedication appears embedded rather than coached." },
+          { "label": "Barcelona Academy Exit", "value": "Left Barça, joined Hajduk at 17. Moving from one of the world's most demanding development environments to a first-tier Balkan club required genuine adaptability. The transition has produced consistent senior minutes and tangible output." },
+          { "label": "Composure in the Box", "value": "Strong. His npxG per shot at the 96th percentile among HNL midfielders, 89th among forwards, suggests he is generating and converting high-quality opportunities rather than wasting them." },
+          { "label": "Communication Style", "value": "Quiet on the pitch. Not a vocal organizer. He leads through movement and effort rather than instruction. This is not a concern at 21 — it is a personality type, not a maturity gap." }
+        ]
+      },
+      "devPriorities": [
+        { "num": "01", "title": "Pass selection in high-pressure moments", "text": "The technical range is there — he executes short passes accurately and can use both feet. What he does not yet do consistently is slow down to make the right decision when the press arrives. He forces tempo on the receive and the result is occasional turnovers from rushed balls. This is a processing habit, not a technical limitation." },
+        { "num": "02", "title": "Defensive transition intensity", "text": "The jogging pattern in recovery is observable and documented. At a higher level, the physical cost of consistent sprint-back defending will test this habit directly. He does not currently treat defensive transition as urgently as he treats attacking transition. That needs to change at the next level." },
+        { "num": "03", "title": "First touch quality on sharp, low deliveries", "text": "His aerial receive is excellent. His ground receive in tight situations still produces errors — the ball occasionally bounces away from his body or leaves him side-on when he needs to be facing forward. The inconsistency in this specific context is visible enough to name." },
+        { "num": "04", "title": "Physical assertiveness in contact", "text": "His strength application is not yet matching his physical foundation. He wins aerial duels well because his jumping technique is excellent. In ground contact situations, he is functional rather than dominant. This should develop naturally as he fills out physically over the next two to three seasons." }
+      ],
+      "travelScore": {
+        "score": "8.5",
+        "prose": [
+          "The mechanism of Pukštas's value is unusually portable. His primary mechanism — arriving into dangerous zones, attacking aerial deliveries, and finishing from close range — is not system-dependent in the same way most midfielders' output is. Boxes exist everywhere. Set pieces happen everywhere.",
+          "What the 1. HNL inflates is his volume. Hajduk dominate possession and generate cross volume that creates the conditions for his second-phase arrivals to happen frequently. At a higher level that volume will reduce, but the quality-per-opportunity holds: his npxG per shot at 89th percentile against the forward pool is a finishing habit, not a system artifact.",
+          "He is ready for most target leagues now, particularly those with verticality and cross-volume in their game model. The risks worth naming are physical intensity and pressing demands — the recovery jogging habit will be tested in leagues where box-to-box midfielders are expected to cover ground at sprint pace in defensive transitions."
+        ]
+      },
+      "leagueScores": [
+        { "league": "Premier League",     "score": 7.5, "width": "75%", "high": true,  "note": "The box-arrival mechanism translates directly. Best fit: a direct, vertical club rather than a possession-dominant one that asks the eight to build play. Not an automatic starter, but a credible squad option with room to grow." },
+        { "league": "Bundesliga",         "score": 9.0, "width": "90%", "high": true,  "note": "The strongest single fit. High-intensity pressing environments demand athleticism and vertical drive — both present in this profile. Cross volume and set-piece delivery would give him frequent arrivals. Primary target league." },
+        { "league": "Ligue 1",            "score": 8.0, "width": "80%", "high": true,  "note": "Good fit, slightly less obvious than Bundesliga. Ligue 1 rewards athletic, box-to-box profiles with goal threat, and his defensive output — functional rather than elite — is acceptable in a league where eights are not always required to be defensive anchors." },
+        { "league": "Serie A",            "score": 6.5, "width": "65%", "high": false, "note": "More demanding positionally. Serie A midfielders are asked to do more structured defensive work and operate in tighter spaces. An attacking-midfield or trequartista position in a direct Italian side is a better fit than a central-eight role." },
+        { "league": "La Liga",            "score": 6.8, "width": "68%", "high": false, "note": "La Liga's best clubs ask midfielders to circulate possession and manage tempo — neither is his strength. The lower-half of La Liga, with more direct, counter-attacking teams, is a better fit. System match at elite La Liga level is the weakest of the target leagues." },
+        { "league": "Eredivisie",         "score": 8.8, "width": "88%", "high": true,  "note": "Near-ideal system fit as a developmental step. High cross volume, attacking-oriented football, physical but not extreme pressing demands. Would give him box arrivals, set-piece opportunities, and competitive minutes." },
+        { "league": "Jupiler Pro League", "score": 8.2, "width": "82%", "high": true,  "note": "Comfortable transition. Belgian football is physically direct, rewards athletes, and has the set-piece and cross volume to activate his strongest traits. A Club Brugge or Anderlecht system profile would be very well matched." }
+      ],
+      "riskGauges": [
+        { "score": 2, "label": "Development",   "meaning": "Low risk",     "note": "2,278 senior minutes at 21, consistent output across the full season, already in the top-10 U21 shooting midfielders globally per CIES data. The injury history (two events before age 22) introduces a small flag. The trajectory is clearly upward." },
+        { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Elite athletic family background, Barcelona academy formation, successful transition to a different culture at 17. He has already managed the psychological complexity of two significant career transitions and come out with increasing output." },
+        { "score": 2, "label": "Market",        "meaning": "Low risk",     "note": "€5M at a club with a 2027 contract. CAA Stellar is a professional and established agency. The CIES ranking, Hajduk's profile, and the US eligibility all create market pressure. The value is fair for this output level." },
+        { "score": 2, "label": "Systemic",      "meaning": "Low risk",     "note": "The core mechanism — box arrivals, aerial threat, progressive carrying — is not system-dependent in the way a pure playmaker's output is. The system risk is real only in possession-dominant, tempo-control environments that ask the eight to be a primary ball-progressor." }
+      ],
+      "trajectoryNote": "Projects as a consistent contributor at a top-five European club — a player who regularly delivers eight to twelve league goals from midfield, provides aerial threat at set pieces, and drives transitions at pace.",
+      "nowAge": 21,
+      "verdict": {
+        "statement": "Pukštas is not a midfielder who scores. He is a scorer who plays in midfield — a distinction that matters both for how you evaluate him and how you deploy him. His box-arrival intelligence, aerial finishing quality, and two-footed execution are formed habits, not projections. The passing volume is low, the defensive positioning is functional rather than excellent, and he occasionally forces tempo rather than managing it. A club that buys him understanding the profile — a direct, goal-contributing eight in a vertical system — gets a player whose primary mechanism has already proved itself against a decent level of competition.",
+        "travels": [
+          "Box arrival timing and second-phase positioning — a habit of attention, not a system outcome",
+          "Shot quality selection — 89th percentile npxG per shot against the forward pool; the efficiency is genuine",
+          "Aerial heading — 100th percentile against both comparison groups, driven by timing and technique, not frame size",
+          "Two-footed execution — a genuine second option from Barcelona academy formation, not a fallback",
+          "Dribble success and close control under pressure — 93rd percentile against forwards in isolation situations",
+          "Psychological resilience — elite athletic background, two significant injury recoveries, consistent output trajectory"
+        ],
+        "targeted": [
+          "Rushed passing under pressure — forcing tempo when pressed is the first habit top opponents will exploit",
+          "Defensive transition intensity — the recovery jogging pattern will be tested in every environment above this one",
+          "First touch on sharp ground deliveries — inconsistent enough at this level to become a genuine problem at the next",
+          "Physical assertiveness in contact — raw force in collisions does not yet match frame and genetic baseline",
+          "Injury monitoring — two soft-tissue events before age 22; full medical screening required at €5M"
+        ],
+        "potentialRating": "8.5/10",
+        "potentialBalls": 8,
+        "potentialProjection": "An 8 projects as a consistent contributor at a top-five European club — a player who regularly delivers eight to twelve league goals from midfield, provides aerial threat at set pieces that opponents do not expect from a midfielder, and drives transitions at pace. The ceiling depends less on further development than on system fit."
+      }
+    },
+    {
       "slug": "andrei-borza",
       "handcrafted": true,
       "firstName": "Andrei",

@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rokas Pukštas — B.A.S.E. Scouting Report</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --cream:#f5f0e8; --cream2:#ede7d9; --cream3:#e4dccb;
+      --parchment:#d4c9b0; --brown:#3d2b1f; --brown2:#5c3d2e;
+      --brown3:#7a5445; --gold:#c49a2e; --gold2:#e8b84b;
+      --rust:#a0432f; --ink:#2a1f17; --muted:#8a7060;
+      --green:#4a7a30; --border:rgba(61,43,31,0.12); --border2:rgba(61,43,31,0.07);
+    }
+    html { scroll-behavior: smooth; }
+    body { background:var(--cream); color:var(--brown); font-family:'Lora',Georgia,serif; font-size:16px; line-height:1.75; overflow-x:hidden; }
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:0 48px; height:68px; background:rgba(245,240,232,0.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; letter-spacing:0.04em; color:var(--ink); text-decoration:none; }
+    .nav-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a { font-family:'DM Sans',sans-serif; font-size:12.5px; color:var(--muted); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--brown); }
+    .nav-back { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); text-decoration:none; border-bottom:1px solid var(--parchment); padding-bottom:1px; transition:color 0.2s; }
+    .nav-back:hover { color:var(--brown); }
+    .report-hero { padding: 110px 48px 0; background: var(--cream); border-bottom: 1px solid var(--border); }
+    .report-breadcrumb { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:32px; display:flex; align-items:center; gap:10px; }
+    .report-breadcrumb::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+    .report-hero-grid { display:grid; grid-template-columns:1fr 420px 300px; gap:0; align-items:end; padding-bottom:0; min-height:520px; }
+    .hero-text-col { padding-bottom:56px; align-self:end; }
+    .hero-photo-col { align-self:end; display:flex; align-items:flex-end; justify-content:center; overflow:hidden; height:520px; }
+    .player-photo-large { height:100%; width:auto; max-width:100%; object-fit:contain; object-position:bottom center; filter:sepia(8%) contrast(1.04); display:block; }
+    .report-pos-tag { display:inline-block; font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); border:1px solid rgba(196,154,46,0.35); padding:5px 14px; margin-bottom:20px; }
+    .report-hero h1 { font-family:'Playfair Display',serif; font-size:clamp(48px,7vw,96px); font-weight:700; line-height:0.92; letter-spacing:-0.02em; color:var(--ink); margin-bottom:20px; }
+    .report-hero h1 em { font-style:italic; font-weight:400; color:var(--brown3); display:block; }
+    .report-verdict-line { font-family:'Lora',serif; font-size:18px; font-style:italic; color:var(--brown3); line-height:1.6; max-width:540px; border-left:2px solid var(--parchment); padding-left:20px; margin-top:24px; }
+    .bio-panel { background:var(--cream2); border:1px solid var(--border); padding:28px; align-self:stretch; display:flex; flex-direction:column; justify-content:center; }
+    .bio-panel-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .bio-row { display:grid; grid-template-columns:1fr 1fr; gap:0; border-bottom:1px solid var(--border2); }
+    .bio-row:last-child { border-bottom:none; }
+    .bio-cell { padding:10px 0; }
+    .bio-cell:first-child { border-right:1px solid var(--border2); padding-right:12px; margin-right:12px; }
+    .bio-label { font-family:'DM Sans',sans-serif; font-size:9.5px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:2px; }
+    .bio-value { font-family:'Playfair Display',serif; font-size:14px; font-weight:700; color:var(--ink); }
+    .bio-value.small { font-size:12.5px; font-weight:400; font-family:'Lora',serif; font-style:italic; }
+    .score-band { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--border); border-top:1px solid var(--border); }
+    .score-cell { background:var(--cream); padding:20px 24px; text-align:center; }
+    .score-cell.highlight { background:var(--brown); }
+    .score-num { font-family:'Playfair Display',serif; font-size:38px; font-weight:700; line-height:1; }
+    .score-cell.highlight .score-num { color:var(--cream); }
+    .score-cell:not(.highlight) .score-num { color:var(--brown); }
+    .score-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; margin-top:4px; }
+    .score-cell.highlight .score-label { color:rgba(245,240,232,0.6); }
+    .score-cell:not(.highlight) .score-label { color:var(--muted); }
+    .score-sublabel { font-family:'Lora',serif; font-size:11.5px; font-style:italic; margin-top:2px; }
+    .score-cell.highlight .score-sublabel { color:rgba(245,240,232,0.5); }
+    .score-cell:not(.highlight) .score-sublabel { color:var(--brown3); }
+    .report-body { max-width:1200px; margin:0 auto; padding:0 48px; }
+    .report-section { padding:72px 0; border-bottom:1px solid var(--border); }
+    .report-section:last-child { border-bottom:none; }
+    .section-kicker { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; display:block; }
+    .section-title { font-family:'Playfair Display',serif; font-size:clamp(26px,3vw,38px); font-weight:700; color:var(--ink); line-height:1; margin-bottom:36px; }
+    .section-title em { font-style:italic; font-weight:400; color:var(--brown3); }
+    .two-col { display:grid; grid-template-columns:1fr 1fr; gap:64px; }
+    .three-col { display:grid; grid-template-columns:1fr 1fr 1fr; gap:40px; }
+    .role-display { background:#ddd5c0; padding:28px; display:flex; flex-direction:column; gap:14px; overflow:hidden; min-width:0; align-self:stretch; }
+    .pitch-visual { background:#ddd5c0; padding:14px 12px 0; display:flex; flex-direction:column; gap:6px; overflow:hidden; min-width:0; }
+    .role-badge { display:inline-block; font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; background:var(--brown); color:var(--cream); padding:6px 16px; align-self:flex-start; flex-shrink:0; }
+    .role-name { font-family:'Playfair Display',serif; font-size:26px; font-weight:700; color:var(--ink); }
+    .role-desc { font-family:'Lora',serif; font-size:13.5px; font-style:italic; color:var(--brown3); line-height:1.7; }
+    .pitch-label { text-align:center; padding:8px 0 10px; font-family:'Lora',serif; font-size:11px; font-style:italic; color:var(--brown3); background:#ddd5c0; }
+    .formation-label-top { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); text-align:center; }
+    .three-col-visual { display:grid; grid-template-columns:1fr 1fr 1fr; gap:2px; background:#ddd5c0; align-items:start; }
+    .three-col-visual > * { min-width:0; width:100%; }
+    .behavior-col h3 { font-family:'Playfair Display',serif; font-size:20px; font-weight:700; color:var(--ink); margin-bottom:20px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .behavior-list { list-style:none; display:flex; flex-direction:column; gap:0; }
+    .behavior-item { padding:14px 0; border-bottom:1px solid var(--border2); display:grid; grid-template-columns:20px 1fr; gap:12px; align-items:start; }
+    .behavior-item:last-child { border-bottom:none; }
+    .b-dot { width:6px; height:6px; border-radius:50%; background:var(--gold); margin-top:8px; }
+    .behavior-item p { font-size:14.5px; color:var(--brown2); line-height:1.65; }
+    .behavior-item strong { color:var(--ink); font-weight:500; }
+    .dna-group { margin-bottom:40px; }
+    .dna-group:last-child { margin-bottom:0; }
+    .dna-header { display:flex; align-items:center; gap:12px; margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .dna-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
+    .dna-header h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); }
+    .dna-header span { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); }
+    .dna-traits { display:flex; flex-direction:column; gap:0; }
+    .dna-trait { padding:16px 0; border-bottom:1px solid var(--border2); }
+    .dna-trait:last-child { border-bottom:none; }
+    .dna-trait-name { font-family:'Playfair Display',serif; font-size:15px; font-weight:700; color:var(--ink); }
+    .dna-trait-desc { font-family:'Lora',serif; font-size:13.5px; font-style:italic; color:var(--brown3); line-height:1.6; margin-top:4px; }
+    .profile-box { background:var(--cream2); border:1px solid var(--border); padding:28px; }
+    .profile-box h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .profile-row { display:flex; flex-direction:column; gap:0; }
+    .profile-item { padding:11px 0; border-bottom:1px solid var(--border2); }
+    .profile-item:last-child { border-bottom:none; }
+    .profile-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); margin-bottom:3px; }
+    .profile-value { font-family:'Lora',serif; font-size:14px; color:var(--brown2); line-height:1.5; }
+    .profile-value strong { color:var(--ink); font-weight:500; }
+    .dev-list { display:flex; flex-direction:column; gap:0; }
+    .dev-item { display:grid; grid-template-columns:32px 1fr; gap:16px; padding:20px 0; border-bottom:1px solid var(--border2); align-items:start; }
+    .dev-item:first-child { border-top:1px solid var(--border2); }
+    .dev-num { font-family:'Playfair Display',serif; font-size:13px; font-weight:700; color:var(--gold); padding-top:2px; }
+    .dev-item p { font-size:15px; color:var(--brown2); line-height:1.65; }
+    .dev-item p strong { color:var(--ink); font-weight:500; }
+    .travel-display { display:grid; grid-template-columns:200px 1fr; gap:48px; align-items:start; }
+    .travel-score-big { background:var(--brown); padding:40px 32px; text-align:center; display:flex; flex-direction:column; gap:8px; }
+    .travel-score-num { font-family:'Playfair Display',serif; font-size:72px; font-weight:700; color:var(--cream); line-height:1; }
+    .travel-score-denom { font-family:'DM Sans',sans-serif; font-size:13px; color:rgba(245,240,232,0.5); letter-spacing:0.1em; }
+    .travel-score-label { font-family:'Lora',serif; font-size:13px; font-style:italic; color:rgba(245,240,232,0.6); }
+    .travel-prose p { font-size:15.5px; color:var(--brown2); line-height:1.85; margin-bottom:16px; }
+    .travel-prose p:last-child { margin-bottom:0; }
+    .travel-prose p strong { color:var(--ink); font-weight:500; }
+    .league-bars-wrap { display:flex; flex-direction:column; gap:0; }
+    .league-bar-row { display:grid; grid-template-columns:130px 1fr 280px; gap:20px; padding:18px 0; border-bottom:1px solid var(--border2); align-items:center; }
+    .league-bar-row:first-child { border-top:1px solid var(--border2); }
+    .lb-name { font-family:'Playfair Display',serif; font-size:15px; font-weight:700; color:var(--ink); }
+    .lb-track { height:28px; background:var(--cream2); border:1px solid var(--border); position:relative; overflow:hidden; }
+    .lb-fill { height:100%; background:var(--parchment); display:flex; align-items:center; justify-content:flex-end; padding-right:10px; transition:width 0.6s ease; }
+    .lb-fill.high { background:var(--brown); }
+    .lb-score { font-family:'Playfair Display',serif; font-size:13px; font-weight:700; color:var(--ink); white-space:nowrap; }
+    .lb-fill.high .lb-score { color:var(--cream); }
+    .lb-note { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--brown3); line-height:1.55; }
+    .risk-gauges { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:var(--border); margin-bottom:32px; }
+    .gauge-card { background:var(--cream); padding:24px 20px 20px; display:flex; flex-direction:column; gap:6px; }
+    .gauge-wrap { margin-bottom:4px; }
+    .gauge-label { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--brown2); }
+    .gauge-meaning { font-family:'Playfair Display',serif; font-size:15px; font-weight:700; color:var(--ink); }
+    .gauge-note { font-family:'Lora',serif; font-size:12.5px; font-style:italic; color:var(--muted); line-height:1.55; }
+    .risk-scale { margin-top:36px; padding:24px 28px; background:var(--cream2); border:1px solid var(--border); border-left:3px solid var(--gold); }
+    .risk-scale-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+    .risk-scale-row { display:grid; grid-template-columns:24px 80px 1fr; gap:12px; padding:6px 0; border-bottom:1px solid var(--border2); align-items:start; font-size:13px; }
+    .risk-scale-row:last-child { border-bottom:none; }
+    .risk-scale-num { font-family:'Playfair Display',serif; font-weight:700; color:var(--brown); }
+    .risk-scale-name { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; color:var(--brown2); letter-spacing:0.04em; padding-top:1px; }
+    .risk-scale-desc { font-family:'Lora',serif; font-style:italic; color:var(--muted); }
+
+    /* BOX THREAT VISUALIZATION */
+    .fingerprint-wrap { display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--border); margin-bottom:56px; }
+    .fingerprint-panel { background:var(--cream2); padding:36px 32px; }
+    .fingerprint-panel-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+    .fingerprint-panel-heading { font-family:'Playfair Display',serif; font-size:22px; font-weight:700; color:var(--ink); margin-bottom:4px; }
+    .fingerprint-panel-heading em { font-style:italic; font-weight:400; color:var(--brown3); }
+    .fingerprint-panel-sub { font-family:'Lora',serif; font-size:12px; font-style:italic; color:var(--muted); margin-bottom:24px; }
+    .fp-row { display:flex; align-items:center; gap:12px; margin-bottom:9px; }
+    .fp-label { font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); min-width:140px; text-align:right; flex-shrink:0; }
+    .fp-track { flex:1; height:22px; background:var(--cream3); position:relative; overflow:hidden; }
+    .fp-fill { height:100%; position:relative; display:flex; align-items:center; justify-content:flex-end; padding-right:7px; }
+    .fp-val { font-family:'Playfair Display',serif; font-size:11px; font-weight:700; color:var(--cream); white-space:nowrap; }
+    .fp-val.dark { color:var(--brown); }
+    .fp-threshold { position:absolute; top:0; bottom:0; width:1px; background:rgba(61,43,31,0.2); pointer-events:none; }
+    .fp-annotation { font-family:'Lora',serif; font-size:10.5px; font-style:italic; color:var(--brown3); margin-top:3px; padding-left:152px; margin-bottom:6px; line-height:1.4; }
+    .fp-divider { height:1px; background:var(--border); margin:18px 0; }
+    .fp-insight { background:var(--cream); border:1px solid var(--border); border-left:3px solid var(--gold); padding:16px 20px; margin-top:24px; }
+    .fp-insight-label { font-family:'DM Sans',sans-serif; font-size:9px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
+    .fp-insight p { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--brown2); line-height:1.65; }
+
+    .written-assessment { display:grid; grid-template-columns:160px 1fr; gap:0; border:1px solid var(--border); }
+    .wa-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); padding:28px 20px; background:var(--cream2); border-right:1px solid var(--border); display:flex; align-items:flex-start; }
+    .wa-body { padding:28px 32px; }
+    .wa-body p { font-family:'Lora',serif; font-size:14.5px; color:var(--brown2); line-height:1.85; margin-bottom:16px; }
+    .wa-body p:last-child { margin-bottom:0; }
+    .wa-body strong { color:var(--ink); font-weight:500; }
+    .scatter-section { margin-top:56px; border:1px solid var(--border); }
+    .scatter-wrap { background:var(--cream2); padding:32px 28px 24px; position:relative; }
+    .scatter-kicker { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+    .scatter-title { font-family:'Playfair Display',serif; font-size:22px; font-weight:700; color:var(--ink); line-height:1.15; margin-bottom:4px; }
+    .scatter-title em { font-style:italic; font-weight:400; color:var(--brown3); }
+    .scatter-sub { font-family:'Lora',serif; font-size:12px; font-style:italic; color:var(--muted); margin-bottom:20px; }
+    .scatter-canvas-wrap { position:relative; width:100%; background:var(--cream); border:1px solid var(--border); }
+    .scatter-legend { display:flex; gap:24px; flex-wrap:wrap; padding:16px 20px; background:var(--cream); border-top:1px solid var(--border); }
+    .scatter-legend-item { display:flex; align-items:center; gap:8px; font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); }
+    .scatter-legend-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+    .scatter-tip { position:absolute; background:var(--ink); color:var(--cream); padding:8px 12px; font-family:'DM Sans',sans-serif; font-size:11px; line-height:1.5; pointer-events:none; white-space:nowrap; opacity:0; transition:opacity 0.15s; z-index:10; }
+    .scatter-tip.show { opacity:1; }
+    .scatter-tip strong { display:block; font-size:12px; margin-bottom:2px; }
+
+    .verdict-statement { background:var(--brown); color:var(--cream); padding:40px 48px; margin-bottom:40px; }
+    .verdict-statement .vs-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:rgba(245,240,232,0.5); margin-bottom:12px; }
+    .verdict-statement p { font-family:'Lora',serif; font-size:17px; font-style:italic; line-height:1.8; color:rgba(245,240,232,0.85); }
+    .verdict-grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-bottom:48px; }
+    .verdict-box { padding:28px; border:1px solid var(--border); }
+    .verdict-box.good { border-left:3px solid var(--green); }
+    .verdict-box.bad  { border-left:3px solid var(--rust); }
+    .verdict-box h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .verdict-box ul { list-style:none; display:flex; flex-direction:column; gap:0; }
+    .verdict-box li { padding:10px 0; border-bottom:1px solid var(--border2); font-size:14.5px; color:var(--brown2); line-height:1.5; display:grid; grid-template-columns:16px 1fr; gap:10px; }
+    .verdict-box li:last-child { border-bottom:none; }
+    .verdict-box.good li::before { content:'✓'; color:var(--green); font-size:12px; padding-top:2px; font-family:'DM Sans',sans-serif; font-weight:500; }
+    .verdict-box.bad  li::before { content:'✗'; color:var(--rust); font-size:12px; padding-top:2px; font-family:'DM Sans',sans-serif; font-weight:500; }
+    .potential-display { text-align:center; padding:48px 0; }
+    .potential-label { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:16px; }
+    .potential-num { font-family:'Playfair Display',serif; font-size:80px; font-weight:700; color:var(--brown); line-height:1; margin-bottom:12px; }
+    .potential-balls { font-size:28px; letter-spacing:4px; display:block; margin-bottom:16px; }
+    .potential-projection { font-family:'Lora',serif; font-size:15px; font-style:italic; color:var(--brown3); max-width:600px; margin:0 auto; line-height:1.7; }
+    footer { background:var(--brown); padding:48px; display:flex; align-items:center; justify-content:space-between; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:16px; font-weight:700; color:var(--cream); letter-spacing:0.04em; }
+    .footer-logo em { font-style:italic; color:rgba(245,240,232,0.5); font-weight:400; }
+    .footer-links { display:flex; gap:28px; list-style:none; }
+    .footer-links a { font-family:'DM Sans',sans-serif; font-size:12px; color:rgba(245,240,232,0.45); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .footer-links a:hover { color:rgba(245,240,232,0.8); }
+    .footer-copy { font-family:'Lora',serif; font-size:12px; font-style:italic; color:rgba(245,240,232,0.3); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">B.A.S.E. <em>Scouting</em></a>
+  <ul class="nav-links">
+    <li><a href="../index.html#reports">Reports</a></li>
+    <li><a href="../index.html#methodology">Methodology</a></li>
+    <li><a href="../index.html#coverage">Coverage</a></li>
+  </ul>
+  <a href="../index.html#reports" class="nav-back">← Back to reports</a>
+</nav>
+
+<div class="report-hero">
+  <div class="report-breadcrumb">Scouting Report · Midfielders · Box-to-Box / Attacking Midfielder · April 2026</div>
+  <div class="report-hero-grid">
+    <div class="hero-text-col">
+      <div class="report-pos-tag">Attacking Midfielder / Box-to-Box</div>
+      <h1>Rokas<br /><em>Pukštas</em></h1>
+      <p class="report-verdict-line">A 21-year-old who leads the 1. HNL in box presence and aerial duels among all midfielders — not because he controls games, but because he crashes them. The profile is specific, unusual, and considerably more transferable than it first appears.</p>
+    </div>
+    <div class="hero-photo-col">
+      <img class="player-photo-large"
+        src="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/rokas-pukstas.png"
+        alt="Rokas Pukštas" />
+    </div>
+    <div class="bio-panel">
+      <div class="bio-panel-title">Player Information</div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Date of Birth</div><div class="bio-value">Aug 25, 2004</div></div>
+        <div class="bio-cell"><div class="bio-label">Nationality</div><div class="bio-value">🇺🇸 🇱🇹 USA / LTU</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Current Club</div><div class="bio-value small">HNK Hajduk Split</div></div>
+        <div class="bio-cell"><div class="bio-label">League</div><div class="bio-value small">1. HNL (Croatia)</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Position</div><div class="bio-value small">AMF / B2B CM</div></div>
+        <div class="bio-cell"><div class="bio-label">Foot</div><div class="bio-value">Right</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Height</div><div class="bio-value">1.81m</div></div>
+        <div class="bio-cell"><div class="bio-label">Market Value</div><div class="bio-value small">€5.0M</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Contract Until</div><div class="bio-value small">May 2027</div></div>
+        <div class="bio-cell"><div class="bio-label">Agent</div><div class="bio-value small">CAA Stellar</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="score-band">
+    <div class="score-cell highlight">
+      <div class="score-num">8.5</div>
+      <div class="score-label">B.A.S.E. Potential</div>
+      <div class="score-sublabel">Out of 10</div>
+    </div>
+    <div class="score-cell">
+      <div class="score-num">8.5</div>
+      <div class="score-label">Travel Ready</div>
+      <div class="score-sublabel">Out of 10</div>
+    </div>
+    <div class="score-cell">
+      <div class="score-num" style="font-size:28px; line-height:1.2;">Apr '26</div>
+      <div class="score-label">Date Scouted</div>
+      <div class="score-sublabel">Most recent</div>
+    </div>
+  </div>
+</div>
+
+<div class="report-body">
+
+  <!-- SECTION 1: ROLE -->
+  <div class="report-section">
+    <span class="section-kicker">Role and positioning</span>
+    <h2 class="section-title">Player <em>Profile</em></h2>
+    <div class="three-col-visual">
+      <div class="role-display">
+        <div class="role-badge">Primary Role</div>
+        <div class="role-name">Box-to-Box Midfielder</div>
+        <div class="role-desc">Covers the full vertical range of the pitch with and without the ball. The attacking orientation is dominant: he positions high, attacks second balls, and arrives into the box with the timing and aggression of a striker rather than a midfielder. His goal threat in the final third is elite within this comparison group. Defensively he contributes but is not the organizing presence — his value on that side is effort and interception rather than structure. Best deployed as the more advanced of two central midfielders, in a 4-2-3-1 or 4-3-3, where he can operate between the lines and arrive late into the box without leaving a structural gap. Long-term, the profile fits a direct, verticality-based system at the next level: a club that builds fast, values box arrivals, and does not require the number eight to dictate tempo.</div>
+      </div>
+      <div class="pitch-visual">
+        <div class="formation-label-top">4–2–3–1 Shape</div>
+        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <rect width="400" height="600" fill="#ddd5c0"/>
+          <rect x="20" y="20" width="360" height="560" fill="none" stroke="rgba(61,43,31,0.22)" stroke-width="1.5"/>
+          <line x1="20" y1="300" x2="380" y2="300" stroke="rgba(61,43,31,0.15)" stroke-width="1"/>
+          <circle cx="200" cy="300" r="44" fill="none" stroke="rgba(61,43,31,0.12)" stroke-width="1"/>
+          <rect x="130" y="20" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.18)" stroke-width="1"/>
+          <rect x="130" y="500" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.18)" stroke-width="1"/>
+          <!-- GK -->
+          <circle cx="200" cy="548" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="200" y="548" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">GK</text>
+          <!-- Back 4 -->
+          <circle cx="50" cy="460" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="50" y="460" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">LB</text>
+          <circle cx="150" cy="465" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="150" y="465" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">LCB</text>
+          <circle cx="250" cy="465" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="250" y="465" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">RCB</text>
+          <circle cx="350" cy="460" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="350" y="460" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">RB</text>
+          <!-- Double pivot -->
+          <circle cx="140" cy="370" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="140" y="370" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">DM</text>
+          <!-- Pukstas — highlighted as the advanced CM -->
+          <circle cx="260" cy="365" r="20" fill="#c49a2e" stroke="#8a6a1a" stroke-width="2"/>
+          <text x="260" y="365" font-family="DM Sans,sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">CM</text>
+          <!-- AM line -->
+          <circle cx="80" cy="255" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="80" y="255" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">LW</text>
+          <circle cx="200" cy="248" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="200" y="248" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">AM</text>
+          <circle cx="320" cy="255" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="320" y="255" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">RW</text>
+          <!-- ST -->
+          <circle cx="200" cy="145" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="200" y="145" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">ST</text>
+        </svg>
+        <div class="pitch-label">Pukštas — highlighted position</div>
+      </div>
+      <div class="pitch-visual">
+        <div class="formation-label-top">Heatmap</div>
+        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <rect width="400" height="600" fill="#ddd5c0"/>
+          <image href="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/heatmaps/rokas-pukstas-heatmap.png" x="20" y="20" width="360" height="560" opacity="0.88" preserveAspectRatio="none"/>
+          <rect x="20" y="20" width="360" height="560" fill="none" stroke="rgba(61,43,31,0.28)" stroke-width="1.5"/>
+          <line x1="20" y1="300" x2="380" y2="300" stroke="rgba(61,43,31,0.22)" stroke-width="1"/>
+          <circle cx="200" cy="300" r="44" fill="none" stroke="rgba(61,43,31,0.18)" stroke-width="1"/>
+          <rect x="130" y="20" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.22)" stroke-width="1"/>
+          <rect x="130" y="500" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.22)" stroke-width="1"/>
+          <circle cx="200" cy="60" r="3" fill="rgba(61,43,31,0.2)"/>
+          <circle cx="200" cy="540" r="3" fill="rgba(61,43,31,0.2)"/>
+        </svg>
+        <div class="pitch-label">Zone of influence</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2: OBSERVED BEHAVIORS -->
+  <div class="report-section">
+    <span class="section-kicker">On and off the ball</span>
+    <h2 class="section-title">Observed <em>Behaviors</em></h2>
+    <div class="two-col">
+      <div class="behavior-col">
+        <h3>On the Ball</h3>
+        <ul class="behavior-list">
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Box arrival timing.</strong> His most distinctive offensive habit: he reads crosses and set pieces early and attacks the ball in the air while defenders are still reacting. The majority of his goals this season have been headers, which is unusual for a midfielder and reflects genuine spatial anticipation, not athleticism alone.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Ball carrying over distance.</strong> He covers ground with the ball, particularly in transition. His progressive run percentile (98th among HNL midfielders) reflects a habit of driving rather than releasing. He keeps the ball close and changes direction under pressure rather than passing out of it — a Barcelona academy residue that makes him hard to press in isolation.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Two-footed execution.</strong> He is right-footed but regularly uses his left for passes and finishes in traffic. The frequency is notable — this is not a desperation foot, it is a functional second option that he deploys selectively.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Short passing accuracy with tempo lapses.</strong> His short passing accuracy is average within this pool (around the 16th percentile in the midfield group), but the mechanism matters. When he plays short, he is accurate. The problem is that he sometimes forces tempo, tries to get rid of the ball quickly, and the passes that go wrong are the hurried ones rather than the deliberate ones.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>First touch inconsistency.</strong> When the ball is played sharply into a tight area, his first touch occasionally bounces too far or leaves him side-on. This is not constant — his close control in dribbling situations is genuinely good — but the receive-under-pressure touch is the part of his technical profile that still needs cleaning up.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="behavior-col">
+        <h3>Off the Ball</h3>
+        <ul class="behavior-list">
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Roaming movement pattern.</strong> He does not stay in one channel. He scans quickly and regularly appears in wide areas, then returns centrally, which confuses man-marking systems and creates positional overloads in the final third. The habit is an asset when the team has the ball; it creates exposure in transition when he is out wide and the team loses possession.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Set-piece positioning.</strong> He positions himself specifically for deliveries — near post, back post, the penalty spot — and times his run to arrive late. This is a deliberate movement pattern, not coincidental, and it is what makes his aerial win rate at 100th percentile among HNL midfielders credible despite his frame not being unusually large.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Pressing effort without structure.</strong> He presses with energy when the team presses but does not lead the press. His defensive actions against the forward group sit in the 75th percentile, which is real output, but his positioning in recovery is inconsistent. He drops back often but rarely deep.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Transition jogging.</strong> A noted tendency to jog rather than sprint in transition, particularly back toward his own half. At Hajduk, who control possession and lead games frequently, this is partially contextual — they defend less than most HNL sides. At a higher level, this will be tested directly and should be monitored.</p>
+          </li>
+          <li class="behavior-item">
+            <div class="b-dot"></div>
+            <p><strong>Tackling quality.</strong> When he commits to a tackle, his timing is generally good. He does not dive in. His sliding and standing tackle success is solid, and his anticipatory positioning in ground duels — using his frame to shield and redirect — compensates for a strength level that is below average for his size.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3: DNA -->
+  <div class="report-section">
+    <span class="section-kicker">Player DNA</span>
+    <h2 class="section-title">Trait <em>Classification</em></h2>
+    <div class="two-col">
+      <div>
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--green)"></div>
+            <h3>Pure Traits</h3>
+            <span>Will Travel</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">Box Arrival Intelligence</div>
+              <div class="dna-trait-desc">His ability to read the moment a cross or delivery is played and arrive at the right spot is not pace-dependent. It is a habit of attention — he reads the first phase and positions for the second before most defenders have processed the first. This survives any system or league environment.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Two-Footed Execution</div>
+              <div class="dna-trait-desc">Functional use of the left foot in real game situations — not just a fallback. This is set by this age and reflects his Barcelona academy background. Translates directly across environments: defenders cannot shade one side and feel protected.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Aerial Heading Ability</div>
+              <div class="dna-trait-desc">He generates power and accuracy from a standing or running jump that outperforms his physical frame. The technical habit — attacking the ball first rather than jumping and hoping — is what produces this. Reliable and transferable.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Athletic Genetics</div>
+              <div class="dna-trait-desc">Son of a Lithuanian marathon runner and triple jumper. His natural physical attributes — vertical jump, body composition, recovery capacity — reflect that background. The frame is mesomorphic without being bulky, which should serve him well as he fills out physically over the next two to three years.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--gold)"></div>
+            <h3>System Traits</h3>
+            <span>Environment Dependent</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">High Box Presence</div>
+              <div class="dna-trait-desc">At Hajduk, who dominate possession and generate cross volume, he arrives in the box frequently. The number — 100th percentile touches in box among HNL midfielders — reflects a system that creates the conditions for him to exploit. In a defensive team that rarely crosses or sets pieces, the volume drops. The quality remains.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Progressive Running Volume</div>
+              <div class="dna-trait-desc">98th percentile progressive runs. In a Hajduk side that transitions quickly and has space to exploit, he drives forward constantly. In a lower block or a team that builds slowly, this trait is compressed. The capacity is there; the environment either activates it or suppresses it.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--gold)"></div>
+            <h3>Context Traits</h3>
+            <span>Situation Dependent</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">Dribbling Effectiveness</div>
+              <div class="dna-trait-desc">89th percentile dribble success against HNL midfielders, 93rd against forwards. Strong in isolation, against a single opponent in space. In tighter, more intense defensive environments, where high-press systems eliminate the transition space he exploits, this number will come under pressure.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Shot Creation for Others</div>
+              <div class="dna-trait-desc">His xA (76th vs midfielders, 64th vs forwards) suggests he generates half-chances for teammates when he carries into dangerous areas. But this is incidental to his primary mechanism. A system that asks him to be a primary chance creator rather than a box-crasher will find his output drops.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--rust)"></div>
+            <h3>Watch Closely</h3>
+            <span>Needs Development</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">Pass Selection Under Pressure</div>
+              <div class="dna-trait-desc">His passing percentile vs midfielders (9th passes per 90, 30th accuracy) is low. He is not a distributor — this is a known and acceptable part of his profile. The problem is not volume but the rushed passes when he is pressed: he forces it rather than retaining. This is a habit question, not a technical question, which makes it addressable but not automatic.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Defensive Transition Intensity</div>
+              <div class="dna-trait-desc">The jogging tendency in recovery is partly contextual, partly habitual. At the next level, where pressing intensity is maintained for longer periods, the habit will be exposed in specific match situations. Not a fatal flaw — the defensive action output is real — but it is the area where his pressing effort against better teams will first come under scrutiny.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Injury Resilience (Monitor)</div>
+              <div class="dna-trait-desc">A cruciate ligament strain in 2023 (70 days, 11 games missed) and an ankle injury in late 2025 (54 days, 4 games missed). Two significant soft-tissue injuries before the age of 22 warrant monitoring. Neither derailed his development trajectory, but any club moving at significant fee should conduct thorough medical screening.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: PROFILES -->
+  <div class="report-section">
+    <span class="section-kicker">Player profiles</span>
+    <h2 class="section-title">Athletic, Cognitive <em>&amp; Psychological</em></h2>
+    <div class="three-col">
+      <div class="profile-box">
+        <h3>Athletic Profile</h3>
+        <div class="profile-row">
+          <div class="profile-item">
+            <div class="profile-label">Frame</div>
+            <div class="profile-value"><strong>1.81m, mesomorphic build.</strong> Slight frame relative to height — not bulky, but not slight. Core strength is sufficient for ground duels currently; physical growth over the next two to three years should close the gap at a higher level.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Pace &amp; Acceleration</div>
+            <div class="profile-value"><strong>Decent, not elite.</strong> Covers ground well over distance, turns quickly in tight spaces. Not a burst-speed asset but not a liability. His 72nd percentile accelerations are functional rather than explosive.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Aerial Ability</div>
+            <div class="profile-value"><strong>100th percentile aerial duels per 90 against both midfielders and forwards.</strong> Exceptional vertical leap, strong heading technique. The output is not size-dependent — it is timing and aggression.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Strength</div>
+            <div class="profile-value"><strong>Below average for his frame, above average in application.</strong> Core positioning in duels compensates for raw strength. He shields well and distributes his weight effectively. Not yet a dominant physical presence in contact.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Injury Context</div>
+            <div class="profile-value"><strong>Two significant injuries before age 22.</strong> Cruciate strain (2023), ankle (2025–26). Both recovered within expected timelines. Screening recommended at this valuation.</div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-box">
+        <h3>Cognitive Profile</h3>
+        <div class="profile-row">
+          <div class="profile-item">
+            <div class="profile-label">Spatial Awareness</div>
+            <div class="profile-value"><strong>High, particularly in the final third.</strong> His box arrival patterns reflect genuine anticipatory reading of the game's next phase. He processes where the ball will land before it leaves the delivery.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Scanning</div>
+            <div class="profile-value"><strong>Quick scanner in both phases.</strong> He checks his surroundings before receiving, which partly explains his ability to find pocket space. The scanning habit is clearly established — a Barcelona academy marker.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Decision Speed Under Pressure</div>
+            <div class="profile-value"><strong>Inconsistent.</strong> His best decisions are instinctive — the carry, the box run, the header. When pressed into a passing decision quickly, the tempo occasionally gets ahead of his processing and forces a rushed ball. The gap between recognition and execution narrows with game experience.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Positional Flexibility</div>
+            <div class="profile-value"><strong>High tactical adaptability.</strong> Can operate as an AM, central 8, or wider midfielder. His versatility is genuine — not just a stylistic description — because his scanning and movement patterns do not depend on a fixed starting position.</div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-box">
+        <h3>Psychological Markers</h3>
+        <div class="profile-row">
+          <div class="profile-item">
+            <div class="profile-label">Competitive Background</div>
+            <div class="profile-value"><strong>Born into elite athletic family.</strong> Both parents competed at international level in endurance and power disciplines. The psychological baseline for competition and physical dedication appears embedded rather than coached.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Barcelona Academy Exit</div>
+            <div class="profile-value"><strong>Left Barça, joined Hajduk at 17.</strong> Moving from one of the world's most demanding development environments to a first-tier Balkan club required genuine adaptability. The transition has produced consistent senior minutes and tangible output — not all academy graduates who make this move contribute at this rate.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Composure in the Box</div>
+            <div class="profile-value"><strong>Strong.</strong> His npxG per shot at the 96th percentile among HNL midfielders, 89th among forwards, suggests he is generating and converting high-quality opportunities rather than wasting them. The finishing is calm and purposeful.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Communication Style</div>
+            <div class="profile-value"><strong>Quiet on the pitch.</strong> Not a vocal organizer. He leads through movement and effort rather than instruction. This is not a concern at 21 — it is a personality type, not a maturity gap.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 5: DEVELOPMENT -->
+  <div class="report-section">
+    <span class="section-kicker">Development</span>
+    <h2 class="section-title">Priorities <em>for Growth</em></h2>
+    <p style="font-family:'Lora',serif; font-size:15px; font-style:italic; color:var(--brown3); line-height:1.8; max-width:680px; margin-bottom:40px;">These are areas that will not improve without deliberate work. They are worth naming directly because the profile is otherwise so mature for his age that the remaining gaps could easily be glossed over.</p>
+    <div class="dev-list">
+      <div class="dev-item">
+        <div class="dev-num">01</div>
+        <p><strong>Pass selection in high-pressure moments.</strong> The technical range is there — he executes short passes accurately and can use both feet. What he does not yet do consistently is slow down to make the right decision when the press arrives. He forces tempo on the receive and the result is occasional turnovers from rushed balls that are neither forward nor backward with any conviction. This is a processing habit, not a technical limitation, and it is the area where a top-level coach will find him soonest. The work is specific: learning to recognize when the situation calls for retention rather than progression, and committing to the retention option decisively rather than splitting the difference.</p>
+      </div>
+      <div class="dev-item">
+        <div class="dev-num">02</div>
+        <p><strong>Defensive transition intensity.</strong> The jogging pattern in recovery is observable and documented. At a higher level, the physical cost of consistent sprint-back defending will test this habit directly. It is not a stamina question — his work-rate over 90 minutes is high in other phases. It is a habit of priority: he does not currently treat defensive transition as urgently as he treats attacking transition. That needs to change at the next level, where positional exposure in counter-attacking moments is punished at a different rate than in the 1. HNL.</p>
+      </div>
+      <div class="dev-item">
+        <div class="dev-num">03</div>
+        <p><strong>First touch quality on sharp, low deliveries.</strong> His aerial receive is excellent. His ground receive in tight situations still produces errors — the ball occasionally bounces away from his body or leaves him side-on when he needs to be facing forward. The technical habit needs work here: specifically, cushioning the ball into a controlled position that sets up the next action rather than just stopping it. At Barcelona, this is drilled. At 21, it should be refining rather than rebuilding, but the inconsistency in this specific context is visible enough to name.</p>
+      </div>
+      <div class="dev-item">
+        <div class="dev-num">04</div>
+        <p><strong>Physical assertiveness in contact.</strong> His strength application is not yet matching his physical foundation. He wins aerial duels well because his jumping technique is excellent. In ground contact situations, he is functional rather than dominant — his body positioning compensates but his raw force in collisions is below what you would expect from his frame and genetics. This should develop naturally as he fills out physically over the next two to three seasons. A structured physical programme during the next pre-season would accelerate it.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 6: TRAVEL READINESS -->
+  <div class="report-section">
+    <span class="section-kicker">Transferability</span>
+    <h2 class="section-title">Travel Readiness <em>Score</em></h2>
+    <div class="travel-display">
+      <div class="travel-score-big">
+        <div class="travel-score-num">8.5</div>
+        <div class="travel-score-denom">out of 10</div>
+        <div class="travel-score-label">Travel Ready</div>
+      </div>
+      <div class="travel-prose">
+        <p>The mechanism of Pukštas's value is unusually portable. Most midfielders who produce well in the 1. HNL do so because of positional authority, passing networks, or system-specific roles that compress or disappear in more demanding environments. His primary mechanism — <strong>arriving into dangerous zones, attacking aerial deliveries, and finishing from close range</strong> — is not system-dependent in the same way. Boxes exist everywhere. Set pieces happen everywhere. The physical and cognitive habits that make him dangerous in those moments travel with him.</p>
+        <p>What the 1. HNL inflates is his <strong>volume</strong>. Hajduk dominate possession, generate cross volume, and create the conditions for his second-phase arrivals to happen frequently. At a higher level — say, a Bundesliga or Eredivisie club — that volume will reduce. The percentile rank will compress. But the quality-per-opportunity holds: his npxG per shot at 89th percentile against the forward pool is not a system artifact, it is a finishing habit. The shots he takes, wherever he plays, are high-quality shots.</p>
+        <p>The risks worth naming are <strong>physical intensity and pressing demands</strong>. In leagues where box-to-box midfielders are expected to cover ground at sprint pace in defensive transitions, his recovery jogging habit will be tested. A club buying him at €5M on the current trajectory will need either a pressing system that does not require full-pitch sprinting from the eight, or a willingness to coach this habit aggressively in pre-season. Neither is disqualifying. Both are real. He is <strong>ready for most target leagues now</strong>, particularly those with verticality and cross-volume in their game model.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 7: LEAGUE PROJECTIONS -->
+  <div class="report-section">
+    <span class="section-kicker">League by league</span>
+    <h2 class="section-title">Transferability <em>Projections</em></h2>
+    <div class="league-bars-wrap">
+      <div class="league-bar-row">
+        <div class="lb-name">Premier League</div>
+        <div class="lb-track"><div class="lb-fill high" style="width:75%"><span class="lb-score">7.5</span></div></div>
+        <div class="lb-note">The box-arrival mechanism translates directly — PL boxes are contested, not gifted, and his aerial and finishing quality is good enough to compete. The pressing intensity and transition demands are the question. Best fit: a direct, vertical club (Brighton, Brentford model) rather than a possession-dominant one that asks the eight to build play. Not an automatic starter, but a credible squad option with room to grow.</div>
+      </div>
+      <div class="league-bar-row">
+        <div class="lb-name">Bundesliga</div>
+        <div class="lb-track"><div class="lb-fill high" style="width:90%"><span class="lb-score">9.0</span></div></div>
+        <div class="lb-note">The strongest single fit. High-intensity pressing environments here demand athleticism and vertical drive — both present in this profile. Cross volume and set-piece delivery in the Bundesliga would give him frequent arrivals into the box. His dribble quality and progressive running are valued in this system type. The physical development gap closes faster in a Bundesliga environment with structured training. Primary target league.</div>
+      </div>
+      <div class="league-bar-row">
+        <div class="lb-name">Ligue 1</div>
+        <div class="lb-track"><div class="lb-fill high" style="width:80%"><span class="lb-score">8.0</span></div></div>
+        <div class="lb-note">Good fit, slightly less obvious than Bundesliga. Ligue 1 rewards athletic, box-to-box profiles with goal threat, and his defensive output — functional rather than elite — is acceptable in a league where eights are not always required to be defensive anchors. His American eligibility and CAA Stellar representation create a pathway through clubs with US commercial interest in the league.</div>
+      </div>
+      <div class="league-bar-row">
+        <div class="lb-name">Serie A</div>
+        <div class="lb-track"><div class="lb-fill" style="width:65%"><span class="lb-score lb-score" style="color:var(--brown)">6.5</span></div></div>
+        <div class="lb-note">More demanding positionally. Serie A midfielders are asked to do more structured defensive work, maintain shape, and operate in tighter spaces. His passing volume and defensive positioning are below what Italian clubs typically require from the eight role. An attacking-midfield or trequartista position in a direct Italian side is a better fit than a central-eight role — possible, but requires a specific system match.</div>
+      </div>
+      <div class="league-bar-row">
+        <div class="lb-name">La Liga</div>
+        <div class="lb-track"><div class="lb-fill" style="width:68%"><span class="lb-score" style="color:var(--brown)">6.8</span></div></div>
+        <div class="lb-note">La Liga's best clubs ask midfielders to circulate possession and manage tempo — neither is his strength. The lower-half of La Liga, with more direct, counter-attacking teams, is a better fit for his mechanism than a possession-dominant top-six environment. His Barcelona origin is a narrative asset, but the system match at elite La Liga level is the weakest of the target leagues.</div>
+      </div>
+      <div class="league-bar-row">
+        <div class="lb-name">Eredivisie</div>
+        <div class="lb-track"><div class="lb-fill high" style="width:88%"><span class="lb-score">8.8</span></div></div>
+        <div class="lb-note">Near-ideal system fit as a developmental step. High cross volume, attacking-oriented football, physical but not extreme pressing demands. The Eredivisie would give him box arrivals, set-piece opportunities, and competitive minutes to develop his passing under pressure in a demanding-but-not-elite environment. Strong first step from the 1. HNL if a direct top-five move does not materialize.</div>
+      </div>
+      <div class="league-bar-row">
+        <div class="lb-name">Jupiler Pro</div>
+        <div class="lb-track"><div class="lb-fill high" style="width:82%"><span class="lb-score">8.2</span></div></div>
+        <div class="lb-note">Comfortable transition. Belgian football is physically direct, rewards athletes, and has the set-piece and cross volume to activate his strongest traits. A step below the Eredivisie in prestige but potentially more playing time and system fit at a top club. A Club Brugge or Anderlecht system profile would be very well matched.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 8: RISK -->
+  <div class="report-section">
+    <span class="section-kicker">Risk assessment</span>
+    <h2 class="section-title">Four-Axis <em>Risk Profile</em></h2>
+    <p style="font-size:15px; font-style:italic; color:var(--brown3); line-height:1.8; margin-bottom:40px; font-family:'Lora',serif;">Each axis scored independently 1 to 5, where 1 is minimal risk and 5 is extreme risk.</p>
+    <div class="risk-gauges">
+      <!-- Development: 2 -->
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+            <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M15 65 A55 55 0 0 1 54.4 23.4" fill="none" stroke="#c49a2e" stroke-width="8" stroke-linecap="round"/>
+            <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">2</text>
+            <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+          </svg></div>
+        <div class="gauge-label">Development</div>
+        <div class="gauge-meaning">Low risk</div>
+        <p class="gauge-note">2,278 senior minutes at 21, consistent output across the full season, already in the top-10 U21 shooting midfielders globally per CIES data. The injury history (two events before age 22) introduces a small flag. The trajectory is clearly upward and the physical development window is still open. This is a low-risk profile, not a zero-risk one.</p>
+      </div>
+      <!-- Psychological: 1 -->
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+            <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M15 65 A55 55 0 0 1 33.4 23.4" fill="none" stroke="#4a7a30" stroke-width="8" stroke-linecap="round"/>
+            <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">1</text>
+            <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+          </svg></div>
+        <div class="gauge-label">Psychological</div>
+        <div class="gauge-meaning">Minimal risk</div>
+        <p class="gauge-note">Elite athletic family background, Barcelona academy formation, successful transition to a different culture and first-team football at 17. He has already managed the psychological complexity of two significant career transitions and come out with increasing output. The composure in front of goal — measured through shot quality selection — reinforces this picture.</p>
+      </div>
+      <!-- Market: 2 -->
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+            <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M15 65 A55 55 0 0 1 54.4 23.4" fill="none" stroke="#c49a2e" stroke-width="8" stroke-linecap="round"/>
+            <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">2</text>
+            <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+          </svg></div>
+        <div class="gauge-label">Market</div>
+        <div class="gauge-meaning">Low risk</div>
+        <p class="gauge-note">€5M at a club with a 2027 contract. CAA Stellar is a professional and established agency, not one that inflates prices idly. The CIES ranking (2nd U21 shooting midfielders globally at time of scouting), Hajduk's profile, and the US eligibility all create market pressure. The value is fair for this output level — not an undervaluation, but not an overpriced speculation either.</p>
+      </div>
+      <!-- Systemic: 2 -->
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+            <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M15 65 A55 55 0 0 1 54.4 23.4" fill="none" stroke="#c49a2e" stroke-width="8" stroke-linecap="round"/>
+            <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">2</text>
+            <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+          </svg></div>
+        <div class="gauge-label">Systemic</div>
+        <div class="gauge-meaning">Low risk</div>
+        <p class="gauge-note">The core mechanism — box arrivals, aerial threat, progressive carrying — is not system-dependent in the way a pure playmaker's output is. It survives changes in team shape and game model better than most. The system risk is real only in possession-dominant, tempo-control environments that ask the eight to be a primary ball-progressor. Outside that specific demand, he fits broadly.</p>
+      </div>
+    </div>
+    <div class="risk-scale">
+      <div class="risk-scale-title">How to read risk scores</div>
+      <div class="risk-scale-row"><span class="risk-scale-num">1</span><span class="risk-scale-name">Minimal</span><span class="risk-scale-desc">Strong evidence of upward curve, no significant red flags</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">2</span><span class="risk-scale-name">Low</span><span class="risk-scale-desc">Clear pathway, manageable concerns, high coachability</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">3</span><span class="risk-scale-name">Medium</span><span class="risk-scale-desc">Decent base but real flags exist — inconsistency, stalling, environment</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">4</span><span class="risk-scale-name">High</span><span class="risk-scale-desc">Poor development history, low minutes, maturity concerns</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">5</span><span class="risk-scale-name">Extreme</span><span class="risk-scale-desc">Almost no evidence of upward curve, major red flags present</span></div>
+    </div>
+  </div>
+
+  <!-- SECTION 9: DATA -->
+  <div class="report-section">
+    <span class="section-kicker">Statistical profile — 1. HNL 25–26 · midfielders + forwards · 400+ mins</span>
+    <h2 class="section-title">The Box Threat <em>Profile</em></h2>
+    <p style="font-family:'Lora',serif; font-size:15px; font-style:italic; color:var(--brown3); line-height:1.8; max-width:680px; margin-bottom:48px;">The defining statistical story here is one of extreme specificity. Pukštas does not rank well across the midfield comparison group in the metrics that define midfielders. He ranks at the absolute top in the metrics that define finishers. The charts below make that visible — and show what it means when you move him into the forward comparison pool instead.</p>
+
+    <div class="fingerprint-wrap">
+      <div class="fingerprint-panel">
+        <div class="fingerprint-panel-title">vs 1. HNL Midfielders</div>
+        <div class="fingerprint-panel-heading">A finisher <em>playing in midfield</em></div>
+        <div class="fingerprint-panel-sub">Percentile vs 1. HNL central/attacking midfielders · 400+ mins · 25–26</div>
+
+        <div class="fp-row">
+          <div class="fp-label">npxG / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:100%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.95))">
+              <span class="fp-val">100th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Highest in the pool — no midfielder generates more expected goal value per 90</div>
+
+        <div class="fp-row">
+          <div class="fp-label">Touches in box / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:100%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.95))">
+              <span class="fp-val">100th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">14.04 touches in the box per 90 — more than any other midfielder in this pool</div>
+
+        <div class="fp-row">
+          <div class="fp-label">Aerial duels won / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:100%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.95))">
+              <span class="fp-val">100th</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fp-row">
+          <div class="fp-label">Progressive runs / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:98%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.95))">
+              <span class="fp-val">98th</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fp-row">
+          <div class="fp-label">npxG per shot</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:96%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.95))">
+              <span class="fp-val">96th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">High-quality shot selection — when he shoots, the location is good</div>
+
+        <div class="fp-divider"></div>
+
+        <div class="fp-row">
+          <div class="fp-label">Passes / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:9%;background:rgba(160,67,47,0.55)">
+              <span class="fp-val dark">9th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Bottom decile passing volume — this is not a distributing midfielder</div>
+
+        <div class="fp-row">
+          <div class="fp-label">Prog. passes / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:9%;background:rgba(160,67,47,0.55)">
+              <span class="fp-val dark">9th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">He carries; he does not thread. The profile is a carrier and finisher, not a progressor</div>
+
+        <div class="fp-insight">
+          <div class="fp-insight-label">Key Observation</div>
+          <p>Against midfielders, Pukštas looks dominant in every metric that belongs to a forward and invisible in every metric that belongs to a midfielder. That is not a contradiction — it is a description. Evaluate him as a finisher who operates from midfield, not as a midfielder who happens to score.</p>
+        </div>
+      </div>
+
+      <div class="fingerprint-panel">
+        <div class="fingerprint-panel-title">vs 1. HNL Forwards</div>
+        <div class="fingerprint-panel-heading">Efficient, <em>but not dominant</em></div>
+        <div class="fingerprint-panel-sub">Percentile vs 1. HNL attackers/wingers/CFs · 400+ mins · 25–26</div>
+
+        <div class="fp-row">
+          <div class="fp-label">npxG / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:91%;background:linear-gradient(90deg,rgba(61,43,31,0.4),rgba(61,43,31,0.85))">
+              <span class="fp-val">91st</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Holds up well against primary attackers — the efficiency is genuine</div>
+
+        <div class="fp-row">
+          <div class="fp-label">npxG per shot</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:89%;background:linear-gradient(90deg,rgba(61,43,31,0.4),rgba(61,43,31,0.85))">
+              <span class="fp-val">89th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Shot quality remains in the top decile — he selects well regardless of comparison group</div>
+
+        <div class="fp-row">
+          <div class="fp-label">Aerial duels won / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:100%;background:linear-gradient(90deg,rgba(61,43,31,0.4),rgba(61,43,31,0.85))">
+              <span class="fp-val">100th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Even against forwards, his aerial duels per 90 remain first in the pool</div>
+
+        <div class="fp-row">
+          <div class="fp-label">Dribble success %</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:93%;background:linear-gradient(90deg,rgba(61,43,31,0.4),rgba(61,43,31,0.85))">
+              <span class="fp-val">93rd</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fp-row">
+          <div class="fp-label">Progressive runs / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:95%;background:linear-gradient(90deg,rgba(61,43,31,0.4),rgba(61,43,31,0.85))">
+              <span class="fp-val">95th</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fp-divider"></div>
+
+        <div class="fp-row">
+          <div class="fp-label">Touches in box / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:88%;background:linear-gradient(90deg,rgba(61,43,31,0.4),rgba(61,43,31,0.85))">
+              <span class="fp-val">88th</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fp-row">
+          <div class="fp-label">Shots / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:77%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.95))">
+              <span class="fp-val">77th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Volume is above average but not elite — he gets there, but selectively</div>
+
+        <div class="fp-row">
+          <div class="fp-label">xA / 90</div>
+          <div class="fp-track">
+            <div class="fp-threshold" style="left:50%"></div>
+            <div class="fp-threshold" style="left:75%"></div>
+            <div class="fp-fill" style="width:64%;background:rgba(212,201,176,0.85)">
+              <span class="fp-val dark">64th</span>
+            </div>
+          </div>
+        </div>
+        <div class="fp-annotation">Average creation output — consistent with a box-arrival rather than a chance-creator profile</div>
+
+        <div class="fp-insight">
+          <div class="fp-insight-label">Key Observation</div>
+          <p>Against forwards, he looks like a selective, high-efficiency attacker: strong in quality (89th shot quality), solid in volume (77th shots), average in creation (64th xA). The profile compresses but stays consistent. He is not a creator who happens to finish — he is a finisher who occasionally creates. That distinction matters for how you use him at the next level.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCATTER: Box Threat vs Defensive Contribution -->
+    <div class="scatter-section">
+      <div class="scatter-wrap">
+        <div class="scatter-kicker">Positional mapping</div>
+        <div class="scatter-title">Box Threat vs <em>Defensive Contribution</em></div>
+        <div class="scatter-sub">Composite percentile scores · 1. HNL central &amp; attacking midfielders · 400+ mins · 25–26 season<br><span style="font-size:11px;">Box threat: npxG per 90, touches in box, shots per 90, npxG per shot, progressive runs. Defensive: pAdj Tkl+Int, successful defensive actions, aerial duels won.</span></div>
+        <div class="scatter-canvas-wrap">
+          <svg id="rp-scatter" viewBox="0 0 760 460" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;"></svg>
+          <div class="scatter-tip" id="rp-tip"></div>
+        </div>
+        <div class="scatter-legend" style="display:flex;gap:20px;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid var(--border);">
+          <div class="scatter-legend-item" style="display:flex;align-items:center;gap:7px;font-size:11px;color:var(--muted);font-family:'Lora',serif;font-style:italic;"><div style="width:9px;height:9px;border-radius:50%;background:rgba(74,122,48,0.45);border:1.5px solid rgba(74,122,48,0.8);flex-shrink:0"></div>Under 21</div>
+          <div class="scatter-legend-item" style="display:flex;align-items:center;gap:7px;font-size:11px;color:var(--muted);font-family:'Lora',serif;font-style:italic;"><div style="width:9px;height:9px;border-radius:50%;background:rgba(61,43,31,0.18);border:1.5px solid rgba(61,43,31,0.38);flex-shrink:0"></div>21–29</div>
+          <div class="scatter-legend-item" style="display:flex;align-items:center;gap:7px;font-size:11px;color:var(--muted);font-family:'Lora',serif;font-style:italic;"><div style="width:9px;height:9px;border-radius:50%;background:rgba(160,67,47,0.28);border:1px solid rgba(160,67,47,0.5);flex-shrink:0"></div>30+</div>
+          <div class="scatter-legend-item" style="display:flex;align-items:center;gap:7px;font-size:11px;color:var(--muted);font-family:'Lora',serif;font-style:italic;"><div style="width:11px;height:11px;border-radius:50%;background:#c49a2e;border:2px solid #8a6a1a;flex-shrink:0"></div>R. Pukštas</div>
+        </div>
+        <div style="font-family:'Lora',serif;font-size:11px;font-style:italic;color:var(--muted);margin-top:10px;">Hover any dot for details. Box threat composite: npxG per 90, touches in box, shots per 90, npxG per shot, progressive runs. Defensive composite: pAdj tackles &amp; interceptions, successful defensive actions, aerial duels won. Pukštas sits further right than any other midfielder in the pool — the gap between him and the next-highest box threat score is not narrow.</div>
+      </div>
+    </div>
+
+    <!-- WRITTEN ASSESSMENT -->
+    <div class="written-assessment" style="margin-top:56px;">
+      <div class="wa-label">Scout's Read</div>
+      <div class="wa-body">
+        <p><strong>The box threat composite places him at 97.9 — the highest score in the pool by a meaningful margin.</strong> That number is built from five components: npxG per 90 (100th percentile), touches in box per 90 (100th), shots per 90 (95th), npxG per shot (96th), and progressive runs per 90 (98th). Every component is at or near the top of the distribution. The defensive composite of 50.9 comes from pAdj tackles and interceptions (39th), successful defensive actions (29th), and aerial duels won percentage (84th). The aerial number lifts the defensive score considerably — without it, the defensive composite would sit in the mid-30s. That matters for how you read the positioning: his defensive contribution is real, but it is concentrated in one channel rather than distributed across the phase.</p>
+        <p>The shot quality number is the one worth sitting with. An npxG per shot at the 96th percentile against midfielders and 89th against forwards means the shots he takes are high-quality shots — not volume, not speculative, not far-post rollers from distance. The 14.04 touches in box per 90 is inflated by Hajduk's system, which generates crosses and set-piece deliveries frequently. That volume will compress at the next level. But the quality of the shots he takes when he gets there — that is not a system artifact. It is a habit of positioning and selection. The volume will compress; the efficiency per opportunity should hold.</p>
+        <p><strong>The passing percentiles in the midfield comparison group tell you something important.</strong> He ranks at the 9th percentile for passes per 90 and 9th for progressive passes per 90. Those are bottom-decile numbers, and a club that leads with those figures to argue against acquisition is misreading the profile. He is not a distributor — the comparison group is wrong. Against forwards, his passing volume rises to the 51st and 55th percentile respectively, which is a more accurate read of his actual contribution. He is a finisher in a midfield number, and the passing output should be read accordingly. He has not been asked to be a distributor at Hajduk, and the data reflects the role, not a technical ceiling.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 10: VERDICT -->
+  <div class="report-section">
+    <span class="section-kicker">Final assessment</span>
+    <h2 class="section-title">Verdict <em>&amp; Potential Rating</em></h2>
+    <div class="verdict-statement">
+      <div class="vs-label">Scout's Verdict</div>
+      <p>Pukštas is not a midfielder who scores. He is a scorer who plays in midfield — a distinction that matters both for how you evaluate him and how you deploy him. His box-arrival intelligence, aerial finishing quality, and two-footed execution are formed habits, not projections. The passing volume is low, the defensive positioning is functional rather than excellent, and he occasionally forces tempo rather than managing it. A club that buys him understanding the profile, a direct, goal-contributing eight in a vertical system, gets a player whose primary mechanism has already proved itself against a decent level of competition. A club that buys him expecting a complete box-to-box midfielder controlling games will be disappointed in the half of the profile that does not exist yet.</p>
+    </div>
+    <div class="verdict-grid">
+      <div class="verdict-box good">
+        <h3>What travels</h3>
+        <ul>
+          <li>Box arrival timing and second-phase positioning — a habit of attention, not a system outcome</li>
+          <li>Shot quality selection — 89th percentile npxG per shot against the forward pool; the efficiency is genuine</li>
+          <li>Aerial heading — 100th percentile against both comparison groups, driven by timing and technique, not frame size</li>
+          <li>Two-footed execution — a genuine second option from Barcelona academy formation, not a fallback</li>
+          <li>Dribble success and close control under pressure — 93rd percentile against forwards in isolation situations</li>
+          <li>Psychological resilience — elite athletic background, two significant injury recoveries, consistent output trajectory</li>
+        </ul>
+      </div>
+      <div class="verdict-box bad">
+        <h3>What must be addressed</h3>
+        <ul>
+          <li>Rushed passing under pressure — forcing tempo when pressed is the first habit top opponents will exploit</li>
+          <li>Defensive transition intensity — the recovery jogging pattern will be tested in every environment above this one</li>
+          <li>First touch on sharp ground deliveries — inconsistent enough at this level to become a genuine problem at the next</li>
+          <li>Physical assertiveness in contact — raw force in collisions does not yet match frame and genetic baseline</li>
+          <li>Injury monitoring — two soft-tissue events before age 22; full medical screening is required at €5M</li>
+        </ul>
+      </div>
+    </div>
+    <div class="potential-display">
+      <div class="potential-label">B.A.S.E. Potential Rating</div>
+      <div class="potential-num">8/10</div>
+      <span class="potential-balls">⚽⚽⚽⚽⚽⚽⚽⚽</span>
+      <p class="potential-projection">An 8 projects as a consistent contributor at a top-five European club — a player who regularly delivers eight to twelve league goals from midfield, provides aerial threat at set pieces that opponents do not expect from a midfielder, and drives transitions at pace. The ceiling depends less on further development than on system fit. Buy him as a finisher operating from midfield, give him a double-pivot partner who covers defensive ground, and the mechanism is already there. The deduction from a 9 is the passing volume floor, the defensive transition habit, and the injury history.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-logo">B.A.S.E. <em>Scouting</em></div>
+  <ul class="footer-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../index.html#reports">Reports</a></li>
+    <li><a href="../about.html">About</a></li>
+    <li><a href="../contact.html">Contact</a></li>
+  </ul>
+  <div class="footer-copy">© 2026 B.A.S.E. Scouting</div>
+</footer>
+
+<script>
+(() => {
+  const players = [
+    {n:"M. Subotić",age:18,team:"Lokomotiva Zagreb",bt:23.2,dc:29.5,isV:false},
+    {n:"A. Kavelj",age:20,team:"Gorica",bt:44.6,dc:74.4,isV:false},
+    {n:"A. Jagušić",age:20,team:"Slaven Belupo",bt:72.9,dc:31.2,isV:false},
+    {n:"I. Katić",age:20,team:"Lokomotiva Zagreb",bt:35.9,dc:76.8,isV:false},
+    {n:"I. Canjuga",age:20,team:"Varaždin",bt:41.8,dc:36.9,isV:false},
+    {n:"L. Vrbančić",age:20,team:"Osijek",bt:49.8,dc:60.1,isV:false},
+    {n:"I. Ayuma",age:20,team:"Istra 1961",bt:49.5,dc:38.4,isV:false},
+    {n:"R. Pukštas",age:21,team:"Hajduk Split",bt:97.9,dc:50.9,isV:true},
+    {n:"F. Mažar",age:21,team:"Slaven Belupo",bt:39.1,dc:36.0,isV:false},
+    {n:"M. Sušak",age:21,team:"Lokomotiva Zagreb",bt:72.1,dc:32.7,isV:false},
+    {n:"Š. Mikolčić",age:22,team:"Osijek",bt:56.2,dc:41.1,isV:false},
+    {n:"L. Stojković",age:22,team:"Dinamo Zagreb",bt:85.4,dc:46.1,isV:false},
+    {n:"D. Mejía",age:22,team:"Osijek",bt:47.5,dc:64.9,isV:false},
+    {n:"A. Maurić",age:22,team:"Istra 1961",bt:31.8,dc:39.3,isV:false},
+    {n:"I. Ćubelić",age:22,team:"Slaven Belupo",bt:50.4,dc:82.4,isV:false},
+    {n:"E. Shabani",age:22,team:"Vukovar",bt:46.4,dc:53.0,isV:false},
+    {n:"J. Gurlica",age:22,team:"Vukovar",bt:35.5,dc:66.7,isV:false},
+    {n:"M. Soldo",age:22,team:"Dinamo Zagreb",bt:81.2,dc:72.0,isV:false},
+    {n:"A. Pajaziti",age:23,team:"Hajduk Split",bt:58.2,dc:59.5,isV:false},
+    {n:"L. Mamić",age:23,team:"Varaždin",bt:83.6,dc:19.0,isV:false},
+    {n:"T. Duvnjak",age:23,team:"Varaždin",bt:22.0,dc:69.0,isV:false},
+    {n:"J. Vasilj",age:23,team:"Lokomotiva Zagreb",bt:89.8,dc:21.1,isV:false},
+    {n:"S. Shopov",age:23,team:"Osijek",bt:66.1,dc:31.5,isV:false},
+    {n:"A. Barco",age:24,team:"Rijeka",bt:11.4,dc:63.7,isV:false},
+    {n:"L. Belcar",age:24,team:"Lokomotiva Zagreb",bt:62.5,dc:49.4,isV:false},
+    {n:"B. Bošković",age:24,team:"Lokomotiva Zagreb",bt:59.1,dc:90.5,isV:false},
+    {n:"J. Pršir",age:25,team:"Gorica",bt:70.7,dc:45.5,isV:false},
+    {n:"A. Latković",age:25,team:"Varaždin",bt:90.2,dc:9.2,isV:false},
+    {n:"A. Liber",age:25,team:"Slaven Belupo",bt:50.5,dc:27.4,isV:false},
+    {n:"T. Fruk",age:25,team:"Rijeka",bt:86.8,dc:7.1,isV:false},
+    {n:"Tiago Dantas",age:25,team:"Rijeka",bt:50.9,dc:29.8,isV:false},
+    {n:"Iker Pozo",age:25,team:"Gorica",bt:35.9,dc:67.0,isV:false},
+    {n:"H. Babec",age:26,team:"Osijek",bt:33.4,dc:81.2,isV:false},
+    {n:"T. Teklić",age:26,team:"Osijek",bt:49.3,dc:48.2,isV:false},
+    {n:"Hugo Guillamón",age:26,team:"Hajduk Split",bt:18.6,dc:77.1,isV:false},
+    {n:"R. Gonzales",age:27,team:"Vukovar",bt:72.0,dc:10.1,isV:false},
+    {n:"V. Bubanja",age:27,team:"Osijek",bt:71.1,dc:86.9,isV:false},
+    {n:"M. Caimacov",age:27,team:"Slaven Belupo",bt:48.4,dc:73.8,isV:false},
+    {n:"M. Agbekpornu",age:27,team:"Slaven Belupo",bt:20.7,dc:79.8,isV:false},
+    {n:"D. Ljubičić",age:28,team:"Dinamo Zagreb",bt:64.6,dc:20.2,isV:false},
+    {n:"O. Petrusenko",age:28,team:"Osijek",bt:6.4,dc:68.5,isV:false},
+    {n:"D. Petrovič",age:28,team:"Rijeka",bt:8.8,dc:64.9,isV:false},
+    {n:"I. Bennacer",age:28,team:"Dinamo Zagreb",bt:41.6,dc:77.4,isV:false},
+    {n:"A. Gojak",age:29,team:"Rijeka",bt:64.6,dc:24.1,isV:false},
+    {n:"S. Lončar",age:29,team:"Istra 1961",bt:62.5,dc:12.5,isV:false},
+    {n:"J. Biljan",age:30,team:"Vukovar",bt:42.1,dc:46.4,isV:false},
+    {n:"F. Krovinović",age:30,team:"Hajduk Split",bt:64.6,dc:53.0,isV:false},
+    {n:"M. Zajc",age:31,team:"Dinamo Zagreb",bt:80.0,dc:36.3,isV:false},
+    {n:"J. Mišić",age:31,team:"Dinamo Zagreb",bt:32.3,dc:75.9,isV:false},
+    {n:"L. Štulac",age:31,team:"Istra 1961",bt:32.9,dc:58.3,isV:false},
+    {n:"D. Pavičić",age:32,team:"Gorica",bt:63.4,dc:33.3,isV:false},
+    {n:"J. Radošević",age:32,team:"Istra 1961",bt:22.0,dc:61.3,isV:false},
+    {n:"L. Crepulja",age:32,team:"Slaven Belupo",bt:16.4,dc:60.7,isV:false},
+    {n:"D. Puclin",age:33,team:"Varaždin",bt:33.2,dc:82.7,isV:false},
+    {n:"D. Antolić",age:35,team:"Lokomotiva Zagreb",bt:67.1,dc:14.0,isV:false},
+    {n:"M. Marina",age:36,team:"Varaždin",bt:35.0,dc:81.0,isV:false},
+  ];
+
+  const PAD={l:52,r:36,t:28,b:52};
+  const W=760,H=460,CW=W-PAD.l-PAD.r,CH=H-PAD.t-PAD.b;
+  const sx=v=>PAD.l+(v/100)*CW;
+  const sy=v=>PAD.t+CH-(v/100)*CH;
+  const ns='http://www.w3.org/2000/svg';
+  const svg=document.getElementById('rp-scatter');
+  const tip=document.getElementById('rp-tip');
+  if(!svg||!tip) return;
+  const mk=(tag,a,p)=>{const e=document.createElementNS(ns,tag);Object.entries(a).forEach(([k,v])=>e.setAttribute(k,v));p&&p.appendChild(e);return e;};
+  const tx=(t,a,p)=>{const e=mk('text',a,p);e.textContent=t;return e;};
+  const g=mk('g',{},svg);
+
+  [25,50,75].forEach(v=>{
+    mk('line',{x1:sx(v),y1:PAD.t,x2:sx(v),y2:PAD.t+CH,stroke:'rgba(61,43,31,0.07)','stroke-width':'1'},g);
+    mk('line',{x1:PAD.l,y1:sy(v),x2:PAD.l+CW,y2:sy(v),stroke:'rgba(61,43,31,0.07)','stroke-width':'1'},g);
+  });
+  mk('line',{x1:sx(50),y1:PAD.t,x2:sx(50),y2:PAD.t+CH,stroke:'rgba(61,43,31,0.15)','stroke-width':'1','stroke-dasharray':'4 3'},g);
+  mk('line',{x1:PAD.l,y1:sy(50),x2:PAD.l+CW,y2:sy(50),stroke:'rgba(61,43,31,0.15)','stroke-width':'1','stroke-dasharray':'4 3'},g);
+  mk('line',{x1:PAD.l,y1:PAD.t+CH,x2:PAD.l+CW,y2:PAD.t+CH,stroke:'rgba(61,43,31,0.2)','stroke-width':'1'},g);
+  mk('line',{x1:PAD.l,y1:PAD.t,x2:PAD.l,y2:PAD.t+CH,stroke:'rgba(61,43,31,0.2)','stroke-width':'1'},g);
+
+  [0,25,50,75,100].forEach(v=>{
+    tx(v+'th',{x:sx(v),y:PAD.t+CH+18,'text-anchor':'middle','font-family':'DM Sans,sans-serif','font-size':'10',fill:'rgba(61,43,31,0.4)'},g);
+    tx(v+'th',{x:PAD.l-8,y:sy(v),'text-anchor':'end','dominant-baseline':'central','font-family':'DM Sans,sans-serif','font-size':'10',fill:'rgba(61,43,31,0.4)'},g);
+  });
+
+  tx('Box threat composite percentile',{x:PAD.l+CW/2,y:H-8,'text-anchor':'middle','font-family':'DM Sans,sans-serif','font-size':'10','font-weight':'500','letter-spacing':'0.05em',fill:'rgba(61,43,31,0.35)'},g);
+  const ylg=mk('g',{transform:'translate(14,'+(PAD.t+CH/2)+') rotate(-90)'},g);
+  tx('Defensive contribution composite percentile',{x:0,y:0,'text-anchor':'middle','font-family':'DM Sans,sans-serif','font-size':'10','font-weight':'500','letter-spacing':'0.05em',fill:'rgba(61,43,31,0.35)'},ylg);
+
+  const qs={'font-family':'DM Sans,sans-serif','font-size':'10','font-weight':'500','letter-spacing':'0.07em'};
+  tx('box-dominant',{...qs,x:sx(55),y:PAD.t+14,fill:'rgba(61,43,31,0.28)'},g);
+  tx('complete midfielder',{...qs,x:sx(55),y:sy(3),fill:'rgba(61,43,31,0.22)'},g);
+  tx('defensive only',{...qs,x:PAD.l+6,y:PAD.t+14,fill:'rgba(61,43,31,0.2)'},g);
+  tx('limited profile',{...qs,x:PAD.l+6,y:sy(3),fill:'rgba(61,43,31,0.16)'},g);
+
+  const wrap=document.querySelector('.scatter-canvas-wrap');
+  const bind=(p,dot,r0)=>{
+    dot.addEventListener('mouseenter',()=>{
+      dot.setAttribute('r',r0+2);
+      tip.innerHTML='<strong>'+p.n+'</strong>'+p.team+'<br>Age '+p.age+'<br>Box Threat: '+Math.round(p.bt)+'th · Def: '+Math.round(p.dc)+'th';
+      tip.classList.add('show');
+    });
+    dot.addEventListener('mousemove',e=>{
+      const b=wrap.getBoundingClientRect();
+      let lx=e.clientX-b.left+14,ly=e.clientY-b.top-14;
+      if(lx+220>b.width) lx=e.clientX-b.left-234;
+      tip.style.left=lx+'px';tip.style.top=ly+'px';
+    });
+    dot.addEventListener('mouseleave',()=>{dot.setAttribute('r',r0);tip.classList.remove('show');});
+  };
+
+  players.forEach(p=>{
+    if(p.isV) return;
+    const isY=p.age<21,isO=p.age>=30;
+    const cx=sx(p.bt),cy=sy(p.dc);
+    let fill,stroke,sw;
+    if(isY){fill='rgba(74,122,48,0.45)';stroke='rgba(74,122,48,0.8)';sw=1.5;}
+    else if(isO){fill='rgba(160,67,47,0.28)';stroke='rgba(160,67,47,0.5)';sw=1;}
+    else{fill='rgba(61,43,31,0.18)';stroke='rgba(61,43,31,0.38)';sw=1;}
+    const dot=mk('circle',{cx,cy,r:5,fill,stroke,'stroke-width':sw,style:'cursor:pointer'},g);
+    bind(p,dot,5);
+  });
+
+  const rp=players.find(p=>p.isV);
+  const vcx=sx(rp.bt),vcy=sy(rp.dc);
+  const vdot=mk('circle',{cx:vcx,cy:vcy,r:8,fill:'#c49a2e',stroke:'#8a6a1a','stroke-width':2,style:'cursor:pointer'},g);
+  bind(rp,vdot,8);
+
+  mk('line',{x1:vcx-10,y1:vcy-4,x2:vcx-22,y2:vcy-18,stroke:'rgba(196,154,46,0.6)','stroke-width':'1','stroke-dasharray':'3 2'},g);
+  tx('R. Pukštas',{x:vcx-24,y:vcy-21,'text-anchor':'end','font-family':'DM Sans,sans-serif','font-size':'11','font-weight':'500',fill:'#8a6a1a','letter-spacing':'0.03em'},g);
+  tx('age 21 · Hajduk Split',{x:vcx-24,y:vcy-8,'text-anchor':'end','font-family':'Lora,serif','font-size':'9','font-style':'italic',fill:'rgba(138,106,26,0.65)'},g);
+})();
+</script>
+</body>
+</html>
