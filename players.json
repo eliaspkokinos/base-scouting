@@ -2062,5 +2062,157 @@
         "potentialProjection": "An 8 projects as a regular starter at a top-five European club — a physically dominant, aerially elite centre-back who wins his duels at a consistent rate and brings genuine set-piece threat at both ends. The honest deduction from a 9 is the build-up profile: until the left foot is reliable and the possession scanning is consistent, the range of systems that can deploy him optimally is narrower than his defensive quality deserves."
       }
     }
-  ]
+  ,{
+    "slug": "christos-mouzakitis",
+    "handcrafted": true,
+    "firstName": "Christos",
+    "lastName": "Mouzakitis",
+    "positionTag": "Central Midfielder",
+    "positionCategory": "Midfielders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/christos-mouzakitis.png",
+    "photoAlt": "Christos Mouzakitis",
+    "verdictLine": "This is not a discovery report. The market already knows he exists — the €25M valuation and links to Madrid and United confirm that. The B.A.S.E. question is different: how much of this profile is genuinely portable, and whether the clubs reportedly interested are actually the right fit for how he plays.",
+    "bio": {
+      "dob": "Dec 25, 2006",
+      "nationality": "Greece",
+      "club": "Olympiacos Piraeus",
+      "league": "Greek Super League 1",
+      "contractExpiry": "Jun 2029",
+      "marketValue": "€25M",
+      "preferredFoot": "Left",
+      "height": "1.78m",
+      "agent": "Rosko Company"
+    },
+    "scores": { "basePotential": "9", "travelReadiness": "9", "reportDate": "Apr '26" },
+    "role": {
+      "primaryRole": "Deep-Lying Playmaker",
+      "description": ["Developed originally as a winger and attacking midfielder, now settled in the left-sided role of a double pivot under Mendilibar. He operates as the creative engine from deep — receiving between the lines, breaking them with vertical passes, and managing the tempo of possession with unusual calm for his age. The position asks him to be both a metronome and a line-breaker, and he handles both demands. The defensive responsibility in the pivot is the area where his development is least complete, but his positioning awareness and 1v1 defending are already at a functional level for this role. Best in a system that gives the six licence to receive under pressure and play forward — his value is maximised when the team trusts him with the ball in tight spaces, not when it bypasses him to play direct."],
+      "formationName": "4–2–3–1 Shape",
+      "formationLabelBottom": "Mouzakitis — highlighted position",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 50, "cy": 460, "label": "LB"},
+        {"cx": 150, "cy": 465, "label": "LCB"},
+        {"cx": 250, "cy": 465, "label": "RCB"},
+        {"cx": 350, "cy": 460, "label": "RB"},
+        {"cx": 255, "cy": 368, "label": "CM"},
+        {"cx": 80, "cy": 255, "label": "LW"},
+        {"cx": 200, "cy": 248, "label": "AM"},
+        {"cx": 320, "cy": 255, "label": "RW"},
+        {"cx": 200, "cy": 145, "label": "ST"}
+      ],
+      "highlightedPosition": {"cx": 155, "cy": 368, "label": "CM"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "Passing variance is the headline skill", "text": "He selects the pass type for the moment — clipped, driven, diagonal, vertical — and executes it with appropriate weight. 7th in the Greek Super League for dangerous passes per 30 minutes team in possession and 6th for difficult passes. The numbers accumulate from selection quality, not volume."},
+        {"title": "Receives on the half-turn as default habit", "text": "He positions before the ball arrives so the turn and the next action are one movement. This is already formed at 19. It is what makes him look like he has more time than he does."},
+        {"title": "Press resistance through body control, not pace", "text": "Balance, shielding, tight close control — he moves the press around him rather than bursting away from it. 95th-percentile progressive passes, 92nd passes per 90."},
+        {"title": "Shooting from distance is an underused weapon", "text": "Ball-striking is technically strong — powerful strikes and slotted finishes both in range — but attempts are infrequent. The habit of pulling the trigger does not yet match the technical ability to do so."},
+        {"title": "Right foot is functional, not confident", "text": "He does not avoid it entirely but the directional bias under pressure is visible. At a higher level, opponents will press his right side specifically to exploit the angle preference."}
+      ],
+      "offBall": [
+        {"title": "Positionally disciplined on the defensive left", "text": "Stays deep in Olympiacos's block, scanning regularly and shutting off angles before the ball arrives. Structured and attentive — he reads rhythm, not just individual actions."},
+        {"title": "Excellent 1v1 defending for a creative midfielder", "text": "Body positioning, tackle timing, and patience before committing are all above what you expect from a number six whose primary role is creative. He gets his body across runners and times the slide tackle well."},
+        {"title": "Tactical press reading is still forming", "text": "His individual defensive actions are good; the systemic integration — knowing where to be before the press trigger — has gaps. Not unusual at 19 in a structured system, but something any top club will need to develop deliberately."},
+        {"title": "Arrives in the finish phase at an elite rate", "text": "98th percentile possessions in the finish phase per 30 minutes team in possession. Movement intelligence: reading where the play is going and arriving before it gets there."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "Passing Range and Variance", "desc": "The ability to select the right pass type for the moment — clipped, driven, diagonal, vertical — and execute it with appropriate weight is not a system attribute. It is a technical and cognitive habit. It will express itself differently in different environments, but the underlying capacity is genuinely portable. 7th in the Super League for dangerous passes per 30 TIP from a double pivot is not a system artifact."},
+        {"name": "Half-Turn Reception Habit", "desc": "Already formed at 19. This is one of the clearest markers of a midfielder with top-level ceiling: the pre-turn positioning that turns receive-and-think into a single fluid action. The faster the game, the more this habit is worth. It gets more valuable at the next level, not less."},
+        {"name": "Composure Under Pressure", "desc": "The composure is the one constant in every description of this player from every source. He does not play like someone who might give it away. That psychological baseline — demanding the ball, trusting himself with it — is not coachable. It is either there or it is not. At 19, it is clearly there."},
+        {"name": "1v1 Defensive Quality", "desc": "The body positioning, tackle timing, and channel discipline in 1v1 situations are formed technical habits. They travel. The systemic press reading does not — but the individual defensive quality is already at a level that makes him a complete profile rather than a one-sided one."}
+      ],
+      "context": [
+        {"name": "Long Pass Accuracy", "desc": "Only 31st percentile on long pass completion in this pool — a lower number than you would expect given the dangerous passes output. He attempts the difficult ball frequently; his completion rate on it is below median. Against a higher press, where those balls are attempted with less time and less angle, this gap could widen. The ambition on long passing is already priced into the dangerous passes output. The accuracy under pressure is the open question."},
+        {"name": "Ball Carrying in Tight Areas", "desc": "Effective against the defensive intensity of the Greek Super League. Against a front press at top-five level, the moments he can hold the ball and carry through compact spaces will shrink. The technique is there; whether the pace and burst to create those carry angles are sufficient at the next level is the remaining question."}
+      ],
+      "system": [
+        {"name": "Progressive Pass Volume", "desc": "95th percentile progressive passes is a real number, but it is partly a function of Olympiacos's possession-dominant system and the relative quality of the opposition. In a top-five league where opponents press higher and close lines faster, the volume will compress. The quality of each attempt — the dangerous passes ranking — is the more portable signal."},
+        {"name": "Finish-Phase Arrivals", "desc": "98th percentile possessions in the finish phase. Partly genuine movement intelligence, partly a product of playing in a dominant team that creates sustained attacking phases. The intelligence is pure; the volume is system-amplified. Will show up at the next level, but probably not at 98th percentile."}
+      ],
+      "exposed": [
+        {"name": "Time of Release — Over-Dribble", "desc": "When escaping tight areas, he sometimes misses the release moment and continues dribbling past a better pass option. At top-five level, that extra touch in a compact space is the difference between a forward pass and losing possession in a dangerous area. The habit needs tightening before the stakes rise."},
+        {"name": "Tactical Press Integration", "desc": "Individual defensive quality is good; systemic press execution is inconsistent. At Olympiacos, the structure around him compensates. At a UCL club that presses as a unit, the gap between his individual reads and his systemic positioning will be visible until it is specifically drilled. Not a long-term concern, but a first-season cost."},
+        {"name": "Physical Frame at Senior Level", "desc": "1.78m with a slight build. He compensates with balance, shielding, and intelligence — and those qualities are more than adequate at this level. Against the physicality of top midfield battles in the Premier League or Bundesliga, the question is not whether he can cope but whether the current version of his body can cope now, or whether it needs eighteen months more development first."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Frame", "value": "1.78m, slight mesomorphic build. More body to add. That process will be important for the senior-level physical battles ahead, but it should not be forced — his agility and balance are products of the current frame as much as his skill."},
+        {"label": "Pace & Acceleration", "value": "81st percentile running distance. He covers ground — more than almost any midfielder in this pool. The burst speed and explosive acceleration are the weaker end: he is not someone who escapes pressure with pace. He escapes it with the ball."},
+        {"label": "Agility", "value": "Above average in tight space. Quick directional changes, small turning radius, good coordination. These attributes are what make his close control and half-turn habit work — they are not separable from the technical output."},
+        {"label": "Injury Record", "value": "Clean. No significant injury history. Full season of senior minutes at 19 in a Champions League environment — the physical availability is not a concern."}
+      ],
+      "cognitive": [
+        {"label": "Pre-Receive Scanning", "value": "Elite for his age. The half-turn habit is the visible output of a pre-receive scanning process that is already formed. He knows where the ball is going before it arrives. That habit of attention is the most important single quality in this profile."},
+        {"label": "Passing Decision Quality", "value": "Selects the right pass type reliably. The weight, trajectory, and timing of his passes are calibrated to the specific situation. He is not attempting difficult passes at random — he is reading when they are available and hitting them. The over-dribble tendency is the one point where the decision clock slows."},
+        {"label": "Transition Speed", "value": "Fast in transition — releases the ball instantly in counter-attacking moments to bypass the press. His reading of the transitional moment (when to go quick, when to manage) is already above what you expect at 19."},
+        {"label": "Tactical Maturity", "value": "Good within Olympiacos's structure. The press traps and off-ball positioning within Mendilibar's system are still developing — the individual reads are there, the systemic execution is not yet automatic. This is a development gap, not a ceiling question."}
+      ],
+      "psychological": [
+        {"label": "Personality Under Pressure", "value": "Demands the ball. The most consistent description across all sources: he seeks the ball in all phases, never hides, plays with personality. The composure is not passivity — it is active confidence in his own technical solutions."},
+        {"label": "Club Loyalty / Development", "value": "Olympiacos since age 7. The academy pathway has produced a player who is already functioning at senior level for a UCL club. The psychological foundation that comes from a stable development environment is visible in how he plays — no anxiety, no hesitation."},
+        {"label": "Responsibility Absorption", "value": "The youngest player in the Greek Super League midfield pool — the only teenager — and already taking set-pieces and leading build-up phases. The occasion has not appeared to affect his output. That is a meaningful signal about his psychological ceiling."},
+        {"label": "Humility", "value": "By all accounts grounded and team-oriented in interviews. The confidence on the pitch does not appear to be concealing an ego off it. At the profile level he currently occupies — national team, €25M valuation, European football — that is not guaranteed."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Release timing — recognising the pass before the carry", "text": "The over-dribble habit is the clearest technical gap. He sees the space to carry and takes it even when a teammate in space was the better option. The cognitive work is specific: expanding the scanning window before the carry decision so that the available pass is in the picture before he commits to the dribble. At top-five level, the extra touch in a compact area is penalised directly."},
+      {"num": "02", "title": "Press positioning — systemic execution, not just individual reads", "text": "His individual defensive reads are already good. What is not yet automatic is his positioning within coordinated press traps — being in the right zone before the press trigger is hit, not after it. A top club's pre-season will drill this specifically. It will come fast once the environment demands it. It just has not been demanded yet."},
+      {"num": "03", "title": "Physical development — controlled, not forced", "text": "The frame needs to be built without compromising the agility and body control that are central to what he does. A managed physical programme over the next two seasons should add the contact strength he will need for senior European football. The priority is the upper body — he already uses his arms and balance well to shield; the question is whether he can hold his ground against stronger opponents in a full-contact midfield battle."},
+      {"num": "04", "title": "Long pass accuracy under pressure", "text": "31st percentile long pass completion in this pool, against the backdrop of 7th in dangerous passes per 30 TIP. The ambition on the difficult ball is already there; the consistency of execution needs to follow. The discrepancy between attempt quality and completion rate is the gap. Drilling the long pass under simulated press conditions is the specific work."}
+    ],
+    "travelScore": {
+      "score": "9",
+      "prose": [
+        "The 9 rather than a higher score is a precise claim. The core of what Mouzakitis does is genuinely Pure DNA — the half-turn habit, the passing variance, the composure — and none of those qualities depend on his current environment to exist. They travel. The question at this fee is not whether they travel. It is whether they are sufficient to perform at the level the fee implies from day one, or whether a short adaptation period is the more honest expectation.",
+        "The honest answer is that he is ready to step up and perform immediately. Whether he starts week one for a UCL contender is a squad depth question, not a quality question. The tools required to operate as a six or eight in a top-five league are already present. The Greek Super League is not the comparison point anymore. He has outgrown it. The frame and the press execution are the only two items with a genuine development timeline.",
+        "The note of caution is about system fit, not ability. The press execution gap and the physical frame are both real. A club that builds the right structure around him — a more defensive partner in the pivot, a patient first season of systemic integration — accelerates his timeline. A club that buys him to immediately fill a structural role without managing those gaps will see a slower version of the player the numbers describe.",
+        "The failure condition is specific. If he is deployed in a high-intensity transition league without a cover partner, pressed from his blind side repeatedly before the scanning habit is fully automated, he will over-dribble in the moments he should release. He becomes safe rather than progressive. His identity as a line-breaker compresses into a ball-circulator. That version of Mouzakitis is still a useful midfielder. It is not the one the fee is priced for."
+      ]
+    },
+    "leagueScores": [
+      {"league": "Premier League", "score": 8.5, "width": "85%", "high": true, "note": "The physical intensity is the highest of the target leagues and the most likely to test his frame immediately. The right PL fit is a possession-dominant, build-from-the-back system with a defensive cover partner in midfield. The wrong fit is a direct, high-tempo system that asks him to win physical battles before the frame is ready — that version of the move costs a season of output before the adaptation pays off."},
+      {"league": "Bundesliga", "score": 9.2, "width": "92%", "high": true, "note": "The strongest system fit of the target leagues. German football rewards left-footed deep playmakers with passing range and press resistance — the Bundesliga has a clear archetype for what he does and multiple clubs who deploy a system that would maximise him. The physical demands are structured rather than chaotic, and the pressing work expected of a six is drilled in a way that addresses his press integration gap directly."},
+      {"league": "Ligue 1", "score": 8.2, "width": "82%", "high": true, "note": "Good fit at a top club with a defined system. PSG's possession model is genuinely well-matched to his profile. The physical demands are lower than the PL and the tactical clarity at top clubs is high. A non-top-four Ligue 1 environment would underutilise him — the league is too uneven to develop him against consistently challenging opposition."},
+      {"league": "Serie A", "score": 8.8, "width": "88%", "high": true, "note": "Strong fit. Italian football's tactical emphasis on positional play and structured pressing is the environment most likely to develop his systemic press reading quickly, while the technical demands and passing culture are aligned with his strengths. A Serie A club that manages his physical development within a technically demanding system is a highly viable pathway."},
+      {"league": "La Liga", "score": 9.0, "width": "90%", "high": true, "note": "Strong technical fit. The top of La Liga deploys left-footed deep playmakers with passing range as a clearly defined archetype — the role itself is built for profiles like this. The question is whether a club acquires him to play now or develops him into a starting pivot role over two seasons. Both are viable outcomes. The second is more honest about the first-season timeline."},
+      {"league": "Eredivisie", "score": 7.8, "width": "78%", "high": true, "note": "Not the right step. He has already outperformed the Eredivisie comparison level. Moving there would compress his development against opposition who would not challenge the remaining gaps in his profile. If the top-five move does not happen this summer, another season at Olympiacos in European competition is a better outcome than a step sideways into Dutch football."},
+      {"league": "Jupiler Pro", "score": 6.5, "width": "65%", "high": false, "note": "Not appropriate at this valuation and profile level. Belgian football would represent a sideways move at best. The competitive level and fee bracket are mismatched. If anything, staying at Olympiacos for one more season of Champions League football is better developmental value than either of the Benelux options."}
+    ],
+    "riskGauges": [
+      {"score": 1, "label": "Development", "meaning": "Minimal risk", "note": "Senior European minutes at 19, national team at 19, upward trajectory with no plateaux visible. The development gaps that exist are specific, addressable, and the kind that top-club environments accelerate rather than expose. The ceiling is the debate; the floor is already very high."},
+      {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Every source agrees on this: demanding, composed, humble, team-oriented. The psychological profile is one of the cleanest in this portfolio. Handles the youngest-in-the-league context without apparent pressure. No risk here."},
+      {"score": 2, "label": "Market", "meaning": "Low risk", "note": "€25M with elite-level club interest confirmed. The valuation is high but not disconnected from the evidence — UCL minutes, national team, age context. The risk is that the rumour cycle inflates expectations beyond what the current version can deliver immediately. Market risk is low; expectation management risk is slightly higher."},
+      {"score": 2, "label": "Systemic", "meaning": "Low risk", "note": "The Pure DNA in this profile is high enough that it survives across most system types. The systemic risk comes from a specific mismatch: a high-press, direct system that asks him to do things before the press integration gap is resolved. That narrows the viable environments, but does not make the move risky in most of the target league scenarios."}
+    ],
+    "trajectoryNote": "Projects as a regular starter in a top-five European league within two seasons — a left-footed deep playmaker with genuine passing range, elite composure, and a profile that makes more sense at the next level than the current one.",
+    "nowAge": 19,
+    "verdict": {
+      "statement": "The market has not made a mistake on Mouzakitis. The talent is real and the Pure DNA is high enough that the fee makes sense. The harder question is whether the clubs interested are the right landing spots for how he actually plays. Elite European clubs with high-tempo, high-press environments will ask him to do things before his press execution and physical frame are fully ready. The Bundesliga and Serie A fits are more structurally aligned with his current profile than any direct step to the very top of the pyramid. A club that builds the right pivot partnership around him and manages his systemic development deliberately will get an elite creative midfielder within two seasons. A club that buys him to fill a structural gap immediately may find a version of him that is less than the player the numbers describe.",
+      "travels": [
+        "Half-turn reception habit — already formed at 19; gets more valuable as the game gets faster, not less",
+        "Passing variance — 7th in the Super League for dangerous passes per 30 minutes in possession; 4th worldwide among U21 midfielders for passes to the penalty box",
+        "Composure under pressure — every source agrees; the psychological baseline is genuinely elite",
+        "1v1 defensive quality — body positioning, tackle timing, channel discipline are formed technical habits",
+        "Finish-phase movement — the intelligence is pure; only the volume is system-amplified",
+        "Shooting from distance — technically strong, currently underused; a weapon that scales at the next level"
+      ],
+      "targeted": [
+        "Release timing — over-dribble habit; misses the pass window in tight areas at a rate that will be punished above this level",
+        "Press trap execution — systemic positioning is still forming; individual reads are good, coordinated execution is not yet automatic",
+        "Long pass accuracy — 31st percentile completion on a ball he attempts frequently; the ambition is ahead of the consistency",
+        "Physical frame — defensive duel win rate at 22nd percentile; manageable now, targeted at the next level until resolved",
+        "System dependency discount — creation composite will compress when Olympiacos's possession advantage is removed"
+      ],
+      "potentialRating": "9/10",
+      "potentialBalls": 9,
+      "potentialProjection": "A 9 reflects a profile whose ceiling is high enough that the fee is defensible, but honest about what still needs to happen. The talent is confirmed. The rate of translation is not. The right club, the right pivot partner, the right first season of systemic integration determines whether this becomes a regular top-five league starter or a talented squad option who never quite controlled games at the level the numbers suggested he should. The deduction from a 10 is the long pass accuracy gap, the press execution work still to be done, and a frame that needs about a year of physical development before it holds up in every environment. None of those are permanent limitations. All of them are real."
+    }
+  }]
 }

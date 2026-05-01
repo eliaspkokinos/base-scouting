@@ -127,9 +127,10 @@ git pull origin main --no-rebase --no-edit && git add . && git commit -m "add [P
 | Ognjen Ugrešić | Midfielder | `reports/ognjen-ugresic-report.html` | ✓ minimal entry | ✓ |
 | Luka Zarić | Attacker | `reports/luka-zaric-report.html` | ✓ minimal entry | ✓ |
 | Ahmed Hadžimujović | Defender | `reports/ahmed-hadzimujovic-report.html` | ✓ full entry | ✓ |
+| Christos Mouzakitis | Midfielder | `reports/christos-mouzakitis-report.html` | ✓ full entry | ✓ |
 
-Position pages: `defenders.html` (4 cards), `midfielders.html` (8 cards), `attackers.html` (4 cards)
-Hero stat `index.html`: currently **14+** — increment manually each time a player is added.
+Position pages: `defenders.html` (4 cards), `midfielders.html` (9 cards), `attackers.html` (4 cards)
+Hero stat `index.html`: currently **15+** — increment manually each time a player is added.
 
 ---
 
