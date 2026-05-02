@@ -196,13 +196,14 @@
     .potential-num { font-family:'Playfair Display',serif; font-size:80px; font-weight:700; color:var(--brown); line-height:1; margin-bottom:12px; }
     .potential-balls { font-size:28px; letter-spacing:4px; display:block; margin-bottom:16px; }
     .potential-projection { font-family:'Lora',serif; font-size:15px; font-style:italic; color:var(--brown3); max-width:600px; margin:0 auto; line-height:1.7; }
-    footer { background:var(--brown); padding:48px; display:flex; align-items:center; justify-content:space-between; }
-    .footer-logo { font-family:'Playfair Display',serif; font-size:16px; font-weight:700; color:var(--cream); letter-spacing:0.04em; }
-    .footer-logo em { font-style:italic; color:rgba(245,240,232,0.5); font-weight:400; }
-    .footer-links { display:flex; gap:28px; list-style:none; }
-    .footer-links a { font-family:'DM Sans',sans-serif; font-size:12px; color:rgba(245,240,232,0.45); text-decoration:none; letter-spacing:0.06em; }
-    .footer-links a:hover { color:rgba(245,240,232,0.8); }
-    .footer-copy { font-family:'Lora',serif; font-size:12px; font-style:italic; color:rgba(245,240,232,0.3); }
+    .report-footer { background:var(--cream2); border-top:1px solid var(--border); padding:48px 48px 36px; }
+    .report-footer-inner { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; margin-bottom:32px; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); text-decoration:none; }
+    .footer-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .footer-nav { display:flex; gap:28px; }
+    .footer-nav a { font-family:'Lora',serif; font-size:14px; color:var(--brown2); text-decoration:none; transition:color 0.2s; }
+    .footer-nav a:hover { color:var(--ink); }
+    .footer-bottom { display:flex; justify-content:space-between; padding-top:24px; border-top:1px solid var(--border); font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); }
   </style>
 </head>
 <body>
@@ -910,16 +911,21 @@
 
 </div>
 
-<footer>
-  <div class="footer-logo">B.A.S.E. <em>Scouting</em></div>
-  <ul class="footer-links">
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../index.html#reports">Reports</a></li>
-    <li><a href="../about.html">About</a></li>
-    <li><a href="../contact.html">Contact</a></li>
-  </ul>
-  <div class="footer-copy">© 2026 B.A.S.E. Scouting</div>
-</footer>
+<div class="report-footer">
+  <div class="report-footer-inner">
+    <a href="../index.html" class="footer-logo">B.A.S.E. <em>Scouting</em></a>
+    <nav class="footer-nav">
+      <a href="../index.html#positions">Players</a>
+      <a href="../index.html#reports">Reports</a>
+      <a href="../index.html#methodology">Methodology</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2026 B.A.S.E. Scouting. All rights reserved.</span>
+    <span style="font-family:'Lora',serif; font-style:italic; font-size:12px;">Balkan Analytical Scouting &amp; Evaluation</span>
+  </div>
+</div>
 
 <script>
 (() => {
