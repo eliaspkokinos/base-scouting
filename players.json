@@ -2214,5 +2214,157 @@
       "potentialBalls": 9,
       "potentialProjection": "A 9 reflects a profile whose ceiling is high enough that the fee is defensible, but honest about what still needs to happen. The talent is confirmed. The rate of translation is not. The right club, the right pivot partner, the right first season of systemic integration determines whether this becomes a regular top-five league starter or a talented squad option who never quite controlled games at the level the numbers suggested he should. The deduction from a 10 is the long pass accuracy gap, the press execution work still to be done, and a frame that needs about a year of physical development before it holds up in every environment. None of those are permanent limitations. All of them are real."
     }
+  },
+  {
+  "slug": "marko-soldo",
+  "handcrafted": true,
+  "firstName": "Marko",
+  "lastName": "Soldo",
+  "positionTag": "Box-to-Box Midfielder",
+  "positionCategory": "Midfielders",
+  "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/marko-soldo.png",
+  "photoAlt": "Marko Soldo",
+  "verdictLine": "A 22-year-old with two radically different statistical profiles in twelve months and a set of eyes that cannot reconcile either of them with what he looks like in motion. The data says elite. The watch says incomplete. Both are probably partially right — and the gap between them is the entire question.",
+  "bio": {
+    "dob": "Nov 22, 2003",
+    "nationality": "Croatian / Bosnian",
+    "club": "GNK Dinamo Zagreb",
+    "league": "1. HNL (Croatia)",
+    "contractExpiry": "Jun 2029",
+    "marketValue": "€1.3M",
+    "preferredFoot": "Right",
+    "height": "1.87m",
+    "agent": "Marjan Sisic"
+  },
+  "scores": {
+    "basePotential": "6",
+    "travelReadiness": "5.5",
+    "reportDate": "April '26"
+  },
+  "role": {
+    "primaryRole": "Box-to-Box Midfielder",
+    "description": ["Originally developed as a winger, converted to central midfield across loan spells, now operating as a defensive midfielder at Dinamo behind Josip Mišić — the club captain whose position he has been identified as the long-term heir to. The profile that emerged is genuinely unusual: a physically imposing DM (1.87m, long-limbed) with winger instincts in transition and box-arrival patterns that most defensive midfielders do not produce. He finds pockets well and arrives late into dangerous areas. What the position still asks of him — controlled circulation under pressure, short passing in tight central areas — is where the conversion remains visibly incomplete. Best in a double pivot with a technically composed partner; worst in a lone six role requiring sustained ball management."],
+    "formationName": "4–2–3–1 Shape",
+    "formationLabelBottom": "Soldo — highlighted position",
+    "formationPositions": [
+      {"cx": 200, "cy": 548, "label": "GK"},
+      {"cx": 50, "cy": 460, "label": "LB"},
+      {"cx": 150, "cy": 465, "label": "LCB"},
+      {"cx": 250, "cy": 465, "label": "RCB"},
+      {"cx": 350, "cy": 460, "label": "RB"},
+      {"cx": 155, "cy": 368, "label": "DM"},
+      {"cx": 80, "cy": 255, "label": "LW"},
+      {"cx": 200, "cy": 248, "label": "AM"},
+      {"cx": 320, "cy": 255, "label": "RW"},
+      {"cx": 200, "cy": 145, "label": "ST"}
+    ],
+    "highlightedPosition": {"cx": 255, "cy": 368, "label": "DM"},
+    "heatmapZones": [],
+    "heatmapEllipses": []
+  },
+  "behaviors": {
+    "onBall": [
+      {"title": "One-touch forward passing", "text": "When he receives and immediately plays forward without needing to settle the ball, the output is sharp, well-weighted, and purposeful. This is where the winger background expresses itself most usefully — the instinct to release quickly into advancing teammates is already formed. The data backs it: 98th-percentile xA per shot assist, 100th-percentile long pass accuracy, 89th-percentile assists at Dinamo."},
+      {"title": "Ball carries with power but not control", "text": "He covers ground when he drives forward and the physicality of his carry is imposing — long-limbed, powerful, difficult to dispossess when moving at pace. The touch that initiates the carry is frequently large, and the ball often bounces further from his body than intended. The carry looks good from a distance; it looks like a gamble from close."},
+      {"title": "Striking from range is genuinely strong", "text": "His ball-striking technique produces accurate, powerful shots. 93rd-percentile shots per 90, 89th-percentile npxG at Dinamo, and consistent on-target finishes in the footage reviewed. This is a real attacking weapon that predates his current role — it comes from the forward profile he was trained in."},
+      {"title": "Short passing under pressure is unreliable", "text": "The most visible technical gap. When the press arrives before he has settled the ball, the pass selection and execution both suffer. He forces it to the nearest option rather than scanning for the better one. At Osijek last year this produced a 3rd-percentile short pass accuracy. At Dinamo the number has recovered significantly — but he is touching the ball less often in pressured situations, which makes direct comparison difficult."}
+    ],
+    "offBall": [
+      {"title": "Finds pockets intelligently", "text": "His movement into half-spaces as an option for teammates is one of his more transferable qualities. He reads where the ball is going and offers himself as a pressure release at the right moment. Once in the pocket, he does not always make the most of it — but the movement pattern that creates the option is already formed."},
+      {"title": "Aerial presence is genuine", "text": "For a central midfielder, his aerial output is exceptional. 80th-percentile aerial duels won per 90 at Dinamo, 92nd at Osijek. The vertical jump is physically impressive. He wins headers in the defensive phase and is a credible threat at set pieces. The leg-to-torso ratio that creates clumsiness at ground level actually helps him here — more leg means more vertical leap."},
+      {"title": "Tackling timing is late", "text": "His ground-level defensive reads are behind his aerial ones. He tends to commit to challenges slightly after the optimal moment, which generates contact infractions rather than clean interceptions. At Osijek the fouls per 90 were at the 10th percentile — low foul volume, but combined with 34th-percentile pAdj Tkl+Int, suggesting he was avoiding challenges rather than winning them."},
+      {"title": "Transition aggression is episodic", "text": "He presses with energy in short bursts and can be disruptive in transition — but the sustained pressing intensity required in a structured system is not yet automatic. He works hard when the ball is close; the recovery intensity when the ball is far is the gap that the minutes data does not capture."}
+    ]
+  },
+  "dna": {
+    "pure": [
+      {"name": "Aerial Dominance", "desc": "Consistent across both seasons regardless of system or sample size. 92nd percentile at Osijek over 2,539 minutes. The physical attribute — vertical leap, timing, aggression in the air — is set. It travels."},
+      {"name": "Ball-Striking Quality", "desc": "The technique to generate powerful, accurate strikes from range predates any system. It is a winger's habit that survived the conversion. When it appears in a defensive midfielder it is unexpected and difficult to defend against."},
+      {"name": "Box-Arrival Intelligence", "desc": "He finds himself in dangerous positions more often than his position description suggests he should. The movement pattern — arriving late, reading crosses and second balls — is already present and is not a product of the current system. It will express itself in any environment that gives him the licence to arrive."}
+    ],
+    "context": [
+      {"name": "One-Touch Forward Passing", "desc": "Excellent when the picture is already clear before he receives. Context-dependent because it requires either time on the ball or a simple decision environment. Against a structured press that takes away the forward option, this collapses quickly into the short-pass problem."}
+    ],
+    "system": [
+      {"name": "Passing Accuracy (Dinamo version)", "desc": "The 87th-percentile pass accuracy at Dinamo in 530 minutes is heavily system-dependent. Dinamo dominate possession, compress opponents, and create simpler passing pictures. The same player posted 7th-percentile pass accuracy over a full season at Osijek, where those conditions did not exist. The truth is somewhere between those two numbers. The question is where."},
+      {"name": "Defensive Metrics (Dinamo version)", "desc": "The swing from 34th to 87th percentile on pAdj Tkl+Int in twelve months is too large to be purely developmental. Dinamo's defensive structure does significant organisational work that frees the DM to make interceptions in cleaner positions. The underlying defensive reading has probably improved — the metric has not improved by 53 percentile points."}
+    ],
+    "exposed": [
+      {"name": "First Touch Reliability", "desc": "The central technical problem. The ball does not feel natural at his feet — it bounces further than intended, sits awkwardly after a large initial touch, and forces subsequent actions to compensate. This is a motor habit formed across years of play and is the hardest gap to close. Until it resolves, every possession metric will be context-dependent rather than genuinely portable."},
+      {"name": "Ground Duel Timing", "desc": "Late into challenges at ground level. The long legs arrive marginally after the optimal moment. At this level, the margin is tolerable. Against faster opponents at a higher level, the same timing produces fouls or missed challenges with greater frequency."},
+      {"name": "Positional Role Clarity", "desc": "It is not yet clear whether his best position has been found. The winger instincts in a DM role create moments of genuine quality and moments of genuine confusion — for him and for the system around him. More minutes, more footage, and a clearer coaching brief are required before this question can be answered confidently."}
+    ]
+  },
+  "profiles": {
+    "athletic": [
+      {"label": "Frame", "value": "1.87m, high leg-to-torso ratio. Unusual body proportions for a central midfielder — long-limbed and physically imposing, but the same frame that creates aerial dominance also creates coordination complexity at ground level. Built like a converted winger, because he is one."},
+      {"label": "Aerial Ability", "value": "Exceptional. Vertical leap well above the position average. Wins aerial duels in both phases and is a genuine set-piece threat. Consistent across both seasons and both sample sizes."},
+      {"label": "Ground Mobility", "value": "Covers ground at pace in open space. Looks less coordinated in tight, compact situations where shorter strides and quicker changes of direction are required. The 'elephant on rollerblades' observation is accurate at close range."},
+      {"label": "Injury Record", "value": "Clean. No injury history on record despite multiple seasons of regular senior minutes. The frame holds up physically even if it does not always cooperate technically."}
+    ],
+    "cognitive": [
+      {"label": "Pocket-Finding", "value": "Above average. He reads where to offer himself as an option and moves into those spaces at the right moment. The movement intelligence that produced this at winger level has carried across to the central role."},
+      {"label": "Pre-Receive Scanning", "value": "Unclear from limited footage. The technical problems on reception suggest the scanning habit may be underdeveloped — players who scan well tend to receive in better body positions. This is a hypothesis, not a confirmed observation."},
+      {"label": "Decision Speed Under Pressure", "value": "Slow in tight areas relative to the position requirement. When pressed quickly, he tends to hold the ball or force it rather than releasing to the available option. This is the cognitive translation of the first-touch problem — the processing and the touch compound each other."},
+      {"label": "Role Adaptation", "value": "Has moved through winger, attacking midfielder, central midfielder, and defensive midfielder roles across his career. The adaptability is real. Whether the DM role is the right destination or just the current one is the open question."}
+    ],
+    "psychological": [
+      {"label": "Heir Apparent Context", "value": "Dinamo coaching staff has acknowledged him as the closest profile to Josip Mišić in the squad. Being identified as the long-term replacement for a club captain at 22 is a meaningful endorsement — it means someone with full training-ground visibility sees something in the profile beyond the limited match exposure."},
+      {"label": "Response to Competition", "value": "At Osijek, given a more offensive role than he had ever played and responded with the club's best attacking numbers from midfield. The willingness to adapt and the ability to produce when the environment changes are both positive signals."},
+      {"label": "Croatia U21", "value": "10 caps. The international pathway confirms the upward trajectory at the time, even if the current club exposure is limited. Someone in the national setup has watched enough to trust him in competitive youth football."}
+    ]
+  },
+  "devPriorities": [
+    {"num": "01", "title": "First touch in tight spaces — the non-negotiable", "text": "Everything else in this profile is limited by the first touch. It is the reason the short pass accuracy craters under pressure, the reason carries look loose in compact areas, and the reason the data and the eyes produce such different impressions. This is the hardest gap to close because it is a motor habit formed across years of playing in wider, less pressured positions. It requires deliberate repetition in specifically tight-space conditions, not general technical training."},
+    {"num": "02", "title": "Ground-duel timing", "text": "The late tackle tendency is related to the first-touch problem — a player who is not fully in control of the ball is also not fully in control of his weight distribution going into a challenge. As the first touch improves, the duel timing should partially follow. The specific work is on body positioning before the challenge rather than on the challenge itself."},
+    {"num": "03", "title": "Minutes — of any kind", "text": "The most important development input right now is simply game time, and he is not getting it. The data from Dinamo covers 530 minutes spread across cameo appearances — many of them in the final ten or fifteen minutes of games already decided. Dinamo do not trust him with meaningful competitive exposure. That is the real finding from the appearances log. Until the club trusts him with genuine minutes in contested situations, the first-touch and short-passing gaps cannot improve, and the data cannot confirm or deny what is actually there."},
+    {"num": "04", "title": "Release timing on the dribble", "text": "The tendency to continue carrying past the better-pass option is a winger habit in a central-midfield context. Wingers can carry because they have space and time; central midfielders who carry past the release point give opponents time to recover shape. Specific video work on identifying the release moment before it passes would accelerate this."}
+  ],
+  "travelScore": {
+    "score": "5.5",
+    "prose": [
+      "The 5.5 is an honest number given what we actually know. It is not a low score because the player is average — it is a low score because 530 minutes at one club cannot support a confident transferability verdict. The Pure DNA items that do travel — aerial dominance, ball-striking, box-arrival instinct — would push this toward 7 or higher if confirmed over a fuller sample. The first-touch problem and the context-dependency of the passing metrics are the anchors pulling it down.",
+      "What is clear is that the current data profile is not transferable at face value. A club that sees 100th-percentile long pass accuracy, 87th-percentile pass accuracy, and 87th-percentile defensive actions and projects those numbers forward is misreading the sample. Those numbers reflect Dinamo's structure and the game states Soldo enters as much as they reflect his ability. The honest transferability assessment requires either a full season of minutes at Dinamo or a loan where he plays regularly in a competitive environment — preferably one that asks him to manage the ball under pressure rather than protect leads.",
+      "The failure scenario is specific: a buying club acquires him on the current Dinamo numbers, deploys him in a role that requires first-phase ball management, and finds a player who loses possession in tight areas at a rate his data said he should not. That is the Osijek season re-emerging in a more expensive context. The 5.5 is a hold rating, not a recommendation either way."
+    ]
+  },
+  "leagueScores": [
+    {"league": "Premier League", "score": 3.0, "width": "30%", "high": false, "note": "The physicality and aerial ability would survive. The ball-management demands would not — PL midfielders are pressed constantly in the first phase and the short-pass problem becomes a serious liability immediately. Not a viable destination until the first-touch gap is resolved."},
+    {"league": "Bundesliga", "score": 4.0, "width": "40%", "high": false, "note": "The pressing culture makes the same demands as the PL. The physical profile fits; the technical profile does not yet. A club with a structured possession system and a technically composed double-pivot partner could manage the gaps — but the gap management required is significant enough to be a real concern."},
+    {"league": "Ligue 1", "score": 4.2, "width": "42%", "high": false, "note": "Similar demands to Bundesliga with slightly lower pressing intensity at mid-table level. The physicality suits him but the ball-management expectations at most Ligue 1 clubs are still beyond what the current technical profile can reliably deliver. Possible at the right club with the right cover partnership; not a natural destination."},
+    {"league": "Serie A", "score": 3.8, "width": "38%", "high": false, "note": "Italian football's tactical discipline and positional demands are the worst fit for his current profile. Serie A asks central midfielders to manage the ball in tight spaces as a baseline requirement. The technical gaps would be exposed quickly and consistently in this environment."},
+    {"league": "La Liga", "score": 2.8, "width": "28%", "high": false, "note": "The lowest fit of the target leagues. La Liga's possession culture and the technical demands it places on midfielders in the first and second phase are directly opposed to what he can reliably deliver. The ball-management problem would be exposed from the first week."},
+    {"league": "Eredivisie", "score": 6.2, "width": "62%", "high": true, "note": "A viable landing environment. Dutch football has the physicality to activate his aerial and box-arrival qualities, and the competitive level to force genuine development without immediately exposing every limitation. The right club — one that defends deep and transitions quickly — would get a useful version of him now."},
+    {"league": "Jupiler Pro", "score": 6.8, "width": "68%", "high": true, "note": "The strongest current fit of the seven target leagues. Belgian football's directness and physicality is the environment where his winger instincts and aerial presence are most valued, and where ball-management demands are more forgiving. A club that plays direct and values the hybrid #6 as a transition player would get a productive version of him immediately."},
+    {"league": "1. HNL (stay)", "score": 7.5, "width": "75%", "high": true, "note": "The most honest recommendation right now. Another full season at Dinamo with meaningful minutes — ideally starts in contested matches, not cameos in dominant wins — would either confirm the current data as real or expose it as context-dependent. Either outcome is more useful than a move on an incomplete picture. The minutes question is the one that needs answering first."}
+  ],
+  "riskGauges": [
+    {"score": 4, "label": "Development", "meaning": "High risk", "note": "Two loan spells, now back at Dinamo not playing. The touch problem visible at Osijek is still visible in the limited Dinamo footage. If technique is not resolved by 22 in Croatia, the window for resolving it is narrowing. The coaching staff's confidence in him — or lack of it — is expressed most clearly by the minutes log."},
+    {"score": 2, "label": "Psychological", "meaning": "Low risk", "note": "Adapted to multiple role changes, produced well when given opportunity at Osijek, identified as heir apparent by the Dinamo coaching staff. No psychological flags visible. The patience required to sit behind Mišić without apparently agitating for a move is its own signal."},
+    {"score": 1, "label": "Market", "meaning": "Minimal risk", "note": "€1.3M on a 2029 contract. At this price, the downside is financially manageable regardless of outcome. The risk of being wrong here costs almost nothing. This is exactly the price bracket where uncertainty is acceptable — the fee reflects the incomplete picture honestly."},
+    {"score": 3, "label": "Systemic", "meaning": "Medium risk", "note": "Much of what the current data shows is system-dependent. A club that acquires him for a role requiring first-phase ball management will be acquiring the Osijek version of the player, not the Dinamo version. The system match is the highest risk factor at this moment."}
+  ],
+  "trajectoryNote": "Suspended between two profiles — the eye test says incomplete, the data says elite. Both are probably right. The next twelve months resolve this.",
+  "nowAge": 22,
+  "verdict": {
+    "statement": "Soldo is the most statistically interesting player in this report archive relative to the confidence level the data justifies. The numbers say something exceptional. The eyes say something incomplete. Both are probably right. The gap between them is not a reason to dismiss the player — it is a reason to be specific about which parts of the profile to price and which parts to hold in abeyance. The aerial quality, the goal threat, the creation output, and the one-touch forward passing are real and present. The ball management, the ground duel execution, and the systemic defensive contribution are context-dependent and possibly illusory at the level the current numbers suggest. At €1.3M on a 2029 contract, the resource allocation question is not difficult. The deployment question is harder: do not acquire him expecting a player who can manage the ball in tight spaces, because the evidence across both seasons says that version of him does not exist yet — and at 22, the window for it to emerge is narrowing.",
+    "travels": [
+      "Aerial dominance — consistent across both seasons, both sample sizes, both systems",
+      "Goal threat and shot quality — npxG stable at 85–89th percentile across 3,000+ combined minutes",
+      "Creation quality — xA consistent at 85–89th percentile regardless of club or role",
+      "Box-arrival instinct — winger background expressing itself correctly in the final phase",
+      "Ball-striking technique — powerful, accurate from range; a weapon that predates any current system"
+    ],
+    "targeted": [
+      "First touch reliability — the root cause of the Osijek numbers and the single most important development gap",
+      "Short passing under pressure — directly downstream of the touch problem; will re-emerge in any demanding environment",
+      "Ground duel timing — late challenge habit; generated fouls rather than interceptions at Osijek",
+      "Progressive passing — median in both environments; not a strength in any role he has played",
+      "Minutes clarity — 530 minutes in May is not enough to confirm the Dinamo profile; this report requires an update"
+    ],
+    "potentialRating": "6/10",
+    "potentialBalls": 6,
+    "potentialProjection": "A 6 under uncertainty. If the first-touch problem is solved and the passing under pressure comes with it, the ceiling is higher — a complete box-to-box midfielder with elite aerial and goal output could reasonably project to a 7.5 or 8. If the touch problem is not solved, the ceiling is a specialist who produces attacking output from midfield in the right system at a mid-tier Balkan or Benelux level. Both outcomes are still possible at 22."
+  }
   }]
 }
