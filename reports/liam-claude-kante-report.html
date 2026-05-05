@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liam Claude Kanté — B.A.S.E. Scouting Report</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --cream:#f5f0e8; --cream2:#ede7d9; --cream3:#e4dccb;
+      --parchment:#d4c9b0; --brown:#3d2b1f; --brown2:#5c3d2e;
+      --brown3:#7a5445; --gold:#c49a2e; --gold2:#e8b84b;
+      --rust:#a0432f; --ink:#2a1f17; --muted:#8a7060;
+      --green:#4a7a30; --border:rgba(61,43,31,0.12); --border2:rgba(61,43,31,0.07);
+    }
+    html { scroll-behavior:smooth; }
+    body { background:var(--cream); color:var(--brown); font-family:'Lora',Georgia,serif; font-size:16px; line-height:1.75; overflow-x:hidden; }
+    nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:0 48px; height:68px; background:rgba(245,240,232,0.93); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); }
+    .nav-logo { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; letter-spacing:0.04em; color:var(--ink); text-decoration:none; }
+    .nav-logo em { font-style:italic; color:var(--brown3); font-weight:400; }
+    .nav-links { display:flex; gap:36px; list-style:none; }
+    .nav-links a { font-family:'DM Sans',sans-serif; font-size:12.5px; color:var(--muted); text-decoration:none; letter-spacing:0.06em; transition:color 0.2s; }
+    .nav-links a:hover { color:var(--brown); }
+    .nav-back { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); text-decoration:none; border-bottom:1px solid var(--parchment); padding-bottom:1px; transition:color 0.2s; }
+    .nav-back:hover { color:var(--brown); }
+    .report-hero { padding:110px 48px 0; background:var(--cream); border-bottom:1px solid var(--border); }
+    .report-breadcrumb { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:32px; display:flex; align-items:center; gap:10px; }
+    .report-breadcrumb::before { content:''; display:inline-block; width:24px; height:1px; background:var(--muted); }
+    .report-hero-grid { display:grid; grid-template-columns:1fr 420px 300px; gap:0; align-items:end; min-height:520px; }
+    .hero-text-col { padding-bottom:56px; align-self:end; }
+    .hero-photo-col { align-self:end; display:flex; align-items:flex-end; justify-content:center; overflow:hidden; height:520px; }
+    .player-photo-large { height:100%; width:auto; max-width:100%; object-fit:contain; object-position:bottom center; filter:sepia(8%) contrast(1.04); display:block; }
+    .report-pos-tag { display:inline-block; font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); border:1px solid rgba(196,154,46,0.35); padding:5px 14px; margin-bottom:20px; }
+    .report-hero h1 { font-family:'Playfair Display',serif; font-size:clamp(40px,5.5vw,80px); font-weight:700; line-height:0.92; letter-spacing:-0.02em; color:var(--ink); margin-bottom:20px; }
+    .report-hero h1 em { font-style:italic; font-weight:400; color:var(--brown3); display:block; }
+    .report-verdict-line { font-family:'Lora',serif; font-size:18px; font-style:italic; color:var(--brown3); line-height:1.6; max-width:540px; border-left:2px solid var(--parchment); padding-left:20px; margin-top:24px; }
+    .bio-panel { background:var(--cream2); border:1px solid var(--border); padding:28px; align-self:stretch; display:flex; flex-direction:column; justify-content:center; }
+    .bio-panel-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .bio-row { display:grid; grid-template-columns:1fr 1fr; gap:0; border-bottom:1px solid var(--border2); }
+    .bio-row:last-child { border-bottom:none; }
+    .bio-cell { padding:10px 0; }
+    .bio-cell:first-child { border-right:1px solid var(--border2); padding-right:12px; margin-right:12px; }
+    .bio-label { font-family:'DM Sans',sans-serif; font-size:9.5px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:2px; }
+    .bio-value { font-family:'Playfair Display',serif; font-size:14px; font-weight:700; color:var(--ink); }
+    .bio-value.small { font-size:12.5px; font-weight:400; font-family:'Lora',serif; font-style:italic; }
+    .score-band { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--border); border-top:1px solid var(--border); }
+    .score-cell { background:var(--cream); padding:20px 24px; text-align:center; }
+    .score-cell.highlight { background:var(--brown); }
+    .score-num { font-family:'Playfair Display',serif; font-size:38px; font-weight:700; line-height:1; }
+    .score-cell.highlight .score-num { color:var(--cream); }
+    .score-cell:not(.highlight) .score-num { color:var(--brown); }
+    .score-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; margin-top:4px; }
+    .score-cell.highlight .score-label { color:rgba(245,240,232,0.6); }
+    .score-cell:not(.highlight) .score-label { color:var(--muted); }
+    .score-sublabel { font-family:'Lora',serif; font-size:11.5px; font-style:italic; margin-top:2px; }
+    .score-cell.highlight .score-sublabel { color:rgba(245,240,232,0.5); }
+    .score-cell:not(.highlight) .score-sublabel { color:var(--brown3); }
+    .report-body { max-width:1200px; margin:0 auto; padding:0 48px; }
+    .report-section { padding:72px 0; border-bottom:1px solid var(--border); }
+    .report-section:last-child { border-bottom:none; }
+    .section-kicker { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:12px; display:block; }
+    .section-title { font-family:'Playfair Display',serif; font-size:clamp(26px,3vw,38px); font-weight:700; color:var(--ink); line-height:1; margin-bottom:36px; }
+    .section-title em { font-style:italic; font-weight:400; color:var(--brown3); }
+    .two-col { display:grid; grid-template-columns:1fr 1fr; gap:64px; }
+    .three-col { display:grid; grid-template-columns:1fr 1fr 1fr; gap:40px; }
+    .role-display { background:#ddd5c0; padding:28px; display:flex; flex-direction:column; gap:14px; overflow:hidden; min-width:0; align-self:stretch; }
+    .pitch-visual { background:#ddd5c0; padding:14px 12px 0; display:flex; flex-direction:column; gap:6px; overflow:hidden; min-width:0; }
+    .role-badge { display:inline-block; font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; background:var(--brown); color:var(--cream); padding:6px 16px; align-self:flex-start; flex-shrink:0; }
+    .role-name { font-family:'Playfair Display',serif; font-size:26px; font-weight:700; color:var(--ink); }
+    .role-desc { font-family:'Lora',serif; font-size:13.5px; font-style:italic; color:var(--brown3); line-height:1.7; }
+    .pitch-label { text-align:center; padding:8px 0 10px; font-family:'Lora',serif; font-size:11px; font-style:italic; color:var(--brown3); background:#ddd5c0; }
+    .formation-label-top { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); text-align:center; }
+    .three-col-visual { display:grid; grid-template-columns:1fr 1fr 1fr; gap:2px; background:#ddd5c0; align-items:start; }
+    .three-col-visual > * { min-width:0; width:100%; }
+    .behavior-col h3 { font-family:'Playfair Display',serif; font-size:20px; font-weight:700; color:var(--ink); margin-bottom:20px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .behavior-list { list-style:none; display:flex; flex-direction:column; gap:0; }
+    .behavior-item { padding:14px 0; border-bottom:1px solid var(--border2); display:grid; grid-template-columns:20px 1fr; gap:12px; align-items:start; }
+    .behavior-item:last-child { border-bottom:none; }
+    .b-dot { width:6px; height:6px; border-radius:50%; background:var(--gold); margin-top:8px; }
+    .behavior-item p { font-size:14.5px; color:var(--brown2); line-height:1.65; }
+    .behavior-item strong { color:var(--ink); font-weight:500; }
+    .dna-group { margin-bottom:40px; }
+    .dna-group:last-child { margin-bottom:0; }
+    .dna-header { display:flex; align-items:center; gap:12px; margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .dna-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; }
+    .dna-header h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); }
+    .dna-header span { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--muted); }
+    .dna-traits { display:flex; flex-direction:column; gap:0; }
+    .dna-trait { padding:16px 0; border-bottom:1px solid var(--border2); }
+    .dna-trait:last-child { border-bottom:none; }
+    .dna-trait-name { font-family:'Playfair Display',serif; font-size:15px; font-weight:700; color:var(--ink); }
+    .dna-trait-desc { font-family:'Lora',serif; font-size:13.5px; font-style:italic; color:var(--brown3); line-height:1.6; margin-top:4px; }
+    .profile-box { background:var(--cream2); border:1px solid var(--border); padding:28px; }
+    .profile-box h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:18px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .profile-row { display:flex; flex-direction:column; gap:0; }
+    .profile-item { padding:11px 0; border-bottom:1px solid var(--border2); }
+    .profile-item:last-child { border-bottom:none; }
+    .profile-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); margin-bottom:3px; }
+    .profile-value { font-family:'Lora',serif; font-size:14px; color:var(--brown2); line-height:1.5; }
+    .profile-value strong { color:var(--ink); font-weight:500; }
+    .dev-list { display:flex; flex-direction:column; gap:0; }
+    .dev-item { display:grid; grid-template-columns:32px 1fr; gap:16px; padding:20px 0; border-bottom:1px solid var(--border2); align-items:start; }
+    .dev-item:first-child { border-top:1px solid var(--border2); }
+    .dev-num { font-family:'Playfair Display',serif; font-size:13px; font-weight:700; color:var(--gold); padding-top:2px; }
+    .dev-item p { font-size:15px; color:var(--brown2); line-height:1.65; }
+    .dev-item p strong { color:var(--ink); font-weight:500; }
+    /* OBSERVED STATS PANEL */
+    .obs-stats { background:var(--cream2); border:1px solid var(--border); padding:36px 40px; margin-bottom:56px; }
+    .obs-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+    .obs-heading { font-family:'Playfair Display',serif; font-size:22px; font-weight:700; color:var(--ink); margin-bottom:4px; }
+    .obs-heading em { font-style:italic; font-weight:400; color:var(--brown3); }
+    .obs-sub { font-family:'Lora',serif; font-size:12px; font-style:italic; color:var(--muted); margin-bottom:28px; }
+    .obs-grid { display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--border); }
+    .obs-col { background:var(--cream); padding:24px; }
+    .obs-col-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--border); }
+    .obs-row { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+    .obs-label { font-family:'DM Sans',sans-serif; font-size:11px; color:var(--muted); min-width:160px; flex-shrink:0; }
+    .obs-bar-wrap { flex:1; height:20px; background:var(--cream3); position:relative; }
+    .obs-fill { position:absolute; top:0; left:0; bottom:0; }
+    .obs-val { font-family:'Playfair Display',serif; font-size:11px; font-weight:700; color:var(--cream); padding-right:7px; position:absolute; right:0; top:50%; transform:translateY(-50%); white-space:nowrap; }
+    .obs-val.dark { color:var(--brown); right:auto; left:calc(100% + 6px); }
+    .obs-note { font-family:'Lora',serif; font-size:10px; font-style:italic; color:var(--muted); margin-top:3px; padding-left:172px; margin-bottom:6px; line-height:1.4; }
+    .obs-divider { height:1px; background:var(--border); margin:14px 0; }
+    .obs-insight { background:var(--cream2); border:1px solid var(--border); border-left:3px solid var(--gold); padding:16px 20px; margin-top:24px; }
+    .obs-insight-label { font-family:'DM Sans',sans-serif; font-size:9px; font-weight:500; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); margin-bottom:6px; }
+    .obs-insight p { font-family:'Lora',serif; font-size:13px; font-style:italic; color:var(--brown2); line-height:1.65; }
+    /* INTEREST PANEL */
+    .interest-panel { background:var(--ink); padding:28px 36px; margin-bottom:48px; display:grid; grid-template-columns:44px 1fr; gap:18px; align-items:start; }
+    .ip-icon { font-size:22px; padding-top:3px; }
+    .ip-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:rgba(245,240,232,0.5); margin-bottom:8px; }
+    .ip-text { font-family:'Lora',serif; font-size:14px; font-style:italic; color:rgba(245,240,232,0.82); line-height:1.8; }
+    /* RISK */
+    .risk-gauges { display:grid; grid-template-columns:repeat(4,1fr); gap:2px; background:var(--border); margin-bottom:32px; }
+    .gauge-card { background:var(--cream); padding:24px 20px 20px; display:flex; flex-direction:column; gap:6px; }
+    .gauge-label { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.1em; text-transform:uppercase; color:var(--brown2); }
+    .gauge-meaning { font-family:'Playfair Display',serif; font-size:15px; font-weight:700; color:var(--ink); }
+    .gauge-note { font-family:'Lora',serif; font-size:12.5px; font-style:italic; color:var(--muted); line-height:1.55; }
+    .risk-scale { margin-top:36px; padding:24px 28px; background:var(--cream2); border:1px solid var(--border); border-left:3px solid var(--gold); }
+    .risk-scale-title { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+    .risk-scale-row { display:grid; grid-template-columns:24px 80px 1fr; gap:12px; padding:6px 0; border-bottom:1px solid var(--border2); align-items:start; font-size:13px; }
+    .risk-scale-row:last-child { border-bottom:none; }
+    .risk-scale-num { font-family:'Playfair Display',serif; font-weight:700; color:var(--brown); }
+    .risk-scale-name { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; color:var(--brown2); letter-spacing:0.04em; padding-top:1px; }
+    .risk-scale-desc { font-family:'Lora',serif; font-style:italic; color:var(--muted); }
+    .written-assessment { display:grid; grid-template-columns:160px 1fr; gap:0; border:1px solid var(--border); }
+    .wa-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:var(--muted); padding:28px 20px; background:var(--cream2); border-right:1px solid var(--border); display:flex; align-items:flex-start; }
+    .wa-body { padding:28px 32px; }
+    .wa-body p { font-family:'Lora',serif; font-size:14.5px; color:var(--brown2); line-height:1.85; margin-bottom:16px; }
+    .wa-body p:last-child { margin-bottom:0; }
+    .wa-body strong { color:var(--ink); font-weight:500; }
+    .verdict-statement { background:var(--brown); color:var(--cream); padding:40px 48px; margin-bottom:40px; }
+    .verdict-statement .vs-label { font-family:'DM Sans',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.16em; text-transform:uppercase; color:rgba(245,240,232,0.5); margin-bottom:12px; }
+    .verdict-statement p { font-family:'Lora',serif; font-size:17px; font-style:italic; line-height:1.8; color:rgba(245,240,232,0.85); }
+    .verdict-grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; margin-bottom:48px; }
+    .verdict-box { padding:28px; border:1px solid var(--border); }
+    .verdict-box.good { border-left:3px solid var(--green); }
+    .verdict-box.bad { border-left:3px solid var(--rust); }
+    .verdict-box h3 { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); margin-bottom:16px; padding-bottom:12px; border-bottom:1px solid var(--border); }
+    .verdict-box ul { list-style:none; display:flex; flex-direction:column; gap:0; }
+    .verdict-box li { padding:10px 0; border-bottom:1px solid var(--border2); font-size:14.5px; color:var(--brown2); line-height:1.5; display:grid; grid-template-columns:16px 1fr; gap:10px; }
+    .verdict-box li:last-child { border-bottom:none; }
+    .verdict-box.good li::before { content:'✓'; color:var(--green); font-size:12px; padding-top:2px; font-family:'DM Sans',sans-serif; font-weight:500; }
+    .verdict-box.bad li::before { content:'✗'; color:var(--rust); font-size:12px; padding-top:2px; font-family:'DM Sans',sans-serif; font-weight:500; }
+    .potential-display { text-align:center; padding:48px 0; }
+    .potential-label { font-family:'DM Sans',sans-serif; font-size:11px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:var(--muted); margin-bottom:16px; }
+    .potential-num { font-family:'Playfair Display',serif; font-size:80px; font-weight:700; color:var(--brown); line-height:1; margin-bottom:12px; }
+    .potential-balls { font-size:28px; letter-spacing:4px; display:block; margin-bottom:16px; }
+    .potential-projection { font-family:'Lora',serif; font-size:15px; font-style:italic; color:var(--brown3); max-width:640px; margin:0 auto; line-height:1.7; }
+    .report-footer { background:var(--cream2); border-top:1px solid var(--border); padding:48px 48px 36px; }
+    .report-footer-inner { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; margin-bottom:32px; }
+    .footer-logo { font-family:'Playfair Display',serif; font-size:18px; font-weight:700; color:var(--ink); text-decoration:none; }
+    .footer-nav { display:flex; gap:28px; }
+    .footer-nav a { font-family:'Lora',serif; font-size:14px; color:var(--brown2); text-decoration:none; transition:color 0.2s; }
+    .footer-bottom { display:flex; justify-content:space-between; padding-top:24px; border-top:1px solid var(--border); font-family:'DM Sans',sans-serif; font-size:11.5px; color:var(--muted); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="nav-logo">B.A.S.E. <em>Scouting</em></a>
+  <ul class="nav-links">
+    <li><a href="../index.html#positions">Players</a></li>
+    <li><a href="../index.html#reports">Reports</a></li>
+    <li><a href="../index.html#methodology">Methodology</a></li>
+    <li><a href="../index.html#coverage">Coverage</a></li>
+  </ul>
+  <a href="../index.html#reports" class="nav-back">← Back to reports</a>
+</nav>
+
+<div class="report-hero">
+  <div class="report-breadcrumb">Scouting Report · Defenders · Complete CB · May 2026</div>
+  <div class="report-hero-grid">
+    <div class="hero-text-col">
+      <div class="report-pos-tag">Centre-Back / Complete CB</div>
+      <h1>Liam Claude<br /><em>Kanté</em></h1>
+      <p class="report-verdict-line">Fifteen years old. 1.85m. Left-footed. Playing U17 football with the calm and spatial intelligence of someone three years older. With big clubs circling, the question is not whether the ceiling is real, it is whether anyone can afford to be patient enough for it to arrive.</p>
+    </div>
+    <div class="hero-photo-col">
+      <img class="player-photo-large"
+        src="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/liam-claude-kante.png"
+        alt="Liam Claude Kanté" />
+    </div>
+    <div class="bio-panel">
+      <div class="bio-panel-title">Player Information</div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Date of Birth</div><div class="bio-value">Jun 22, 2010</div></div>
+        <div class="bio-cell"><div class="bio-label">Nationality</div><div class="bio-value">🇭🇷 🇫🇷 CRO / FRA</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Current Club</div><div class="bio-value small">NK Lokomotiva Zagreb</div></div>
+        <div class="bio-cell"><div class="bio-label">Int'l</div><div class="bio-value small">Croatia U16</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Position</div><div class="bio-value small">Centre-Back / LCB</div></div>
+        <div class="bio-cell"><div class="bio-label">Foot</div><div class="bio-value">Left</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Height</div><div class="bio-value">1.85m</div></div>
+        <div class="bio-cell"><div class="bio-label">Age</div><div class="bio-value">15</div></div>
+      </div>
+      <div class="bio-row">
+        <div class="bio-cell"><div class="bio-label">Agent</div><div class="bio-value small">Player under 16</div></div>
+        <div class="bio-cell"><div class="bio-label">Level</div><div class="bio-value small">U17 / U16 Int'l</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="score-band">
+    <div class="score-cell highlight">
+      <div class="score-num">9</div>
+      <div class="score-label">B.A.S.E. Potential</div>
+      <div class="score-sublabel">Out of 10</div>
+    </div>
+    <div class="score-cell">
+      <div class="score-num">U17</div>
+      <div class="score-label">Developmental Stage</div>
+      <div class="score-sublabel">Out of 10</div>
+    </div>
+    <div class="score-cell">
+      <div class="score-num" style="font-size:28px; line-height:1.2;">Apr '25</div>
+      <div class="score-label">Date Scouted</div>
+      <div class="score-sublabel">Most recent</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="report-body">
+
+  <!-- SECTION 1: ROLE -->
+  <div class="report-section">
+    <span class="section-kicker">Role and positioning</span>
+    <h2 class="section-title">Player <em>Profile</em></h2>
+    <div class="three-col-visual">
+      <div class="role-display">
+        <div class="role-badge">Primary Role</div>
+        <div class="role-name">Complete Centre-Back</div>
+        <div class="role-desc">A left-sided centre-back who defends with his brain before his body. His game is built around anticipation — reading movements early, stepping out to intercept before the press is needed, and switching intelligently between a front-foot and back-foot posture depending on what the situation requires. He is not a destroyer. He is a reader. The left foot gives him natural diagonal switches to the right and makes him particularly dangerous in build-up systems that ask the LCB to carry and distribute. The elegance that scouts reference is not aesthetic — it is evidence of efficiency. He does not waste movement. For a 15-year-old, that level of economy is unusual.</div>
+      </div>
+      <div class="pitch-visual">
+        <div class="formation-label-top">4–3–3 Shape</div>
+        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <rect width="400" height="600" fill="#ddd5c0"/>
+          <rect x="20" y="20" width="360" height="560" fill="none" stroke="rgba(61,43,31,0.22)" stroke-width="1.5"/>
+          <line x1="20" y1="300" x2="380" y2="300" stroke="rgba(61,43,31,0.15)" stroke-width="1"/>
+          <circle cx="200" cy="300" r="44" fill="none" stroke="rgba(61,43,31,0.12)" stroke-width="1"/>
+          <rect x="130" y="20" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.18)" stroke-width="1"/>
+          <rect x="130" y="500" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.18)" stroke-width="1"/>
+          <circle cx="200" cy="548" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="200" y="548" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">GK</text>
+          <!-- Kanté — LCB highlighted -->
+          <circle cx="150" cy="465" r="20" fill="#c49a2e" stroke="#8a6a1a" stroke-width="2"/>
+          <text x="150" y="465" font-family="DM Sans,sans-serif" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">LCB</text>
+          <circle cx="50" cy="460" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="50" y="460" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">LB</text>
+          <circle cx="250" cy="465" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="250" y="465" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">RCB</text>
+          <circle cx="350" cy="460" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="350" y="460" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">RB</text>
+          <circle cx="110" cy="355" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="110" y="355" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">CM</text>
+          <circle cx="200" cy="345" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="200" y="345" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">CM</text>
+          <circle cx="290" cy="355" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="290" y="355" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">CM</text>
+          <circle cx="80" cy="215" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="80" y="215" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">LW</text>
+          <circle cx="200" cy="200" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="200" y="200" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">ST</text>
+          <circle cx="320" cy="215" r="18" fill="#e4dccb" stroke="rgba(61,43,31,0.35)" stroke-width="1.5"/>
+          <text x="320" y="215" font-family="DM Sans,sans-serif" font-size="10" font-weight="500" fill="rgba(61,43,31,0.7)" text-anchor="middle" dominant-baseline="central">RW</text>
+        </svg>
+        <div class="pitch-label">Kanté — highlighted position</div>
+      </div>
+      <div class="pitch-visual">
+        <div class="formation-label-top">Heatmap</div>
+        <svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <rect width="400" height="600" fill="#ddd5c0"/>
+          <image href="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/heatmaps/liam-claude-kante-heatmap.png" x="20" y="20" width="360" height="560" opacity="0.88" preserveAspectRatio="none"/>
+          <rect x="20" y="20" width="360" height="560" fill="none" stroke="rgba(61,43,31,0.28)" stroke-width="1.5"/>
+          <line x1="20" y1="300" x2="380" y2="300" stroke="rgba(61,43,31,0.22)" stroke-width="1"/>
+          <circle cx="200" cy="300" r="44" fill="none" stroke="rgba(61,43,31,0.18)" stroke-width="1"/>
+          <rect x="130" y="20" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.22)" stroke-width="1"/>
+          <rect x="130" y="500" width="140" height="80" fill="none" stroke="rgba(61,43,31,0.22)" stroke-width="1"/>
+          <circle cx="200" cy="60" r="3" fill="rgba(61,43,31,0.2)"/>
+          <circle cx="200" cy="540" r="3" fill="rgba(61,43,31,0.2)"/>
+        </svg>
+        <div class="pitch-label">Zone of influence</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2: BEHAVIORS -->
+  <div class="report-section">
+    <span class="section-kicker">On and off the ball</span>
+    <h2 class="section-title">Observed <em>Behaviors</em></h2>
+    <div class="two-col">
+      <div class="behavior-col">
+        <h3>Defensive Phase</h3>
+        <ul class="behavior-list">
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Anticipation is the headline quality.</strong> He reads movement before it happens — identifying the run, cutting the passing lane, stepping to intercept rather than waiting to react. This is a cognitive trait, not a physical one, and it is already more developed than most defenders produce at this age. The 72.7% defensive duel win rate across youth competition is partly a product of it: he is already positioned correctly when the duel begins.</p></li>
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Intelligent switching between defensive modes.</strong> He does not default to one defensive posture. Front-foot pressing when the trigger presents itself; back-foot delay when the situation calls for patience. At 15, that context-sensitivity is genuinely uncommon. Most defenders at this level either press everything or retreat from everything.</p></li>
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Physically dominant for his age group.</strong> 1.85m with a frame that is already developed beyond his peers. He uses size cleverly in the box — blocking angles, shielding, winning aerial balls — without relying on it exclusively. The physical edge will narrow as peers catch up; the anticipation will not.</p></li>
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Defends in front of the box, not just inside it.</strong> He steps out to engage challenges in the space in front of the defensive line rather than retreating towards the goal. This requires confidence in his own read of the game — a defender who goes wrong here concedes. He goes right more often than not.</p></li>
+        </ul>
+      </div>
+      <div class="behavior-col">
+        <h3>In Possession</h3>
+        <ul class="behavior-list">
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Composure on the ball is immediately visible.</strong> He does not panic in possession. Receives calmly, takes his touch, and plays — without the hesitation that affects most defenders his age when pressed. 80.5% pass accuracy in youth competition is a meaningful number at this level.</p></li>
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Willing to carry into midfield.</strong> He does not treat the halfway line as a ceiling. When space opens, he drives forward with purpose and looks comfortable in possession further up the pitch — a product of the technical quality that is already present, not just size.</p></li>
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Long passing range is developing but inconsistent.</strong> He attempts diagonal switches and balls over the defensive line with ambition. The execution is unreliable — 33.3% accuracy on long passes in the Wyscout sample. The vision is clearly there; the execution needs another eighteen months of deliberate work before it becomes a weapon rather than a risk.</p></li>
+          <li class="behavior-item"><div class="b-dot"></div><p><strong>Close control dribbling is situational.</strong> He shows the technical quality in moments — carrying out of pressure, shifting the ball past a press — but does not back himself consistently. The technique is present; the confidence to use it routinely is still forming. This is normal at 15 and will develop naturally as the frame fills out and the environment becomes more challenging.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3: DNA -->
+  <div class="report-section">
+    <span class="section-kicker">Player DNA</span>
+    <h2 class="section-title">Trait <em>Classification</em></h2>
+    <p style="font-family:'Lora',serif;font-size:15px;font-style:italic;color:var(--brown3);line-height:1.8;max-width:700px;margin-bottom:40px;">At 15, trait classification carries more uncertainty than at any other point in a player's development. Physical attributes are still transforming. Technical habits are still forming. What is classified here as Pure DNA is what has already shown up consistently across multiple competitive contexts — for a player this age, that bar is already meaningful.</p>
+    <div class="two-col">
+      <div>
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--green)"></div>
+            <h3>Pure Traits</h3>
+            <span>Already evident — will travel</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">Defensive Anticipation</div>
+              <div class="dna-trait-desc">Reading movement early and positioning accordingly is a cognitive habit, not a physical one. It does not depend on size or speed — it depends on how the brain processes spatial information. This is already present and already standing out at U17 level. It will express itself in any environment.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Composure in Possession</div>
+              <div class="dna-trait-desc">The calm under pressure on the ball is not common at 15. Receiving under challenge, taking a controlled touch, and playing with purpose rather than clearing is a technical and psychological habit. It is already formed enough to show up consistently across matches.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Positional Intelligence</div>
+              <div class="dna-trait-desc">Spatial awareness at the defensive level — understanding where threats will come from before they arrive, and being in the right place to deal with them — is the most transferable defensive quality. It is independent of physical development and scales up as the level increases.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--gold)"></div>
+            <h3>Developing Traits</h3>
+            <span>Present but not yet formed</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">Aerial Dominance</div>
+              <div class="dna-trait-desc">The physical foundation for aerial authority is there — 1.85m and already physically ahead of peers. The aerial dominance at senior level will depend on how the frame develops and whether the timing and aggression in aerial challenges keep pace. High probability, not certainty.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Long Passing Range</div>
+              <div class="dna-trait-desc">The vision and ambition for diagonal distribution are present. The execution — 33.3% accuracy on long balls in the current sample — is not yet reliable. The foundation is there for this to become a genuine weapon; it requires time and deliberate repetition, not a technical rebuild.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Ball-Carrying Authority</div>
+              <div class="dna-trait-desc">He shows the quality when he trusts himself. The consistency is not there yet. As the frame matures and the competitive level increases, the confidence to carry forward should follow the technique that is already visible in moments.</div>
+            </div>
+          </div>
+        </div>
+        <div class="dna-group">
+          <div class="dna-header">
+            <div class="dna-dot" style="background:var(--rust)"></div>
+            <h3>Watch Closely</h3>
+            <span>Normal for the age — monitor over time</span>
+          </div>
+          <div class="dna-traits">
+            <div class="dna-trait">
+              <div class="dna-trait-name">Agility Against Pace</div>
+              <div class="dna-trait-desc">His coordination and acceleration are good for his frame, but he can struggle against quick, agile attackers at the U17 level. This is expected for a large-framed defender at 15. It should improve as motor coordination and physical development progress — but it is the specific quality to track as the opposition level rises.</div>
+            </div>
+            <div class="dna-trait">
+              <div class="dna-trait-name">Close Control Confidence</div>
+              <div class="dna-trait-desc">The technique is there; the habit of using it is not yet automatic. He defaults to the simpler option when the more technical one was available. This is a confidence question at this age, not a technical ceiling, but it needs deliberate encouragement in training.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: PROFILES -->
+  <div class="report-section">
+    <span class="section-kicker">Player profiles</span>
+    <h2 class="section-title">Athletic, Cognitive <em>&amp; Psychological</em></h2>
+    <div class="three-col">
+      <div class="profile-box">
+        <h3>Athletic Profile</h3>
+        <div class="profile-row">
+          <div class="profile-item">
+            <div class="profile-label">Frame</div>
+            <div class="profile-value"><strong>1.85m at 15 — significant physical advantage over peers.</strong> Already among the largest players in his age group. The frame will continue developing for another four to five years. The ceiling on his physical profile is one of the highest in the 2010 cohort.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Pace</div>
+            <div class="profile-value"><strong>Good top-end speed for his size.</strong> Covers large defensive spaces effectively. Acceleration and burst are the relative weakness — he is not explosive over short distances, which can create difficulty against quick attackers in tight spaces. Expected to improve with physical maturity.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Strength</div>
+            <div class="profile-value"><strong>Already physically dominant at youth level.</strong> Significantly stronger than peers. Uses his body intelligently to shield and protect rather than relying on raw force in every duel.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Coordination</div>
+            <div class="profile-value">The "gazelle" quality referenced by scouts is about movement economy, not just elegance. He moves without excess. His coordination should improve significantly over the next two to three years as the frame and nervous system mature together.</div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-box">
+        <h3>Cognitive Profile</h3>
+        <div class="profile-row">
+          <div class="profile-item">
+            <div class="profile-label">Spatial Reading</div>
+            <div class="profile-value"><strong>The standout quality in his entire profile.</strong> He processes where the ball and threats are going before they arrive. In a defender, this is the most important cognitive trait — it is what separates a player who defends with position from one who defends with reaction.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Decision-Making</div>
+            <div class="profile-value"><strong>Calm and deliberate under pressure.</strong> He does not make rushed decisions. The composure on the ball is the visible output of a decision-making process that has already developed unusual maturity for the age group.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Defensive Context-Switching</div>
+            <div class="profile-value">Reads when to press and when to hold. Most 15-year-old defenders have one mode. He has two. This is a tactical intelligence marker that is rare at this age and is not easily taught — it has to be seen and absorbed through competitive exposure.</div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-box">
+        <h3>Psychological Markers</h3>
+        <div class="profile-row">
+          <div class="profile-item">
+            <div class="profile-label">Leadership</div>
+            <div class="profile-value"><strong>Above-average calm and level-headed presence under pressure.</strong> For a 15-year-old playing up into U17 competition against older, more physically developed opponents, the composure is striking. Leaders at this age do not always become leaders at senior level — but the psychological baseline is clearly present.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Dual Nationality Context</div>
+            <div class="profile-value">Croatian and French citizenship. The international pathway question — whether he commits to Croatia, who have been capping him at U16, or whether France enters the picture — will become relevant as he moves toward senior football. Currently representing Croatia U16 with six caps at U15 level.</div>
+          </div>
+          <div class="profile-item">
+            <div class="profile-label">Elite Club Interest at 15</div>
+            <div class="profile-value">Borussia Dortmund leading the race with Bayern, Hoffenheim, Salzburg, and Italian clubs involved. Navigating this environment at 15, before any professional contract exists, is a psychological test in itself. How he and his family manage this transition will matter as much as the football.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 5: DEVELOPMENT -->
+  <div class="report-section">
+    <span class="section-kicker">Development</span>
+    <h2 class="section-title">Priorities <em>for Growth</em></h2>
+    <p style="font-family:'Lora',serif;font-size:15px;font-style:italic;color:var(--brown3);line-height:1.8;max-width:680px;margin-bottom:40px;">At 15, development priorities are not about fixing problems. They are about building the habits that will matter when the environment gets significantly harder.</p>
+    <div class="dev-list">
+      <div class="dev-item">
+        <div class="dev-num">01</div>
+        <p><strong>Long pass execution — closing the gap between vision and delivery.</strong> He is already attempting the diagonal switch and the ball over the defensive line at a rate that tells you the picture is formed before he plays it. The 33.3% accuracy tells you the delivery mechanics are not yet consistent. The specific work is not on reading the pass — that is already there — but on the striking technique and body shape at the moment of contact. At a top academy, this is coachable and fixable. The urgency is that the same pass that looks like ambition at 15 looks like a liability at 18 if the accuracy has not caught up.</p>
+      </div>
+      <div class="dev-item">
+        <div class="dev-num">02</div>
+        <p><strong>First-step explosiveness against pace — the specific coordination gap.</strong> He covers ground well at top speed. What he does not yet do is accelerate quickly from a standing start when a quick attacker runs directly at him. This is partly physical — the nervous system and fast-twitch muscle development of a large frame takes longer to mature — and partly technical, in that the correct defensive body shape for managing pace has to be trained deliberately. A top academy will address this structurally. The risk is the window between his current level and senior football, where opponents with genuine pace will find and exploit this before it resolves.</p>
+      </div>
+      <div class="dev-item">
+        <div class="dev-num">03</div>
+        <p><strong>Trusting the carry — converting a situational quality into a default habit.</strong> When he drives forward out of the defensive line, the technical quality is visible and the decision to do it is usually correct. What is missing is the consistency — the automatic reach for the carry as a first option in space, not a secondary one after checking for the simpler pass. This is a confidence habit rather than a technical deficit, which means the right environment accelerates it faster than specific technical work. A system that rewards the carry and penalises the passive pass-back is what will unlock this part of his game.</p>
+      </div>
+      <div class="dev-item">
+        <div class="dev-num">04</div>
+        <p><strong>Engaging attackers in the space in front of the line — not just inside the box.</strong> The box-defending is already mature. What he needs is more deliberate practice engaging challenges in the twenty to thirty metres in front of his defensive line, where the step-out requires reading the ball's trajectory, timing the press, and winning the action without either over-committing or under-committing. He does this in moments. It needs to become the default behaviour under competitive pressure at the next level, not something he produces when the situation is obvious.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 6: DATA -->
+  <div class="report-section">
+    <span class="section-kicker">Observed statistics — Wyscout · U15 / U17 youth competition · all available matches</span>
+    <h2 class="section-title">What the Numbers <em>Show</em></h2>
+    <p style="font-family:'Lora',serif;font-size:15px;font-style:italic;color:var(--brown3);line-height:1.8;max-width:680px;margin-bottom:40px;">These numbers are from five matches across U15 and U17 youth competition — not a statistical population to be percentile-ranked, but observed outputs that can be read as directional signals. They are presented as facts, not comparisons.</p>
+
+    <div class="obs-stats">
+      <div class="obs-title">Per 90 averages · all available youth footage</div>
+      <div class="obs-heading">Observed <em>Output</em></div>
+      <div class="obs-sub">Five matches · U15 Pioniri, U17 HNL Kadeti, Croatia U15 · read as directional signals, not comparative percentiles</div>
+
+      <div class="obs-grid">
+        <div class="obs-col">
+          <div class="obs-col-title">Defensive Output</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Total duels / won</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:72.7%;background:linear-gradient(90deg,rgba(61,43,31,0.5),rgba(61,43,31,0.85));"></div>
+              <span class="obs-val">10.06 / 6.49 (72.7%)</span>
+            </div>
+          </div>
+          <div class="obs-note">High duel volume, strong win rate — the physical edge over youth peers is clear</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Defensive duels / won</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:72.7%;background:linear-gradient(90deg,rgba(61,43,31,0.5),rgba(61,43,31,0.85));"></div>
+              <span class="obs-val">4.18 / 3.04 (72.7%)</span>
+            </div>
+          </div>
+
+          <div class="obs-row">
+            <div class="obs-label">Interceptions / 90</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:65%;background:linear-gradient(90deg,rgba(74,122,48,0.5),rgba(74,122,48,0.85));"></div>
+              <span class="obs-val">4.94</span>
+            </div>
+          </div>
+          <div class="obs-note">Very high interception volume — the anticipation described in observation is visible in the data</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Sliding tackles / won</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:50%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.9));"></div>
+              <span class="obs-val">0.76 / 0.38 (50%)</span>
+            </div>
+          </div>
+
+          <div class="obs-row">
+            <div class="obs-label">Clearances / 90</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:60%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.9));"></div>
+              <span class="obs-val">3.23</span>
+            </div>
+          </div>
+
+          <div class="obs-row">
+            <div class="obs-label">Fouls committed / 90</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:35%;background:rgba(212,201,176,0.85);"></div>
+              <span class="obs-val dark">1.14</span>
+            </div>
+          </div>
+          <div class="obs-note">Acceptable foul rate — not excessive for an aggressive, front-foot defender at this level</div>
+
+          <div class="obs-insight">
+            <div class="obs-insight-label">Key Observation</div>
+            <p>The interception volume relative to the duel volume is the clearest statistical signal of the anticipation quality described by scouts. A defender who intercepts nearly 5 times per 90 is not reacting — he is reading.</p>
+          </div>
+        </div>
+
+        <div class="obs-col">
+          <div class="obs-col-title">Possession &amp; Distribution</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Passes / accurate</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:80.5%;background:linear-gradient(90deg,rgba(61,43,31,0.5),rgba(61,43,31,0.85));"></div>
+              <span class="obs-val">38.92 / 31.3 (80.5%)</span>
+            </div>
+          </div>
+          <div class="obs-note">Good overall accuracy for a youth defender — composure on the ball is real</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Long passes / accurate</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:33.3%;background:linear-gradient(90deg,rgba(160,67,47,0.4),rgba(160,67,47,0.7));"></div>
+              <span class="obs-val dark">7.41 / 2.47 (33.3%)</span>
+            </div>
+          </div>
+          <div class="obs-note">High attempt volume, low accuracy — the ambition is already there, the execution needs time</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Progressive runs / 90</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:25%;background:rgba(212,201,176,0.85);"></div>
+              <span class="obs-val dark">0.19</span>
+            </div>
+          </div>
+          <div class="obs-note">Low but expected for a centre-back — the carry quality is visible in footage rather than in volume</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Forward passes / accurate</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:65.6%;background:linear-gradient(90deg,rgba(196,154,46,0.5),rgba(196,154,46,0.9));"></div>
+              <span class="obs-val">26.2 / 17.2 (65.6%)</span>
+            </div>
+          </div>
+
+          <div class="obs-row">
+            <div class="obs-label">Losses in own half / 90</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:30%;background:rgba(212,201,176,0.85);"></div>
+              <span class="obs-val dark">9.3</span>
+            </div>
+          </div>
+          <div class="obs-note">Elevated — some of this is the ambitious long-pass attempts. Worth monitoring as level increases.</div>
+
+          <div class="obs-row">
+            <div class="obs-label">Recoveries / opp. half</div>
+            <div class="obs-bar-wrap">
+              <div class="obs-fill" style="width:45%;background:linear-gradient(90deg,rgba(74,122,48,0.5),rgba(74,122,48,0.85));"></div>
+              <span class="obs-val">9.87 (9.6%)</span>
+            </div>
+          </div>
+          <div class="obs-note">He is winning the ball in the opponent's half — forward defending tendency confirmed</div>
+
+          <div class="obs-insight">
+            <div class="obs-insight-label">Key Observation</div>
+            <p>The gap between overall pass accuracy (80.5%) and long pass accuracy (33.3%) is the single most important data point. He has the vision and the courage to attempt the ambitious ball. The execution gap is the development target — it narrows with age and repetition, not with technical rebuilding.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WRITTEN ASSESSMENT -->
+    <div class="written-assessment" style="margin-top:56px;">
+      <div class="wa-label">Scout's Read</div>
+      <div class="wa-body">
+        <p>There is a specific type of young defender that top clubs identify early — not the one who dominates physically at youth level, because that advantage disappears — but the one whose brain is already operating at a level his body has not yet caught up with. Kanté is that type. At 15, in U17 competition against opponents two years older, he does not defend with his legs first. He defends with his eyes. By the time his legs are required, he has already made the decision. That is not a physical attribute. It is a cognitive one, and it is the hardest thing to develop in a young defender because it cannot be drilled — it can only be experienced and gradually refined. At 15, it is already present.</p>
+        <p>The image that has stayed with me is this: a defender who moves like a grown man operating inside a body that is still becoming one. The gazelle comparison is accurate but incomplete. Gazelles are all legs and instinct. What Kanté has, unusually, is the calm that usually only comes after ten years of professional football — that quality of not rushing, of letting the game come to him, of knowing where the ball is going without needing to react to it. Paired with a physical frame that will keep growing for another four or five years. The gap between the cognitive maturity and the physical ceiling is enormous. He is, right now, a 25-year-old brain inside a 15-year-old body that has not finished building itself yet.</p>
+        <p>The interception volume, nearly five per 90 in youth competition, is the data expression of that brain. A player who intercepts at that rate is not guessing and getting lucky. He is reading the pass before it is played, positioning to cut it off, and executing cleanly enough to complete the action. Nearly 10 ball recoveries per 90 in the opponent's half says he is not sitting in his defensive line waiting for the game to come to him. He is hunting it. The long pass accuracy at 33.3% is the honest counterweight: he has the vision to attempt the ambitious diagonal, he does not yet have the consistent execution to make it a weapon. That gap is not a character flaw. It is age. <strong>The vision is always ahead of the execution at 15. What matters is that the vision is there.</strong></p>
+         <p> What makes him interesting is that his bet is a good one. You are not projecting traits that are not there. You are projecting the continuation of traits that already are. The patience question is real, because this is not a profile that needs to be rushed. It needs to be allowed to develop without interference. In the right environment, that is a strength. In the wrong one, it becomes a risk.
+        <p>What I keep returning to is the transition risk. He is a 15-year-old with Bundesliga giants involved, being asked to leave his home country, his language, and the environment that shaped everything he currently is — before he has even had a professional contract. That is not a small thing. The composure he shows inside a football pitch is a promising signal about how he might handle it. But the players who navigate that transition well are the ones with the right people around them, not just the right psychology. This is worth watching as closely as the football.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 7: RISK -->
+  <div class="report-section">
+    <span class="section-kicker">Risk assessment</span>
+    <h2 class="section-title">Four-Axis <em>Risk Profile</em></h2>
+    <p style="font-size:15px;font-style:italic;color:var(--brown3);line-height:1.8;margin-bottom:40px;font-family:'Lora',serif;">Risk at this age is assessed differently than for senior players. The question is not current output but developmental probability — how likely is each risk factor to derail the trajectory rather than just slow it.</p>
+    <div class="risk-gauges">
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+          <path d="M15 65 A55 55 0 0 1 33.4 23.4" fill="none" stroke="#4a7a30" stroke-width="8" stroke-linecap="round"/>
+          <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">1</text>
+          <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+        </svg></div>
+        <div class="gauge-label">Development</div>
+        <div class="gauge-meaning">Minimal risk</div>
+        <p class="gauge-note">The cognitive qualities — anticipation, composure, spatial reading — are already formed and are the least likely to regress. The physical development has years of runway. The technical gaps are age-appropriate. There are no red flags in the development profile.</p>
+      </div>
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+          <path d="M15 65 A55 55 0 0 1 33.4 23.4" fill="none" stroke="#4a7a30" stroke-width="8" stroke-linecap="round"/>
+          <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">1</text>
+          <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+        </svg></div>
+        <div class="gauge-label">Psychological</div>
+        <div class="gauge-meaning">Minimal risk</div>
+        <p class="gauge-note">Calm and level-headed in competitive contexts already. The leadership markers at 15 are a positive signal. The more relevant psychological risk is the transition to a major academy environment — navigating that at 15 with elite clubs involved requires family and professional support, not just personal composure.</p>
+      </div>
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+          <path d="M15 65 A55 55 0 0 1 33.4 23.4" fill="none" stroke="#4a7a30" stroke-width="8" stroke-linecap="round"/>
+          <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">1</text>
+          <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+        </svg></div>
+        <div class="gauge-label">Market</div>
+        <div class="gauge-meaning">Minimal risk</div>
+        <p class="gauge-note">Dortmund, Bayern, Salzburg, Hoffenheim, and Italian clubs confirmed. The market has already found him. There is no valuation risk — the question for Lokomotiva Zagreb is maximising the outcome of an inevitable departure, not whether the interest is real.</p>
+      </div>
+      <div class="gauge-card">
+        <div class="gauge-wrap"><svg viewBox="0 0 120 70" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <path d="M15 65 A55 55 0 0 1 105 65" fill="none" stroke="rgba(61,43,31,0.1)" stroke-width="8" stroke-linecap="round"/>
+          <path d="M15 65 A55 55 0 0 1 54.4 23.4" fill="none" stroke="#c49a2e" stroke-width="8" stroke-linecap="round"/>
+          <text x="60" y="58" text-anchor="middle" font-family="'Playfair Display',serif" font-size="22" font-weight="700" fill="#3d2b1f">2</text>
+          <text x="60" y="68" text-anchor="middle" font-family="DM Sans,sans-serif" font-size="7" fill="#8a7060">out of 5</text>
+        </svg></div>
+        <div class="gauge-label">Transition</div>
+        <div class="gauge-meaning">Low risk</div>
+        <p class="gauge-note">Moving to a top academy at 15 is the correct development step — the competitive level at Lokomotiva U17 will not continue to challenge him at the rate required. The low risk is that the transition itself — new country, new environment, new language — is managed well. This is a family and club responsibility, not a football one.</p>
+      </div>
+    </div>
+    <div class="risk-scale">
+      <div class="risk-scale-title">How to read risk scores</div>
+      <div class="risk-scale-row"><span class="risk-scale-num">1</span><span class="risk-scale-name">Minimal</span><span class="risk-scale-desc">Strong evidence of upward curve, no significant red flags</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">2</span><span class="risk-scale-name">Low</span><span class="risk-scale-desc">Clear pathway, manageable concerns, high coachability</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">3</span><span class="risk-scale-name">Medium</span><span class="risk-scale-desc">Decent base but real flags exist — inconsistency, stalling, environment</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">4</span><span class="risk-scale-name">High</span><span class="risk-scale-desc">Poor development history, low minutes, maturity concerns</span></div>
+      <div class="risk-scale-row"><span class="risk-scale-num">5</span><span class="risk-scale-name">Extreme</span><span class="risk-scale-desc">Almost no evidence of upward curve, major red flags present</span></div>
+    </div>
+  </div>
+
+  <!-- SECTION 8: VERDICT -->
+  <div class="report-section">
+    <span class="section-kicker">Final assessment</span>
+    <h2 class="section-title">Verdict <em>&amp; Potential Rating</em></h2>
+    <div class="verdict-statement">
+      <div class="vs-label">Scout's Verdict</div>
+      <p>The market has found him for a reason that is not hard to see once you watch him. The physical profile is obvious — 1.85m, already strong, with years of physical development ahead — but physical profiles at 15 are everywhere. What is not everywhere is a 15-year-old left-sided centre-back who reads the game with the calm and spatial clarity he shows consistently. The clubs involved are not here because of a good press release from his academy. They are here because their scouts watched him read a movement before it happened, step to cut the passing lane, and complete the interception without breaking stride — and then saw him do it again in the next match. The transition to a top academy environment is the correct next step. The competitive level at Lokomotiva U17 will not continue to challenge him at the rate he requires. He is not ready for senior football. He is ready for the best development environment available.</p>
+    </div>
+    <div class="verdict-grid">
+      <div class="verdict-box good">
+        <h3>What travels</h3>
+        <ul>
+          <li>Defensive anticipation — reading movement before it arrives; already a consistent pattern across competition levels</li>
+          <li>Composure on the ball — 80.5% pass accuracy in youth competition; does not panic under pressure</li>
+          <li>Physical foundation — 1.85m at 15 with genuine strength and good top-end speed for the frame</li>
+          <li>Positional intelligence — switches between front-foot and back-foot defending contextually, not by default</li>
+          <li>Forward defensive instinct — recovers the ball in the opponent's half; not a passive line-holder</li>
+        </ul>
+      </div>
+      <div class="verdict-box bad">
+        <h3>What must be addressed</h3>
+        <ul>
+          <li>Long pass execution — 33.3% accuracy on an ambitious ball he is already attempting; the vision is ahead of the execution</li>
+          <li>Acceleration against pace — the relative weakness against quick attackers; expected to narrow with physical development</li>
+          <li>Close control confidence — the technique is present in moments; the habit of defaulting to it is not yet automatic</li>
+          <li>Consistent challenge outside the box — the next developmental level of forward defending, not yet fully formed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="potential-display">
+      <div class="potential-label">B.A.S.E. Potential Rating</div>
+      <div class="potential-num">9/10</div>
+      <span class="potential-balls">⚽⚽⚽⚽⚽⚽⚽⚽⚽</span>
+      <p class="potential-projection">A 9 at 15 reflects a specific and honest assessment: the cognitive and technical foundation already present, combined with the physical runway still ahead, makes a top-five European league starter the base-case outcome — not the ceiling. The deduction from a 10 is the appropriate uncertainty that accompanies any projection made five years before professional debut. He is one of the top 2010-born centre-backs in Europe. The clubs involved already know this.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="report-footer">
+  <div class="report-footer-inner">
+    <a href="../index.html" class="footer-logo">B.A.S.E. <em>Scouting</em></a>
+    <nav class="footer-nav">
+      <a href="../index.html#positions">Players</a>
+      <a href="../index.html#reports">Reports</a>
+      <a href="../index.html#methodology">Methodology</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2026 B.A.S.E. Scouting. All rights reserved.</span>
+    <span style="font-family:'Lora',serif; font-style:italic; font-size:12px;">Balkan Analytical Scouting &amp; Evaluation</span>
+  </div>
+</div>
+
+</body>
+</html>

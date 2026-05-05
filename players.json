@@ -2366,5 +2366,149 @@
     "potentialBalls": 6,
     "potentialProjection": "A 6 under uncertainty. If the first-touch problem is solved and the passing under pressure comes with it, the ceiling is higher — a complete box-to-box midfielder with elite aerial and goal output could reasonably project to a 7.5 or 8. If the touch problem is not solved, the ceiling is a specialist who produces attacking output from midfield in the right system at a mid-tier Balkan or Benelux level. Both outcomes are still possible at 22."
   }
+  },
+  {
+    "slug": "liam-claude-kante",
+    "handcrafted": true,
+    "firstName": "Liam Claude",
+    "lastName": "Kanté",
+    "positionTag": "Complete Centre-Back",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/liam-claude-kante.png",
+    "photoAlt": "Liam Claude Kanté",
+    "verdictLine": "Fifteen years old. 1.85m. Left-footed. Playing U17 football with the calm and spatial intelligence of someone three years older. With big clubs circling, the question is not whether the ceiling is real, it is whether anyone can afford to be patient enough for it to arrive.",
+    "bio": {
+      "dob": "Jun 22, 2010",
+      "nationality": "Croatian / French",
+      "club": "NK Lokomotiva Zagreb",
+      "league": "Croatia U16 / HNL Youth",
+      "contractExpiry": "Academy",
+      "marketValue": "—",
+      "preferredFoot": "Left",
+      "height": "1.85m",
+      "agent": "Player under 16"
+    },
+    "scores": {
+      "basePotential": "9",
+      "travelReadiness": "U17",
+      "reportDate": "Apr '26"
+    },
+    "role": {
+      "primaryRole": "Complete Centre-Back",
+      "description": [
+        "A left-sided centre-back who defends with his brain before his body. His game is built around anticipation — reading movements early, stepping out to intercept before the press is needed, and switching intelligently between a front-foot and back-foot posture depending on what the situation requires.",
+        "He is not a destroyer. He is a reader. The left foot gives him natural diagonal switches to the right and makes him particularly dangerous in build-up systems that ask the LCB to carry and distribute.",
+        "The elegance that scouts reference is not aesthetic — it is evidence of efficiency. He does not waste movement. For a 15-year-old, that level of economy is unusual."
+      ],
+      "formationName": "4–3–3",
+      "formationLabelBottom": "NK Lokomotiva Zagreb / Croatia U16",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 50, "cy": 460, "label": "LB"},
+        {"cx": 150, "cy": 465, "label": "LCB"},
+        {"cx": 250, "cy": 465, "label": "RCB"},
+        {"cx": 350, "cy": 460, "label": "RB"},
+        {"cx": 110, "cy": 355, "label": "CM"},
+        {"cx": 200, "cy": 345, "label": "CM"},
+        {"cx": 290, "cy": 355, "label": "CM"},
+        {"cx": 80, "cy": 215, "label": "LW"},
+        {"cx": 200, "cy": 200, "label": "ST"},
+        {"cx": 320, "cy": 215, "label": "RW"}
+      ],
+      "highlightedPosition": {"cx": 150, "cy": 465, "label": "LCB"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "Composure on the ball", "text": "He does not panic in possession. Receives calmly, takes his touch, and plays — without the hesitation that affects most defenders his age when pressed. 80.5% pass accuracy in youth competition is a meaningful number at this level."},
+        {"title": "Willing to carry into midfield", "text": "He does not treat the halfway line as a ceiling. When space opens, he drives forward with purpose and looks comfortable in possession further up the pitch — a product of the technical quality that is already present, not just size."},
+        {"title": "Long passing range developing but inconsistent", "text": "He attempts diagonal switches and balls over the defensive line with ambition. The execution is unreliable — 33.3% accuracy on long passes in the Wyscout sample. The vision is clearly there; the execution needs another eighteen months of deliberate work before it becomes a weapon rather than a risk."},
+        {"title": "Close control dribbling is situational", "text": "He shows the technical quality in moments — carrying out of pressure, shifting the ball past a press — but does not back himself consistently. The technique is present; the confidence to use it routinely is still forming."}
+      ],
+      "offBall": [
+        {"title": "Anticipation is the headline quality", "text": "He reads movement before it happens — identifying the run, cutting the passing lane, stepping to intercept rather than waiting to react. This is a cognitive trait, not a physical one. The 72.7% defensive duel win rate across youth competition is partly a product of it: he is already positioned correctly when the duel begins."},
+        {"title": "Intelligent switching between defensive modes", "text": "He does not default to one defensive posture. Front-foot pressing when the trigger presents itself; back-foot delay when the situation calls for patience. At 15, that context-sensitivity is genuinely uncommon."},
+        {"title": "Physically dominant for his age group", "text": "1.85m with a frame that is already developed beyond his peers. He uses size cleverly in the box — blocking angles, shielding, winning aerial balls — without relying on it exclusively. The physical edge will narrow as peers catch up; the anticipation will not."},
+        {"title": "Defends in front of the box, not just inside it", "text": "He steps out to engage challenges in the space in front of the defensive line rather than retreating towards the goal. This requires confidence in his own read of the game — a defender who goes wrong here concedes. He goes right more often than not."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "Defensive Anticipation", "desc": "Reading movement early and positioning accordingly is a cognitive habit, not a physical one. It does not depend on size or speed — it depends on how the brain processes spatial information. This is already present and already standing out at U17 level. It will express itself in any environment."},
+        {"name": "Composure in Possession", "desc": "The calm under pressure on the ball is not common at 15. Receiving under challenge, taking a controlled touch, and playing with purpose rather than clearing is a technical and psychological habit. It is already formed enough to show up consistently across matches."},
+        {"name": "Positional Intelligence", "desc": "Spatial awareness at the defensive level — understanding where threats will come from before they arrive, and being in the right place to deal with them — is the most transferable defensive quality. It is independent of physical development and scales up as the level increases."}
+      ],
+      "context": [],
+      "system": [
+        {"name": "Aerial Dominance", "desc": "The physical foundation for aerial authority is there — 1.85m and already physically ahead of peers. The aerial dominance at senior level will depend on how the frame develops and whether the timing and aggression in aerial challenges keep pace. High probability, not certainty."},
+        {"name": "Long Passing Range", "desc": "The vision and ambition for diagonal distribution are present. The execution — 33.3% accuracy on long balls in the current sample — is not yet reliable. The foundation is there for this to become a genuine weapon; it requires time and deliberate repetition, not a technical rebuild."},
+        {"name": "Ball-Carrying Authority", "desc": "He shows the quality when he trusts himself. The consistency is not there yet. As the frame matures and the competitive level increases, the confidence to carry forward should follow the technique that is already visible in moments."}
+      ],
+      "exposed": [
+        {"name": "Agility Against Pace", "desc": "His coordination and acceleration are good for his frame, but he can struggle against quick, agile attackers at the U17 level. This is expected for a large-framed defender at 15. It should improve as motor coordination and physical development progress — but it is the specific quality to track as the opposition level rises."},
+        {"name": "Close Control Confidence", "desc": "The technique is there; the habit of using it is not yet automatic. He defaults to the simpler option when the more technical one was available. This is a confidence question at this age, not a technical ceiling, but it needs deliberate encouragement in training."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Frame", "value": "1.85m at 15 — significant physical advantage over peers. Already among the largest players in his age group. The frame will continue developing for another four to five years. The ceiling on his physical profile is one of the highest in the 2010 cohort."},
+        {"label": "Pace", "value": "Good top-end speed for his size. Covers large defensive spaces effectively. Acceleration and burst are the relative weakness — he is not explosive over short distances, which can create difficulty against quick attackers in tight spaces. Expected to improve with physical maturity."},
+        {"label": "Strength", "value": "Already physically dominant at youth level. Significantly stronger than peers. Uses his body intelligently to shield and protect rather than relying on raw force in every duel."},
+        {"label": "Coordination", "value": "The 'gazelle' quality referenced by scouts is about movement economy, not just elegance. He moves without excess. His coordination should improve significantly over the next two to three years as the frame and nervous system mature together."}
+      ],
+      "cognitive": [
+        {"label": "Spatial Reading", "value": "The standout quality in his entire profile. He processes where the ball and threats are going before they arrive. In a defender, this is the most important cognitive trait — it is what separates a player who defends with position from one who defends with reaction."},
+        {"label": "Decision-Making", "value": "Calm and deliberate under pressure. He does not make rushed decisions. The composure on the ball is the visible output of a decision-making process that has already developed unusual maturity for the age group."},
+        {"label": "Defensive Context-Switching", "value": "Reads when to press and when to hold. Most 15-year-old defenders have one mode. He has two. This is a tactical intelligence marker that is rare at this age and is not easily taught — it has to be seen and absorbed through competitive exposure."}
+      ],
+      "psychological": [
+        {"label": "Leadership", "value": "Above-average calm and level-headed presence under pressure. For a 15-year-old playing up into U17 competition against older, more physically developed opponents, the composure is striking."},
+        {"label": "Dual Nationality Context", "value": "Croatian and French citizenship. The international pathway question — whether he commits to Croatia, who have been capping him at U16, or whether France enters the picture — will become relevant as he moves toward senior football."},
+        {"label": "Elite Club Interest at 15", "value": "Borussia Dortmund leading the race with Bayern, Hoffenheim, Salzburg, and Italian clubs involved. Navigating this environment at 15, before any professional contract exists, is a psychological test in itself."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Long pass execution — closing the gap between vision and delivery", "text": "He is already attempting the diagonal switch and the ball over the defensive line at a rate that tells you the picture is formed before he plays it. The 33.3% accuracy tells you the delivery mechanics are not yet consistent. The specific work is not on reading the pass — that is already there — but on the striking technique and body shape at the moment of contact."},
+      {"num": "02", "title": "First-step explosiveness against pace — the specific coordination gap", "text": "He covers ground well at top speed. What he does not yet do is accelerate quickly from a standing start when a quick attacker runs directly at him. This is partly physical — the nervous system and fast-twitch muscle development of a large frame takes longer to mature — and partly technical, in that the correct defensive body shape for managing pace has to be trained deliberately."},
+      {"num": "03", "title": "Trusting the carry — converting a situational quality into a default habit", "text": "When he drives forward out of the defensive line, the technical quality is visible and the decision to do it is usually correct. What is missing is the consistency — the automatic reach for the carry as a first option in space, not a secondary one after checking for the simpler pass."},
+      {"num": "04", "title": "Engaging attackers in the space in front of the line — not just inside the box", "text": "The box-defending is already mature. What he needs is more deliberate practice engaging challenges in the twenty to thirty metres in front of his defensive line, where the step-out requires reading the ball's trajectory, timing the press, and winning the action without either over-committing or under-committing."}
+    ],
+    "travelScore": {
+      "score": "Academy",
+      "prose": [
+        "At 15, the question is not senior transfer readiness — it is academy pathway. The profile is already attracting elite European clubs at the highest development tier. Dortmund, Bayern, Salzburg, and Italian clubs are involved for a reason that is visible in the footage.",
+        "The transition risk is low. The football case for moving to a top academy environment is clear — the competitive level at Lokomotiva U17 will not continue to challenge him at the rate required. What requires monitoring is the transition itself: new country, language, and environment managed at 15.",
+        "He is ready for the best development environment available. He is not ready for senior football. That distinction matters — a club that deploys him in senior competition too early will undermine the same cognitive patience that makes him interesting."
+      ]
+    },
+    "leagueScores": [],
+    "riskGauges": [
+      {"score": 1, "label": "Development", "meaning": "Minimal risk", "note": "The cognitive qualities — anticipation, composure, spatial reading — are already formed and are the least likely to regress. The physical development has years of runway. The technical gaps are age-appropriate. There are no red flags in the development profile."},
+      {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Calm and level-headed in competitive contexts already. The leadership markers at 15 are a positive signal. The more relevant psychological risk is the transition to a major academy environment — navigating that at 15 with elite clubs involved requires family and professional support, not just personal composure."},
+      {"score": 1, "label": "Market", "meaning": "Minimal risk", "note": "Dortmund, Bayern, Salzburg, Hoffenheim, and Italian clubs confirmed. The market has already found him. There is no valuation risk — the question for Lokomotiva Zagreb is maximising the outcome of an inevitable departure, not whether the interest is real."},
+      {"score": 2, "label": "Transition", "meaning": "Low risk", "note": "Moving to a top academy at 15 is the correct development step — the competitive level at Lokomotiva U17 will not continue to challenge him at the rate required. The low risk is that the transition itself — new country, new environment, new language — is managed well."}
+    ],
+    "trajectoryNote": "A 15-year-old whose cognitive development has already outpaced his physical one — and his physical development has years of runway left. The trajectory points upward on both axes simultaneously.",
+    "nowAge": 15,
+    "verdict": {
+      "statement": "The market has found him for a reason that is not hard to see once you watch him. The physical profile is obvious — 1.85m, already strong, with years of physical development ahead — but physical profiles at 15 are everywhere. What is not everywhere is a 15-year-old left-sided centre-back who reads the game with the calm and spatial clarity he shows consistently. The clubs involved are not here because of a good press release from his academy. They are here because their scouts watched him read a movement before it happened, step to cut the passing lane, and complete the interception without breaking stride — and then saw him do it again in the next match.",
+      "travels": [
+        "Defensive anticipation — reading movement before it arrives; already a consistent pattern across competition levels",
+        "Composure on the ball — 80.5% pass accuracy in youth competition; does not panic under pressure",
+        "Physical foundation — 1.85m at 15 with genuine strength and good top-end speed for the frame",
+        "Positional intelligence — switches between front-foot and back-foot defending contextually, not by default",
+        "Forward defensive instinct — recovers the ball in the opponent's half; not a passive line-holder"
+      ],
+      "targeted": [
+        "Long pass execution — 33.3% accuracy on an ambitious ball he is already attempting; the vision is ahead of the execution",
+        "Acceleration against pace — the relative weakness against quick attackers; expected to narrow with physical development",
+        "Close control confidence — the technique is present in moments; the habit of defaulting to it is not yet automatic",
+        "Consistent challenge outside the box — the next developmental level of forward defending, not yet fully formed"
+      ],
+      "potentialRating": "9/10",
+      "potentialBalls": 9,
+      "potentialProjection": "A 9 at 15 reflects a specific and honest assessment: the cognitive and technical foundation already present, combined with the physical runway still ahead, makes a top-five European league starter the base-case outcome — not the ceiling. The deduction from a 10 is the appropriate uncertainty that accompanies any projection made five years before professional debut. He is one of the top 2010-born centre-backs in Europe. The clubs involved already know this."
+    }
   }]
 }
