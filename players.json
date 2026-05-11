@@ -2510,5 +2510,318 @@
       "potentialBalls": 9,
       "potentialProjection": "A 9 at 15 reflects a specific and honest assessment: the cognitive and technical foundation already present, combined with the physical runway still ahead, makes a top-five European league starter the base-case outcome — not the ceiling. The deduction from a 10 is the appropriate uncertainty that accompanies any projection made five years before professional debut. He is one of the top 2010-born centre-backs in Europe. The clubs involved already know this."
     }
+  },
+  {
+    "slug": "branimir-mlasic",
+    "handcrafted": true,
+    "firstName": "Branimir",
+    "lastName": "Mlačić",
+    "positionTag": "No-Nonsense Centre-Back",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/branimir-mlasic.png",
+    "photoAlt": "Branimir Mlačić",
+    "verdictLine": "A 19-year-old Hajduk Split centre-back already trusted in a title race. He wins aerial duels at the 85th percentile and defensive duels at the 88th. The ball rarely travels forward from his feet. That gap between security and initiative is the central question in this profile, and it is a healthier imbalance than it first appears.",
+    "bio": {
+      "dob": "Mar 12, 2007",
+      "nationality": "Croatian",
+      "club": "Hajduk Split",
+      "league": "SuperSport HNL",
+      "contractExpiry": "Jun 2027",
+      "marketValue": "€4M",
+      "preferredFoot": "Right",
+      "height": "1.94m",
+      "agent": "LIAN Sports Group"
+    },
+    "scores": {
+      "basePotential": "8",
+      "travelReadiness": "7.5",
+      "reportDate": "Jan '26"
+    },
+    "role": {
+      "primaryRole": "No-Nonsense Centre-Back",
+      "description": [
+        "A positional defender who anchors the defensive line through anticipation and physical authority. Does not step out speculatively. Holds position, closes angles, and lets the game come to him.",
+        "On the ball, he keeps things secure and short. The progressive dimension exists but is not yet the core of his game. Can play both sides of a back four.",
+        "The long-term projection points toward a stopper role in a back three or a high-line system where aerial dominance and one-on-one reliability in the penalty area are the primary requirements."
+      ],
+      "formationName": "4–2–3–1",
+      "formationLabelBottom": "Hajduk Split",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 50, "cy": 460, "label": "RB"},
+        {"cx": 148, "cy": 465, "label": "LCB"},
+        {"cx": 252, "cy": 465, "label": "RCB"},
+        {"cx": 350, "cy": 460, "label": "LB"},
+        {"cx": 148, "cy": 368, "label": "LDM"},
+        {"cx": 252, "cy": 368, "label": "RDM"},
+        {"cx": 55, "cy": 228, "label": "LW"},
+        {"cx": 200, "cy": 235, "label": "CAM"},
+        {"cx": 345, "cy": 228, "label": "RW"},
+        {"cx": 200, "cy": 148, "label": "ST"}
+      ],
+      "highlightedPosition": {"cx": 148, "cy": 465, "label": "LCB"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "Passes securely, not ambitiously", "text": "The technique under pressure is clean and he rarely gives the ball away. The consistent choice is the safe one, even when a more forward option exists. His 95th-percentile pass accuracy in the 1. HNL tells you what he does well; the 9th-percentile progressive pass rate tells you what he is currently not choosing to do."},
+        {"title": "Carries when space opens", "text": "1.7 progressive runs per 90 is a real number for a teenager in a title-contending defensive structure. He reads when to step forward, and his stride length lets him cover ground quickly once committed. The 83rd-percentile progressive carry rate within the league reflects genuine intent, not accident."},
+        {"title": "Long passing is inconsistent", "text": "The physical range exists; the senior conversion does not yet. He occasionally attempts switches of play with good intent, but the 2nd-percentile long ball accuracy is the honest measure of where it currently stands."}
+      ],
+      "offBall": [
+        {"title": "Reads play before threats arrive", "text": "Positioning is the primary defensive tool. He closes angles rather than committing to challenges, and regularly arrives in the correct space before the situation demands a reaction. Not passive defending — a formed habit of attention that compresses space without risking the body recklessly."},
+        {"title": "Dominant aerially", "text": "85th-percentile aerial duel win rate built on size, timing, and approach-path intelligence rather than height alone. He attacks the ball in the air; he does not simply arrive and contest. Inside the penalty area, this is already functioning at a senior level."},
+        {"title": "Wins duels cleanly; does not generate them", "text": "88th-percentile defensive duel win rate alongside 22nd-percentile successful defensive actions per 90. He resolves the confrontations his positioning puts him in rather than creating additional ones. The low volume reflects the system and the style, not a reluctance to compete."},
+        {"title": "Controlled in contact, no trace of recklessness", "text": "Uses his frame to push strikers off the ball and manages physical contact without fouling unnecessarily. Stays composed after errors. Hajduk trust him in meaningful minutes in a title race at 19."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "Aerial dominance", "desc": "Built on size, timing, and approach-path intelligence. Does not degrade with the step up in quality. Elite environments test and reward it more directly."},
+        {"name": "Positional defensive intelligence", "desc": "Reading threats before they arrive, closing angles without committing the body, holding the line when others step. Shows consistently across opponents and game states. A formed habit of attention, not a projection."},
+        {"name": "Mental stability and composure", "desc": "Handles errors without visible regression. Stays involved in the game after mistakes. Not a product of the current environment."}
+      ],
+      "context": [
+        {"name": "Duel dominance in structured low blocks", "desc": "The 88th-percentile defensive duel win rate reflects both genuine quality and the physicality level of the 1. HNL. The trait is real; the percentage will compress against a higher standard of forward."}
+      ],
+      "system": [
+        {"name": "Ball security in possession", "desc": "The 95th-percentile pass accuracy reflects a structure that asks him to keep it simple. The trait is genuine, but what it means at the next level depends on what the next environment asks of him."},
+        {"name": "Progressive carrying", "desc": "Needs space to operate. His stride becomes a weapon in a compact, organised defensive structure. In a higher-tempo environment under sustained pressure, the same instinct may produce fewer clean carries."}
+      ],
+      "exposed": [
+        {"name": "Explosive acceleration", "desc": "12th-percentile accelerations. Not built for isolated recovery situations against elite pace. A physical type constraint, not a development gap. Requires a compact defensive line and collective press rather than individual recovery as the last resort."},
+        {"name": "Long ball distribution", "desc": "2nd-percentile long pass accuracy in senior football. The intent and range exist; the conversion does not. Large enough to treat as a genuine current weakness rather than a ceiling note. It probably closes with coaching and repetition. It has not closed yet."},
+        {"name": "Progressive passing output", "desc": "9th percentile vs league peers, 22nd vs global U20 CBs. In systems that need the centre-back to initiate the first forward pass under a press, this is structurally exposed."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Physical frame", "value": "The foundational advantage. 1.94m with long stride length and natural aerial dominance. The frame is set. What develops from here is how assertively he uses it."},
+        {"label": "Mobility", "value": "Functionally agile for his size. Not explosive over short distances — 12th-percentile accelerations confirms the first step is not a weapon. He compensates through positioning and angle-closing, which is sustainable in the right defensive structure."},
+        {"label": "Recovery pace", "value": "Stride efficiency allows him to cover distance once moving. Not designed for isolated sprints against elite pace; designed for systems where the line is compact and exposure in open space is rare."},
+        {"label": "Aerial", "value": "85th-percentile win rate vs league peers, 38th vs global U20 CBs. The first number reflects quality in context; the second is the honest ceiling calibration. The approach-path reading and timing are genuine regardless of comparison group."}
+      ],
+      "cognitive": [
+        {"label": "Spatial reading", "value": "The most advanced quality for his age. Positions himself for threats before they fully develop, cuts passing lanes by reading intention early, tracks runners through the box. A habit of attention that is formed, not projected."},
+        {"label": "Step-out timing", "value": "Still sharpening the edge cases. The instinct to hold rather than lunge is already present; the speed of judgment on moments where both options are plausible is being built. At 19, this is expected and coachable."},
+        {"label": "Ball progression reading", "value": "The 9th-percentile progressive pass rate is partly technical and partly cognitive. He sees forward options but defaults to the safe one. He does not look incapable of playing forward. He looks unconvinced that he should."},
+        {"label": "Game management", "value": "Mature in how he handles contact, concentration, and error response. The mental side of defending is ahead of schedule."}
+      ],
+      "psychological": [
+        {"label": "Confidence", "value": "Plays with conviction rather than caution. In aerial challenges, contact situations, and high-pressure moments for a title-contending club, he does not hesitate. The trust Hajduk place in him at 19 is itself a data point."},
+        {"label": "Composure", "value": "The 95th-percentile pass accuracy is partly a product of this — he does not get rushed into poor decisions by pressure. Whether that composure holds when the quality of pressure increases substantially is the open question."},
+        {"label": "Discipline", "value": "Controlled physical engagement without recklessness. Competes physically without losing defensive shape. Card rate is manageable."},
+        {"label": "Error response", "value": "Remains active and involved after mistakes. Does not retreat psychologically. The position punishes hesitation that follows errors, and he does not show it."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Long ball distribution", "text": "The 2nd-percentile long pass accuracy is a conversion problem, not a physical one. The range is there; the reliability under pressure is not. A centre-back who can switch play accurately over 40 metres is a meaningfully different resource. This is the task with the highest ceiling impact."},
+      {"num": "02", "title": "Forward passing intent", "text": "The 9th-percentile progressive pass rate reflects both technical limitation and cognitive habit. Building confidence in the line-breaking pass — shorter, sharper, played through the press rather than around it — is a separate task from fixing the long ball. Both require coaching and repetition at a higher level."},
+      {"num": "03", "title": "Step-out timing against quality forwards", "text": "The positional instinct is formed. What needs refinement is the judgment on edge cases: when to press and when to hold. In the 1. HNL, the margin is wider. At the next level, the same hesitation gets punished before it can be corrected. Exposure to higher-quality attackers is the only real development path."},
+      {"num": "04", "title": "Physical assertion in duels", "text": "The frame is there. What needs developing is the application: attacking the ball first rather than waiting to be challenged, engaging strikers at higher tempo, asserting physically against quicker opponents rather than relying on positioning alone."}
+    ],
+    "travelScore": {
+      "score": "7.5",
+      "prose": [
+        "The aerial dominance, positional intelligence, and composure under pressure travel unconditionally. They are habits built on physical and cognitive foundations that do not degrade with the step up in quality.",
+        "The 7.5 sits below 8 for one honest reason: the progressive gap. The 9th-percentile progressive passing rate and 2nd-percentile long ball accuracy represent a version of this player that is not yet the version his physical profile implies. Leagues that ask centre-backs to initiate under pressure will expose this from day one.",
+        "The best immediate environment is defensively structured, values aerial and physical dominance in the penalty area, and does not require the centre-back to be the first passer against a high press. Serie A structures fit that description well."
+      ]
+    },
+    "leagueScores": [
+      {"league": "Premier League", "score": 6.0, "width": "60%", "high": false, "note": "The aerial and physical qualities would hold. The progressive passing demand and transition pace are the stress points. Most Premier League structures expect centre-backs to contribute to press-breaking; that is not where the current profile is strong."},
+      {"league": "Bundesliga", "score": 5.5, "width": "55%", "high": false, "note": "The pressing intensity is the problem. Systems routinely require centre-backs to play forward quickly and accurately under press. The physical quality survives; the buildup expectation would expose the progressive gap before the defensive qualities can establish his value."},
+      {"league": "La Liga", "score": 7.0, "width": "70%", "high": false, "note": "Positional emphasis and defensive structure reward his intelligence more directly than transition-heavy leagues. At a disciplined, organised side he contributes immediately."},
+      {"league": "Serie A", "score": 8.0, "width": "80%", "high": true, "note": "The best current fit. Physical dominance, aerial quality, and positional intelligence remain highly valued in Italian defensive structures. Set-piece threat translates immediately."},
+      {"league": "Ligue 1", "score": 6.5, "width": "65%", "high": false, "note": "Athletic and direct. The physicality suits his profile, but the transition frequency and isolated defensive situations expose the acceleration gap more than structured leagues do."},
+      {"league": "Eredivisie", "score": 7.5, "width": "75%", "high": true, "note": "A clean developmental bridge. Technical expectations are present but not brutal at most clubs; the physical qualities would dominate. A natural step toward Serie A or La Liga."},
+      {"league": "Jupiler Pro League", "score": 7.0, "width": "70%", "high": true, "note": "Physical and aerial qualities would make an immediate impression. System selection matters more than league fit here. At an organised, defensively-minded structure, he slots in directly."}
+    ],
+    "riskGauges": [
+      {"score": 2, "label": "Development", "meaning": "Low risk", "note": "1,433 senior minutes at 19, regular starter for a title-contending club. No injury history flagged. The weaknesses are technical and cognitive, not structural. The physical base is strong enough to develop around."},
+      {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Trusted in high-stakes minutes at 19. Handles errors without visible regression. Controlled aggression, no card accumulation concern. The mental profile already operates at a level that matches the physical one."},
+      {"score": 2, "label": "Market", "meaning": "Low risk", "note": "€4M for a 19-year-old with this physical profile is a reasonable entry point. Physical tools alone preserve the resale floor. The main market risk is overpaying on ceiling expectations the current data does not yet confirm."},
+      {"score": 3, "label": "Technical", "meaning": "Medium risk", "note": "Long pass accuracy at the 2nd percentile and progressive passes at the 9th are real gaps. Probably closeable — the physical mechanism is present — but they have not closed yet. Acquiring on the assumption they will is a bet on development, not on current output."}
+    ],
+    "trajectoryNote": "The defensive fundamentals already hold against senior competition. The ceiling is a top-five league starter; the floor is a reliable stopper at a well-organised club. Both outcomes represent value at €4M and 19.",
+    "nowAge": 19,
+    "verdict": {
+      "statement": "Buy him for the physical and positional foundations, which are already functioning at a level that holds at the next step. The aerial dominance, defensive intelligence, and composure are formed. The progressive gap is real, but the question is whether it is a ceiling or a development stage — and at €4M and 19, the cost of being wrong is lower than the upside if it resolves.",
+      "travels": [
+        "Aerial dominance: 85th-percentile win rate vs league peers, built on timing and approach-path intelligence; already penalty-area quality at 19",
+        "Defensive duel quality: 88th percentile when confrontations arrive; physically assertive without recklessness",
+        "Positional intelligence: reads threats before they arrive, closes angles; a formed defensive habit operating ahead of his age",
+        "Composure and mental stability: trusted in a title race at 19; handles errors without psychological regression",
+        "Progressive carrying: 83rd percentile vs league peers; the instinct and stride are genuine"
+      ],
+      "targeted": [
+        "Long ball accuracy: 2nd percentile vs league peers; the range exists physically but conversion in senior football is not yet reliable",
+        "Progressive passing intent: 9th percentile vs league peers; security is the current default even when the forward option is the correct choice",
+        "Explosive acceleration: 12th percentile; not designed for isolated recovery situations against elite pace; requires defensive structure around him",
+        "Step-out decision timing: the edge cases between pressing and holding still arrive a beat slow; higher-quality forwards will find these moments faster"
+      ],
+      "potentialRating": "8/10",
+      "potentialBalls": 8,
+      "potentialProjection": "Projects as a first-choice centre-back in one of Europe's top five leagues: physically dominant, aerially reliable, positionally intelligent. The ceiling moves toward 8.5 if the progressive dimension develops into a genuine weapon. It stays at 8 if the ball-playing side remains limited and the profile resolves as a high-quality defensive stopper."
+    }
+  },
+  {
+    "slug": "andrej-kostic",
+    "handcrafted": true,
+    "firstName": "Andrej",
+    "lastName": "Kostić",
+    "positionTag": "Poacher",
+    "positionCategory": "Attackers",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/andrej-kostic.png",
+    "photoAlt": "Andrej Kostić",
+    "verdictLine": "A 19-year-old Partizan striker who ranks first among all U21 strikers globally in non-penalty goals, non-penalty xG, and shots per 90. You will spend most of his matches wondering whether he is doing enough. Then he'll probably score.",
+    "bio": {
+      "dob": "Jan 16, 2007",
+      "nationality": "Montenegrin",
+      "club": "FK Partizan",
+      "league": "Serbian SuperLiga",
+      "contractExpiry": "Jun 2030",
+      "marketValue": "€3M",
+      "preferredFoot": "Right",
+      "height": "1.88m",
+      "agent": "Int'l Sports Office"
+    },
+    "scores": {
+      "basePotential": "7.5",
+      "travelReadiness": "6.5",
+      "reportDate": "Feb '26"
+    },
+    "role": {
+      "primaryRole": "Poacher",
+      "description": [
+        "A penalty-box striker built around movement and finishing rather than involvement. Kostić survives quietly in matches until the right space appears, then attacks it quickly.",
+        "The footwork is light, the timing intelligent, and the right foot a genuine weapon from awkward angles and tight windows. The left foot remains a real limitation, both technically and mechanically, and narrows the range of situations he finishes comfortably from.",
+        "What already exists is a natural scoring instinct. The question is how much football can exist around it."
+      ],
+      "formationName": "4–2–3–1",
+      "formationLabelBottom": "FK Partizan",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 50, "cy": 460, "label": "RB"},
+        {"cx": 148, "cy": 465, "label": "LCB"},
+        {"cx": 252, "cy": 465, "label": "RCB"},
+        {"cx": 350, "cy": 460, "label": "LB"},
+        {"cx": 148, "cy": 368, "label": "LDM"},
+        {"cx": 252, "cy": 368, "label": "RDM"},
+        {"cx": 55, "cy": 228, "label": "LW"},
+        {"cx": 200, "cy": 235, "label": "CAM"},
+        {"cx": 345, "cy": 228, "label": "RW"},
+        {"cx": 200, "cy": 148, "label": "ST"}
+      ],
+      "highlightedPosition": {"cx": 200, "cy": 148, "label": "ST"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "The right foot is a genuine weapon", "text": "Quick into his shooting motion, comfortable striking even when off-balance or at an awkward body angle, and able to generate power from positions that most strikers would need to reset from first. The conversion numbers (91st percentile) and the shot quality (80th-percentile npxG per shot) reflect the same quality: he arrives in good positions and gets off clean attempts quickly enough that goalkeepers cannot adjust."},
+        {"title": "The left foot is a real problem", "text": "Not just a weaker side — technically unreliable in ways that are specific and observable. When the ball is rolling forward and he needs to strike, the pivot foot stops planting in time, his shoulders come off the ball, and the laces do not connect. Power drains out of shots that should be straightforward. That gap is honest and currently costs goals."},
+        {"title": "Shot fakes that defenders actually commit to", "text": "He does not fake aggressively. He makes convincing enough half-commitments that nearby defenders bite, opening lanes for himself or freeing teammates. Across a match it becomes a tool that creates options beyond the obvious."},
+        {"title": "Passes are functional at best, minimal in volume", "text": "15th-percentile pass accuracy, 23rd-percentile passes per 90. The 83rd-percentile long pass accuracy is an outlier that suggests physical range the short game does not express. As a link player, he is not there."}
+      ],
+      "offBall": [
+        {"title": "The box movement is the best part of the profile", "text": "He constructs positions. Starts in the blind side of a centre-back, adjusts to be ball-side for a potential one-two, repositions to get behind, then bursts in front of the CB as the cross enters. Multiple adjustments in a single sequence, all made in the time it takes most players to make one. The footwork is light and twitchy, with short burst speed that consistently gets him a step ahead of defenders. This is scalable."},
+        {"title": "Variety of goal types backed by deliberate movement", "text": "Cutbacks, rebounds, runs in behind, goals under physical contact using the arm to stay in front. He does not try to smash everything; there is clear thought behind the finish selection. The variety suggests the scoring mechanism is not dependent on one specific type of service."},
+        {"title": "Speed control as a weapon", "text": "He slows down at the right moment to get the ball through a defender's legs before setting up the shot. That kind of pace manipulation — knowing when to decelerate inside a run — is more sophisticated than pure speed and harder to teach."},
+        {"title": "Aerial work is a genuine weakness", "text": "12th-percentile aerial duel success at 1.88m. The elevation is there, but the timing and physicality of challenging for crosses are not yet translating into the numbers his frame should produce. Right now it remains a liability that closes off a significant share of how a striker his size is typically deployed."},
+        {"title": "The game passes him by when service stops", "text": "He does not press with intensity, does not drop to link, does not drag defenders to create space for runners. Match ratings fluctuate sharply between games where he is found in positions and games where he is not. He is not yet someone who takes the game by the scruff when it is not going his way."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "Finishing instinct and shot variety", "desc": "The conversion numbers at the top of a global U21 comparison group are supported by something specific: he does not try to smash everything. The shot selection shows awareness — cutbacks, rebounds, contact goals, shots at difficult angles. That variety reflects thought behind the mechanism, not just athleticism in front of goal."},
+        {"name": "Box movement and micro-adjustment", "desc": "He constructs positions through multiple adjustments inside a single run: blind side, ball side, behind again, then burst. The footwork is twitchy and quick, 2-3 steps ahead of defenders in short bursts. This is scalable — it does not depend on the quality of the opposition declining, it depends on the quality of the service improving."},
+        {"name": "Speed control inside runs", "desc": "He knows when to decelerate. Slowing at the right moment to get the ball through a defender's legs before setting up the shot is a specific form of intelligence — it requires reading the defender's momentum and adjusting before most players would. Harder to teach than pure pace."},
+        {"name": "Composure under pressure", "desc": "Scoring through contact, getting into his shooting motion while off-balance, keeping his head in big-match situations at Partizan at 19. This reflects a specific temperament — cool head, strong will, competitive spirit that does not need the game to go perfectly first."}
+      ],
+      "context": [
+        {"name": "Goal conversion rate", "desc": "91st-percentile conversion in the Serbian SuperLiga is a real quality, but the defensive standard of the league provides a discount on the raw number. The npxG per shot (80th percentile) is the more honest measure of shot quality. Both numbers point the same direction; the league discount applies to both."}
+      ],
+      "system": [
+        {"name": "Cross-driven finishing", "desc": "His goal output rises substantially in systems that generate wide deliveries, cutbacks, and rebounds. Without consistent wide service, he gets fewer opportunities in positions he already knows how to convert. The value of the finishing instinct depends heavily on service quality."},
+        {"name": "Transition threat", "desc": "Most dangerous when the game moves vertically and quickly. His run-in-behind timing and acceleration read transition situations well. In a slow-build possession system, this quality contributes little."}
+      ],
+      "exposed": [
+        {"name": "Aerial duels", "desc": "12th-percentile success rate for a 1.88m centre-forward. The size suggests a target-man ceiling that the numbers do not confirm. Heading — as a linking tool, a pressing tool, and a finishing tool from crosses — is currently a liability for a profile that should be weaponising it."},
+        {"name": "Link-up and buildup contribution", "desc": "15th-percentile pass accuracy, 23rd-percentile passes per 90. Systems that require the centre-forward to hold, link, and connect midfield to attack will expose this immediately. He is not yet a usable partner in possession phases."},
+        {"name": "Game influence without service", "desc": "When chances do not arrive, contribution trends toward zero. He does not drag defenders, create space, press with intensity, or affect the game through other means. A finisher who cannot impose his will on the game in other ways needs to be bought by a club that can guarantee the service."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Frame", "value": "1.88m with a developing physical base. Already physically present for his age; still growing into senior-level physicality. The frame gives him the ceiling to be a target man but the current numbers — particularly aerial duels — show he is not yet imposing it consistently."},
+        {"label": "Speed and stride", "value": "Effective over distance rather than explosive in tight spaces. Handles the ball well at speed when attacking depth, which suggests coordination that many tall strikers lack at this age. Not a short-space dribbler."},
+        {"label": "Two-footedness", "value": "Confirmed comfort striking with either foot from finishing positions. Not just technically ambidextrous; the conversion holds across both. Defenders cannot narrow his angles in the conventional way."},
+        {"label": "Physical development", "value": "Strength in shoulder-to-shoulder duels is still building. Against senior-level defenders who contest physically before the ball arrives, he will face moments the Serbian SuperLiga does not yet consistently provide."}
+      ],
+      "cognitive": [
+        {"label": "Decision speed", "value": "Fast in finishing situations. Rarely gives defenders time to adjust once the ball arrives in a scoring position. He decides before the ball arrives and executes without reconsideration."},
+        {"label": "Risk profile", "value": "Aggressive in finishing situations; still developing in possession phases. The tendency to shoot over pass in areas near the box can be read by defenders. Passing alternatives as a response to blocked shooting lanes are not yet a formed habit."},
+        {"label": "Spatial awareness", "value": "Elite inside the penalty area; average or below in deeper positions. The box-reading quality is the clearest cognitive strength in the profile."},
+        {"label": "Adaptability", "value": "Still developing. Currently tied strongly to service and attacking momentum. The cognitive challenge is learning to affect games in other ways when the primary mechanism is unavailable."}
+      ],
+      "psychological": [
+        {"label": "Big-moment composure", "value": "The clearest psychological strength. He is unfazed by pressure in finishing moments. The conversion numbers at 19, with 1,300 senior minutes at a club with title-contention expectations, is evidence of functional composure under consequence."},
+        {"label": "Competitive drive", "value": "Determined and willing to compete for scoring opportunities. Consistent attacking run volume and touches in box per 90 suggest someone who keeps searching even when earlier opportunities have not arrived."},
+        {"label": "Consistency", "value": "Match ratings fluctuate widely — strongly correlated to service quality. This is partly a structural problem and partly a mental challenge: imposing will on games regardless of whether the ideal service arrives. He has not yet solved the second part."},
+        {"label": "Focus maintenance", "value": "Alert and present in scoring zones throughout matches. The concentration required to maintain box positioning without constant ball involvement is a specific mental skill — and one he appears to possess."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Aerial duels and header technique", "text": "This is the most serious structural gap relative to his physical profile. A 1.88m centre-forward who wins aerial duels at the 12th percentile is not using his frame. The timing and physicality of challenging for crosses need to develop significantly before he can be considered a complete target striker."},
+      {"num": "02", "title": "Link-up and short combination play", "text": "The 15th-percentile pass accuracy is a direct constraint on the range of systems that can use him. A centre-forward who cannot hold, lay off cleanly, or connect in tight spaces between lines cannot be deployed in most modern structures. The difference between 15th-percentile passing and 40th is significant enough to change his deployment options substantially."},
+      {"num": "03", "title": "Game influence without direct service", "text": "When chances are not arriving, he needs to develop ways to affect the game — pressing triggers, movement to create space for runners, pin-and-release combinations with midfielders. Currently, bad service games produce near-zero involvement. A striker who can only contribute when found in position is a structural limitation at the top level."},
+      {"num": "04", "title": "Physical assertiveness in duels", "text": "The frame is there and still developing. Learning to use it earlier in defensive contests — particularly to hold off senior-level centre-backs before the ball arrives — will determine whether the conversion numbers at the Serbian SuperLiga level hold at the next step."}
+    ],
+    "travelScore": {
+      "score": "6.5",
+      "prose": [
+        "The finishing instinct, two-footed technique, and penalty-area positioning travel. These are formed habits at the level his global U21 ranking confirms, and they do not depend on the Serbian SuperLiga's defensive standard to function.",
+        "The 6.5 reflects one central constraint: the profile requires a specific environment to produce at the level the numbers suggest. He needs a team that generates crosses, wide deliveries, and transition opportunities consistently, and a system that does not require the centre-forward to contribute to buildup.",
+        "The best immediate environment is vertical, crossing-oriented, and has a partner striker or CAM who can handle buildup involvement. Bundesliga, Eredivisie, and Jupiler Pro League structures produce this more consistently than La Liga or Serie A."
+      ]
+    },
+    "leagueScores": [
+      {"league": "Premier League", "score": 5.5, "width": "55%", "high": false, "note": "The physical gap is the biggest concern. Senior defenders will contest earlier and more aggressively before the ball arrives; his current ability to impose physically is not yet at that level."},
+      {"league": "Bundesliga", "score": 7.0, "width": "72%", "high": true, "note": "The best current fit. The league's vertical, transition-oriented play and frequency of crossing situations align directly with his strengths. Many Bundesliga sides deploy a genuine reference-point striker without extensive buildup demands."},
+      {"league": "La Liga", "score": 5.5, "width": "55%", "high": false, "note": "The technical demands placed on strikers in possession-oriented Spanish systems expose the link-up limitation immediately. Not a general fit."},
+      {"league": "Serie A", "score": 6.0, "width": "62%", "high": false, "note": "Italian defensive structures would limit his opportunities more than other leagues. Many Serie A sides are compact and do not generate the crossing situations and transitions that feed his profile. His aerial weakness makes him a difficult target for Italian defensive organisation."},
+      {"league": "Ligue 1", "score": 7.0, "width": "70%", "high": true, "note": "Athletic, physical, direct. The duels and transition pace suit his movement profile. Ligue 1 produces enough crossing situations and attacking transitions to supply a penalty-box striker regularly."},
+      {"league": "Eredivisie", "score": 7.5, "width": "75%", "high": true, "note": "Strong developmental fit. Open, attack-oriented, with frequent crossing and transition situations. Would provide regular meaningful finishing opportunities while the other dimensions of his game develop around them."},
+      {"league": "Jupiler Pro League", "score": 7.0, "width": "72%", "high": true, "note": "A clean entry point. Belgian football's direct style, physical intensity, and service frequency suit his profile. A strong deployment option if the Eredivisie is unavailable or overpriced."}
+    ],
+    "riskGauges": [
+      {"score": 2, "label": "Development", "meaning": "Low risk", "note": "1,300 senior minutes at 19 for a title-contending club. The core finishing qualities are formed. The gaps are developmental, not structural. Physically still growing into his frame, which adds upside rather than risk."},
+      {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Composed in big-moment situations. Trusted with senior minutes under consequence. Competitive mentality evident in consistent run patterns and positioning effort even when service is limited."},
+      {"score": 4, "label": "Market", "meaning": "High risk", "note": "External interest from clubs at a higher valuation level (AC Milan) creates acquisition pressure and may inflate the price beyond what the current output justifies. At €3M with contract to 2030, the baseline is reasonable, but the risk is that market forces move before the profile is complete."},
+      {"score": 4, "label": "Systemic", "meaning": "High risk", "note": "The profile only fully functions in specific system environments: vertical, crossing-heavy, with service-focused teammates. In a possession-dominant system or one that requires striker buildup involvement, output will drop significantly from what the current numbers suggest."}
+    ],
+    "trajectoryNote": "First globally among U21 strikers in the metrics that matter most at the position — but only in the right system. The finishing instinct is formed. Everything else is a development bet at €3M.",
+    "nowAge": 19,
+    "verdict": {
+      "statement": "Buy him for a system that will supply him and tolerate the rest. The finishing instinct, the box movement, and the composure are formed. The left foot, the aerial game, and the game influence without service are all gaps — but they are gaps in a 19-year-old who is already first globally among his peers in the numbers that matter most at his position. The eye for goal cannot be taught. Everything else, at least in principle, can.",
+      "travels": [
+        "Box movement intelligence: micro-adjustments, blind-side starting positions, speed control in runs — sophisticated and scalable",
+        "Shot variety and selection: cutbacks, contact goals, off-balance finishes — the mechanism shows thought, not just athleticism",
+        "Right-foot finishing: quick into shooting motion, comfortable off-balance, generating power at awkward angles; 91st-percentile conversion, 80th-percentile npxG per shot",
+        "Shot fakes: convincing enough that defenders commit, creating lanes for himself and teammates",
+        "Composure: cool in big moments at 19 for a title-contending club; the Balkan competitive grit is present in its best form"
+      ],
+      "targeted": [
+        "Left foot coordination: technically unreliable when the ball is rolling, pivot foot stops planting, power drains; costs goals in situations with space and no pressure",
+        "Aerial duels: 12th percentile at 1.88m; elevation is present but timing and physical challenge are not translating",
+        "Game influence without service: near-zero contribution when not in direct finishing positions; does not press, link, or create space for others",
+        "Physical duels: 4th-percentile overall duel win rate; senior defenders at the next level will contest earlier and harder before the ball arrives"
+      ],
+      "potentialRating": "7.5/10",
+      "potentialBalls": 7,
+      "potentialProjection": "Projects as a reliable top-division striker in the right system. The ceiling moves toward 8.5 if the aerial game develops, the link-up becomes functional, and he learns to impose himself on games that do not supply him. The floor is a finishing specialist who requires specific deployment to produce — genuinely useful, but narrowly so."
+    }
   }]
 }
