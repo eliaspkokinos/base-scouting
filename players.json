@@ -2823,5 +2823,153 @@
       "potentialBalls": 7,
       "potentialProjection": "Projects as a reliable top-division striker in the right system. The ceiling moves toward 8.5 if the aerial game develops, the link-up becomes functional, and he learns to impose himself on games that do not supply him. The floor is a finishing specialist who requires specific deployment to produce — genuinely useful, but narrowly so."
     }
+  },
+  {
+    "slug": "aleksa-damjanovic",
+    "handcrafted": true,
+    "firstName": "Aleksa",
+    "lastName": "Damjanović",
+    "positionTag": "Target Forward",
+    "positionCategory": "Attackers",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/aleksa-damjanovic.png",
+    "photoAlt": "Aleksa Damjanović",
+    "verdictLine": "There is a version of this profile that becomes very easy to believe in very quickly. A teenager with size, aerial presence, soft touch, and genuine connective instincts is already rare. Damjanović is not a finished striker yet, and the final action still fluctuates too much, but the football between the goals often looks older than the player himself.",
+    "bio": {
+      "dob": "Dec 4, 2008",
+      "nationality": "Serbian",
+      "club": "Red Star Belgrade (loan: Grafičar)",
+      "league": "Prva Liga",
+      "contractExpiry": "Jun 2028",
+      "marketValue": "€800K",
+      "preferredFoot": "Left",
+      "height": "1.98m",
+      "agent": ""
+    },
+    "scores": { "basePotential": "8.5", "travelReadiness": "7", "reportDate": "Dec '25" },
+    "role": {
+      "primaryRole": "Target Forward",
+      "description": [
+        "Not a battering ram. A 1.98m striker who plays with the touch and reading of a technical number ten, whose body happens to be built for dominating a penalty area.",
+        "Drops between the lines to connect, cushions the ball under pressure, lays off first-time with timing and disguise. Wins headers through positioning and early body movement, not raw power.",
+        "Not a facilitator who does not score — a connector who also scores, or will. The finishing is still finding its consistency. Everything around it already points somewhere significant."
+      ],
+      "formationName": "4-3-3",
+      "formationLabelBottom": "Damjanović — highlighted position",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 60,  "cy": 460, "label": "LB"},
+        {"cx": 148, "cy": 465, "label": "LCB"},
+        {"cx": 252, "cy": 465, "label": "RCB"},
+        {"cx": 340, "cy": 460, "label": "RB"},
+        {"cx": 100, "cy": 360, "label": "LCM"},
+        {"cx": 200, "cy": 368, "label": "CM"},
+        {"cx": 300, "cy": 360, "label": "RCM"},
+        {"cx": 55,  "cy": 218, "label": "LW"},
+        {"cx": 345, "cy": 218, "label": "RW"}
+      ],
+      "highlightedPosition": {"cx": 200, "cy": 148, "label": "ST"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "The touch is what you notice first.", "text": "Soft for his size, opens his body quickly, stays composed when pressed from behind. For a 1.98m striker, first touch under pressure at this level of consistency is genuinely uncommon."},
+        {"title": "Links play with both feet and real intent.", "text": "Drops to receive, lays off first-time, finds channels for runners with disguised passes. Long pass accuracy at the 80th percentile confirms the range when the picture opens."},
+        {"title": "Finishes with placement, not force.", "text": "Prefers accuracy over power, aligns his hips correctly, comfortable striking with either foot. The composure absent in front of goal is present everywhere else."}
+      ],
+      "offBall": [
+        {"title": "Aerial work is built on timing, not height.", "text": "89th-percentile aerial duel win rate in the Prva Liga. Arrives early, bends correctly, attacks the ball at the near post. The height would produce nothing without the movement intelligence behind it."},
+        {"title": "Off-ball movement is the most developed quality in the profile.", "text": "Reads centre-back orientation, peels off shoulders, drops to create space for runners. Works constantly to construct situations rather than waiting for them."},
+        {"title": "Presses with workrate, not yet with structure.", "text": "Constant engagement. The timing of when to press and from which angle is still being refined. The engine is running; it needs direction."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "First touch quality", "desc": "Travels because it is balance-based rather than tempo-based. Faster pressing and harder contact at the next level test it differently but do not remove it."},
+        {"name": "Aerial timing and positioning", "desc": "His aerial success comes from reading the flight and arriving first, not from physical dominance. That makes it more scalable than the raw duel numbers suggest."},
+        {"name": "Two-footed technique", "desc": "Cannot be forced onto a weaker side. A structural advantage that does not depend on opposition quality."},
+        {"name": "Off-ball movement intelligence", "desc": "The reading of defensive positioning, near-post timing, space-creating drops — cognitive habits already formed. The defenders get better; his reading of them improves with the challenge."}
+      ],
+      "context": [],
+      "system": [
+        {"name": "Pressing output", "desc": "Effective pressing effort; effectiveness multiplies in well-organised collective structures where triggers and angles are pre-defined. The quality of the system changes this output more than his own development will short-term."},
+        {"name": "Ball-carrying range", "desc": "Works in the Prva Liga when space opens late. In transition-heavy environments against faster, higher-line defences, the lack of separation burst reduces how often those spaces appear."}
+      ],
+      "exposed": [
+        {"name": "Box decisiveness", "desc": "The hesitation when multiple finishing options exist gets punished more, not less, as the level rises. This is the single trait that needs to resolve — the others will not determine the ceiling the way this one does."},
+        {"name": "Physical assertiveness", "desc": "The frame is 1.98m and still growing. He does not yet consistently impose it. Senior centre-backs at the next level will test him earlier in the contact sequence."},
+        {"name": "Aerial duel win rate headline", "desc": "89th percentile in the Prva Liga compresses in higher competition. Apply a meaningful discount before projecting the headline figure forward."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Frame", "value": "1.98m, still developing. The physical ceiling is obvious. Coordination and lower-body flexibility already present means he will not become slow or cumbersome as the frame fills out."},
+        {"label": "Coordination", "value": "Better than almost any comparable height striker at this age. Handles the ball at pace, remains balanced through contact, finishes from awkward angles."},
+        {"label": "Acceleration", "value": "Medium. Stride length over distance, not burst over short distances. Structural constraint unlikely to change significantly."},
+        {"label": "Aerial ceiling", "value": "Strong and rising. Timing and early positioning amplify the height. Attacks the ball; does not simply arrive for it."}
+      ],
+      "cognitive": [
+        {"label": "Spatial scanning", "value": "Well above age in off-ball reading. Identifies blindside gaps before service arrives, adjusts positioning based on defensive shape."},
+        {"label": "Processing in possession", "value": "Fast when the role is connecting. First-time layoffs, disguised passes, hold-up under pressure — all processed quickly and executed cleanly."},
+        {"label": "Box decision timing", "value": "Still developing. Sees the options correctly but commits to one a beat late. Coachable through volume of finishing situations."},
+        {"label": "Adaptability", "value": "High. Functions as a connector, target, or second-ball threat depending on what the game requires. Does not insist on one mode."}
+      ],
+      "psychological": [
+        {"label": "Workrate", "value": "Constant and unconditional. Always competing, always chasing. For a 17-year-old in senior football this kind of consistent engagement is a character signal."},
+        {"label": "Patience", "value": "Unusual. Does not overcommit, trusts the play to develop, absorbs contact without losing structure."},
+        {"label": "Error response", "value": "Neutral. Stays engaged, does not hide after mistakes. Continues; does not retreat."},
+        {"label": "Competitive environment", "value": "Comfortable in meaningful senior minutes at 17. The loan to Grafičar is working as intended."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Box decisiveness", "text": "Every other gap responds to physical development and coaching exposure. This one responds to finishing volume and trust. He needs to act on the first option without the extra beat."},
+      {"num": "02", "title": "Physical assertiveness", "text": "The frame needs to be used earlier in the contact sequence: holding off at the shoulder before the ball arrives, winning the position battle rather than the ball battle."},
+      {"num": "03", "title": "Pressing triggers", "text": "The workrate is unconditional. The recognition of when to press — body shapes, goalkeeper distribution cues — is still reactive rather than proactive."},
+      {"num": "04", "title": "Physical development without sacrificing coordination", "text": "As the frame fills toward full senior weight, maintaining the balance and lower-body flexibility that make the touch and carry qualities what they are is the single most important physical development challenge."}
+    ],
+    "travelScore": {
+      "score": "7",
+      "prose": [
+        "The first touch, aerial timing, combination play, and off-ball movement travel. These are formed habits that will not be undone by higher competition.",
+        "The 7 sits below the ceiling for one honest reason: the goal output has not arrived. A club buying Damjanović is buying what the underlying qualities promise, not what the conversion numbers currently confirm. At €800K and 17 that is a reasonable bet, but it is a bet.",
+        "The Bundesliga is the natural environment. German football produces the wide service, transition opportunities, and possession structures that feed exactly this type of striker. The Eredivisie works as an intermediate step. Serie A at the right club also fits."
+      ]
+    },
+    "leagueScores": [
+      {"league": "Premier League",     "score": 5.0, "width": "50%", "high": false, "note": "Transition frequency and pace of play are the specific problems. His acceleration does not match what English defensive lines demand in open play."},
+      {"league": "Bundesliga",         "score": 8.0, "width": "80%", "high": true,  "note": "The best current fit. Wide crossing situations, transition opportunities, structured possession play. The environment is built for what he is becoming."},
+      {"league": "La Liga",            "score": 6.0, "width": "62%", "high": false, "note": "Combination play and scanning translate into Spanish possession structures. The constraint is compact defensive blocks limiting aerial and hold-up opportunities."},
+      {"league": "Serie A",            "score": 7.0, "width": "73%", "high": true,  "note": "Italian football's tactical structure and emphasis on aerial quality and hold-up play align with his strengths. The second-best current fit after the Bundesliga."},
+      {"league": "Ligue 1",            "score": 5.5, "width": "56%", "high": false, "note": "The physical profile of Ligue 1 defenders suits his frame. The constraint is that Ligue 1 rewards explosive pace and physical assertiveness both still developing."},
+      {"league": "Eredivisie",         "score": 7.5, "width": "78%", "high": true,  "note": "The ideal developmental bridge to the Bundesliga. Maximises touch, link-up, and aerial timing while providing regular senior minutes."},
+      {"league": "Jupiler Pro League", "score": 6.5, "width": "65%", "high": false, "note": "Physically appropriate, service-rich enough for regular opportunities. A clean entry point if the Eredivisie and Bundesliga are unavailable at this price."}
+    ],
+    "riskGauges": [
+      {"score": 2, "label": "Development",   "meaning": "Low risk",     "note": "900+ senior minutes at 17, parent club Red Star, consistent upward trajectory. Gaps are developmental, not structural. The physical base is still growing, adding ceiling rather than risk."},
+      {"score": 2, "label": "Psychological", "meaning": "Low risk",     "note": "Constant competitive engagement, neutral error response, unusual patience off the ball. The composure dip in decisive moments reads as age-related variance, not a character signal."},
+      {"score": 1, "label": "Market",        "meaning": "Minimal risk", "note": "€800K at 17 with a contract to 2028 and Red Star as parent club. The entry point is low enough that the risk of overpaying for an unconfirmed ceiling is minimal."},
+      {"score": 2, "label": "Systemic",      "meaning": "Low risk",     "note": "Combination play, aerial intelligence, and off-ball movement give him flexibility across system types. Better in possession-oriented environments but functional in several others."}
+    ],
+    "trajectoryNote": "Projects as a first-choice striker at a top-five European league club. The ceiling moves toward 9 if the box decisiveness resolves and the physical assertiveness matches the frame. The floor is a Bundesliga or Eredivisie starter who creates as much as he scores.",
+    "nowAge": 17,
+    "verdict": {
+      "statement": "Buy him for what he already solves. The hardest parts of playing centre-forward at the top level — reading space, connecting play, winning headers, staying patient, keeping quality under pressure — he already solves at 17. The finishing is the last thing to resolve, and it is almost always the last thing that does. At €800K, the infrastructure is available at a price that makes the wait rational even in the worst reasonable scenario.",
+      "travels": [
+        "First touch under pressure: balance-based, not tempo-based; functions at this level and will function at the next",
+        "Aerial timing: movement-intelligence-driven, not size-driven; more scalable than the raw duel numbers suggest",
+        "Combination play: drops, lays off with disguise, distributes over distance; real system flexibility across multiple environments",
+        "Off-ball movement: reads defensive positioning, constructs positions before service arrives; a cognitive habit already formed at 17",
+        "Shot quality: 89th-percentile npxG per shot — the positions are already elite; the conversion just needs to catch up"
+      ],
+      "targeted": [
+        "Box decisiveness: the one beat of hesitation when multiple options exist; gets more costly, not less, as windows close faster at higher levels",
+        "Physical assertiveness: 1.98m of frame not yet being imposed consistently in shoulder contact before the ball arrives",
+        "Pressing trigger recognition: unconditional effort, still reactive rather than proactive in reading when and from where to press",
+        "Acceleration: medium at best; structural constraint that system fit needs to account for, particularly in high-line transition environments"
+      ],
+      "potentialRating": "8.5/10",
+      "potentialBalls": 8,
+      "potentialProjection": "Projects as a first-choice striker at a top-five European league club: technically gifted, aerially reliable, combination-oriented. The ceiling moves toward 9 if the box decisiveness resolves and the physical assertiveness matches the frame. The floor is a Bundesliga or Eredivisie starter who creates as much as he scores."
+    }
   }]
 }
