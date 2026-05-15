@@ -2971,5 +2971,154 @@
       "potentialBalls": 8,
       "potentialProjection": "Projects as a first-choice striker at a top-five European league club: technically gifted, aerially reliable, combination-oriented. The ceiling moves toward 9 if the box decisiveness resolves and the physical assertiveness matches the frame. The floor is a Bundesliga or Eredivisie starter who creates as much as he scores."
     }
+  },
+  {
+    "slug": "alexios-kalogeropoulos",
+    "handcrafted": true,
+    "firstName": "Alexios",
+    "lastName": "Kalogeropoulos",
+    "positionTag": "Complete Centre-Back",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/alexios-kalogeropoulos.png",
+    "photoAlt": "Alexios Kalogeropoulos",
+    "verdictLine": "Last season at Volos, Kalogeropoulos looked like one of the best young defensive centre-backs in Greece. One year later, he has played 374 league minutes. This report is about what sits between those two facts.",
+    "bio": {
+      "dob": "Jul 26, 2004",
+      "nationality": "Greek",
+      "club": "Olympiacos Piraeus",
+      "league": "Greek Super League",
+      "contractExpiry": "Jun 2027",
+      "marketValue": "€1.5M",
+      "preferredFoot": "Both",
+      "height": "1.87m",
+      "agent": "V_Agent L.P."
+    },
+    "scores": { "basePotential": "7.5", "travelReadiness": "7", "reportDate": "Jan '26" },
+    "role": {
+      "primaryRole": "Complete CB",
+      "description": [
+        "A proactive, physically dominant centre-back who defends on the front foot. Steps to intercept before service arrives, wins shoulder duels consistently, uses his frame to deny rather than react.",
+        "In possession he is calm: takes clean first touches under pressure, reads when to carry, attempts line-breaking passes when the option presents itself. The vision for the final ball is ahead of the delivery.",
+        "Comfortable in back three and back four with minimal drop-off."
+      ],
+      "formationName": "4-2-3-1",
+      "formationLabelBottom": "Kalogeropoulos — highlighted",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 50,  "cy": 460, "label": "LB"},
+        {"cx": 148, "cy": 465, "label": "LCB"},
+        {"cx": 350, "cy": 460, "label": "RB"},
+        {"cx": 148, "cy": 368, "label": "LDM"},
+        {"cx": 252, "cy": 368, "label": "RDM"},
+        {"cx": 55,  "cy": 228, "label": "LW"},
+        {"cx": 200, "cy": 235, "label": "CAM"},
+        {"cx": 345, "cy": 228, "label": "RW"},
+        {"cx": 200, "cy": 148, "label": "ST"}
+      ],
+      "highlightedPosition": {"cx": 252, "cy": 465, "label": "RCB"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "Composed under pressure.", "text": "Clean first touch, opens his body well, avoids blind clearances. Slows the game deliberately when the option is there — the 'pausa' quality to reset tempo is a weapon in possession-based environments."},
+        {"title": "Sees the line-breaking pass and attempts it.", "text": "68th-percentile progressive passes, 80th-percentile long-ball accuracy. The vision is genuine. The execution under pressure is the inconsistency — not the ambition, just the landing."},
+        {"title": "Carries with intent, stalls on the decision.", "text": "Steps into space confidently, protects possession through contact. Once advanced, he can hesitate on the next action. A specific hesitation — coachable for that reason."}
+      ],
+      "offBall": [
+        {"title": "Defends on the front foot.", "text": "Steps to intercept before service arrives, denies forwards at first contact, wins the shoulder battle before the forward can receive and turn. The 90th-percentile pAdj tackles and interceptions at Volos is what proactive defending looks like in a dataset."},
+        {"title": "Excellent rest-defence positioning.", "text": "Tracks passer and striker simultaneously, maintains smart distances, orients his body early for long balls. Rarely flat-footed."},
+        {"title": "The line-stepping needs structure behind it.", "text": "Decisive stepping into midfield to win moments is effective individually. Without clear cover behind him, the vacated space is the problem. The instinct is correct; the triggers are still being refined."},
+        {"title": "Aerially reliable.", "text": "Early body orientation, reads flight paths, secures position before the ball. Works in both open play and set pieces."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "1v1 defensive dominance", "desc": "The timing and body positioning that produce this are formed habits. Better forwards test them more honestly. They do not remove them."},
+        {"name": "Aerial authority", "desc": "Built on early body orientation, not height alone. At a higher level, deliveries improve — which typically means more opportunities for this trait to show, not fewer."},
+        {"name": "Composure in possession", "desc": "The 'pausa' quality is most valued in possession-dominant systems — exactly the environments this profile points toward. It gets used more, not tested out of him."}
+      ],
+      "context": [
+        {"name": "Proactive interception volume", "desc": "At Volos, his team defended. More actions per match, lower possession, more opportunities to intercept. The instinct is genuine. The volume is partly contextual and will compress in a team that controls the ball."},
+        {"name": "Ball-carrying decision-making", "desc": "Works in structured systems where the carry is pre-designed. In chaotic transitions where defenders close faster, the hesitation on the final action becomes more costly."}
+      ],
+      "system": [
+        {"name": "Progressive passing impact", "desc": "Volos defended. The 68th-percentile progressive pass rate in a reactive, low-possession system understates what a proactive environment produces. This number improves before the technical quality does."},
+        {"name": "Leadership expression", "desc": "Emerging authority that amplifies in clearly defined structures. Functionally present at Volos. Currently buried. Minutes will answer what it becomes."}
+      ],
+      "exposed": [
+        {"name": "Space behind on stepped-out moments", "desc": "The vacated zone is the exposure. With organised cover behind him, the risk compresses significantly. Without it, opponents will rehearse the counter specifically against him."},
+        {"name": "Final-ball execution under pressure", "desc": "He sees it. Doesn't always land it. At the next level the windows are shorter. This will be targeted until the execution closes the gap with the vision."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Physicality", "value": "Powerful for 1.87m. Consistent shoulder dominance, confident contact, strong aerial physicality. Already functions at a senior-level physical standard in the Super League."},
+        {"label": "Acceleration", "value": "Medium. Covers ground well over distance; recovery runs are effective. First-step burst is not explosive. A structural constraint on how high the defensive line can be set around him."},
+        {"label": "Agility", "value": "Clean footwork for his size, but sharp attacking forwards with short-space change of direction will test his turning speed. Not a deficit in most systems; exposed in high-tempo transitions."},
+        {"label": "Engine", "value": "Maintains duel intensity and concentration across the full 90. No visible drop-off in physical engagement in the late phases of matches."}
+      ],
+      "cognitive": [
+        {"label": "Decision speed", "value": "Quick in defensive decisions. Anticipates passes early, steps in decisively to intercept or tackle. The same speed slows noticeably once he has the ball and is looking forward."},
+        {"label": "Risk calibration", "value": "Calculated-aggressive. Selects moments to engage or step, occasionally pushing to the edge of what structural cover allows. The instinct is correct; the precision of when to apply it is still being refined."},
+        {"label": "Spatial awareness", "value": "Tracks striker and passer simultaneously in defensive phases. Maintains strong rest-defence spacing already operating at a level appropriate for the next environment."},
+        {"label": "Tactical adaptability", "value": "Has operated in back three and back four with minimal drop-off in performance. Learns quickly within new structural demands."}
+      ],
+      "psychological": [
+        {"label": "Big-game performance", "value": "Rises. Described as 'almost flawless' defensively in high-demand moments. The competitive mentality is most visible when the stakes are highest — the correct direction for a centre-back."},
+        {"label": "Error response", "value": "Resilient. Continues to defend proactively after risky actions. Does not retreat into passive defending — a quality many young defenders lack."},
+        {"label": "Fighter profile", "value": "Embraces contact, seeks duels, accepts responsibility. Not a luxury player."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Final-pass execution", "text": "He sees the line-breaking option. He does not always land it. The gap closes through repetition in possession-based environments — not by reducing the ambition of the attempt."},
+      {"num": "02", "title": "Positional discipline when stepping out", "text": "The aggressive press instinct is a strength. Clearer internal triggers for when not to leave the line are the development task. Improves fastest in environments with organised cover and pre-defined pressing structures."},
+      {"num": "03", "title": "Decision clarity after carrying forward", "text": "He arrives in progressive positions and occasionally stalls — whether to pass, continue, or reset. The hesitation is specific and coachable."},
+      {"num": "04", "title": "Minutes", "text": "The most pressing priority and the only one that cannot be addressed through coaching. The next contract decision is the most important development decision in his career right now."}
+    ],
+    "travelScore": {
+      "score": "7",
+      "prose": [
+        "The defensive qualities travel. Interception instinct, aerial reliability, composure under pressure, duel dominance — formed habits that will not be undone by stepping up in quality.",
+        "The 7 reflects two honest things: the final-ball execution gap, and a thin data sample from this season. The profile is clear. The current confirmation is not.",
+        "The best immediate environment is a possession-based side that defends compactly and defines its pressing triggers clearly. Serie A and La Liga suit this profile. The Bundesliga's transition tempo is the highest systemic risk. The Eredivisie is the cleanest developmental bridge."
+      ]
+    },
+    "leagueScores": [
+      {"league": "Premier League",     "score": 7.0, "width": "70%", "high": false, "note": "Physically ready and aerially dominant enough to hold his own. Transition pace and isolated wide spaces are the main concerns. Needs a structured defensive side."},
+      {"league": "Bundesliga",         "score": 7.0, "width": "72%", "high": false, "note": "Strong in duels and confident stepping into midfield. The transition speed and space-behind risk is the systemic concern. Works in organised pressing sides."},
+      {"league": "La Liga",            "score": 8.5, "width": "85%", "high": true,  "note": "The best current fit. The league rewards anticipation, timing, and controlled aggression. His 'pausa' quality and progressive distribution suit possession-dominant systems."},
+      {"league": "Serie A",            "score": 9.0, "width": "90%", "high": true,  "note": "Near-ideal profile. Tactical reading, contact comfort, aerial control, and disciplined defending. Italian football would refine his timing and line discipline rather than expose him."},
+      {"league": "Ligue 1",            "score": 7.5, "width": "75%", "high": false, "note": "Athletic and physical enough for the league's chaos. Ball usage under pressure would be tested more frequently than in structured leagues."},
+      {"league": "Eredivisie",         "score": 8.0, "width": "80%", "high": true,  "note": "Comfortable in buildup, proactive as a defender, strong stepping into space. A natural bridge from Greek Super League to Serie A or La Liga."},
+      {"league": "Jupiler Pro League", "score": 7.0, "width": "70%", "high": false, "note": "Physical intensity matches his profile. Ball-playing development would continue in a more possession-oriented Belgian environment. A reasonable entry point if the Eredivisie is unavailable."}
+    ],
+    "riskGauges": [
+      {"score": 3, "label": "Development",   "meaning": "Medium risk", "note": "2,821 senior minutes at a good level last season, but only 374 this season. The stagnation at Olympiacos is a real concern. Not inability — squad depth is the stated reason — but the development clock is running."},
+      {"score": 2, "label": "Psychological", "meaning": "Low risk",    "note": "Resilient after errors, rises in big moments, embraces contact and responsibility. Good profile, small worries about handling a continued minutes drought long-term."},
+      {"score": 2, "label": "Market",        "meaning": "Low risk",    "note": "€1.5M with contract to 2027 and Olympiacos as parent club. Reasonable valuation for age and potential. The main risk is low minutes this season suppressing market awareness."},
+      {"score": 1, "label": "Systemic",      "meaning": "Minimal risk","note": "Plays reliably across back three and back four with minimal drop-off. Press-resistant, strong spatial awareness, tactically flexible. Not a one-system player."}
+    ],
+    "trajectoryNote": "Projects as a reliable first-choice centre-back in one of Europe's top-five leagues — physically dominant, positionally intelligent, capable of participating in high-level possession structures. The ceiling moves toward 8 if the final-ball execution and line-discipline resolve.",
+    "nowAge": 21,
+    "verdict": {
+      "statement": "A physically dominant, proactively defensive, technically capable centre-back whose best data is sitting in a season the market has not fully read yet. Do not let the Olympiacos situation reframe the Volos evaluation. One was a starting role. The other is a squad place. They measure different things.",
+      "travels": [
+        "Proactive interception and tackling: 90th percentile at Super League level; a formed defensive habit, not an artifact of Volos's defensive system",
+        "Aerial authority: built on timing and body orientation; functions in high-delivery environments",
+        "Composure in possession: 'pausa' quality that possession-dominant systems reward directly",
+        "Tactical adaptability: back three and back four with no meaningful drop-off",
+        "Competitive mentality: rises in big moments, resilient after errors, embraces contact"
+      ],
+      "targeted": [
+        "Final-ball execution: sees the line-breaking pass; does not always land it under pressure",
+        "Line-stepping discipline: the aggressive press instinct needs clearer internal triggers for when cover is insufficient",
+        "Minutes: the situation at Olympiacos is the most pressing issue; he needs a starting role, not a squad place",
+        "Career pace: the path exists but requires the right next move"
+      ],
+      "potentialRating": "7.5/10",
+      "potentialBalls": 7,
+      "potentialProjection": "Projects as a reliable first-choice centre-back in one of Europe's top-five leagues — physically dominant, positionally intelligent, capable of participating in high-level possession structures. The ceiling moves toward 8 if the final-ball execution and line-discipline resolve. The floor is a consistent Super League starter at a top club. Both outcomes require minutes he is not currently receiving."
+    }
   }]
 }
