@@ -3120,5 +3120,153 @@
       "potentialBalls": 7,
       "potentialProjection": "Projects as a reliable first-choice centre-back in one of Europe's top-five leagues — physically dominant, positionally intelligent, capable of participating in high-level possession structures. The ceiling moves toward 8 if the final-ball execution and line-discipline resolve. The floor is a consistent Super League starter at a top club. Both outcomes require minutes he is not currently receiving."
     }
+  },
+  {
+    "slug": "chibuike-nwaiwu",
+    "handcrafted": true,
+    "firstName": "Chibuike",
+    "lastName": "Nwaiwu",
+    "positionTag": "Complete Centre-Back",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/chibuike-nwaiwu.png",
+    "photoAlt": "Chibuike Nwaiwu",
+    "verdictLine": "He has produced 93rd-percentile defensive actions at 22 in the Super Lig without collecting a single card. That combination does not happen by accident. It means he is winning contact early, not chasing it late.",
+    "bio": {
+      "dob": "Jul 23, 2003",
+      "nationality": "Nigerian",
+      "club": "Trabzonspor",
+      "league": "Turkish Super Lig",
+      "contractExpiry": "Jun 2030",
+      "marketValue": "€7M",
+      "preferredFoot": "Right",
+      "height": "1.93m",
+      "agent": "Scoutpush by Dudu"
+    },
+    "scores": { "basePotential": "8.5", "travelReadiness": "8.5", "reportDate": "May '26" },
+    "role": {
+      "primaryRole": "Complete CB",
+      "description": [
+        "A physically dominant, technically capable centre-back who defends proactively and contributes meaningfully in possession.",
+        "Uses his frame and long stride to win contact early, before situations develop — which is why the defensive action volume is elite and the card count is zero.",
+        "Comfortable on both sides. Drops the shoulder on strikers, carries into midfield when the lane opens, and sprays line-breaking passes with intent. The long ball accuracy is the honest gap."
+      ],
+      "formationName": "4-2-3-1",
+      "formationLabelBottom": "Nwaiwu — highlighted position",
+      "formationPositions": [
+        {"cx": 200, "cy": 548, "label": "GK"},
+        {"cx": 50,  "cy": 460, "label": "LB"},
+        {"cx": 148, "cy": 465, "label": "LCB"},
+        {"cx": 350, "cy": 460, "label": "RB"},
+        {"cx": 148, "cy": 368, "label": "LDM"},
+        {"cx": 252, "cy": 368, "label": "RDM"},
+        {"cx": 55,  "cy": 228, "label": "LW"},
+        {"cx": 200, "cy": 235, "label": "CAM"},
+        {"cx": 345, "cy": 228, "label": "RW"},
+        {"cx": 200, "cy": 148, "label": "ST"}
+      ],
+      "highlightedPosition": {"cx": 252, "cy": 465, "label": "RCB"},
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        {"title": "Comfortable receiving under pressure.", "text": "Takes the ball, drops the shoulder on the pressing striker, and carries into midfield without hesitation. 99th-percentile short pass accuracy reflects this: he does not panic, he navigates."},
+        {"title": "Sprays line-breaking passes with intent.", "text": "Looks for vertical options early, completes them at the 71st percentile. The long ball — where the ambition also exists — is the one area where execution does not yet match the vision. 21st-percentile long pass accuracy is the honest gap."},
+        {"title": "Long legs as a technical asset.", "text": "Uses his reach to wrap around opponents and knock bouncing balls forward. Comfortable carrying into midfield with his stride length working in his favour."}
+      ],
+      "offBall": [
+        {"title": "93rd-percentile defensive actions. Zero cards.", "text": "Most defenders in the top third of the defensive action leaderboard collect cards regularly. The zero means actions are arriving before situations become fouls, not after them."},
+        {"title": "Box defending is exceptional.", "text": "Not nervous, not rash. Uses his frame to occupy space, long stride to cut angles, timing to intervene cleanly. Turkish football generates enough chaotic box situations to stress-test this regularly. It holds."},
+        {"title": "Aerial authority at volume.", "text": "91st-percentile aerial duels won per 90, 75th-percentile win rate. High volume of contests, winning most. The challenge count itself is the bigger signal at this stage."},
+        {"title": "Positioning is the one consistent inconsistency.", "text": "Uses pace to recover when slightly out of step. Works at this level. At a higher tempo, that recovery margin compresses."}
+      ]
+    },
+    "dna": {
+      "pure": [
+        {"name": "Proactive defensive timing", "desc": "Better forwards test the timing more acutely. The habit itself will not be removed by raising the level."},
+        {"name": "Box defending composure", "desc": "Established at this level under consistent pressure. What the next level adds is higher-quality forwards in those moments, not more moments."},
+        {"name": "Physical dominance", "desc": "Not a slow giant. The frame and athleticism travel across every environment on the target list without adjustment."},
+        {"name": "Ball security in possession", "desc": "Defenders who look composed on the ball in Super Lig chaos usually look composed on the ball anywhere. The short passing quality is a technical habit, not a product of the environment."}
+      ],
+      "context": [
+        {"name": "Emotional stability under crowd pressure", "desc": "Turkish football is genuinely stressful. Crowds matter. Defenders who hold their composure in that environment carry that quality forward. It is not a soft metric."}
+      ],
+      "system": [
+        {"name": "Defensive action volume", "desc": "A possession-heavy environment at the next level reduces the raw count. The quality of the intervention when it arrives does not compress with the volume."},
+        {"name": "Progressive carrying range", "desc": "Works when midfield lanes open clearly. In a higher press they open less predictably. Whether the system provides those lanes determines how often this shows."}
+      ],
+      "exposed": [
+        {"name": "Long ball distribution", "desc": "21st percentile. The intent is correct. The delivery is not yet reliable. Opponents will find this quickly and press it aggressively."},
+        {"name": "Off-ball scanning frequency", "desc": "Recovery pace covers the gap at this level. Against faster, more structured attacks, that margin compresses."},
+        {"name": "1v1 duel aggression", "desc": "Occasionally over-commits in ground duels. The card count says management is working. The tendency remains on film and will be targeted by technical forwards who draw contact well."}
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        {"label": "Frame", "value": "1.93m with a genuine athlete's build. Not slow for his size. Long limbs are an active defensive tool — wrapping around opponents, cutting passing lanes, winning bouncing balls."},
+        {"label": "Speed", "value": "Good for the height. Covers ground efficiently over distance. First-step acceleration is moderate — uses positioning and anticipation to compensate."},
+        {"label": "Aerial", "value": "91st-percentile volume, 75th-percentile win rate. Challenges confidently and wins most. The gap between volume and win rate reflects appropriate aggression."},
+        {"label": "Durability", "value": "Minimal injury history. 1,419 minutes this season across both sides of the defensive line. Physical availability is not a concern."}
+      ],
+      "cognitive": [
+        {"label": "Defensive anticipation", "value": "The strongest cognitive quality. Reading where the ball is going before it arrives is the hardest habit to develop and the most transferable. The zero-card, high-action profile is what that looks like in a dataset."},
+        {"label": "Possession decision-making", "value": "Fast in short-game decisions. Already has the picture formed before receiving. The long ball is where the decision outpaces the delivery."},
+        {"label": "Off-ball scanning", "value": "Good. Not yet elite. The pace currently compensates for the occasional positional error. The better version arrives before recovery is needed."},
+        {"label": "Tactical flexibility", "value": "Selected at LCB and RCB across consecutive matches without visible drop-off."}
+      ],
+      "psychological": [
+        {"label": "Love of defending", "value": "Unconditional. Seeks contact, competes for every duel. Turkish football exposes defenders who defend reluctantly. He is not one of them."},
+        {"label": "Composure", "value": "Calm in possession under pressure, calm in the box under consequence. Neither quality is common in 22-year-old defenders playing through a full Super Lig season."},
+        {"label": "Crowd effect", "value": "Turkish fans are genuinely emotional. The response he produces in that environment is a soft data point worth acknowledging. The defensive profile stays calm. The possession profile stays calm too."}
+      ]
+    },
+    "devPriorities": [
+      {"num": "01", "title": "Long ball delivery mechanics", "text": "The vision is correct. The conversion is 21st percentile. The gap is technical — delivery timing and body position at the moment of release — not a question of ambition or decision-making."},
+      {"num": "02", "title": "Off-ball scanning frequency", "text": "Reads situations well. Occasionally one beat late. The specific task is scanning in the preparation phase — before the ball arrives, not after."},
+      {"num": "03", "title": "1v1 aggression calibration", "text": "The zero-card record is evidence the management is broadly working. The tendency toward over-commitment in ground duels remains on film. Technical forwards at the next level will deliberately exploit it."}
+    ],
+    "travelScore": {
+      "score": "8.5",
+      "prose": [
+        "No glaring structural weaknesses. The defensive qualities are formed and functioning. The ball-playing dimension is above average for the position. The long ball gap is coachable rather than structural.",
+        "8.5 rather than higher reflects two things: the long ball distribution will be targeted immediately at the next level, and the scanning habit needs to sharpen before he faces attacks that arrive faster and more organised than Turkish football consistently produces."
+      ]
+    },
+    "leagueScores": [
+      {"league": "Premier League",     "score": 7.0, "width": "72%", "high": false, "note": "Physical profile and defensive dominance translate. Transition pace and precision required in possession under pressure are the exposure points. Correct club within the Premier League matters significantly."},
+      {"league": "Bundesliga",         "score": 8.5, "width": "88%", "high": true,  "note": "The best current fit. Physical intensity matches his profile, structured defensive environments clarify the positional scanning he needs to develop. Multiple Bundesliga clubs deploy exactly this archetype."},
+      {"league": "La Liga",            "score": 7.0, "width": "72%", "high": false, "note": "Technical demands of Spanish football expose the long ball gap more consistently. The physical profile fits; the distribution precision required in tighter spaces is a step beyond current output."},
+      {"league": "Serie A",            "score": 8.0, "width": "82%", "high": true,  "note": "Strong fit. Italian football's emphasis on defensive positioning and physical CB authority aligns directly. The tactical discipline of Serie A defensive structures would provide the coaching environment the scanning habit needs."},
+      {"league": "Ligue 1",            "score": 7.5, "width": "75%", "high": false, "note": "Physical intensity and transition tempo suit him. Less structured than the Bundesliga or Serie A, which means positional scanning development relies more heavily on individual coaching."},
+      {"league": "Eredivisie",         "score": 7.5, "width": "78%", "high": false, "note": "A clean developmental bridge if the Bundesliga or Serie A move is not available. Risk is that the step up from Eredivisie to Bundesliga might reset the development clock unnecessarily when he could go directly."},
+      {"league": "Jupiler Pro League", "score": 6.5, "width": "65%", "high": false, "note": "Not the right environment for this profile at this stage. The step up from Super Lig to Belgian football is lateral rather than forward in terms of developmental demands."}
+    ],
+    "riskGauges": [
+      {"score": 2, "label": "Development",   "meaning": "Low risk",     "note": "1,419 senior minutes at 22 at a top Super Lig club, consistent selection across both CB positions, minimal injury history. The gaps are technical and coachable."},
+      {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Zero cards. Composed in box defending. Confident on the ball under pressure. Emotionally stable in a high-pressure crowd environment. No psychological flags anywhere."},
+      {"score": 2, "label": "Market",        "meaning": "Low risk",     "note": "€7M with contract to 2030. Reasonable valuation for the quality and age. Main risk is that profile awareness grows faster than the acquiring club moves."},
+      {"score": 2, "label": "Systemic",      "meaning": "Low risk",     "note": "Plays both sides of the backline at a high level. Adaptable across back three and back four. The long ball gap is the one systemic exposure — a system requiring the CB to switch play as the primary buildup mechanism will expose it faster."}
+    ],
+    "trajectoryNote": "Projects as a first-choice centre-back at a top-five league club. The ceiling moves toward 9 if the long ball distribution closes and the scanning habit sharpens — both coachable. The floor, given the physical and defensive base already in place, is a consistent high-level starter wherever he plays.",
+    "nowAge": 22,
+    "verdict": {
+      "statement": "A balanced CB profile at 22 in a league that exposes imbalance quickly. No glaring structural weakness. One specific technical gap — the long ball — that is coachable and does not affect the defensive core of the profile. Buy him now, develop the distribution, and sell the complete version in three years at a significant multiple.",
+      "travels": [
+        "Proactive defensive timing: wins contact early, not late; zero cards with 93rd-percentile actions is a formed habit",
+        "Box composure: calm in the most pressurised defensive situation; tested regularly in Turkish football and holding",
+        "Physical dominance: 1.93m with genuine athleticism; frame and stride are active tools, not passive advantages",
+        "Ball security: 99th-percentile short pass accuracy under real pressure; not an artifact of a sterile system",
+        "Tactical flexibility: LCB and RCB at Super Lig level without drop-off; not a one-side defender",
+        "Emotional stability: zero cards, consistent performances across a full chaotic season in a high-pressure environment"
+      ],
+      "targeted": [
+        "Long ball accuracy: 21st percentile; the intent and range exist but the conversion will be targeted immediately at the next level",
+        "Off-ball scanning frequency: reads situations well but occasionally one beat late; positional recovery compensates at this level, will not at the next",
+        "1v1 aggression calibration: tendency to over-engage in ground duels; managed currently, but technical forwards will deliberately probe this"
+      ],
+      "potentialRating": "8.5/10",
+      "potentialBalls": 8,
+      "potentialProjection": "Projects as a first-choice centre-back at a top-five league club. The ceiling moves toward 9 if the long ball distribution closes and the scanning habit sharpens — both coachable. The floor, given the physical and defensive base already in place, is a consistent high-level starter wherever he plays. At €7M, both outcomes represent strong value."
+    }
   }]
 }
