@@ -3268,5 +3268,154 @@
       "potentialBalls": 8,
       "potentialProjection": "Projects as a first-choice centre-back at a top-five league club. The ceiling moves toward 9 if the long ball distribution closes and the scanning habit sharpens — both coachable. The floor, given the physical and defensive base already in place, is a consistent high-level starter wherever he plays. At €7M, both outcomes represent strong value."
     }
+  },
+  {
+    "slug": "vanja-dragojevic",
+    "handcrafted": true,
+    "firstName": "Vanja",
+    "lastName": "Dragojević",
+    "positionTag": "Ball-Winning Midfielder",
+    "positionCategory": "Midfielders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/vanja-dragojevic-new.png",
+    "photoAlt": "Vanja Dragojević",
+    "verdictLine": "88th-percentile long pass accuracy. 14th-percentile defensive duel win rate. He wins the ball without winning duels and progresses without carrying. That specific paradox is either a serious problem or a very interesting midfielder. The tape makes the case for the second.",
+    "bio": {
+      "dob": "Jan 11, 2006",
+      "nationality": "Serbian",
+      "club": "FK Partizan",
+      "league": "Serbian SuperLiga",
+      "contractExpiry": "Jun 2030",
+      "marketValue": "€6M",
+      "preferredFoot": "Right",
+      "height": "1.84m",
+      "agent": "BSR Management"
+    },
+    "scores": { "basePotential": "7.5", "travelReadiness": "7", "reportDate": "May '26" },
+    "role": {
+      "primaryRole": "Ball-Winning Midfielder",
+      "description": [
+        "A genuine ball-winner who operates through positioning and anticipation rather than physical confrontation.",
+        "Wins the ball by being where it is going, not by overpowering opponents. Once he has it, the distribution range is elite for the position — elite long-ball accuracy, strong forward passing orientation, almost no lateral recycling.",
+        "He is trying to move the game vertically, not maintain it sideways. Club captain at 20 for FK Partizan."
+      ],
+      "formationName": "4-2-3-1",
+      "formationLabelBottom": "Dragojević — pivot DM position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 50, "cy": 460, "label": "LB" },
+        { "cx": 148, "cy": 465, "label": "LCB" },
+        { "cx": 252, "cy": 465, "label": "RCB" },
+        { "cx": 350, "cy": 460, "label": "RB" },
+        { "cx": 252, "cy": 368, "label": "CM" },
+        { "cx": 55, "cy": 248, "label": "LW" },
+        { "cx": 200, "cy": 255, "label": "CAM" },
+        { "cx": 345, "cy": 248, "label": "RW" },
+        { "cx": 200, "cy": 162, "label": "ST" }
+      ],
+      "highlightedPosition": { "cx": 148, "cy": 368, "label": "DM" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "The distribution range is the headline quality.", "text": "88th-percentile long pass accuracy, 10th-percentile lateral passes. He is structurally biased toward forward and vertical. Daisycutters, lofted diagonals, outside-foot switches, one-timers — variety in the execution, consistent in the direction." },
+        { "title": "Builds from the back intelligently.", "text": "Drops between the centre-backs to receive, turns under pressure with composure, plays into midfield or directly into the channels. The third-man principle and one-touch combinations both appear on film." },
+        { "title": "Generates real goal threat for a DM.", "text": "73rd-percentile non-penalty goals, 80th-percentile npxG. The shooting motion is powerful and the on-target rate is elite for the position. He chooses moments carefully rather than arriving randomly." },
+        { "title": "Rarely carries.", "text": "19th-percentile progressive runs. This is the direct data expression of a midfielder who manages territory through passing rather than movement. The compensation is distribution quality and positional intelligence." }
+      ],
+      "offBall": [
+        { "title": "Screens through positioning, not physicality.", "text": "92nd-percentile pAdj interceptions alongside a 14th-percentile defensive duel win rate. He is reading the game early, stepping into passing lanes, and stealing possession before contact is required." },
+        { "title": "Robust in the body when contact arrives.", "text": "Strong, uses his frame, wins duels in the physical sense even when the percentage says otherwise. The duel win rate discrepancy is partly a product of difficult ground duels he enters — not passive avoidance." },
+        { "title": "Box defending is effective.", "text": "82nd-percentile shots blocked. The defensive activity inside the penalty area is above average — he reads when to tuck in and protect the shape, and he does it consistently." },
+        { "title": "Gets emotionally heated.", "text": "Leadership mentality that occasionally tips into over-intensity. Not a disciplinary problem — the card rate is moderate — but the emotional temperature rises in tight moments." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Long-range distribution", "desc": "88th-percentile accuracy in the SuperLiga is a technical habit, not an environmental product. Better teammates give him better targets. The quality of the delivery does not depend on the quality of the opposition." },
+        { "name": "Vertical passing orientation", "desc": "10th-percentile lateral passes is not a gap — it is a philosophy. Midfielders who structurally prefer to play forward tend to keep playing forward regardless of environment." },
+        { "name": "Defensive positioning and interception reading", "desc": "92nd-percentile pAdj interceptions built on anticipation rather than athleticism. The cognitive habit — reading where the ball is going before it arrives — is the hardest quality to develop and the most transferable." },
+        { "name": "Leadership under pressure", "desc": "Club captain at 20 at Partizan. Serbian football does not hand this lightly. The emotional engagement that occasionally tips into over-intensity is the same quality that produces the captaincy." }
+      ],
+      "context": [],
+      "system": [
+        { "name": "Goal threat from midfield", "desc": "The 73rd-percentile attacking output from a DM is partly a Partizan artifact — a dominant team where the pivot midfielder gets into advanced positions more than most. The shot quality (80th-percentile npxG) is more reliable." },
+        { "name": "Interception volume", "desc": "The 92nd-percentile count benefits from opponents playing into his reads. At the next level, more patient, more structured opponents will wait longer before committing. The instinct is genuine. The volume will compress." }
+      ],
+      "exposed": [
+        { "name": "Defensive duel win rate", "desc": "14th percentile. The low figure is real and will be targeted immediately. Physically dominant midfielders will look to pin him and play through him. He compensates with positioning but anticipation alone does not protect against a player determined to impose physically." },
+        { "name": "Carrying and athleticism in transition", "desc": "19th-percentile progressive runs. In a faster league where midfielders need to cover ground dynamically, this becomes a structural exposure. He manages territory through passing." },
+        { "name": "Close ball control under heavy press", "desc": "Functional but not exceptional. The first touch is not always clean under speed. Opponents who press high and in numbers will look to force errors in tight spaces where the distribution quality cannot compensate." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "1.84m with genuine physical strength. Robust movement. Uses his body to win duels in contact even when the percentages reflect poorly. The physicality is real — the efficiency in using it at speed is still developing." },
+        { "label": "Stamina", "value": "Exceptional. Covers enormous ground across ninety minutes. Maintains defensive and offensive positioning late in matches. This quality travels unconditionally." },
+        { "label": "Speed and acceleration", "value": "Moderate. Not a pace asset. Relies on reading and positioning to compensate. In open transition against faster midfielders, the gap becomes visible." },
+        { "label": "Shooting", "value": "Powerful. Elite on-target percentage for his position, above-average npxG per shot. When he arrives in shooting positions, he tends to make good decisions under pressure." }
+      ],
+      "cognitive": [
+        { "label": "Defensive reading", "value": "The strongest cognitive quality. Anticipates passing lanes before they open. Positions to receive the ball from turnovers rather than chasing them." },
+        { "label": "Vertical vision", "value": "Sees forward before he looks sideways. Excellent vision of the pitch for line-breaking passes and switches. The third-man principle shows regularly on film." },
+        { "label": "Tempo management", "value": "The captaincy is partly explained here. He understands when to accelerate play and when to hold it. Younger than most players with this quality." },
+        { "label": "Close-space processing", "value": "Slower in tight spaces under direct press. The vision is present; the execution in crowded central areas is not always as quick as the picture requires." }
+      ],
+      "psychological": [
+        { "label": "Leadership", "value": "Genuine and early. The captaincy at 20 at Partizan reflects something more than age — coaches give this to players who stabilise environments." },
+        { "label": "Competitive intensity", "value": "High and occasionally excessive. Gets heated in difficult moments. The same quality that produces the captaincy credibility can tip into rash decisions under sustained pressure." },
+        { "label": "Composure in possession", "value": "Better than the athleticism suggests it should be. Calm when receiving under pressure in buildup. The decision-making under duress is more settled than the physical profile would predict." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Defensive duel win rate", "text": "14th percentile is the most obvious gap in the profile and the first thing opponents at the next level will target. Improving the success rate in direct physical contests — particularly the timing of engagement and body positioning at the moment of contact — is the defensive development priority." },
+      { "num": "02", "title": "Close ball control under press", "text": "The first touch is functional, not reliable. In a higher-press environment where opponents win the ball back from imperfect touches, this becomes a recurring exposure. Technical training in tight-space receiving would meaningfully raise the ceiling." },
+      { "num": "03", "title": "Emotional regulation in high-stakes moments", "text": "Not a character problem. A management task. The competitive intensity is an asset that occasionally becomes a liability when emotional temperature rises and decision quality drops." },
+      { "num": "04", "title": "Progressive carry range", "text": "Not urgent, but worth developing. A midfielder who can advance with the ball in addition to distributing it closes off pressing angles that currently work against him." }
+    ],
+    "travelScore": {
+      "score": "7",
+      "prose": [
+        "The distribution range, interception reading, vertical orientation, and leadership quality travel. The defensive duel rate, limited carry ability, and moderate athleticism do not disappear; they become more consistently tested.",
+        "7 rather than higher reflects one honest concern: unlike a CB whose physical dominance travels easily, a DM who defends through positioning is more system-dependent. The next club needs to understand what they are buying and build around it accordingly.",
+        "The Bundesliga is the fit. Specifically, a structured double-pivot where the positional reading and distribution quality is protected by a physically dominant partner. Serie A's tactical discipline and possession structures also suit."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 5.5, "width": "55%", "high": false, "note": "The transition pace and physical intensity of central midfield combat are the specific problems. The duel deficit and limited carry range would be exploited continuously." },
+      { "league": "Bundesliga", "score": 8.0, "width": "80%", "high": true, "note": "The best fit. Structured double-pivot systems, wide runners that reduce the DM's carrying burden, and a possession orientation that rewards vertical distribution intelligence." },
+      { "league": "La Liga", "score": 6.0, "width": "60%", "high": false, "note": "The possession structures suit the profile. The physical combat in central midfield would test the duel rate more consistently than the Bundesliga." },
+      { "league": "Serie A", "score": 7.5, "width": "75%", "high": true, "note": "Strong fit. Italian football's tactical discipline creates the structural protection the profile needs. A structured Italian side would be an excellent developmental destination." },
+      { "league": "Ligue 1", "score": 6.5, "width": "65%", "high": false, "note": "The chaotic nature of Ligue 1 midfield combat, physically aggressive and transition-heavy, creates exposure for a positional DM with limited carrying range." },
+      { "league": "Eredivisie", "score": 6.5, "width": "65%", "high": false, "note": "The Dutch pressing model asks DMs to carry, press dynamically, and cover ground aggressively. A structured, possession-oriented Dutch club works; a high-press side does not." },
+      { "league": "Jupiler Pro League", "score": 7.0, "width": "70%", "high": false, "note": "A reasonable entry point where the distribution quality would be immediately above-average and the physical demands are manageable." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development", "meaning": "Low risk", "note": "2,697 senior minutes at 20 for a title-contending club, club captain, called into senior international squad. The physical development gap is real but manageable at this age." },
+      { "score": 2, "label": "Psychological", "meaning": "Low risk", "note": "Captaincy trust is the strongest psychological signal available at this level. The emotional over-intensity is a management task, not a character problem." },
+      { "score": 2, "label": "Market", "meaning": "Low risk", "note": "€6M at 20 with contract to 2030. Reasonable for the profile and age. No aggressive market pressure flagged." },
+      { "score": 3, "label": "Systemic", "meaning": "Medium risk", "note": "He needs a structured double-pivot, a physically dominant partner alongside, and a system that protects the physical gaps while utilising the distribution intelligence." }
+    ],
+    "trajectoryNote": "Projects as a reliable first-choice DM at a top-division club in the Bundesliga or Serie A. The ceiling moves toward 8 if the duel rate and close control develop and the progressive carry range improves. The floor is a very useful structured pivot midfielder whose distribution quality consistently raises the tempo of his team's transitions.",
+    "nowAge": 20,
+    "verdict": {
+      "statement": "Buy the distribution intelligence and the defensive reading. Manage the duel rate gap and the system dependency with the right partner alongside him. The profile needs a specific structural environment — a double pivot with a physically dominant partner, wide runners to reduce carrying demands, a possession base that gives the long ball time to develop.",
+      "travels": [
+        "Long-range distribution: 88th-percentile accuracy; a technical habit formed and functioning at senior level",
+        "Vertical passing orientation: 10th-percentile lateral passes; structurally prefers progression — this ages well",
+        "Defensive reading and interception: 92nd percentile built on anticipation; the cognitive habit travels even when the volume compresses",
+        "Leadership and tempo management: captaincy at 20 at Partizan is a meaningful credential that no data point fully captures",
+        "Stamina and ground coverage: exceptional, unconditional, available across ninety minutes consistently"
+      ],
+      "targeted": [
+        "Defensive duel win rate: 14th percentile; will be targeted immediately by physically dominant opponents at the next level",
+        "Close ball control under press: functional but not reliable; high-press environments will force errors in tight spaces",
+        "Progressive carry range: 19th percentile; limits press-resistance and forces system dependency to protect the gap",
+        "Emotional regulation: over-intensity in high-stakes moments needs explicit management rather than passive tolerance"
+      ],
+      "potentialRating": "7.5/10",
+      "potentialBalls": 7,
+      "potentialProjection": "Projects as a reliable first-choice DM at a top-division club in the Bundesliga or Serie A. The ceiling moves toward 8 if the duel rate and close control develop and the progressive carry range improves. At €6M, the floor alone is worth the price."
+    }
   }]
 }
