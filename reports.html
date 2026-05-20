@@ -219,7 +219,7 @@
       <div class="stats-panel-kicker">Archive — at a glance</div>
       <div class="stat-row">
         <div>
-          <div class="stat-item-num">27</div>
+          <div class="stat-item-num">29</div>
           <div class="stat-item-label">Reports published</div>
         </div>
         <div>
@@ -293,15 +293,15 @@
 
 <!-- REPORTS BODY -->
 <div class="reports-body">
-  <div class="results-count" id="results-count">12 reports</div>
+  <div class="results-count" id="results-count">29 reports</div>
 
   <!-- FEATURED: most recent report gets the large card treatment -->
-  <a href="reports/chibuike-nwaiwu-report.html" class="featured-report" id="featured-card"
-     data-position="defender" data-nation="turkey" data-potential="8" data-date="2026-05-11" data-name="Chibuike Nwaiwu">
+  <a href="reports/raul-kumar-report.html" class="featured-report" id="featured-card"
+     data-position="defender" data-nation="croatia" data-potential="8" data-date="2026-05-20" data-name="Raul Kumar">
     <div class="feat-photo-wrap">
       <img class="feat-photo"
-        src="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/chibuike-nwaiwu.png"
-        alt="Chibuike Nwaiwu"
+        src="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/raul-kumar.png"
+        alt="Raul Kumar"
         onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=feat-photo-placeholder>🛡️</div>')" />
     </div>
     <div class="feat-body">
@@ -310,13 +310,13 @@
         <span class="feat-new">Latest report</span>
         <span class="feat-date">May 2026</span>
       </div>
-      <div class="feat-name">Chibuike Nwaiwu</div>
-      <div class="feat-club">🇳🇬 Trabzonspor · Turkish Super Lig · b. Jul 2003</div>
-      <p class="feat-snippet">93rd-percentile defensive actions at 22 in the Super Lig without collecting a single card. Physical dominance, box composure, emotional stability — all at Trabzonspor in one of Europe's most demanding leagues. The ceiling is real.</p>
+      <div class="feat-name">Raul Kumar</div>
+      <div class="feat-club">🇭🇷 NK Istra 1961 · SuperSport HNL · b. Feb 2008</div>
+      <p class="feat-snippet">99th-percentile pAdj interceptions at 18 — the youngest CB in the HNL dataset. The defensive intelligence is already elite. The aerial win rate and physical authority are not. Those two facts define the entire opportunity at €350k.</p>
       <div class="feat-tags">
-        <span class="ctag g">Defensive timing ✓</span>
-        <span class="ctag g">Box composure ✓</span>
-        <span class="ctag gold">Long ball ~</span>
+        <span class="ctag g">Anticipation ✓</span>
+        <span class="ctag g">Composure ✓</span>
+        <span class="ctag r">Aerial rate ✗</span>
       </div>
       <div class="feat-score">8.5 <span>B.A.S.E. Potential</span></div>
     </div>
@@ -326,6 +326,40 @@
   <div class="reports-list" id="reports-list">
 
     <div class="month-divider">May 2026</div>
+
+    <a href="reports/raul-kumar-report.html" class="report-row"
+       data-position="defender" data-nation="croatia" data-potential="8" data-date="2026-05-20" data-name="Raul Kumar">
+      <div class="row-photo-wrap">
+        <img class="row-photo"
+          src="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/raul-kumar.png"
+          alt="Raul Kumar"
+          onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=row-photo-placeholder>🛡️</div>')" />
+      </div>
+      <div>
+        <div class="row-name">Raul Kumar</div>
+        <div class="row-club">🇭🇷 NK Istra 1961 · Complete CB</div>
+      </div>
+      <div class="row-pos">Defender</div>
+      <div class="row-date">May 2026</div>
+      <div class="row-score">8.5</div>
+    </a>
+
+    <a href="reports/chibuike-nwaiwu-report.html" class="report-row"
+       data-position="defender" data-nation="turkey" data-potential="8" data-date="2026-05-11" data-name="Chibuike Nwaiwu">
+      <div class="row-photo-wrap">
+        <img class="row-photo"
+          src="https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/chibuike-nwaiwu.png"
+          alt="Chibuike Nwaiwu"
+          onerror="this.style.display='none'; this.parentElement.insertAdjacentHTML('afterbegin','<div class=row-photo-placeholder>🛡️</div>')" />
+      </div>
+      <div>
+        <div class="row-name">Chibuike Nwaiwu</div>
+        <div class="row-club">🇳🇬 Trabzonspor · Complete CB</div>
+      </div>
+      <div class="row-pos">Defender</div>
+      <div class="row-date">May 2026</div>
+      <div class="row-score">8.5</div>
+    </a>
 
     <a href="reports/vanja-dragojevic-report.html" class="report-row"
        data-position="midfielder" data-nation="serbia" data-potential="7" data-date="2026-05-18" data-name="Vanja Dragojević">
@@ -1002,3 +1036,17 @@
       rows.forEach(row => {
         const d = new Date(row.dataset.date);
         const month = d.toLocaleString('default', { month: 'long', year: 'numeric' });
+        if (month !== currentMonth) {
+          currentMonth = month;
+          const div = document.createElement('div');
+          div.className = 'month-divider';
+          div.textContent = month;
+          list.insertBefore(div, row);
+        }
+      });
+    }
+  }
+
+  // Run on page load so count is accurate without needing a filter click
+  applyFilters();
+</script>

@@ -3417,5 +3417,157 @@
       "potentialBalls": 7,
       "potentialProjection": "Projects as a reliable first-choice DM at a top-division club in the Bundesliga or Serie A. The ceiling moves toward 8 if the duel rate and close control develop and the progressive carry range improves. At €6M, the floor alone is worth the price."
     }
+  },
+  {
+    "slug": "raul-kumar",
+    "handcrafted": true,
+    "firstName": "Raul",
+    "lastName": "Kumar",
+    "positionTag": "Complete CB",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/raul-kumar.png",
+    "photoAlt": "Raul Kumar",
+    "verdictLine": "He is 18 years old, playing senior football in a team on the periphery of Europe, and the data already looks like that of a player three years older. The interceptions are elite. The aerial numbers are not. Those two facts sit at the centre of everything.",
+    "bio": {
+      "dob": "6 Feb 2008",
+      "nationality": "Croatian",
+      "club": "NK Istra 1961",
+      "league": "SuperSport HNL",
+      "contractExpiry": "Jun 2030",
+      "marketValue": "€350k",
+      "preferredFoot": "Right",
+      "height": "1.90m",
+      "agent": "GABONI"
+    },
+    "scores": { "basePotential": "8.5", "travelReadiness": "6.5", "reportDate": "May '26" },
+    "role": {
+      "primaryRole": "Complete CB",
+      "description": [
+        "A ball-playing centre-back with genuine defensive intelligence at 18. Kumar's best position is right centre-back in a back four, where his right foot is dominant and his reading of the game lets him defend proactively rather than reactively.",
+        "He has spent significant time as left CB in a back three and in midfield roles at youth level, producing unusually complete spatial awareness for a player at his stage.",
+        "Comfortable in possession, capable with both feet, and already showing the positional habits that distinguish defenders who make it at the next level."
+      ],
+      "formationName": "4-3-3",
+      "formationLabelBottom": "Kumar — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 72, "cy": 178, "label": "LW" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 248, "cy": 468, "label": "RCB" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Receives cleanly under pressure.", "text": "Opens his hips before the ball arrives and plays forward quickly. His 87th-percentile pass accuracy reflects a player who is rarely in trouble on the receive. He protects the ball without hiding from it." },
+        { "title": "Steps into midfield when space opens.", "text": "One of the clearer markers of his youth-team midfield background. He recognises the moment to carry and acts on it, rather than waiting for permission. The progression is deliberate rather than speculative." },
+        { "title": "Accurate long passer at the 64th percentile among HNL CBs.", "text": "He can switch play and hit the far side under pressure. Not yet the elite diagonal range the position demands at the highest level, but already better than average in a decent domestic context." },
+        { "title": "Comfortable on his left foot.", "text": "Predominantly right-footed but does not refuse the ball to his weaker side. Plays the short option left without hesitation; the longer ball from the left is where quality drops." },
+        { "title": "Third assist involvement in the top 15% of HNL defenders.", "text": "Contributing to attacking phases as a player who understands how sequences begin. For an 18-year-old CB, that is unusual." }
+      ],
+      "offBall": [
+        { "title": "Intercepts before the situation develops.", "text": "The 99th-percentile pAdj interceptions figure is the most important number in this report. He reads the game ahead of the ball rather than reacting to it. A cognitive habit that shows up consistently and early." },
+        { "title": "Cuts passing lanes by positioning, not by lunging.", "text": "Shot blocks at the 98th percentile, pAdj sliding tackles at the 13th. He is everywhere the ball needs to not go. The rarity of sliding challenges is the tell — this is positional defending, not athletic defending." },
+        { "title": "Disciplined and rarely penalised.", "text": "Fouls at the 90th percentile for cleanliness. He almost never gives away free kicks. A player who defends under control rather than gambling for the block." },
+        { "title": "Aerial win rate sits in the bottom third.", "text": "At 27th percentile in aerial duel win rate among HNL CBs, there is a gap between his physical profile and what the numbers say he produces in the air. He wins volume (53rd percentile), but the rate is low." },
+        { "title": "Organises quietly.", "text": "Not yet a formal leader at senior level, but already showing the positioning cues and body language of someone who understands the defensive line as a unit." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Positional anticipation", "desc": "The 99th-percentile interception figure is not a product of Istra's system. It reflects a cognitive habit that operates regardless of team structure. He positions himself to cut passing lanes before they open. This is a habit of attention, and those travel unconditionally." },
+        { "name": "Composure and press resistance in possession", "desc": "An 87th-percentile pass accuracy at 18, in a system that asks him to build, confirms that his composure under pressure is already formed as a technical habit. This will not wilt when the press is faster or the space tighter." },
+        { "name": "Disciplined defensive approach", "desc": "Rarely slides, rarely fouls, rarely gets booked. These are not symptoms of passivity. They are symptoms of a player who wins the encounter before the tackle is required. A 90th-percentile cleanliness rate is a meaningful signal that will transfer." }
+      ],
+      "context": [
+        { "name": "Ball-carrying into midfield", "desc": "His willingness to step out from the defensive line and carry into space is a strength in the HNL, where the press is less coordinated. In leagues where pressing traps are more structured, the same habit becomes a risk if the timing is slightly off." }
+      ],
+      "system": [
+        { "name": "Long-range distribution quality", "desc": "Sits at 64th percentile in long pass accuracy among HNL CBs. Above average for this context, but well below the baseline demand of a top-five league where switching play diagonally under a press is a recurring structural requirement." }
+      ],
+      "exposed": [
+        { "name": "Aerial duel win rate", "desc": "27th percentile among HNL CBs at 190cm is the figure that will generate the most scrutiny. He wins enough duels by volume (53rd percentile) but the rate suggests opponents are winning more aerial contests than his frame should allow. An application problem, not a structural one — but it requires deliberate work." },
+        { "name": "Duel win rate in open play", "desc": "37th percentile in overall duels won reflects a player who is not yet physically dominant in contested situations. At 18 and still developing physically, this is not a concern at this level. It will become one in leagues where physical authority is a baseline requirement." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "190cm, still filling out. Tall but not yet imposing — the physical foundation is there to grow into a genuinely dominant defender with deliberate strength work over the next two or three years." },
+        { "label": "Pace", "value": "Decent top speed for his size. Not elite over the first step. Compensates with positioning: he rarely needs to sprint because he is rarely caught wrong." },
+        { "label": "Strength", "value": "Not yet physically imposing. Wins duels by timing and anticipation more than by body strength. The duel win rate reflects this. Will change as he matures physically." },
+        { "label": "Agility", "value": "Good agility for his height. Changes direction cleanly. Footwork in tight situations is tidy, and the midfield background is visible in how he moves in confined space." },
+        { "label": "Aerial", "value": "190cm should produce a higher aerial win rate than 27th percentile suggests. The physical tool exists. The timing and assertiveness in aerial challenges is an application question, not a structural one." }
+      ],
+      "cognitive": [
+        { "label": "Attention", "value": "Elite level for his age. Reads the game before the ball arrives. Tracks runners early, reads passing lanes, and positions for the second phase. The interception numbers confirm this is a consistent habit." },
+        { "label": "Decision Speed", "value": "Quick in possession. Takes an extra beat on the longer ball under pressure. This is where higher-level opponents in pressing systems will find the seam." },
+        { "label": "Risk Profile", "value": "Controlled risk appetite. Attempts progressive passes and carries without forcing them. Almost never commits recklessly. The discipline is a genuine character trait." },
+        { "label": "Adaptability", "value": "Has played RCB, LCB, and midfield roles. Absorbs positional instruction. The tactical flexibility is already demonstrated, not a projection." }
+      ],
+      "psychological": [
+        { "label": "Maturity", "value": "Exceptional for his age. His U17 World Cup performances for Croatia came with composure that typically takes years of senior exposure to produce. He did not look overawed." },
+        { "label": "Composure", "value": "A clean disciplinary record in senior football at 18 says something specific: he does not panic under pressure and convert that panic into a foul or a rash challenge." },
+        { "label": "Professionalism", "value": "Went through the full Istra academy, earned his senior debut in context: the World Cup performance pushed him in, and he held the place." },
+        { "label": "Leadership", "value": "Not yet a formal leader at senior level, but the organisational habits are already visible in positioning cues and body language." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Aerial duel win rate", "text": "This is the clearest gap in an otherwise advanced profile. 27th percentile at 190cm is not a size problem. It is an assertiveness and timing problem. Work on aerial aggression and jump timing will address this more directly than physical conditioning alone. Unresolved, it becomes a reliable route for opponents at the next level." },
+      { "num": "02", "title": "Physical authority in duels", "text": "37th percentile in overall duels won is a function of age and physical stage, not technique. The strength work required over the next two to three years is not optional if he wants to compete in top-five leagues. The frame is there. The gym programme needs to be deliberate and progressive." },
+      { "num": "03", "title": "Long-range distribution under pressing conditions", "text": "The 64th percentile in long pass accuracy is already better than average for this league. The next-level demand is switching play diagonally with weight and precision when the press is coordinated and the window is narrower." },
+      { "num": "04", "title": "Timing on the carry into midfield", "text": "The instinct to step out of the defensive line is a strength. In more sophisticated pressing environments, that same habit becomes a risk if the timing is half a second off. He needs accumulated exposure to high-press systems to recalibrate." }
+    ],
+    "travelScore": {
+      "score": "6.5",
+      "prose": [
+        "The cognitive and technical base is already at a level that transfers. Positional anticipation, composure under pressure, and a clean disciplined approach to defending are all habits, not products of a specific system.",
+        "The 6.5 reflects two honest constraints. First, the physical gaps: the aerial win rate and duel strength are genuine limitations at this moment, and they will be tested immediately in any top-ten league. Second, the age: 18 is early to project transfer readiness with confidence.",
+        "The right next environment is one that tolerates physical development while demanding defensive intelligence. A mid-table Bundesliga, Eredivisie, or Serie A club with a clear pathway would extract the most from him over the next two seasons."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 3.0, "width": "30%", "high": false, "note": "Too early. The physical demands of the Premier League require a level of duel authority he does not yet have. The cognitive profile is already close; the body is not." },
+      { "league": "Bundesliga", "score": 4.5, "width": "45%", "high": false, "note": "A realistic medium-term destination. The pressing intensity would test his carry timing but reward his anticipation. A loan at a lower Bundesliga club first would be the sensible path." },
+      { "league": "Ligue 1", "score": 4.0, "width": "40%", "high": false, "note": "Similar physical demands to the Bundesliga with slightly less pressing complexity. The aerial gap would be exposed at set pieces." },
+      { "league": "Serie A", "score": 5.0, "width": "50%", "high": false, "note": "The tactical and positional demands of Serie A suit his profile well. Less reliance on brute physicality than the Premier League or Bundesliga. A mid-table club would be a reasonable immediate step." },
+      { "league": "La Liga", "score": 4.8, "width": "48%", "high": false, "note": "Spanish defensive structures are positional and systematic, which plays directly to his strengths. The question is physical authority against La Liga strikers." },
+      { "league": "Eredivisie", "score": 6.2, "width": "62%", "high": true, "note": "The most realistic immediate next step. Less physically brutal than the top five leagues, high on possession and positional quality. One strong season here would sharpen the transfer case considerably." },
+      { "league": "Jupiler Pro League", "score": 6.8, "width": "68%", "high": true, "note": "An even cleaner fit at this stage. Physically manageable, tactically demanding, and a league with a track record of developing young CBs for the next step." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development", "meaning": "Low risk", "note": "The physical gaps — aerial win rate, duel authority — are real and will be tested immediately at the next level. The frame suggests the upside is genuine, but physical development at 18 is not linear." },
+      { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "U17 World Cup composure, clean disciplinary record, full academy pathway completed without incident. The maturity is already visible in how he handles senior football at 18." },
+      { "score": 1, "label": "Market", "meaning": "Minimal risk", "note": "€350k valuation with contract to June 2030. No competitive bidding pressure, no short runway. The market has not yet priced the profile correctly — acquisition cost is low relative to ceiling." },
+      { "score": 2, "label": "Systemic", "meaning": "Low risk", "note": "The profile is readable across most defensive systems. The one constraint: a system that requires immediate physical dominance in aerial duels will expose the current gap before development catches up." }
+    ],
+    "trajectoryNote": "A starting-level centre-back at a top-five league club within four to five years, if the physical development follows the cognitive trajectory. The ceiling is genuine. The Eredivisie or Jupiler Pro League is the right next environment to test it.",
+    "nowAge": 18,
+    "verdict": {
+      "statement": "A centre-back whose defensive intelligence is already elite and whose physical development is still two to three years from its ceiling. Buy him now for what the cognitive profile already is. Do not buy him expecting physical dominance before he is ready for it. The Jupiler Pro League or Eredivisie extracts the most from this profile over the next two seasons.",
+      "travels": [
+        "Elite positional anticipation — 99th-percentile pAdj interceptions is a cognitive habit, not a system product",
+        "Composure under pressure and clean pass accuracy already set as technical habits at 18",
+        "Exceptional disciplinary record — defends under control, almost never commits a foul",
+        "Tactical flexibility across back four and back three roles; midfield background visible in movement",
+        "Psychological maturity well ahead of his age, demonstrated under World Cup pressure"
+      ],
+      "targeted": [
+        "Aerial duel win rate at 27th percentile — will be targeted at set pieces immediately",
+        "Overall duel win rate at 37th percentile — physical authority in contested situations is not yet there",
+        "Long-range distribution quality needs to step up for top-five league demands",
+        "Carry timing into midfield requires recalibration against more structured pressing systems"
+      ],
+      "potentialRating": "8.5/10",
+      "potentialBalls": 8,
+      "potentialProjection": "A starting-level centre-back at a top-five league club within four to five years, if the physical development follows the cognitive trajectory. The ceiling is genuine. The Eredivisie or Jupiler Pro League is the right next environment to test it. This is not a player to leave in the HNL for another two seasons while he waits."
+    }
   }]
 }
