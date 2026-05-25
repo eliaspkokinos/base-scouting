@@ -3719,5 +3719,155 @@
       "potentialBalls": 8,
       "potentialProjection": "A first-choice wide forward at a Europa League-level club within three to four years if the goal threat develops alongside the creation quality already in place. The ceiling moves toward 8.5 if the finishing resolves. The floor, given the creation and pressing base, is a consistently useful wide player at that level. At €1M, either outcome represents strong value."
     }
+  },
+  {
+    "slug": "christ-inao-oulai",
+    "handcrafted": true,
+    "firstName": "Christ Inao",
+    "lastName": "Oulaï",
+    "positionTag": "Box-to-Box Midfielder",
+    "positionCategory": "Midfielders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/christ-inao-oulai.png",
+    "photoAlt": "Christ Inao Oulaï",
+    "verdictLine": "There is a version of this report where you read the numbers, note they are impressive for a 20-year-old, and move on. The more interesting version is the one where you stop and ask how many midfielders his age are already combining these things simultaneously: carrying through pressure, switching play constantly, sliding across transitions cleanly, receiving responsibility under pressure, and doing all of it without the profile feeling chaotic. Trabzonspor paid €5.5M for what Oulaï was becoming. Someone else is going to pay considerably more for the version already starting to appear now.",
+    "bio": {
+      "dob": "6 Apr 2006",
+      "nationality": "Ivorian",
+      "club": "Trabzonspor",
+      "league": "Süper Lig",
+      "contractExpiry": "Jun 2030",
+      "marketValue": "€17M",
+      "preferredFoot": "Right",
+      "height": "1.73m",
+      "agent": "BLACKSKILL"
+    },
+    "scores": { "basePotential": "9", "travelReadiness": "10", "reportDate": "Mar '26" },
+    "role": {
+      "primaryRole": "Box-to-Box Midfielder",
+      "description": [
+        "A genuine 6–8 hybrid who is better as a 6 right now, though not by much. Receives from the centre-backs with composure, drives forward through pressure, and plays the line-breaking pass when the moment arrives rather than when it becomes safe.",
+        "The final-third production is still developing. The carrying and passing range are not. One of Trabzonspor's most deployed midfielders this season at 20 years old, which tells you something about the level of trust the club already has in the profile."
+      ],
+      "formationName": "4-3-3 Shape",
+      "formationLabelBottom": "Oulaï — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 72, "cy": 178, "label": "LW" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 300, "cy": 330, "label": "RCM" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Receives from the centre-backs without turning away from pressure", "text": "95th-percentile pass accuracy and 88th-percentile passes received confirm this is not a player who hides in easy positions. He takes the ball in tight space, opens his body before the touch arrives, and plays forward immediately. The composure is already formed." },
+        { "title": "Carries through lines at the 95th percentile", "text": "He does not carry because there is no one nearby. He carries through contact, through pressure, finding the release at the moment the defensive line compresses. Low centre of gravity, tight control, agile change of direction in constricted corridors. This is the defining quality of the profile and the reason it scales." },
+        { "title": "Long passing at the 100th percentile", "text": "Elite ball range is rare in a 20-year-old box-to-box midfielder. He switches play precisely and attempts diagonal progression that most midfielders his age avoid. The ambition is matched by the accuracy." },
+        { "title": "Shot assists and xA both in the upper quartile", "text": "At 79th and 78th percentile respectively among all Süper Lig midfielders, the creation output is already functioning at a level that tracks toward top-five league contribution. The third assist involvement at 93rd percentile confirms he is operating as a sequence initiator, not just a ball mover." },
+        { "title": "Accelerates into transition faster than his peers", "text": "67th percentile in accelerations, but the quality of when he accelerates is what matters: he reads the turnover before it happens and is already moving when possession changes. The transition numbers exceed what the acceleration ranking alone suggests." }
+      ],
+      "offBall": [
+        { "title": "Sliding tackles at the 99th percentile", "text": "He times the challenge, commits at the right moment, and converts at a rate that puts every other midfielder in the Turkish dataset behind him. The defensive execution is not brute-force pressing. It is precise intervention at the moment the opponent is most vulnerable to it." },
+        { "title": "Fouls drawn at 86th percentile, fouls committed at 27th", "text": "He draws contact regularly and almost never gives it away. That combination describes a player who makes opponents commit to the challenge and then escapes before the infringement. It is also a discipline marker: he does not retaliate, he repositions." },
+        { "title": "Covers ground across both phases without fading", "text": "The pressing contributions are visible in advanced zones, not just when Trabzonspor defends deep. This is a meaningful distinction: he is not a midfielder who hunts the ball defensively when his side is already organised. He presses forward too." },
+        { "title": "Aerial duels at the 22nd percentile", "text": "1.73m, and the aerial numbers confirm what the frame predicts. This will be targeted directly and consistently at every next level. He compensates through positioning and timing rather than physical authority, but the gap is structural and will not resolve through development." },
+        { "title": "Defensively disciplined without being a destroyer", "text": "Cards at the 9th percentile. He presses, intercepts, and tackles without conceding set pieces. For a midfielder with the aggressive ball-carrying and transition instincts he possesses, this level of defensive cleanliness is unusual. It suggests composure under pressure extends to how he manages physical contests." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Ball-carrying through pressure", "desc": "The 95th-percentile progressive runs figure was already present in Ligue 2 before Trabzonspor gave him a better environment. It is not a product of Trabzonspor's system. The low centre of gravity, close control under contact, and agility in tight corridors are physical and technical habits set well before this season. They transfer because they do not rely on opponents being weaker or spaces being larger." },
+        { "name": "Passing range and accuracy under pressure", "desc": "100th percentile in long pass accuracy and 95th in pass accuracy overall at Süper Lig level. The long-range dimension was always there in the profile; Trabzonspor's system and trust gave him the context to use it. Both short and long passing operate as habits of technical confidence, not as context products. They travel." },
+        { "name": "Composure in transition", "desc": "The cleanliness of his disciplinary record, the fouls drawn vs. fouls conceded gap, the carrying under contact without panicking: these are consistent across both clubs, both leagues, and both roles. Composure is the one trait that almost never disappears when the level rises, because it is a cognitive habit rather than a physical one." },
+        { "name": "Tempo management intelligence", "desc": "He understands that the ball travels faster than the man and has structured his game around that principle. The carrying is efficient, not compulsive. The passing is progressive but not reckless. The balance between those two things is what separates a midfielder who controls games from one who simply participates in them." }
+      ],
+      "context": [],
+      "system": [
+        { "name": "Chance creation volume", "desc": "The xA and shot assist numbers reflect a player whose final actions now have receivers capable of completing sequences. That is partly context: better teammates, more territorial dominance, more possession in advantageous zones. The vision and execution are his. The volume is partly a function of the environment around him. In a stronger attacking structure, the creative output does not shrink. It expands." },
+        { "name": "Sliding tackle volume", "desc": "99th percentile at Trabzonspor. This is partly system-dependent: Trabzonspor's defensive structure asks him to press aggressively in transition. A deeper defensive role in a possession-dominant system would reduce the sliding tackle volume without affecting the underlying defensive intelligence. The quality of when he commits is the trait. The frequency is the context." }
+      ],
+      "exposed": [
+        { "name": "Aerial duels", "desc": "22nd percentile overall, 13th percentile in aerial duels won. At 1.73m this is structural rather than developmental. Every set-piece specialist and physically dominant striker at the next level will find this immediately. He compensates through positioning and timing in ways that partially offset the limitation, but it will not resolve. The question for any buying club is whether their system can protect him from high-ball pressure before he can impose himself on the game through other means." },
+        { "name": "Duel win rate in ground contests", "desc": "23rd percentile overall despite 99th-percentile sliding tackles. He wins the committed challenge but not the physical 50-50. A top-six Bundesliga or Premier League central midfield will test this regularly. The sliding tackle numbers compensate to a degree, but a midfielder who cannot win ground duels consistently at a high rate carries structural vulnerability in any league that values physical midfield dominance." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "1.73m, compact and balanced. Low centre of gravity is the decisive physical attribute: enables carrying through contact, rapid direction changes in tight corridors, and agility in duels without relying on size. Will not develop into a physically imposing midfielder. Does not need to." },
+        { "label": "Explosive pace", "value": "Explosive over first meters. The transition acceleration is the most useful expression of his pace: he reads the turnover and is already moving before others have reacted. Elite top-end speed is not the profile. First-step quickness under real pressure is." },
+        { "label": "Stamina", "value": "One of Trabzonspor's most deployed midfielders this season at 20. The engine sustains demanding output across a full campaign. Still needs deliberate conditioning work to handle the cumulative load of top-five league density, where the margins between recovery and fatigue are tighter and the calendar is longer." },
+        { "label": "Aerial", "value": "The structural limitation. 22nd percentile overall. At 1.73m, this does not resolve through development. He compensates with positioning and timing in ways that partially limit the exposure, but every pressing system at the next level will include an aerial challenge plan against him." },
+        { "label": "Agility", "value": "Elite for his position. Changes direction inside tight spaces faster than any midfielder in the Turkish sample. Combined with close control, this is what allows him to carry through pressure rather than around it." }
+      ],
+      "cognitive": [
+        { "label": "Tempo control", "value": "He understands that the ball travels faster than the man. This shows in how he plays: the carrying is efficient, not compulsive; the passing is progressive but not reckless; the balance between carry and release is already calibrated. That reading only improves with better teammates and more possession context around him." },
+        { "label": "Spatial processing", "value": "Reads the pass before it is needed. The third-assist numbers (93rd percentile) indicate he initiates sequences that require seeing two actions ahead of the ball. That is a cognitive habit, not a creative instinct that varies by match." },
+        { "label": "Risk calibration", "value": "Cards at the 9th percentile, fouls at the 27th. He makes aggressive decisions without making reckless ones. That gap between aggression and recklessness is a cognitive quality that defines whether a carrying midfielder is an asset or a liability in high-stakes environments." },
+        { "label": "Transition reading", "value": "Converts turnovers into forward momentum almost immediately. The acceleration data is one expression of this. The more important expression is that he positions himself to benefit from turnovers before they happen. That is an attention habit, the hardest cognitive quality to develop at this level." }
+      ],
+      "psychological": [
+        { "label": "Pathway", "value": "Ivory Coast to academy football in France to the Süper Lig by 19. Each transition required real cultural and professional adjustment made without the safety net of a domestic development system. The composure visible on the pitch reflects that history without needing it stated repeatedly." },
+        { "label": "Composure under scrutiny", "value": "A 20-year-old starting central midfielder at a Süper Lig club with genuine European ambitions. He did not take a peripheral role and grow into it. He took a central one and held it. That is a different thing." },
+        { "label": "Engagement", "value": "The defensive numbers are partly a mentality marker. A 20-year-old midfielder who presses at the 99th percentile for sliding tackles in a league where veterans pick their moments is a player who has not decided that defensive effort is someone else's responsibility. That quality makes him unusually coachable." },
+        { "label": "Ceiling awareness", "value": "No signs of complacency. The profile is still developing, the final-third production is still raw in places, and he continues to take on high-difficulty actions rather than settling into the comfortable role a player of his current value could reasonably occupy." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Final-third decision-making and goal threat", "text": "The creation numbers are already functioning at a high level. The personal output is not yet. 63rd-percentile goals and 24th-percentile touches in the box for a box-to-box midfielder who carries at the 95th percentile is a gap. He arrives at the edge of the final third and delivers for others. The next step is learning when to arrive in the box itself, and when to pull the trigger rather than play the extra pass." },
+      { "num": "02", "title": "Physical conditioning for top-five league density", "text": "A full season as Trabzonspor's central midfielder is a strong base. But the Premier League, Bundesliga, and Serie A play at a faster tempo with shorter recovery windows across a longer season. His frame needs deliberate strength work to sustain high-intensity output across 50+ matches rather than absorb the occasional game at a less demanding tempo." },
+      { "num": "03", "title": "Managing aerial vulnerability through positioning", "text": "The structural limitation is not resolvable through development. The management of it is. Specifically: learning to position himself against set pieces in ways that reduce his individual exposure, and to recognize the aerial challenge before it arrives so he can use body position rather than height. This is a coachable habit, not a physical solution." }
+    ],
+    "travelScore": {
+      "score": "10",
+      "prose": [
+        "The profile is ready to leave. The carrying quality, passing range, composure under pressure, and tempo intelligence are formed habits, not developmental projections. They were already present in Ligue 2 before Trabzonspor confirmed them. That progression from conservative environment to competitive environment without regression is the most reliable transferability signal available in scouting.",
+        "The 10 reflects the absence of any systemic barrier to a top-five league move. The aerial limitation is real but not a barrier: it is a known and manageable exposure that every serious club will have accounted for before making a bid. The duel win rate is the same. Neither is a structural incompatibility with top-flight football. Both are manageable realities for a player whose other qualities already function at elite levels.",
+        "The right immediate next environment is a top-five league club in a possession-dominant system that protects central midfielders from high-ball pressure and rewards progressive carrying and vertical passing. A mid-table Bundesliga or Serie A club with European ambitions fits. So does a pressing team in Ligue 1 that needs a central engine. What would underuse the profile: a direct, aerial-heavy style that makes the limitation a structural weekly problem rather than a managed risk."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 7.2, "width": "72%", "high": true, "note": "The physical intensity and press coordination are the main adjustments. His carrying and passing quality already functions at the level required. A mid-table Premier League club with a 6–8 role and a manager who understands possession would extract this profile immediately." },
+      { "league": "Bundesliga", "score": 8.4, "width": "84%", "high": true, "note": "The best fit among the top five. Bundesliga pressing systems with possession-dominant structures reward exactly the profile he offers: carrying through press, vertical passing, transition intelligence, and disciplined defensive contribution. The aerial limitation is more manageable here than in the Premier League." },
+      { "league": "Ligue 1", "score": 8.0, "width": "80%", "high": true, "note": "A natural destination. The progression from Ligue 2 to Süper Lig to Ligue 1 is a coherent arc. The technical and cognitive quality already exceeds what most Ligue 1 clubs require from a central midfielder. The question is whether the club is ambitious enough to use what he brings rather than asking him to play conservatively." },
+      { "league": "Serie A", "score": 7.6, "width": "76%", "high": true, "note": "Serie A's tactical sophistication suits the tempo management and passing range. Italian defensive organisation rewards the disciplined carrying and vertical passing. The duel win rate is the main concern in a league that values physical midfield authority. A possession-dominant club would absorb this more cleanly." },
+      { "league": "La Liga", "score": 7.8, "width": "78%", "high": true, "note": "La Liga's possession structures and technical emphasis are a natural fit. Spanish clubs at the top level are already scouting midfielders with exactly this profile: technical, progressive, composed under press. The carrying and long passing would become defining assets in the right system." },
+      { "league": "Eredivisie", "score": 9.2, "width": "92%", "high": true, "note": "The maximum-fit environment for this stage of his development if a top-five league club is not yet willing to commit at the price. The Eredivisie would give him high possession volume, progressive structure, and a level of physical management that would develop the final-third dimensions without overwhelming the existing profile." },
+      { "league": "Jupiler Pro League", "score": 8.8, "width": "88%", "high": true, "note": "A strong fit but arguably a step below what the profile now warrants. If Trabzonspor are open to selling to a Belgium club as a stepping stone toward the top five, that is a coherent pathway. If the choice is between Belgium and a direct top-five move, the direct move is the correct recommendation at €17M." }
+    ],
+    "riskGauges": [
+      { "score": 1, "label": "Development", "meaning": "Minimal risk", "note": "The core traits are already functioning at a high level in a competitive environment. The development trajectory over the past two seasons is one of the clearest upward progressions in the Turkish dataset. No regression risk is visible." },
+      { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Ivory Coast to European academy football to Süper Lig starter by 19. Each step required real adjustment. Each step produced a better player. No character concerns from any source." },
+      { "score": 2, "label": "Market", "meaning": "Low risk", "note": "€17M with contract to 2030. Value is rising, not plateauing. The risk is not whether Trabzonspor will sell but whether the buying club delays until the price reflects what the profile has already become rather than what it is still becoming." },
+      { "score": 2, "label": "Systemic", "meaning": "Low risk", "note": "The profile functions across most modern systems. The one systemic constraint: a direct, aerial-heavy style that places him in regular high-ball exposure before he can impose himself through other means." }
+    ],
+    "trajectoryNote": "A first-choice central midfielder at a UEFA Champions League club within three to four years.",
+    "nowAge": 20,
+    "verdict": {
+      "statement": "Buy the carrying, the passing range, and the composure. They were already present in Ligue 2 before Trabzonspor revealed them, which means they are formed, not circumstantial. The aerial limitation is real and will be managed, not resolved. The duel win rate is the same. Neither is a reason to hesitate at €17M for a 20-year-old who is already controlling games in a top-fifteen European league. The correct move is now, before the market finishes the sentence he has already started writing.",
+      "travels": [
+        "Progressive carries at 95th percentile: trained technique built on low COG and close control, not athleticism over weaker opponents",
+        "Long pass accuracy at 100th percentile: already switching play and threading diagonals at elite level",
+        "Tempo management intelligence: understood circulation logic in Ligue 2 before the environment rewarded it",
+        "Composure under pressure: formed across two leagues, two clubs, two cultures; not a single-context product",
+        "Sliding tackle precision at 99th percentile: defensive execution that competes with experienced midfielders twice his age",
+        "Creation breadth: shot assists, xA, and 3rd assists all in the top quartile simultaneously"
+      ],
+      "targeted": [
+        "Aerial duels at 13th percentile: structural, not developmental; requires system protection and positioning discipline",
+        "Ground duel win rate at 23rd percentile: will be tested in any physically demanding central midfield role at the next level",
+        "Final-third personal output still developing: box presence at 24th percentile for a player carrying at the 95th"
+      ],
+      "potentialRating": "9/10",
+      "potentialBalls": 9,
+      "potentialProjection": "A first-choice central midfielder at a UEFA Champions League club within three to four years. The carrying and passing range are already functioning at that level in a less demanding environment. What remains is physical development for top-five league density, final-third goal contribution, and one more context step to confirm the profile at full European speed. The ceiling is not speculative. It is already visible in the mechanics of what he does now."
+    }
   }]
 }
