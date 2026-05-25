@@ -3569,5 +3569,155 @@
       "potentialBalls": 8,
       "potentialProjection": "A starting-level centre-back at a top-five league club within four to five years, if the physical development follows the cognitive trajectory. The ceiling is genuine. The Eredivisie or Jupiler Pro League is the right next environment to test it. This is not a player to leave in the HNL for another two seasons while he waits."
     }
+  },
+  {
+    "slug": "stavros-pnevmonidis",
+    "handcrafted": true,
+    "firstName": "Stavros",
+    "lastName": "Pnevmonidis",
+    "positionTag": "Inside Forward",
+    "positionCategory": "Attackers",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/stavros-pnevmonidis_1.png",
+    "photoAlt": "Stavros Pnevmonidis",
+    "verdictLine": "Most nineteen-year-old wingers at mid-table clubs produce one thing worth watching. Pnevmonidis produces shot assists, xA, progressive passes, smart passes, carry volume, and fouls drawn at elite rates simultaneously. The final output has not caught up yet, but the process is already telling you something the scoreline isn't.",
+    "bio": {
+      "dob": "7 Aug 2006",
+      "nationality": "Greek",
+      "club": "Olympiacos (loan: Atromitos Athens)",
+      "league": "Greek Super League",
+      "contractExpiry": "Dec 2028",
+      "marketValue": "€1M",
+      "preferredFoot": "Right",
+      "height": "~1.78m",
+      "agent": "OIS"
+    },
+    "scores": { "basePotential": "8", "travelReadiness": "6.0", "reportDate": "Apr '26" },
+    "role": {
+      "primaryRole": "Inside Forward",
+      "description": [
+        "A right-footed winger deployed on the left who creates through the cut inside rather than the cross. Low centre of gravity, compact and powerful for his age, with the close control and dribble success to manufacture space at the edge of the box.",
+        "He does not stay wide. He drifts inside, overloads central channels, and delivers: key passes, progressive sequences, occasionally the finish from a cut-back.",
+        "The playmaking bag is already elite for his age and context. The question the data raises is whether he becomes a scorer as well as a creator at the next level."
+      ],
+      "formationName": "4-3-3",
+      "formationLabelBottom": "Pnevmonidis — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 72, "cy": 178, "label": "LW" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Creates through the cut inside, not the byline cross.", "text": "Right-footed on the left, he uses width to invite the defender and then drives inward. The 95th-percentile dribble success rate is built on body feints and low-centre changes of direction, not pace alone." },
+        { "title": "Progressive passing at the 98th percentile.", "text": "He does not just carry to the box and shoot into a body. He carries to threatening positions and then delivers. The xA at 92nd percentile confirms the delivery is converting too." },
+        { "title": "Shot assist volume at 93rd percentile.", "text": "Creates finishing opportunities for others at an elite rate. The touches in the box are low (21st percentile), which suggests some reluctance to finish himself." },
+        { "title": "Key passes at 92nd percentile.", "text": "Calm decision-making once in threatening positions. He sees the right pass before he needs to and delivers it without a wasted touch." },
+        { "title": "Carries into the final third at the 86th percentile.", "text": "Ball-carrying to the danger zone is a consistent mechanism, not an occasional flash. Combined with the progressive pass rate, he is regularly arriving at the edge of the box with the ball." }
+      ],
+      "offBall": [
+        { "title": "Defends with genuine intensity.", "text": "80th-percentile pAdj tackles and interceptions, 78th-percentile defensive actions, 95th-percentile sliding tackles. For a winger, this is not cosmetic pressing — he closes effectively and wins the ball in advanced areas." },
+        { "title": "Fouls drawn at 85th percentile.", "text": "Gets fouled regularly, confirming opponents cannot stop him cleanly. Combined with the 93rd-percentile duels won, he is genuinely difficult to contain in 1v1 situations." },
+        { "title": "Presses intelligently, not just energetically.", "text": "The pressing angles are disciplined. He presses in ways that cut off escape routes rather than chasing the man — a cognitive quality visible in the interception numbers rather than just the tackle count." },
+        { "title": "Shot volume is low at 27th percentile.", "text": "Creates shots for others at an elite rate but does not manufacture them for himself at the same frequency. Whether it reflects a role instruction or a genuine tendency to defer at the last moment is not fully resolved." },
+        { "title": "Moves intelligently when Atromitos plays out of possession.", "text": "Tracks his fullback's runs, creates space for the switch of play, and shifts roles fluidly. The positional reading is already well ahead of his age." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "1v1 dribble quality", "desc": "The 95th-percentile dribble success is not a product of weak Greek Super League full-backs. The mechanism is technical: low centre of gravity, sharp body feints, close control that keeps the ball available through contact. Those are physical and technical habits that travel." },
+        { "name": "Calm decision-making under pressure", "desc": "Multiple independent observations confirm the same quality: he processes and delivers without panic in tight moments. Visible in the key pass rate and the xA — a cognitive habit rather than a context product." },
+        { "name": "Defensive work rate and intensity", "desc": "The pressing numbers are too high and too consistent to be explained by tactical instruction alone. He presses because he wants to press. That unconditional defensive engagement travels regardless of system or manager preference." }
+      ],
+      "context": [
+        { "name": "Role flexibility across phases", "desc": "Has operated as a left winger, attacking midfielder, and second striker in different Atromitos phases. The adaptability is already demonstrated. A system that requires one rigid role gets less out of this profile than one that gives him positional freedom inside the final third." }
+      ],
+      "system": [
+        { "name": "Progressive passing volume", "desc": "98th percentile among Greek Super League wingers. The vision and execution are real. Whether the volume holds at the next level depends on how much time and space he receives. The quality travels; the volume is environment-dependent." }
+      ],
+      "exposed": [
+        { "name": "Shot creation for self", "desc": "27th-percentile shot volume and 21st-percentile touches in the opposition box is the clearest gap. He creates excellent opportunities for teammates but does not yet arrive inside the box often enough or pull the trigger when he does. Wingers who only create for others are easier to account for defensively." },
+        { "name": "Cross accuracy", "desc": "20th percentile. He cuts inside by default and rarely crosses, but when he does, the delivery is below average. This limits the threat he poses when opponents crowd the central channel and force him wide." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "Approximately 1.78m with a compact, powerful build. Low centre of gravity is the key physical attribute — it gives him balance through contact and enables the rapid direction changes that define how he beats defenders." },
+        { "label": "Speed", "value": "Explosively quick over short distances. Accelerates into space convincingly and consistently troubles defenders in transition." },
+        { "label": "Agility", "value": "The standout physical quality. Changes direction cleanly and quickly, maintains close control through contact, and uses body feints to manufacture separation in tight spaces." },
+        { "label": "Aerial", "value": "82nd percentile in aerial duel win rate, unusually high for a winger of his frame. Context: sample size is small. Worth noting but should not be weighted heavily." },
+        { "label": "Stamina", "value": "Presses effectively for the full ninety minutes and contributes defensively late in games. The intensity does not drop." }
+      ],
+      "cognitive": [
+        { "label": "Decision speed", "value": "Fast and calm. Processes passing options before the carry ends and delivers without hesitation once in position. The key pass and xA numbers are partly a reflection of this." },
+        { "label": "Spatial reading", "value": "Understands the geometry of the attacking third intuitively. Drifts inside when the space opens, holds wide when the fullback needs the overlap, and reads the switch of play before it arrives." },
+        { "label": "Pressing intelligence", "value": "Presses in angles that cut escape routes, not just angles that reach the ball fastest. The interception numbers alongside the tackle numbers confirm this distinction." },
+        { "label": "Risk calibration", "value": "The 95th-percentile dribble success is partly because he is selective. He does not attempt the 1v1 in the wrong moment. When to carry and when to play is already a calibrated decision." }
+      ],
+      "psychological": [
+        { "label": "Resilience", "value": "Raised primarily by his mother after losing his father at a young age. That background shapes a player's relationship with adversity in ways that do not show up in a spreadsheet." },
+        { "label": "Composure", "value": "Calm under pressure in the most literal sense: he does not rush decisions when defenders are close and the action is consequential. That calm is visible consistently, not occasionally." },
+        { "label": "Engagement", "value": "A winger who presses at the 80th percentile for pAdj tackles and interceptions is a winger who cares about the team's defensive phase, not just his own attacking moments. That quality makes him coachable." },
+        { "label": "Ambition", "value": "Olympiacos academy product representing Greece at U21 level at 19 while on loan in the top domestic division. The pathway is accelerating." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Shot volume and box presence", "text": "The creation metrics are elite. The finishing output is not. He needs to arrive inside the penalty area more often and pull the trigger when he does. A winger who creates only for others is a manageable defensive problem at the next level." },
+      { "num": "02", "title": "Cross delivery quality", "text": "20th percentile when he does cross. When opponents crowd the central channel and force him wide, the cross becomes his only option. Right now it is below average. This is a technical repetition problem: weight, timing, and selection of the crossing moment." },
+      { "num": "03", "title": "Maintaining progressive passing volume in higher-tempo environments", "text": "The 98th-percentile progressive passes are real, but some of the volume is produced in moments of relative comfort that higher-press environments will remove. The quality will hold; the volume will compress." }
+    ],
+    "travelScore": {
+      "score": "6.0",
+      "prose": [
+        "The creation and dribbling qualities are already functioning at a level that transfers. The composure, the pressing, the progressive vision: these are formed habits that will show up in a better environment.",
+        "The 6.0 reflects two specific constraints. First, the sample: 638 minutes across a loan season at a mid-table club is not enough to draw firm conclusions. Second, the goal threat gap: a winger who does not yet create shots for himself regularly is a partial profile.",
+        "The right next environment is one that gives him positional freedom inside the final third rather than demanding he stay wide. He is not a touchline runner who crosses — he is a half-space carrier who plays through the lines."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 2.5, "width": "25%", "high": false, "note": "Too early at any club. The Premier League's tempo and defensive organisation compresses exactly the spaces he currently exploits." },
+      { "league": "Bundesliga", "score": 3.8, "width": "38%", "high": false, "note": "A realistic medium-term destination rather than an immediate one. The pressing model suits his defensive work rate. The shot volume gap would be exposed immediately." },
+      { "league": "Ligue 1", "score": 4.2, "width": "42%", "high": false, "note": "Ligue 1's physical and transition-heavy nature is a decent fit for his athleticism and pressing aggression. The creation metrics would remain above average; the goal threat question would remain unanswered." },
+      { "league": "Serie A", "score": 4.0, "width": "40%", "high": false, "note": "Serie A's tactical sophistication suits his spatial intelligence. But Italian defensive organisation is specifically designed to neutralise half-space carriers." },
+      { "league": "La Liga", "score": 4.4, "width": "44%", "high": false, "note": "A possession-based La Liga side would give him the most build-up time. The 1v1 quality travels well in Spanish football. The cross accuracy gap is the main exposure." },
+      { "league": "Eredivisie", "score": 6.2, "width": "62%", "high": true, "note": "The most realistic immediate next step. Dutch football rewards exactly the profile he offers: progressive carrying, creative passing, pressing intelligence, and technical 1v1 quality." },
+      { "league": "Jupiler Pro League", "score": 6.8, "width": "68%", "high": true, "note": "The best-fit immediate environment. Physically manageable, tactically demanding, and a league that has developed several wide forwards with similar profiles into higher-level transfers." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development", "meaning": "Low risk", "note": "The core creation and dribbling qualities are already formed. Development risk centres on the goal threat gap, which is a real but coachable problem at 19." },
+      { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Composed under pressure, engaged defensively, no signs of entitlement or disengagement. Personal background suggests an above-average relationship with adversity." },
+      { "score": 1, "label": "Market", "meaning": "Minimal risk", "note": "€1M valuation with Olympiacos parent contract to 2028. No competitive acquisition pressure. The market has not priced the profile fully." },
+      { "score": 2, "label": "Systemic", "meaning": "Low risk", "note": "Profile works across multiple systems provided he gets positional freedom in the final third. The one constraint: a team that requires the winger to stay wide and deliver crosses will expose the cross accuracy gap." }
+    ],
+    "trajectoryNote": "A first-choice wide forward at a Europa League-level club within three to four years if the goal threat develops alongside the creation quality already in place. The ceiling moves toward 8.5 if the finishing resolves.",
+    "nowAge": 19,
+    "verdict": {
+      "statement": "Buy the creation quality, the dribbling technique, and the defensive engagement. Develop the finishing instinct and the cross delivery. The Jupiler Pro League is the right next environment: physically manageable, tactically demanding, and a context where the goal numbers will be tested seriously for the first time.",
+      "travels": [
+        "Dribble success at 95th percentile: a trained technique, not an athletic product; scales with level",
+        "Progressive passing vision: 98th percentile with elite xA confirms the delivery matches the intent",
+        "Defensive pressing quality: unconditional and intelligent; presses angles, not just the man",
+        "Composure under pressure: formed habit, not a context product; visible consistently across the season",
+        "Fouls drawn at 85th percentile: opponents cannot stop him cleanly; that does not change with the level"
+      ],
+      "targeted": [
+        "Shot volume at 27th percentile: creates elite chances for others, does not yet pull the trigger enough himself",
+        "Box presence at 21st percentile: needs to arrive inside the penalty area more often and with more intent",
+        "Cross accuracy at 20th percentile: when opponents crowd the half-space, the wide option becomes the only one"
+      ],
+      "potentialRating": "8/10",
+      "potentialBalls": 8,
+      "potentialProjection": "A first-choice wide forward at a Europa League-level club within three to four years if the goal threat develops alongside the creation quality already in place. The ceiling moves toward 8.5 if the finishing resolves. The floor, given the creation and pressing base, is a consistently useful wide player at that level. At €1M, either outcome represents strong value."
+    }
   }]
 }
