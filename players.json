@@ -3869,5 +3869,153 @@
       "potentialBalls": 9,
       "potentialProjection": "A first-choice central midfielder at a UEFA Champions League club within three to four years. The carrying and passing range are already functioning at that level in a less demanding environment. What remains is physical development for top-five league density, final-third goal contribution, and one more context step to confirm the profile at full European speed. The ceiling is not speculative. It is already visible in the mechanics of what he does now."
     }
+  },
+  {
+    "slug": "rin-ahmeti",
+    "handcrafted": true,
+    "firstName": "Rin",
+    "lastName": "Ahmeti",
+    "positionTag": "Inside Forward",
+    "positionCategory": "Attackers",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/rin-ahmeti.png",
+    "photoAlt": "Rin Ahmeti",
+    "verdictLine": "Kosovo's pool is not France's pool. That is not an excuse to look away. A 17-year-old producing shots, box touches, progressive runs, and a defensive bite that embarrasses most senior wingers in the same dataset, at a club pushing for European football, is not a coincidence. The mechanism is unfinished. The appetite is not.",
+    "bio": {
+      "dob": "9 Aug 2008",
+      "nationality": "Kosovar",
+      "club": "FC Prishtina",
+      "league": "Kosovo Superliga",
+      "contractExpiry": "Not Known",
+      "marketValue": "€200k",
+      "preferredFoot": "Left",
+      "height": "181 cm",
+      "agent": "None"
+    },
+    "scores": { "basePotential": "8", "travelReadiness": "4", "reportDate": "May '26" },
+    "role": {
+      "primaryRole": "Inside Forward",
+      "description": [
+        "A natural left-footer operating on the right, cutting inside as the primary mechanism. Already plays as a 10 in some Prishtina phases and has captained Kosovo's U17 side.",
+        "The profile does not fit cleanly into a single winger archetype: not yet a dominant 1v1 carrier, not yet a volume creator, not yet a refined passer. What it is instead is a teenage attacker who already finds shots, gets into the box, runs forward, and defends with genuine aggression. A product of the FC 2 Korriku academy, Kosovo's most respected development structure."
+      ],
+      "formationName": "4-2-3-1 Shape",
+      "formationLabelBottom": "Ahmeti — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 148, "cy": 468, "label": "LCB" },
+        { "cx": 252, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 140, "cy": 355, "label": "LDM" },
+        { "cx": 260, "cy": 355, "label": "RDM" },
+        { "cx": 60, "cy": 230, "label": "LW" },
+        { "cx": 200, "cy": 218, "label": "CAM" },
+        { "cx": 200, "cy": 148, "label": "ST" }
+      ],
+      "highlightedPosition": { "cx": 340, "cy": 230, "label": "RW" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "The game is already pointed toward goal", "text": "Shot volume, box presence, and conversion above expectation together describe a player whose instincts already belong in attacking areas. That kind of forward orientation is harder to teach than technical refinement." },
+        { "title": "The defensive bite is real", "text": "84th-percentile defensive actions and 87th-percentile sliding tackles for a teenage winger is not a coincidence. He presses forward and tracks back with the same intensity. That quality tends to make coaches trust young players with minutes before their technique justifies it." },
+        { "title": "He is left-footed on the right", "text": "The natural cutting mechanism that produces his best attacking moments is already embedded. It does not need to be taught, only sharpened." },
+        { "title": "Already playing for Kosovo's U20 side at 16", "text": "He was U17 captain. The character markers that come with being trusted with senior and above-age minutes at this early a stage are not nothing." }
+      ],
+      "offBall": [
+        { "title": "The dribble success rate is the urgent problem", "text": "10th percentile means that the 1v1 carrying that is central to the profile's identity is failing more than it is succeeding in this league. Better defences compress faster. This needs to resolve before the next step makes sense." },
+        { "title": "Head position during carries", "text": "Multiple observations flag that he loses sight of teammates during dribbles. The vision and the carrying are not yet connected. When they are, the creative numbers will move." },
+        { "title": "The final ball weight and timing", "text": "Whether crossing from wide or playing through balls, the execution is uneven. The intent is clear; the delivery does not always match it." },
+        { "title": "Physical robustness", "text": "Not the strongest in aerial or ground duels. At 181cm the frame is there to grow into. But the current duel numbers reflect a player who competes without yet dominating." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Attacking instinct and vertical game orientation", "desc": "The game moves toward goal when he has it. He reads momentum and attacks it rather than waiting for structure to open. This is not a tactical instruction or a product of a particular system. It is a cognitive habit already embedded at 17. That kind of orientation does not need to be taught. It needs to be organised." },
+        { "name": "Bravery in possession", "desc": "Receives responsibility without flinching. Takes on defenders repeatedly. Shoots with conviction. Attempts difficult actions. These are habits of psychological confidence that tend to arrive early in players or not at all. Coaching can sharpen them but rarely installs them from scratch." },
+        { "name": "Defensive engagement", "desc": "84th-percentile defensive actions and 87th-percentile sliding tackles for a 17-year-old inside forward are not instructed behaviours. They reflect a player whose competitive instinct extends to defending. This does not disappear when the level rises. It usually becomes a significant organisational asset." }
+      ],
+      "context": [
+        { "name": "Selective crossing quality", "desc": "98th-percentile cross accuracy on 36th-percentile volume. Whether this reflects timing intelligence or avoidance is unresolved. In a system that actively asks him to deliver from wide, the quality is genuinely impressive. In one that does not, the sample stays too thin to draw firm conclusions." }
+      ],
+      "system": [
+        { "name": "Goal conversion", "desc": "72nd-percentile conversion in the Kosovo Superliga at 17. This needs a significant context discount. The defence quality and pressing intensity in this league bear no resemblance to where the profile needs to function eventually. The instinct to finish is real. Whether the efficiency holds at a meaningful next step is a different and much harder question." }
+      ],
+      "exposed": [
+        { "name": "Dribble success rate", "desc": "10th percentile. The most structurally significant limitation in the profile right now. Any defence at the next level will identify the carry as the primary attacking mechanism and defend it tightly. If the efficiency does not improve, the profile becomes predictable before it becomes dangerous." },
+        { "name": "Creative output and vision in possession", "desc": "xA at 19th, shot assists at 30th. The head-down tendency during carries means he is not yet converting attacking situations into outcomes for teammates. Any coach preparing to face him will simply ensure someone tracks his run while leaving the rest of the attack uncovered. Until he lifts his head, that exposure is manageable." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "181cm, slender but with a strong lower body. Low centre of gravity is the defining physical quality: allows him to manoeuvre through tight spaces and shield the ball despite not being physically imposing. Still filling out." },
+        { "label": "Pace", "value": "Explosive over short distances. Uses the first step well in transition. Not a pure pace winger but quick enough to create separation when the movement is timed correctly." },
+        { "label": "Two-footedness", "value": "Natural left-footer, notably comfortable on his right. The ambipedal quality expands the threat profile beyond the predictable inside cut and makes him harder to position against." },
+        { "label": "Aerial", "value": "17th percentile in aerial duel win rate. At 181cm this is an application problem, not a structural one. He is not using his height. This is coachable but requires deliberate work." },
+        { "label": "Shot power", "value": "Noted as impressive for his age. The 82nd-percentile shot volume and above-expected conversion confirm this is a genuine physical attribute, not just aggressive shot selection." }
+      ],
+      "cognitive": [
+        { "label": "Game orientation", "value": "Vertical by instinct. The game moves toward goal when he has it. This is not a player who circulates safely until structure opens. He reads momentum and attacks it. That instinct is already rare at his age." },
+        { "label": "Transition reading", "value": "Times runs behind defences well. Already getting into the right areas before the pass arrives, which is a cognitive marker that tends to improve with experience rather than regress." },
+        { "label": "Loose ball awareness", "value": "Sharp to second balls and loose contacts. This contributes to both the shot volume and the defensive action numbers. He is always looking for the next action." },
+        { "label": "Vision in possession", "value": "The gap in the profile. Loses sight of teammates during dribbles. The awareness of space around him is ahead of the awareness of players in that space. A development priority, not a ceiling." }
+      ],
+      "psychological": [
+        { "label": "Fearlessness", "value": "The standout quality. Takes players on in 1v1 situations without hesitation. Shoots with conviction. Attempts bold actions. None of the tentativeness that usually marks teenage attackers playing senior football for the first time." },
+        { "label": "Leadership signals", "value": "Kosovo U17 captain. Playing for the U20 side at 16. These are markers of a player who is trusted under pressure in competitive contexts, not just in comfort situations." },
+        { "label": "Competitive context", "value": "Scored in a key European fixture against Sheriff Tiraspol. That is a specific high-pressure moment that produces either confidence or exposure. The fact that it produced a goal matters." },
+        { "label": "Kosovar identity", "value": "Widely regarded as the most promising young attacker in Kosovo right now. In a small footballing nation, that carries weight as a development context: everyone knows who you are and what is expected of you from a very early age." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Dribble efficiency and head position during carries", "text": "These are the same problem expressed differently. The technical execution of the carry needs to improve, but the more fundamental fix is learning to carry with his head up so that the decision after the carry is available before the defender has committed. Once the vision and the carrying are connected, the creative numbers will follow almost automatically." },
+      { "num": "02", "title": "Final ball weight and timing", "text": "The technical imagination is already ahead of the execution. He sees the right pass. The delivery does not always arrive with the right weight or at the right moment. Deliberate repetition of crossing, through-ball, and cut-back delivery under match-speed conditions is the specific work. This is a repetition problem, not a vision problem." },
+      { "num": "03", "title": "Physical robustness and aerial application", "text": "The frame at 181cm is there to grow into. Senior defenders will target the aerial ball and the physical contest deliberately. Strength work over the next two seasons and specific aerial challenge practice will address both. Neither is a structural ceiling. Both are currently active limitations at the next level." },
+      { "num": "04", "title": "Exposure to a better competitive environment", "text": "The Kosovo Superliga is not the context that resolves the development questions this profile raises. A step toward a developing Balkan or Central European league, or a strong youth competition at a higher-level club, would compress the timeline for understanding whether the tape-level qualities genuinely scale." }
+    ],
+    "travelScore": {
+      "score": "4",
+      "prose": [
+        "The 4 reflects a specific and honest position: the attacking instinct, defensive engagement, and psychological confidence are qualities that belong at a higher level than Kosovo football. They are not products of a favourable context. They are already present in the playing style itself.",
+        "But the dribble success, the creative output, and the physical robustness are all genuinely limiting at this moment. A step directly to a top-five league or even a competitive mid-tier league would expose those gaps before the profile has had the environment to close them. The right next step is a developmental context, not a performance context.",
+        "The Jupiler Pro League or a mid-table Eredivisie club represents the highest credible immediate next environment. Anything above that asks the physical and technical profile to be something it is not yet. A developmental move within the Balkans or Central Europe in the near term would be the right step before that conversation becomes relevant."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 1.5, "width": "15%", "high": false, "note": "Not yet. Not close. The physical and technical gaps that are manageable in Kosovo become structural problems in the Premier League." },
+      { "league": "Bundesliga", "score": 2.0, "width": "20%", "high": false, "note": "The pressing intensity and technical standard are too demanding for the current profile. A future destination if the development arc follows the potential." },
+      { "league": "Serie A", "score": 2.2, "width": "22%", "high": false, "note": "Italian defensive organisation would neutralise the current dribbling profile quickly. The tactical and technical requirements exceed what is currently available." },
+      { "league": "Eredivisie", "score": 4.2, "width": "42%", "high": false, "note": "A significant stretch at this stage. The technical standard is demanding. Possible as a medium-term step after a developmental intermediate move." },
+      { "league": "Jupiler Pro League", "score": 5.0, "width": "50%", "high": true, "note": "The ceiling of current readiness. Physically manageable, technically demanding enough to develop the profile, and a league with a track record of accelerating young inside forwards." },
+      { "league": "Balkan / CEE step", "score": 7.2, "width": "72%", "high": true, "note": "The most appropriate immediate next environment. A mid-table Albanian, North Macedonian, Serbian, or Croatian club that demands more technically than Kosovo without overwhelming the physical development timeline." }
+    ],
+    "riskGauges": [
+      { "score": 3, "label": "Development", "meaning": "Medium risk", "note": "The dribble success and creative output are genuine gaps. Whether they resolve with development is the central unknown. Technical habits at 17 are not yet fully formed, which cuts both ways." },
+      { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "U17 captain, U20 inclusion at 16, European goal at 17. The character indicators are already strong and have been tested in environments above age expectation." },
+      { "score": 1, "label": "Market", "meaning": "Minimal risk", "note": "€200k with no contract end date and no agent. Acquirable for developmental purposes without competitive pressure. The acquisition cost is negligible relative to the ceiling if development follows." },
+      { "score": 4, "label": "Systemic", "meaning": "High risk", "note": "The profile requires a system that gives him freedom to carry and cut inside while developing the technical output gaps. Drop him into a rigid defensive structure or a physical midfield battle and the profile disappears." }
+    ],
+    "trajectoryNote": "A ceiling of a first-choice inside forward at a top-flight European club is plausible if the dribbling and creative output develop to match the attacking instincts already present. This is the most speculative potential rating in the database.",
+    "nowAge": 17,
+    "verdict": {
+      "statement": "This is a watch-list report, not a transfer recommendation. The data establishes a teenager with genuine attacking instinct, unusual defensive engagement, and a profoundly unresolved technical question at the centre of the profile. The dribble success needs the tape. The creative output needs a stronger environment to distinguish talent from context. Track him through the summer. If a developmental move materialises, revisit. If he stays in Prishtina for another season, the next dataset will be far more instructive than this one.",
+      "travels": [
+        "Shot volume at 82nd percentile and goal conversion at 72nd: the scoring instinct is already functioning above expectation",
+        "Defensive actions at 84th, sliding tackles at 87th: the competitive engagement is unconditional and already stands out among senior peers",
+        "Left-footed on the right with genuine right-foot capability: the cutting mechanism is embedded",
+        "Cross accuracy at 98th percentile on selective delivery: possible hidden strength worth tracking",
+        "U17 captain, U20 inclusion at 16, European goal against Sheriff Tiraspol: character markers that matter"
+      ],
+      "targeted": [
+        "Dribble success at 10th percentile: the core carrying mechanism is currently failing more than succeeding",
+        "xA at 19th, shot assists at 30th: the appetite to score is not yet extending to creating for others",
+        "Head position during carries: vision and carrying not yet connected; limits decision quality when in possession",
+        "Kosovo Superliga discount: the context requires sustained re-evaluation before transfer action is justified"
+      ],
+      "potentialRating": "8/10",
+      "potentialBalls": 8,
+      "potentialProjection": "A ceiling of a first-choice inside forward at a top-flight European club is plausible if the dribbling and creative output develop to match the attacking instincts already present. This is the most speculative potential rating in the database. It reflects what the appetite, the defensive engagement, and the attacking instinct suggest is possible, not what the current mechanism guarantees."
+    }
   }]
 }
