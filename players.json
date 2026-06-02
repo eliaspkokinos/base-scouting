@@ -4017,5 +4017,155 @@
       "potentialBalls": 8,
       "potentialProjection": "A ceiling of a first-choice inside forward at a top-flight European club is plausible if the dribbling and creative output develop to match the attacking instincts already present. This is the most speculative potential rating in the database. It reflects what the appetite, the defensive engagement, and the attacking instinct suggest is possible, not what the current mechanism guarantees."
     }
+  },
+  {
+    "slug": "nikola-simic",
+    "handcrafted": true,
+    "firstName": "Nikola",
+    "lastName": "Simić",
+    "positionTag": "Complete CB",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/nikola-simic.png",
+    "photoAlt": "Nikola Simić",
+    "verdictLine": "Teenage centre-backs are supposed to be incomplete. Nikola Simić is not. The statistical profile is unusually complete. The question is no longer whether he becomes a professional defender. It's how high his ceiling goes and whether he is a future top-level centre-back or simply a very good one.",
+    "bio": {
+      "dob": "30 Mar 2007",
+      "nationality": "Serbian",
+      "club": "FK Partizan",
+      "league": "Serbian Super Liga",
+      "contractExpiry": "Jun 2029",
+      "marketValue": "€5.0M",
+      "preferredFoot": "Both",
+      "height": "1.92m",
+      "agent": "None"
+    },
+    "scores": { "basePotential": "9", "travelReadiness": "8", "reportDate": "May '26" },
+    "role": {
+      "primaryRole": "Complete CB",
+      "description": [
+        "A left-sided centre-back who plays like the position is a creative role as much as a defensive one. Participates in build-up with genuine passing range, carries into midfield when the moment arrives, and wins his defensive duels with composure rather than aggression.",
+        "The profile is most naturally a left CB in a back four or back three, with license to step into midfield under pressure. Ambidextrous and physically imposing at 192cm, his natural profile fits possession-dominant systems with a high defensive line and genuine build-up demand from centre-backs."
+      ],
+      "formationName": "4-3-3 Shape",
+      "formationLabelBottom": "Simić — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 72, "cy": 178, "label": "LW" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 152, "cy": 468, "label": "LCB" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "96th-percentile pass accuracy, 88th-percentile passes per 90", "text": "The passing volume is high and the quality is elite. He is not a safe recycler hiding from the ball. He receives often, in tight areas, and almost never gives it away. The short-medium accuracy and the long ball accuracy both sit in the elite band together, which is the combination that tells you the range is genuine rather than selective." },
+        { "title": "CIES ranked first globally among U20 CBs for opponents bypassed per 90", "text": "Across 46 top domestic divisions. This is not a Serbian Super Liga number; it is a global number. The mechanism that produces it is carrying through press and playing line-breaking forward passes at elite volume and accuracy." },
+        { "title": "95th-percentile dribble success rate", "text": "For a centre-back, this is the profile's most unusual data point. It hints at composure rather than athleticism: he does not dribble to escape danger, he dribbles because he has already assessed the situation and committed to a controlled exit. Young CBs who complete dribbles at this rate are comfortable manipulating pressure before it arrives." },
+        { "title": "Forward passes at 94th percentile, passes into final third at 90th", "text": "He plays early and plays forward. The build-up contribution is not just circulation. He is consistently finding the pass that breaks lines or advances territory. That is the technical and cognitive quality that makes him a genuine possession asset rather than a ball-secure recycler." },
+        { "title": "Steps into midfield when the structure invites it", "text": "Not a compulsive carrier but a selective one. When the line opens, he commits to the advance and plays the next pass from there. The positional reading that governs those moments is already well above what the age would predict." }
+      ],
+      "offBall": [
+        { "title": "93rd-percentile duels won, 90th-percentile defensive duel win rate", "text": "Wins his individual contests at an elite rate. The mechanism is composure and positioning rather than aggression: he waits for the right moment, stays on his feet, and forces the attacker into a losing position before committing to the challenge. Almost never gets beaten by the first touch." },
+        { "title": "Defensive action volume is modest at the 7th percentile", "text": "Low defensive action volume at Partizan does not mean passive defending. It means the team concedes few dangerous positions, and when they do, Simić has usually already cut the situation off before it fully developed. Positioning prevents the action from being required." },
+        { "title": "74th-percentile aerial duel win rate, 65th-percentile aerial duels won per 90", "text": "Good rather than dominant aerially. At 192cm the volume and win rate should both be higher eventually. The quality in contested moments is there. The assertiveness in seeking out aerial contact is the development question at the next level." },
+        { "title": "Covers channels with intelligent positioning rather than reactive recovery", "text": "He reads runs early, positions his body to cut the angle before the ball is played, and rarely needs the sprint recovery because the problem was already solved positionally. The recovery pace is there when needed; the positioning means it rarely is." },
+        { "title": "Cards at the 92nd percentile and fouls at the 86th", "text": "He is not a dirty player. He is a player who competes for the ball rather than hanging back. The discipline within those contests is high: the fouls are contested ground duels, not late challenges or cynical interventions. It is an engagement marker, not a conduct concern." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Composure under press", "desc": "96th-percentile pass accuracy at Partizan, where the opposition quality and pressing demand are the highest in Serbian domestic football. He is not being protected by a soft league context. The composure is tested regularly. It holds regularly. That is the definition of a trait that travels." },
+        { "name": "Duel winning: ground and aerial", "desc": "93rd percentile overall duels, 90th defensive duels. The mechanism is positioning and timing rather than physical assertion alone. Those cognitive qualities travel unconditionally. The physical component will strengthen as he matures, which means the ceiling on this trait is still rising." },
+        { "name": "Vertical passing ambition and accuracy", "desc": "94th-percentile forward passes. Not just volume but precision and intent. He attempts the line-breaking pass when it is available and converts it at a rate that confirms the decision is correct more often than not. In any possession system at any level, this is a defining asset." },
+        { "name": "Ambidexterity", "desc": "Genuinely two-footed. No defensive teams can force him onto his weaker side because there is no weak side to exploit. At the highest level this matters enormously: it expands the passing angles available, removes a predictable pressing trigger, and means he can play both sides of a back four or back three without tactical compromise." }
+      ],
+      "context": [],
+      "system": [
+        { "name": "Defensive action volume", "desc": "The 7th-percentile defensive actions reflect Partizan's dominance in Serbian domestic football rather than passive defending. In a more contested environment where the team does not monopolise territory, the volume will rise. The underlying defensive quality is already present; the context suppresses the number." },
+        { "name": "Proactiveness vs. stabiliser balance", "desc": "Currently prioritises control and stability over assertive stepping. In a system with a very high line that demands centre-backs to step aggressively and win the ball forward, that calibration will need to shift. The quality for it exists. Whether it becomes a consistent habit is the interesting developmental question." }
+      ],
+      "exposed": [
+        { "name": "Aerial assertiveness", "desc": "74th percentile win rate at 192cm is good but not dominant. Set-piece specialists and aerial forwards at the next level will test whether the quality holds when the physical challenge is more sustained. The frame is clearly sufficient. The assertiveness in seeking out aerial contact needs to match it." },
+        { "name": "Pressing resilience under sustained high tempo", "desc": "Multiple observers note he has benefited from not being pressed intensely in domestic football. The composure when pressed is described as decent rather than elite. In the Bundesliga or Premier League, where every build-up phase involves coordinated press, this will be stress-tested immediately and regularly." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "192cm, still developing physically. Already imposing for ground duels and commanding in central areas. The frame will continue to fill out over the next two to three years, which means the physical ceiling of the profile has not yet been reached." },
+        { "label": "Pace", "value": "Quick enough for recovery at this level. Not an elite sprinter. Compensates intelligently with positioning: he rarely needs to recover at full pace because the positional reading means he is rarely caught wrong." },
+        { "label": "Strength", "value": "Strong in ground duels. Wins physical contests through body positioning and leverage rather than just size. The 93rd-percentile duel win rate reflects a player who already understands how to use his frame, not just one who is larger than his opponents." },
+        { "label": "Agility", "value": "Good footwork for his size. The 95th-percentile dribble success and the descriptions of clean technical manipulation in tight spaces confirm that the agility in restricted areas is genuine. Does not look like a 192cm player in those moments." },
+        { "label": "Aerial", "value": "74th-percentile win rate. Good but not yet dominant for the frame. The ceiling here is clearly higher than current numbers suggest. Physical maturity and deliberate work on aerial assertiveness will close the gap." }
+      ],
+      "cognitive": [
+        { "label": "Spatial reading", "value": "The defining quality. He reads runs early, positions himself to cut angles before the ball is played, and manages his zone without needing to react to danger after it develops. The low defensive action volume is partly a product of this: he is rarely reactive because he is rarely late." },
+        { "label": "Decision speed in possession", "value": "Plays early and plays forward. The elite forward pass and pass accuracy numbers together confirm that the decision of when to play and where to play is consistently correct. He does not hold the ball under pressure. He finds the right action before the press arrives." },
+        { "label": "Duel timing", "value": "Waits for the right moment before engaging rather than lunging at the first opportunity. He forces the attacker to commit first, then wins the contest from a better position. This is what produces 93rd-percentile duel wins without high foul counts." },
+        { "label": "Proactive vs. reactive balance", "value": "Currently more stabiliser than aggressor. Defends with calmness and structure rather than assertive stepping. Whether this develops into a more front-foot defensive profile is the open projection question. The qualities for both exist. The default is still conservative." }
+      ],
+      "psychological": [
+        { "label": "Responsibility accepted early", "value": "Regular starter at Partizan at 19. The most demanding club in Serbian football does not give a teenage CB nearly 3,000 minutes without genuine trust in the profile. He has not just survived that responsibility. He has become one of the club's most deployed defenders." },
+        { "label": "Composure under scrutiny", "value": "Serbia U19 international with 14 caps and a goal. The national team pathway is accelerating at the same time as the club demand is rising. No signs of a player shrinking under the weight of expectation." },
+        { "label": "Maturity of approach", "value": "Multiple observers describe him as playing beyond his years. The composure, the positioning discipline, the patience in duels: these are habits usually associated with senior players in their mid-twenties, not teenagers." },
+        { "label": "Leadership signals", "value": "Recognised as a central figure in Partizan's defensive structure rather than a rotation option. Worth watching whether the leadership formalises as his senior club profile continues to grow." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Aerial assertiveness and volume", "text": "The quality in contested aerial moments is already there. What needs to develop is the instinct to seek those moments out rather than allowing them to arrive. A 192cm centre-back who actively attacks aerial balls is one of the most physically imposing defensive presences in the game. He is not yet that player. He can become it with deliberate work on aerial aggression and jump timing." },
+      { "num": "02", "title": "Pressing resilience under sustained coordinated pressure", "text": "The composure when pressed has been described as decent rather than elite. Top-five league build-up phases involve continuous, coordinated pressing without the recovery windows Serbian domestic football provides. Accumulated exposure to high-press systems will sharpen this. It is not a technical problem. It is a tempo and reading problem that repetition resolves." },
+      { "num": "03", "title": "Developing a more proactive stepping profile", "text": "Currently defends with composure and stability. The qualities to become more assertive in stepping to win the ball forward are already present in the duel numbers. A system that specifically asks him to step and disrupt in transition would accelerate this dimension. It is a contextual development question, not a ceiling one." }
+    ],
+    "travelScore": {
+      "score": "8",
+      "prose": [
+        "The composure, the passing range, the duel quality, and the positional intelligence are already functioning at a level that belongs in the top-five leagues. They are not products of a weak domestic league. They are tested at Partizan, which is a genuine European-level club environment in terms of demand and scrutiny.",
+        "The 8 reflects two honest gaps rather than fundamental barriers. First, the aerial assertiveness question: the win rate is good, but a top-five league will test the volume commitment more aggressively than Serbian football has. Second, the pressing resilience under sustained coordinated press: it has not been stress-tested at the frequency a top-five league demands. Both are developmental gaps, not structural incompatibilities.",
+        "The Bundesliga is the natural destination for this profile. The technical and positional demands suit the passing quality and duel composure. A mid-table Bundesliga club with a possession-dominant system would extract the profile immediately. Serie A or La Liga offer similar structural fits. The Premier League's physicality is manageable given the frame; the immediate pressing intensity is the adaptation challenge."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 6.8, "width": "68%", "high": true, "note": "The physical adjustment is manageable given the frame. The pressing intensity and tempo are the genuine challenge. A season at a mid-table Premier League club with a possession-minded manager is a credible near-term destination." },
+      { "league": "Bundesliga", "score": 8.4, "width": "84%", "high": true, "note": "The best immediate fit. Bundesliga possession systems reward exactly this profile: composure under press, vertical passing range, duel quality, and the intelligence to manage zones rather than just win physical contests. A natural destination." },
+      { "league": "Ligue 1", "score": 7.8, "width": "78%", "high": true, "note": "A strong fit with the technical demands. French domestic football has produced several CBs with similar profiles who went on to top-five careers. The physical challenge is somewhat less intense than the Premier League or Bundesliga." },
+      { "league": "Serie A", "score": 8.0, "width": "80%", "high": true, "note": "Italian tactical sophistication suits the positional intelligence and composure under press. Serie A's defensive organisation is built around exactly the zonal reading and duel timing he already demonstrates. A possession-dominant club would extract the full profile." },
+      { "league": "La Liga", "score": 8.2, "width": "82%", "high": true, "note": "The technical and possession demands of La Liga suit the profile exceptionally well. Spanish clubs actively recruit CBs who can bypass press and play forward accurately. The profile fits naturally into the tactical demands at the top end of the table." },
+      { "league": "Eredivisie", "score": 9.0, "width": "90%", "high": true, "note": "Maximum readiness. Dutch football rewards the complete technical and positional profile he already offers. A season in the Eredivisie before a top-five move would sharpen the pressing resilience question and add another layer of European credibility." },
+      { "league": "Jupiler Pro League", "score": 8.8, "width": "88%", "high": true, "note": "Similarly strong fit. Belgian football has an excellent track record of developing CBs with this profile for the next step. At €5M he is acquirable at a price that makes sense for a Jupiler club, with a clear resale case within two seasons." }
+    ],
+    "riskGauges": [
+      { "score": 1, "label": "Development", "meaning": "Minimal risk", "note": "The core technical and cognitive habits are already formed at 19 with nearly 3,000 senior minutes. The development gaps are developmental enhancements, not structural repairs. The trajectory is one of the clearest in this database." },
+      { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Regular Partizan starter, Serbia U19 international, described by multiple sources as playing beyond his years. The maturity and composure markers are consistent across all sources and contexts." },
+      { "score": 2, "label": "Market", "meaning": "Low risk", "note": "€5M with contract to June 2029. No agent. The price is already moving given the CIES visibility and Partizan's transfer track record. The window for acquiring at current value is narrowing." },
+      { "score": 1, "label": "Systemic", "meaning": "Minimal risk", "note": "The profile is readable across multiple defensive systems. Ambidextrous. Comfortable in a back four or back three. The only meaningful constraint is a highly direct, aerial-intensive system that suppresses the build-up quality that defines the profile." }
+    ],
+    "trajectoryNote": "A first-choice centre-back at a Champions League club within four years.",
+    "nowAge": 19,
+    "verdict": {
+      "statement": "Buy the composure, the passing range, the duel quality, and the reading of the game. Those are already functioning at a top-five league level in a European club context. The aerial assertiveness and pressing resilience under sustained coordinated press are the adaptation challenges, not structural barriers. At €5M with a 2029 contract and no agent, this is the most straightforward acquisition case in the Serbian dataset.",
+      "travels": [
+        "No. 1 globally among U20 CBs for opponents bypassed per 90 (CIES, 46 top divisions)",
+        "96th-percentile pass accuracy: elite composure already tested at Partizan level",
+        "93rd-percentile duels won, 90th defensive duels: wins his individual contests at an elite rate",
+        "94th-percentile forward passes: builds play vertically with vision and precision, not just safety",
+        "95th-percentile dribble success: composure under press already functioning well above the position average",
+        "Ambidextrous: removes the primary pressing trigger defenders use against CBs"
+      ],
+      "targeted": [
+        "Aerial assertiveness: 74th-percentile win rate at 192cm should climb significantly with physical maturity and deliberate work",
+        "Pressing resilience under sustained coordinated high press: domestic context has not yet stress-tested this at top-five league frequency",
+        "Proactive stepping profile: current defensive style prioritises composure over aggression; the ceiling rises if this develops"
+      ],
+      "potentialRating": "9/10",
+      "potentialBalls": 9,
+      "potentialProjection": "A first-choice centre-back at a Champions League club within four years. The technical and cognitive foundation is already present at a level that very few 19-year-old centre-backs in European football can match."
+    }
   }]
 }
