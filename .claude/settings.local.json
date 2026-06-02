@@ -9,7 +9,12 @@
       "Bash(git pull:*)",
       "Bash(git stash:*)",
       "Bash(git rm:*)",
-      "Bash(grep -n \"backtick\\\\|^\\\\`\\\\`\\\\`\\\\|^Done\\\\|build\\(\\)\\\\|for.*data.players\\\\|outDir\\\\|handcrafted\\\\|console.log\" /Users/eliaskokinos/Documents/BASE/build.js)"
+      "Bash(grep -n \"backtick\\\\|^\\\\`\\\\`\\\\`\\\\|^Done\\\\|build\\(\\)\\\\|for.*data.players\\\\|outDir\\\\|handcrafted\\\\|console.log\" /Users/eliaskokinos/Documents/BASE/build.js)",
+      "Bash(cp \"/Users/eliaskokinos/Downloads/CLAUDE CODE USE THIS/rokas-pukstas-report.html\" \"/Users/eliaskokinos/Documents/BASE/reports/rokas-pukstas-report.html\")",
+      "Bash(cp \"/Users/eliaskokinos/Downloads/CLAUDE CODE USE THIS/ahmed-hadzimujovic-report.html\" \"/Users/eliaskokinos/Documents/BASE/reports/ahmed-hadzimujovic-report.html\")",
+      "Bash(cp \"/Users/eliaskokinos/Downloads/CLAUDE CODE USE THIS/christos-mouzakitis-report.html\" \"/Users/eliaskokinos/Documents/BASE/reports/christos-mouzakitis-report.html\")",
+      "Bash(find /Users/eliaskokinos -name \"*rin*ahmeti*\" -o -name \"*ahmeti*\" 2>/dev/null | head -10)",
+      "Read(//Users/eliaskokinos/**)"
     ]
   }
 }
