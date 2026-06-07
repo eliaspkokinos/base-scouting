@@ -4167,5 +4167,151 @@
       "potentialBalls": 9,
       "potentialProjection": "A first-choice centre-back at a Champions League club within four years. The technical and cognitive foundation is already present at a level that very few 19-year-old centre-backs in European football can match."
     }
+  },
+  {
+    "slug": "kristiyan-balov",
+    "handcrafted": true,
+    "firstName": "Kristiyan",
+    "lastName": "Balov",
+    "positionTag": "Flamboyant Winger",
+    "positionCategory": "Attackers",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/kristiyan-balov.png",
+    "photoAlt": "Kristiyan Balov",
+    "verdictLine": "The heatmap says he lives on the touchline. The data says he thinks like a creator. The tape says he can beat you 1v1 and then, instead of shooting, play the through ball you did not expect. The question this report does not fully resolve is which of those versions of him is the real one.",
+    "bio": {
+      "dob": "26 Jul 2006",
+      "nationality": "🇧🇬 Bulgarian",
+      "club": "Slavia Sofia",
+      "league": "Bulgarian First League",
+      "contractExpiry": "Jun 2027",
+      "marketValue": "€500k",
+      "preferredFoot": "Right",
+      "height": "1.81m",
+      "agent": "PM International Sports"
+    },
+    "scores": {
+      "basePotential": "8",
+      "travelReadiness": "5.5",
+      "reportDate": "May '26"
+    },
+    "role": {
+      "primaryRole": "Flamboyant Winger",
+      "description": ["A right-footed winger on the left who currently hugs the touchline but carries the technical toolkit of a half-space operator. Cuts inside with deliberate intent, uses rapid changes of direction to manufacture separation from defenders, and shows an instinct for the through ball that is unusual in a player nominally deployed wide. The heatmap and the data are slightly in tension: the zones he occupies say winger, the actions he takes say creator. At 19, that ambiguity is probably an asset."],
+      "formationName": "4-3-3 Shape",
+      "formationLabelBottom": "Balov — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 72, "cy": 178, "label": "LW" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Quick feet, deliberate decisions", "text": "The dribble choices are calculated rather than instinctive: he reads the defender's weight and exploits the committed moment. Changes of direction are sharp enough to manufacture separation before the pace gap opens." },
+        { "title": "Carrying in the box is genuinely impressive", "text": "Not just running into space: carrying through bodies under real physical resistance. Composure in the tightest areas under concentrated defensive pressure is the most convincing signal in the profile. Touches in the box at the 75th percentile confirm this is consistent, not occasional." },
+        { "title": "Meaningfully two-footed", "text": "Much closer to genuinely balanced than the typical right-footed winger who avoids the left entirely. The weak-foot use is deliberate and converts. Removes a predictable pressing trigger and expands the angles available in tight situations." },
+        { "title": "Long diagonals: the ambition exists, the accuracy does not yet", "text": "The tape shows him attempting to switch play with genuine intent. The 21st-percentile long pass accuracy says the execution is not there. Worth watching because the vision for the pass comes before the quality of the delivery, and the former is harder to develop than the latter." }
+      ],
+      "offBall": [
+        { "title": "Defensive intensity is inconsistent", "text": "Tracks back but often at reduced effort. Passive in tackling engagements. The 72nd-percentile defensive actions look better than the engagement actually feels on tape. This will not be tolerated in a pressing system at the next level." },
+        { "title": "Physically raw in shoulder-to-shoulder duels", "text": "16th-percentile duels won. When defenders choose to engage physically rather than match his movement laterally, the carry breaks down. Every defender at a more demanding level will identify this immediately. Strength work is the most urgent physical priority." },
+        { "title": "Clogs central zones when he drifts inside", "text": "Instead of stretching the defence, he sometimes occupies the space teammates need. The spatial reading at the macro level is good; the micro-management of where to be inside congested areas is a genuine gap." },
+        { "title": "Some carries will not survive tighter pressing", "text": "He gets away with loose touches that a faster-recovering defensive shape would close down before the exit is reached. The carry quality is real. The touch needs to stay closer to the body when the corridor narrows." },
+        { "title": "Aerial duels essentially absent", "text": "2nd percentile. Not a central concern for this position, but set-piece vulnerability is real." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "1v1 dribble quality", "desc": "The mechanism is reading, not athleticism. He reads the defender's weight before committing. Cognitive dribbling habits travel better than pace-based ones because the underlying advantage does not shrink when opponents are faster or physically stronger." },
+        { "name": "Two-footedness", "desc": "Genuine enough to matter tactically. Removes the standard pressing trigger used against wide players. Does not disappear with level." },
+        { "name": "Creator instinct", "desc": "The choice to play the through ball when the shot is available is not a weakness of confidence. It is a preference for the better football action. Whether that preference is consistent or situational is the open question. The action itself is already there." }
+      ],
+      "context": [],
+      "system": [
+        { "name": "Progressive carry volume", "desc": "98th percentile in Bulgaria. The space that enables this is partly contextual. A higher-press environment with faster recovery shapes will compress the corridors he currently exploits freely. The carry quality travels; the volume almost certainly does not." }
+      ],
+      "exposed": [
+        { "name": "Physical robustness in duels", "desc": "16th-percentile duels won. Defenders at the next level will choose to engage physically rather than try to win the ball laterally. When both movement and physical protection are neutralised simultaneously, the profile becomes predictable." },
+        { "name": "Defensive intensity", "desc": "Inconsistent pressing engagement becomes a structural liability in any pressing system. Not a major concern yet at the character level, but it cannot remain unresolved at the next level." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "1.81m with long legs and a somewhat loose touch in open space. Likely better in tighter environments where the body shields rather than in wide open ground where the touch needs to stay close. The physical foundation is there for significant development." },
+        { "label": "Pace", "value": "Good acceleration over short distances. Compensates through direction change and timing. Not elite top-end pace." },
+        { "label": "Feet", "value": "Quick feet, smooth mechanics, sharp direction changes. The technical execution of the first touch and redirect is the standout athletic quality." },
+        { "label": "Strength", "value": "Physically raw. Can be dispossessed too easily in shoulder-to-shoulder contact. Not a frame problem, a conditioning and ball-protection problem. Most urgent physical priority." },
+        { "label": "Aerial", "value": "2nd percentile. Non-factor. Set-piece vulnerability is the main implication." }
+      ],
+      "cognitive": [
+        { "label": "Spatial reading", "value": "The most intriguing quality. Finds pockets between defensive lines, times runs into the final third, processes the through-ball angle before the moment arrives. These are not winger instincts. Whether they are consistent enough to constitute an identity is what the next level will reveal." },
+        { "label": "Dribble decision", "value": "Deliberate, not reactive. Reads the defender's weight before committing. Tends to travel better than athleticism-based carrying because the advantage is cognitive rather than physical." },
+        { "label": "Passing intent", "value": "Chooses creation over finishing when the opportunity is there. Whether this is a consistent preference or a habit of caution is still unresolved. The action is mature; the frequency is what needs to establish itself." },
+        { "label": "Crowded zone awareness", "value": "Gap. Clogs central zones instead of stretching the defence when drifting inside. The spatial reading at the macro level is good; the micro-management inside congested areas needs real work." }
+      ],
+      "psychological": [
+        { "label": "International record", "value": "Bulgaria senior cap at 19 with a goal. Considered one of the best young wingers in Bulgarian football. The recognition is earned, not projected." },
+        { "label": "Confidence and directness", "value": "Takes on defenders repeatedly without hesitation. Plays with a vertical orientation, prefers to create an action rather than wait for one. That competitive instinct is present early." },
+        { "label": "Consistency gap", "value": "Defensive intensity is intermittent. Occasional unnecessary flair. Not a major concern yet, but a habit that needs to change before the next step." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Ball protection under direct physical pressure", "text": "The carry breaks down when defenders get tight rather than wide. Strength work and technical shielding under contact is the most urgent priority. Without it, every defender at the next level will approach him physically first." },
+      { "num": "02", "title": "Touch tightness and defensive pressing intensity", "text": "Two connected habits: keeping the ball closer in narrower corridors, and engaging the press with genuine effort rather than intermittent commitment. A more demanding environment will stress-test both simultaneously." },
+      { "num": "03", "title": "Spatial management when drifting inside", "text": "Learning when to drift versus when to hold width, and how to create rather than occupy central space. A player who opens space for teammates when cutting inside is different from one who simply enters the same zone defenders are already protecting." }
+    ],
+    "travelScore": {
+      "score": "5.5",
+      "prose": [
+        "The 1v1 dribbling quality, the two-footedness, and the creator instinct are habits that already belong above the Bulgarian First League. Those are the reasons the number is not lower.",
+        "The 5.5 reflects the Bulgarian context discount, the physical rawness in duels, and the loose touch in open space. These are not minor footnotes. They are the differences between a player who excites in short glimpses and a player who can sustain output across a full season in a league that defends with more organisation and presses with more coordination. Which one shows up consistently at the next level is the question only the next level can answer.",
+        "The Jupiler Pro League or a mid-table Eredivisie club is the correct immediate next environment. Those leagues are demanding enough to compress the space he currently exploits freely, without overwhelming the technical toolkit before it has had time to adapt. A top-five league is still one to two steps away. The Bulgarian First League is no longer the right level to answer any of the open questions this profile raises."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 2.2, "width": "22%", "high": false, "note": "Too early. Physical and pressing requirements immediately expose both main gaps." },
+      { "league": "Bundesliga", "score": 3.2, "width": "32%", "high": false, "note": "Too demanding as an immediate step. Good medium-term destination if the Jupiler or Eredivisie step goes well." },
+      { "league": "Ligue 1", "score": 3.6, "width": "36%", "high": false, "note": "Physical demands significant. Possible medium-term after a developmental intermediate move." },
+      { "league": "Serie A", "score": 3.4, "width": "34%", "high": false, "note": "Italian defensive organisation would neutralise the loose carry profile quickly. Better as a destination once the ball protection gap is resolved." },
+      { "league": "Eredivisie", "score": 6.0, "width": "60%", "high": true, "note": "Strong immediate fit. Dutch football rewards the technical 1v1 quality and creative instinct while providing an environment demanding enough to accelerate the development of the gaps. The creator question gets answered here." },
+      { "league": "Jupiler Pro League", "score": 6.8, "width": "68%", "high": true, "note": "The most appropriate immediate next step. Physically manageable, tactically demanding, historically excellent at developing wide attackers with raw creative profiles into transferable European assets. At €500k, the acquisition cost allows for a developmental mandate." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development", "meaning": "Low risk", "note": "The core technical habits are real and already evident. The risk is low not because the profile is clean, but because the gaps are coachable and the acquisition cost is low enough to absorb the development risk honestly." },
+      { "score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Bulgaria senior cap and goal at 19. Confident enough to request the ball under pressure and take defenders on repeatedly. No character concerns from any source." },
+      { "score": 1, "label": "Market", "meaning": "Minimal risk", "note": "€500k with contract to June 2027 and a professional agent. Acquirable at a price that allows full developmental risk tolerance. No competitive acquisition pressure currently." },
+      { "score": 2, "label": "Systemic", "meaning": "Low risk", "note": "Profile is readable across multiple systems that use him wide. The one constraint: a highly direct system that relies on aerial delivery or pure pace will underuse the technical and creative qualities that define the ceiling." }
+    ],
+    "trajectoryNote": "A first-choice wide playmaker at a Europa League-level club within four years.",
+    "nowAge": 19,
+    "verdict": {
+      "statement": "Buy the 1v1 quality, the two-footedness, and the creator instinct. Develop the ball protection, the defensive consistency, and the spatial management in congested areas. The Jupiler Pro League gives him the environment where the open questions get answered. At €500k, the profile represents genuine upside regardless of which version of the player emerges. If the creator hypothesis is correct, the ceiling is significantly higher than the current valuation implies.",
+      "travels": [
+        "1v1 dribble quality built on reading and decision rather than athleticism: scales with level",
+        "Two-footedness: genuine enough to remove a predictable pressing trigger",
+        "Creator instinct: chooses the through ball, sees angles, produces xA at well above the implied pass volume",
+        "Box carrying composure: comfortable with difficult technical actions under concentrated defensive pressure",
+        "Bulgaria senior international at 19 with a goal: the confidence and character markers are already tested"
+      ],
+      "targeted": [
+        "Ball protection under direct physical challenge: 16th-percentile duels; defenders at the next level will get tight rather than wide",
+        "Touch tightness in open space: some carries will be closed down before they reach the exit at higher press intensity",
+        "Defensive pressing consistency: intermittent engagement will not be tolerated in a serious pressing system",
+        "Central zone management: clogs instead of stretches when drifting inside; tactical awareness needs work"
+      ],
+      "potentialRating": "8/10",
+      "potentialBalls": 8,
+      "potentialProjection": "If the creator hypothesis holds, a first-choice wide playmaker at a Europa League-level club within four years. If the carrier hypothesis holds, a useful and effective winger at a good Eredivisie or Jupiler-level club. Both outcomes represent strong value relative to the current €500k price. The 8 reflects the ceiling of the former scenario, not the floor of the latter."
+    }
   }]
 }
