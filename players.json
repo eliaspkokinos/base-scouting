@@ -4313,5 +4313,158 @@
       "potentialBalls": 8,
       "potentialProjection": "If the creator hypothesis holds, a first-choice wide playmaker at a Europa League-level club within four years. If the carrier hypothesis holds, a useful and effective winger at a good Eredivisie or Jupiler-level club. Both outcomes represent strong value relative to the current €500k price. The 8 reflects the ceiling of the former scenario, not the floor of the latter."
     }
+  },
+  {
+    "slug": "zsombor-gruber",
+    "handcrafted": true,
+    "firstName": "Zsombor",
+    "lastName": "Gruber",
+    "positionTag": "Complete Forward",
+    "positionCategory": "Attackers",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/zsombor-gruber.png",
+    "photoAlt": "Zsombor Gruber",
+    "verdictLine": "He does not appear limited by how much information he can perceive. He appears limited by how much information he chooses to solve. That distinction is the whole report. The data puts him 3rd globally in xA among U21 strikers. The tape explains exactly why the ceiling is not yet the output.",
+    "bio": {
+      "dob": "9 Jul 2004",
+      "nationality": "🇭🇺 Hungarian",
+      "club": "Ferencváros",
+      "league": "NB I (Hungary)",
+      "contractExpiry": "Jun 2028",
+      "marketValue": "€1.5M",
+      "preferredFoot": "Left",
+      "height": "1.80m",
+      "agent": "EM Sports Consulting"
+    },
+    "scores": {
+      "basePotential": "8",
+      "travelReadiness": "7",
+      "reportDate": "Jun '26"
+    },
+    "role": {
+      "primaryRole": "Complete Forward",
+      "description": [
+        "Listed as CF. Functions as something more fluid. He drops deep to receive from the goalkeeper, combines through congested midfield corridors, reappears in the final third when the move arrives there, then provides box movement that is genuinely excellent.",
+        "Ferencváros have not asked him to be a reference striker. They have asked him to be the connective tissue of the attack, and the entire structure flows through him in a way that tells you clearly how much the club trusts his decisions.",
+        "He leads NB I strikers in touches, passes, and assists. He is also rarely shooting. Those two facts are the report."
+      ],
+      "formationName": "4-3-3",
+      "formationLabelBottom": "Gruber — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 72, "cy": 178, "label": "LW" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 200, "cy": 180, "label": "CF" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Box movement is exceptional", "text": "The best thing about his game. He sells feints to reach his spot, uses acceleration and deceleration in sequence, and arrives in the right place at the right moment with consistency that goes well beyond coincidence. When the ball reaches the ground in the box, he's there." },
+        { "title": "Scans constantly. Processes at an unusual width.", "text": "He is looking up, taking in information, reading far more of the pitch than the immediate area around him. The wide perceptual field is visible in his body language before receiving and in the quality of his decision-making when the ball arrives in good position." },
+        { "title": "Pre-assist and third-assist involvement is elite.", "text": "3rd globally in xA, 3rd in assists among all U21 strikers. The passes that precede danger are already functioning at a world-class level for the age group." },
+        { "title": "Combination play in tight areas.", "text": "Comfortable receiving under pressure, combining, and moving. He does not need space to participate usefully." },
+        { "title": "Confident. The whole attacking structure flows through him.", "text": "Ferencváros ask him to be the reference point for the attack. He accepts that responsibility without shrinking." }
+      ],
+      "offBall": [
+        { "title": "Technique is the primary gap.", "text": "Too many balls he cannot softly receive. A poor first touch forces him to re-enter the information-processing cycle from scratch: where is the ball now, and what has changed around me while I was dealing with it. This doubles the cognitive load on every imperfect receive." },
+        { "title": "He chooses to solve too much simultaneously.", "text": "The wide perceptual field that makes him interesting also makes him slow to act. He takes in a large volume of information and then struggles to filter out the irrelevant pieces. Sometimes the simplest answer is the correct one and he misses it because he is still processing the other four." },
+        { "title": "Counterpress is conditional.", "text": "He engages with genuine intensity before losing the ball. After being beaten, he disengages: head drops, arms up, no immediate recovery run." },
+        { "title": "Needs to become more physical.", "text": "Aerial numbers (18th percentile) reflect both the structural gap and an application problem. He does not impose himself enough in contested situations. Both hold-up play and aerial work need deliberate development." },
+        { "title": "Very rarely shoots.", "text": "The box movement is excellent. The shooting actions are almost absent. The decision to shoot is arriving too late, or not at all, because the processing cycle for the full picture has not completed before the moment passes." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Box movement and spatial reading", "desc": "The acceleration and deceleration sequences to reach his spot in the box, the feints to manipulate defenders into the wrong position, the timing of arrivals: these are cognitive and physical habits already formed. They do not depend on the quality of the opposition. They travel because they belong to him, not to his environment." },
+        { "name": "Wide perceptual field", "desc": "He takes in an unusually large amount of information before and after receiving. That perceptual width is the foundation of the elite xA numbers. It does not disappear at a higher level. If anything, better teammates around him convert more of what he sees into actual danger." },
+        { "name": "Combinational intelligence", "desc": "3rd globally in xA among U21 strikers is a cognitive quality, not a statistical accident. He understands football as a sequence of relationships. That understanding scales upward because it does not depend on opponents being weaker. It depends on teammates being capable of converting what he creates." }
+      ],
+      "context": [],
+      "system": [
+        { "name": "Creative output volume", "desc": "The xA figure reflects a player whose final actions have receivers capable of completing sequences. The vision and execution travel. The converted volume depends on the quality of the attack around him. A better environment expands this further." },
+        { "name": "Counterpress intensity", "desc": "Engaged and effective when the system demands it. Conditional when it does not. A manager who explicitly frames pressing as non-negotiable and monitors it consistently will extract sustained defensive engagement. A manager who does not will see the conditional version." }
+      ],
+      "exposed": [
+        { "name": "First touch and technical execution", "desc": "The most urgent gap. A poor receive forces him to solve two problems simultaneously instead of one. That extra cognitive load is the thing most directly suppressing his output. Fixing the technical foundation does not require new cognitive development. It requires repetition. But until it resolves, the filtering problem will always be compounded by it." },
+        { "name": "Aerial and physical imposition", "desc": "18th-percentile aerial win rate with good positioning suggests the issue is partly application. He is reaching the right spots. He is not imposing himself physically on arrival. Senior defenders at the next level will identify this within a few matches and start prioritising the physical contest over positional tracking." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Movement quality", "value": "The standout physical quality. Acceleration and deceleration in sequence to reach box positions. Sells feints to create separation. The athleticism of the movement is already functioning at a high level and directly enables the spatial reading to produce value." },
+        { "label": "Physicality", "value": "Needs to become more physical. Both hold-up play and aerial challenge require deliberate development. Not a structural problem. An application and conditioning problem. Football at the next level requires winning physical moments regularly." },
+        { "label": "Aerial", "value": "18th percentile overall. Good positioning, insufficient imposition. The gap between where he gets to and how often he wins suggests the positioning is cognitive and the contest is physical. Developing the latter is urgent." },
+        { "label": "Stamina", "value": "Engine is clearly adequate for the pressing demands Ferencváros place on him. The conditional counterpress pattern is a mental rather than physical issue." }
+      ],
+      "cognitive": [
+        { "label": "Perceptual width", "value": "The most unusual quality in the profile. He processes a genuinely wide field of information before and during possession. Constant scanning, awareness of players beyond the immediate vicinity. This is the foundation of the elite creation numbers." },
+        { "label": "Information filtering", "value": "The limiting gap. He takes in a large volume of information and struggles to rank which piece is load-bearing for the current problem. The simplest answer is often correct and he misses it while solving for the complete picture. This is an executive function gap, not a perceptual one." },
+        { "label": "Spatial reading", "value": "Already organised around problem-solving rather than personal expression. He asks where the next advantage is rather than how he becomes it. That orientation is cognitive and foundational. It tends to improve with better teammates and more experience, not to regress." },
+        { "label": "Decision speed", "value": "Slows when he perceives complexity. Fast when the situation is clear. The relationship between technical quality and decision speed is direct: a better first touch gives him more time, which gives the filtering process a better chance to identify the correct answer before the moment passes." }
+      ],
+      "psychological": [
+        { "label": "Confidence", "value": "High and earned. Accepts responsibility as the primary reference point of the Ferencváros attack without any visible sign of pressure. The club trusts him with more than a traditional finisher would receive, and he has produced global elite creation numbers in response to that trust." },
+        { "label": "Frustration response", "value": "Disengages when beaten. Drops head, raises arms, does not immediately recover the run. This is a mental pattern worth monitoring because it is the one visible sign of conditional competitive engagement in an otherwise mature profile." },
+        { "label": "Collaborative orientation", "value": "The profile is organised around collective benefit rather than personal output. At 21, that maturity is rare. It becomes more valuable as the level rises and the teammates around him become more capable of converting what he creates." },
+        { "label": "Role clarity", "value": "Knows what he is and plays accordingly. The risk is a manager who does not know what he is and uses him as a conventional striker. That environment would produce poor output from a player whose output in the right environment is already globally significant." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "First touch and technical foundation", "text": "Kick a ball against a wall for an hour every day. This is not metaphorical. The first touch must stop requiring conscious attention. When it does, the cognitive load on every receive drops by half, the decision hierarchy gets more time to identify the correct answer, and the moments that are currently passing him by become available. Everything else in this section follows from this one." },
+      { "num": "02", "title": "Decision hierarchy for finishing moments", "text": "The box movement is already excellent. He arrives in the right place. The shooting decision is arriving too late or not at all. He needs a faster internal trigger for the shot: if I am here, in this position, with this angle, I shoot. Not after processing the full picture. Before it. This is a repetition and habit problem, not a knowledge problem. He knows where the good positions are. He needs to learn to trust the position to make the decision for him." },
+      { "num": "03", "title": "Physical imposition in aerial and hold-up situations", "text": "The positioning is already good. The physical contest on arrival needs to match it. Strength and conditioning work, combined with deliberate aerial challenge repetition, addresses both. This is the development priority that most directly closes the gap between where the data puts him and where the next level will test him." },
+      { "num": "04", "title": "Sustained competitive engagement across the full match", "text": "The conditional counterpress pattern needs to be addressed as a habit. A manager who frames defensive effort as unconditional and monitors it consistently in training will resolve this faster than one who treats it as a problem to tolerate in a creative player. It is not a tolerance issue. It is a habit that can be installed." }
+    ],
+    "travelScore": {
+      "score": "7",
+      "prose": [
+        "The box movement, perceptual width, and combinational intelligence are already functioning at a level that belongs above the NB I. The global rankings confirm this is not a domestic product: third in the world in xA among U21 strikers is third in the world.",
+        "The 7 reflects the technique gap, the information-filtering limitation, and the physicality question. None are fatal. All three are connected. A buying club that understands what it is purchasing and commits to a deliberate developmental environment around it will extract the profile quickly. A club that simply places him in a stronger league and expects the quality to appear without that support will be frustrated by numbers that do not yet match the ceiling.",
+        "A possession-dominant Bundesliga or Eredivisie club with clinical forwards is the ideal immediate next environment. He needs better receivers to convert what he creates, a system that allows him to drop deep and connect phases, and a manager who has thought carefully about how to develop a complete forward with his specific cognitive profile. The NB I has shown us what the ceiling looks like. The next step shows us whether it is real."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League", "score": 5.2, "width": "52%", "high": false, "note": "The profile fits a possession-minded mid-table club. A direct, physically intensive system would expose the technique gap and the aerial limitation before the creative qualities have had time to establish themselves." },
+      { "league": "Bundesliga", "score": 8.2, "width": "82%", "high": true, "note": "The best immediate fit. Bundesliga possession systems reward exactly the complete forward profile: dropping deep, combining in tight areas, connecting phases, providing box movement without being a fixed reference point. The technical environment would accelerate the development gaps." },
+      { "league": "Ligue 1", "score": 7.2, "width": "72%", "high": true, "note": "A strong fit with the right club. French football values the complete forward who connects phases. The physical demands are more manageable here than in the Premier League." },
+      { "league": "Serie A", "score": 7.0, "width": "70%", "high": true, "note": "Italian tactical sophistication suits the intelligence. Tight defensive structures create the combination scenarios where his reading of the game produces value. Physicality demands require active management." },
+      { "league": "Eredivisie", "score": 8.8, "width": "88%", "high": true, "note": "Maximum readiness. Dutch possession football, technical standard, and developmental track record make this the ideal first step before a top-five move. Clinical forwards around him would convert the creation into output that makes the ceiling visible to everyone." },
+      { "league": "Jupiler Pro League", "score": 8.2, "width": "82%", "high": true, "note": "A strong alternative to the Eredivisie as a first step. Belgian football has a track record of developing technically intelligent forwards into transferable European assets within two seasons." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development", "meaning": "Low risk", "note": "The cognitive and movement qualities are already present at a globally elite level for the age group. The gaps are technical and habitual. Both are coachable. The developmental story is cleaner than most profiles of this complexity." },
+      { "score": 2, "label": "Psychological", "meaning": "Low risk", "note": "Confident, collaborative, mature beyond years in terms of role acceptance. The conditional counterpress pattern is the one visible concern and is habitual rather than characterological." },
+      { "score": 1, "label": "Market", "meaning": "Minimal risk", "note": "Ferencváros are a willing seller of talent. The global ranking visibility is rising. The profile is not yet priced at what the xA ranking implies it should be." },
+      { "score": 4, "label": "Systemic", "meaning": "High risk", "note": "The profile requires a system that commits to a vision and a manager who has thought about what a complete forward with his specific cognitive profile actually needs. A conventional striker mandate wastes the profile completely." }
+    ],
+    "trajectoryNote": "A first-choice complete forward or false nine at a top-flight European club within four years.",
+    "nowAge": 21,
+    "verdict": {
+      "statement": "Buy the spatial reading, the combinational intelligence, and the box movement. Accept that the technique and the finishing hierarchy are active gaps that require deliberate development. Commit to a system that asks him to connect phases rather than operate as a conventional striker. The ceiling is not speculative. It is already visible in the mechanics of what he does in the right moments. The job is to make those moments more frequent.",
+      "travels": [
+        "3rd globally in xA among U21 strikers: the creation is already functioning at world-class level",
+        "Box movement: the spatial reading and timing to reach the right position consistently is exceptional and already formed",
+        "Wide perceptual field: scans constantly, processes a large amount of information, is the foundation of the creation numbers",
+        "Combinational intelligence: understands football as a sequence of relationships, not a sequence of individual actions",
+        "97th-percentile offensive duel wins domestically: physically competitive on the ground despite the aerial gap"
+      ],
+      "targeted": [
+        "First touch and technical execution: the most urgent gap; every poor receive doubles the cognitive load and suppresses the decision quality",
+        "Shooting decision hierarchy: the box movement arrives, the shot does not; a faster instinctive trigger for finishing moments is the specific work",
+        "Physical imposition: needs to become more physical in both aerial challenge and hold-up situations",
+        "Sustained counterpress engagement: the conditional pattern after being beaten is a habit that requires active management"
+      ],
+      "potentialRating": "8/10",
+      "potentialBalls": 8,
+      "potentialProjection": "A first-choice complete forward or false nine at a top-flight European club, capable of producing xA numbers that sit at or near the top of any league he plays in. The ceiling depends on the technical foundation being resolved and the buying club committing to a system that understands what it has purchased."
+    }
   }]
 }
