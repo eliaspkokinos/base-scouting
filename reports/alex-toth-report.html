@@ -217,22 +217,92 @@
     .report-hero-grid  { animation:fadeUp 0.6s ease both 0.15s; }
     .score-band        { animation:fadeUp 0.6s ease both 0.3s; }
     @media(max-width:900px){
-      nav{padding:0 24px;} .nav-links{display:none;}
+      /* NAV */
+      nav{padding:0 24px;}
+      .nav-links{display:none;}
+
+      /* HERO */
       .report-hero{padding:90px 24px 0;}
-      .report-body{padding:0 24px;}
-      .report-hero-grid{grid-template-columns:1fr 1fr; min-height:auto;}
-      .hero-photo-col{height:360px; grid-column:1/-1; order:-1;}
-      .hero-text-col{padding-bottom:28px;}
-      .two-col,.three-col,.verdict-grid{grid-template-columns:1fr;}
-      .three-col-visual{grid-template-columns:1fr;}
-      .travel-display{grid-template-columns:1fr;}
-      .league-bar-row{grid-template-columns:1fr 1fr; gap:10px;}
-      .league-bar-row .lb-note{grid-column:1/-1;}
-      .risk-gauges{grid-template-columns:1fr 1fr;}
-      .tension-row{grid-template-columns:1fr; min-height:auto;}
-      .tension-cell.right,.tension-cell.center{border-left:none; border-top:1px solid var(--border2);}
-      .written-assessment{grid-template-columns:1fr;}
-      .verdict-statement{padding:28px;}
+      .report-hero-grid{
+        grid-template-columns:1fr;
+        min-height:auto;
+        row-gap:24px;
+      }
+      .hero-photo-col{
+        grid-column:1/-1;
+        order:-1;
+        width:100%;
+        aspect-ratio:4/5;
+        height:auto;
+      }
+      .player-photo-large{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        object-position:top center;
+      }
+      .hero-text-col{ grid-column:1/-1; padding-bottom:0; }
+      .bio-panel{ grid-column:1/-1; }
+      .score-band{ grid-template-columns:1fr 1fr 1fr; }
+
+      /* BODY / SECTIONS */
+      .report-body{ padding:0 24px; }
+      .report-section{ padding:48px 0; }
+      .two-col, .three-col, .verdict-grid{ grid-template-columns:1fr; }
+      .three-col-visual{ grid-template-columns:1fr; }
+      .role-display, .pitch-visual{ padding:20px; }
+
+      /* BEHAVIORS / DNA / PROFILE (already single-column-safe, spacing only) */
+      .dna-group{ margin-bottom:28px; }
+
+      /* DEVELOPMENT PRIORITIES */
+      .dev-item{ grid-template-columns:28px 1fr; gap:12px; }
+
+      /* TRAVEL READINESS */
+      .travel-display{ grid-template-columns:1fr; }
+      .travel-score-big{ padding:28px 24px; }
+
+      /* LEAGUE FIT BARS */
+      .league-bar-row{
+        grid-template-columns:1fr;
+        gap:8px;
+        padding:16px 0;
+      }
+      .league-bar-row .lb-note{ grid-column:auto; }
+      .lb-track{ height:24px; }
+
+      /* RISK GAUGES */
+      .risk-gauges{ grid-template-columns:1fr 1fr; }
+      .risk-scale-row{
+        grid-template-columns:20px 1fr;
+        grid-template-areas:"num name" ". desc";
+        row-gap:2px;
+      }
+      .risk-scale-num{ grid-area:num; }
+      .risk-scale-name{ grid-area:name; }
+      .risk-scale-desc{ grid-area:desc; }
+
+      /* PASSING FINGERPRINT */
+      .fingerprint-wrap{ grid-template-columns:1fr; }
+      .fp-label{ min-width:96px; font-size:10px; }
+      .fp-annotation{ padding-left:0; margin-top:6px; }
+
+      /* CLAIM BLOCKS / WRITTEN ASSESSMENT */
+      .claim-blocks{ grid-template-columns:1fr; }
+      .written-assessment{ grid-template-columns:1fr; }
+      .wa-label{ border-right:none; border-bottom:1px solid var(--border); padding:16px 20px; }
+
+      /* SCATTER PLOT */
+      .scatter-wrap{ padding:24px 20px 20px; }
+      .scatter-legend{ gap:12px; }
+
+      /* VERDICT */
+      .verdict-statement{ padding:28px; }
+
+      /* FOOTER */
+      .report-footer{ padding:36px 24px 28px; }
+      .report-footer-inner{ flex-direction:column; align-items:flex-start; }
+      .footer-bottom{ flex-direction:column; gap:8px; align-items:flex-start; }
     }
   </style>
 </head>
