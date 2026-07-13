@@ -238,7 +238,7 @@
       <div class="stats-panel-kicker">Archive — at a glance</div>
       <div class="stat-row">
         <div>
-          <div class="stat-item-num">34</div>
+          <div class="stat-item-num">32</div>
           <div class="stat-item-label">Reports published</div>
         </div>
         <div>
@@ -304,7 +304,7 @@
 
 <!-- REPORTS BODY -->
 <div class="reports-body">
-  <div class="results-count" id="results-count">34 reports</div>
+  <div class="results-count" id="results-count">32 reports</div>
 
   <!-- FEATURED: most recent report gets the large card treatment -->
   <a href="reports/zsombor-gruber-report.html" class="featured-report" id="featured-card"
@@ -918,108 +918,6 @@
     const featured = document.getElementById('featured-card');
     let visible = 0;
 
-    const featPos = featured.dataset.position;
-    const featNat = featured.dataset.nation;
-    const featShow =
-      (activePosition === 'all' || featPos === activePosition) &&
-      (activeNation === 'all' || featNat === activeNation);
-    featured.style.display = featShow ? '' : 'none';
-    if (featShow) visible++;
-
-    rows.forEach(row => {
-      const show =
-        (activePosition === 'all' || row.dataset.position === activePosition) &&
-        (activeNation === 'all' || row.dataset.nation === activeNation);
-      row.style.display = show ? '' : 'none';
-      if (show) visible++;
-    });
-
-    document.querySelectorAll('.month-divider').forEach(div => {
-      let next = div.nextElementSibling;
-      let hasVisible = false;
-      while (next && !next.classList.contains('month-divider')) {
-        if (next.classList.contains('report-row') && next.style.display !== 'none') { hasVisible = true; break; }
-        next = next.nextElementSibling;
-      }
-      div.style.display = hasVisible ? '' : 'none';
-    });
-
-    const noun = visible === 1 ? 'report' : 'reports';
-    document.getElementById('results-count').textContent = visible + ' ' + noun;
-  }
-
-  // Position pills
-  document.querySelectorAll('.pill[data-filter="position"]').forEach(pill => {
-    pill.addEventListener('click', e => {
-      e.preventDefault();
-      activePosition = pill.dataset.val;
-      document.querySelectorAll('.pill[data-filter="position"]').forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
-      applyFilters();
-    });
-  });
-
-  // Country strip pills
-  document.querySelectorAll('.country-pill[data-filter="nation"]').forEach(pill => {
-    pill.addEventListener('click', e => {
-      e.preventDefault();
-      const val = pill.dataset.val;
-      if (val === 'all' || activeNation === val) {
-        activeNation = 'all';
-        document.querySelectorAll('.country-pill').forEach(p => p.classList.remove('active'));
-        document.querySelector('.country-pill[data-val="all"]').classList.add('active');
-      } else {
-        activeNation = val;
-        document.querySelectorAll('.country-pill').forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
-      }
-      applyFilters();
-    });
-  });
-
-  // Strip scroll arrows
-  function scrollStrip(dir) {
-    document.getElementById('country-strip').scrollBy({ left: dir * 200, behavior: 'smooth' });
-  }
-
-  function sortReports(value) {
-    const list = document.getElementById('reports-list');
-    const rows = getRows();
-    rows.sort((a, b) => {
-      if (value === 'potential') return parseInt(b.dataset.potential) - parseInt(a.dataset.potential);
-      if (value === 'name') return a.dataset.name.localeCompare(b.dataset.name);
-      return new Date(b.dataset.date) - new Date(a.dataset.date);
-    });
-    document.querySelectorAll('.month-divider').forEach(d => d.remove());
-    rows.forEach(r => list.appendChild(r));
-    if (value === 'recent') {
-      let currentMonth = '';
-      rows.forEach(row => {
-        const d = new Date(row.dataset.date);
-        const month = d.toLocaleString('default', { month: 'long', year: 'numeric' });
-        if (month !== currentMonth) {
-          currentMonth = month;
-          const div = document.createElement('div');
-          div.className = 'month-divider';
-          div.textContent = month;
-          list.insertBefore(div, row);
-        }
-      });
-    }
-  }
-</script><script>
-  let activePosition = 'all';
-  let activeNation = 'all';
-
-  function getRows() {
-    return Array.from(document.querySelectorAll('.report-row'));
-  }
-
-  function applyFilters() {
-    const rows = getRows();
-    const featured = document.getElementById('featured-card');
-    let visible = 0;
-
     // Check featured card
     const featPos = featured.dataset.position;
     const featNat = featured.dataset.nation;
@@ -1027,7 +925,6 @@
       (activePosition === 'all' || featPos === activePosition) &&
       (activeNation === 'all' || featNat === activeNation);
     featured.style.display = featShow ? '' : 'none';
-    if (featShow) visible++;
 
     // Check list rows
     rows.forEach(row => {
