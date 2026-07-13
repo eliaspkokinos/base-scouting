@@ -37,15 +37,37 @@ Do these steps in order:
 - Insert in the correct month section (create the section if it doesn't exist yet)
 - Use `data-date="YYYY-MM-DD"`, `data-nation`, `data-position`, `data-potential`, `data-name`
 - Same GitHub raw CDN photo URL
+- **Run the pre-push checklist below before committing**
 
 ### 4. Update the results count
 - Increment the `results-count` on the position page by 1
-- `reports.html` count updates dynamically via JS — just add the row, no manual count needed there
-- **Also increment the `stat-num` hero stat in `index.html`** (currently "11+") — this is a static string, it does not auto-update
+- Increment the `stat-item-num` (report count) in `reports.html` stats panel manually — it is a static string
+- `reports.html` results-count text updates dynamically via JS on page load — no manual edit needed there
+- **Also increment the `stat-num` hero stat in `index.html`** — static string, does not auto-update
 
-### 5. Commit and push
+### 5. Pre-push checklist — run these before every commit
+
+**In `reports.html` — the new `.report-row`:**
+
+- [ ] `.row-club` text is ordered **Role · Club**, not Club · Role
+  - Correct: `🇭🇺 Complete Forward · Ferencváros`
+  - Wrong:   `🇭🇺 Ferencváros · Complete Forward`
+  - Reason: ellipsis truncation at mobile widths drops the end of the string; role must survive, club can be cut
+- [ ] The wrapper div (second child of `.report-row`, containing `.row-name` + `.row-club`) has no extra nesting and no inline `style` or `min-width` override — the CSS rule `.report-row > div:nth-child(2){min-width:0}` in the ≤900px and ≤540px blocks handles it automatically
+- [ ] `.row-photo-wrap` has no inline `width` or `height` — base CSS sets 72px and mobile CSS overrides to 56px/48px; any inline style breaks Safari grid layout
+
+**In the new report file (`reports/*.html`):**
+
+- [ ] The file contains the canonical `@media(max-width:900px){...}` mobile block inside its `<style>` tag — copy it verbatim from `reports/vasilije-novicic-report.html` if creating a new file from scratch; every report file needs this block for nav, hero, sections, footer
+
+**Counts (static strings, must be updated manually):**
+
+- [ ] `reports.html` stats panel `<div class="stat-item-num">` (report count) incremented by 1
+- [ ] `index.html` `.stat-num` hero stat incremented by 1
+
+### 6. Commit and push
 ```
-git pull origin main --no-rebase --no-edit && git add . && git commit -m "add [Player Name]" && git push
+git pull origin main --no-rebase --no-edit && git add . && git commit -m "add [Player Name] — [Position], [Club], [Month Year]" && git push
 ```
 - Always pull before committing — the user sometimes uploads images directly on GitHub
 - Never use `--rebase`
@@ -108,29 +130,14 @@ git pull origin main --no-rebase --no-edit && git add . && git commit -m "add [P
 
 ---
 
-## Current players
+## Current state (as of July 2026)
 
-| Player | Position | File | players.json | handcrafted |
-|---|---|---|---|---|
-| Matej Deket | Attacker | `reports/matej-deket.html` (generated) | ✓ full entry | ✓ |
-| Ridwan Popoola | Midfielder | `reports/ridwan-popoola-final-report.html` | ✓ full entry | ✓ |
-| Vasilije Novičić | Midfielder | `reports/vasilije-novicic-report.html` | ✓ full entry | ✓ |
-| Hamza Güreler | Defender | `reports/hamza-gureler-report.html` | ✓ minimal entry | ✓ |
-| Adem Avdić | Attacker | `reports/adem-avdic.html` | ✓ minimal entry | ✓ |
-| Andrei Borza | Defender | `reports/andrei-borza.html` | ✓ minimal entry | ✓ |
-| Adriano Jagušić | Midfielder | `reports/adriano-jagusic-report.html` | ✓ full entry | ✓ |
-| Alex Tóth | Midfielder | `reports/alex-toth-report.html` | ✓ full entry | ✓ |
-| Rokas Pukštas | Midfielder | `reports/rokas-pukstas-report.html` | ✓ full entry | ✓ |
-| Luka Stojković | Midfielder | `reports/luka-stojkovic-report.html` | ✓ full entry | ✓ |
-| Douglas Owusu | Attacker | `reports/douglas-owusu-report.html` | ✓ full entry | ✓ |
-| Vasilije Kostov | Midfielder | `reports/vasilije-kostov-report.html` | ✓ minimal entry | ✓ |
-| Ognjen Ugrešić | Midfielder | `reports/ognjen-ugresic-report.html` | ✓ minimal entry | ✓ |
-| Luka Zarić | Attacker | `reports/luka-zaric-report.html` | ✓ minimal entry | ✓ |
-| Ahmed Hadžimujović | Defender | `reports/ahmed-hadzimujovic-report.html` | ✓ full entry | ✓ |
-| Christos Mouzakitis | Midfielder | `reports/christos-mouzakitis-report.html` | ✓ full entry | ✓ |
-
-Position pages: `defenders.html` (4 cards), `midfielders.html` (9 cards), `attackers.html` (4 cards)
-Hero stat `index.html`: currently **15+** — increment manually each time a player is added.
+- **32 reports** live in `reports.html`
+- **9 countries** covered
+- Stats panel in `reports.html`: `<div class="stat-item-num">32</div>` (update manually)
+- Hero stat in `index.html`: `<div class="stat-num">32+</div>` (update manually)
+- All 32 report files have the canonical mobile block applied
+- All 32 `.row-club` entries use Role · Club order
 
 ---
 
@@ -144,8 +151,13 @@ Hero stat `index.html`: currently **15+** — increment manually each time a pla
 
 ---
 
-## What the user provides
-- The report HTML file (`firstname-lastname-report.html`)
-- Position (defender / midfielder / attacker)
-- Month and year of the report
-- Images already uploaded to GitHub (`images/` and `heatmaps/` folders)
+## What the user provides when adding a new player
+
+The user will say something like: "Add [Name], [position group], [report date], [brief profile]."
+That is enough to proceed through all six steps above. Do not ask for more.
+
+- Report name / slug (inferred from name if not given)
+- Position group: defender / midfielder / attacker
+- Date the report was done (month + year)
+- Brief profile (club, role, nationality) — enough to write the `.row-club` and `data-*` attributes
+- Images already uploaded to GitHub (`images/` folder) before the session starts

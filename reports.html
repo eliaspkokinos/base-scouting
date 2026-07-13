@@ -336,6 +336,18 @@
   <!-- REPORT LIST -->
   <div class="reports-list" id="reports-list">
 
+    <!--
+      PRE-PUSH CHECKLIST — run before every new .report-row commit
+      1. .row-club order: FLAG Role · Club  (NOT FLAG Club · Role)
+         Ellipsis truncation drops the end — role must survive, club can be cut.
+      2. Wrapper div (2nd child of .report-row): no inline style, no extra nesting.
+         CSS already applies min-width:0 to .report-row > div:nth-child(2).
+      3. .row-photo-wrap: no inline width/height. CSS handles 72→56→48px per breakpoint.
+      4. New report file: must contain the canonical @media(max-width:900px) block.
+         Copy verbatim from reports/vasilije-novicic-report.html if starting fresh.
+      5. Increment stat-item-num in this file's stats panel (+1).
+      6. Increment .stat-num in index.html (+1).
+    -->
     <div class="month-divider">June 2026</div>
 
     <a href="reports/zsombor-gruber-report.html" class="report-row"
