@@ -4466,5 +4466,160 @@
       "potentialBalls": 8,
       "potentialProjection": "A first-choice complete forward or false nine at a top-flight European club, capable of producing xA numbers that sit at or near the top of any league he plays in. The ceiling depends on the technical foundation being resolved and the buying club committing to a system that understands what it has purchased."
     }
+  },
+  {
+    "slug": "sergi-dominguez",
+    "handcrafted": true,
+    "firstName": "Sergi",
+    "lastName": "Domínguez",
+    "positionTag": "Centre-Back / Ball-Playing CB",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/sergi-dominguez.png",
+    "photoAlt": "Sergi Domínguez",
+    "verdictLine": "In Croatia, Sergi Domínguez looks like a centre-back waiting for a better league. In Europe, he sometimes looks like one who still needs Croatia. The passing range, duel dominance and composure are fundamental, but so is the drop-off in them when the game gets faster and the space disappears.",
+    "bio": {
+      "dob": "1 Apr 2005",
+      "nationality": "🇪🇸 Spanish",
+      "club": "Dinamo Zagreb",
+      "league": "1. HNL (Croatia)",
+      "contractExpiry": "Jun 2029",
+      "marketValue": "€2.5M",
+      "preferredFoot": "Right",
+      "height": "1.91m",
+      "agent": "CAA Stellar"
+    },
+    "scores": {
+      "basePotential": "8",
+      "travelReadiness": "9",
+      "reportDate": "Jun '26"
+    },
+    "role": {
+      "primaryRole": "Ball-Playing CB",
+      "description": [
+        "A right-footed centre-back whom Dinamo Zagreb have trusted as the primary outlet and build-up reference from the back. His passing and reception volume reflect a team that does not protect him behind safer options, with a profile combining La Masia technical polish, a 1.91m frame, genuine aerial presence, and elite duel output across both boxes. Within twelve months, he has gone from an academy pathway blocked by stronger competition to one of the HNL's most complete defenders."
+      ],
+      "formationName": "4–3–3 Shape",
+      "formationLabelBottom": "Domínguez — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60, "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 72, "cy": 178, "label": "LW" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 248, "cy": 468, "label": "RCB" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Ridiculous passing range", "text": "Chipped passes, whipped diagonals, ground-level through balls, aerial switches. The variety is genuine. He appears to have a solution for every defensive shape configuration, which is what La Masia is supposed to produce. The long pass accuracy is not especially high in the data, so not every attempt connects, but the ambition and the toolkit are both real." },
+        { "title": "Progressive mindset, not a recycler", "text": "His lateral-pass share is the lowest in the HNL dataset for a player at his volume. He is constantly trying to advance play. First in progressive passes among HNL defenders, top ten in progressive runs. When given space, he carries far. He knows he is better than the league and plays accordingly." },
+        { "title": "Composed under immediate pressure", "text": "Good shielding, quick direction changes, comfortable receiving in tight build-up situations. He has a first touch that sets up the next action rather than just protecting the one he has. Scored an own goal in one of the observed Europa matches and was demanding the ball and carrying well within the same game." },
+        { "title": "Headers aimed at teammates", "text": "He understands that a header is not automatically a clearance. He directs aerial contacts toward teammates rather than launching them blindly. A rare CB habit at 21 in any league." },
+        { "title": "Fast processing speed", "text": "Recognizes runs, reads passes between the lines, and makes transition decisions quickly with and without the ball. The time between receiving and acting is short, which is partly why Dinamo route so much through him: the possession does not stall." },
+        { "title": "Long pass accuracy under pressure is the gap", "text": "When he cannot see a clean short option, he goes long. The problem is that long passes in those moments often do not connect. The opponent gets the ball either way, but now from 70 yards out rather than 20. He needs to add a third option between the progressive pass and the punt." }
+      ],
+      "offBall": [
+        { "title": "Heat-seeks onto the ball aggressively", "text": "Man-marking tendency that takes him out of position, particularly visible in the Europa matches. When he follows his mark to the ends of the earth, his teammates have to cover the space he vacates. Gets away with this in the HNL because the quality of the opponent does not punish positional gaps as severely." },
+        { "title": "Box defending is genuinely impressive", "text": "Good body positioning, tracks until the attacker cuts inside then swivels to stay between the ball and goal. Physical bumps are contested. The box-defending habits will translate to a higher level." },
+        { "title": "Fast tricky wingers are the specific concern", "text": "Pace and agility suit a back four at RCB. A Doku or Vinicius type in a wide-open transition would be a problem. His long legs give him ground coverage but quick-twitch isolation threats expose the gap between recovery pace and top-end sprint speed." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Passing range and technical quality", "desc": "La Masia instilled the technical habits and they have survived the transition to senior football. The range of passing solutions, the first touch, the composure under pressure: these are cognitive and technical qualities that do not depend on the quality of the opponent. They travel up because they belong to him, not to his environment." },
+        { "name": "Aerial heading intelligence", "desc": "67th-percentile aerial win rate in the HNL, but more importantly he directs contacts rather than just winning them. That habit scales with level because it is cognitive, not physical. A bigger or quicker opponent can win the contest and still lose the moment if the ball goes nowhere useful. He wins contests and then uses them." },
+        { "name": "Mental strength and composure", "desc": "Leaving Barcelona at 20 for Zagreb required a specific self-awareness. He did it, settled immediately, and produced league-leading numbers. An own goal in a Europa match and he was demanding the ball and playing well within minutes. That tells you something about the psychological floor." }
+      ],
+      "context": [
+        { "name": "The Barcelona departure", "desc": "He did not fail to reach the Barcelona first team in a vacuum. He was in a pathway where one of the most freakish teenage centre-back prospects in European football history reset the internal benchmark. That does not make Domínguez Barcelona-level, but it does mean the departure is a timing story rather than a quality story." },
+        { "name": "Dominant team discount", "desc": "A lot of centre-backs at dominant clubs look good on the ball because they receive in clean conditions and face limited pressure. The duel numbers protect this profile from that reading: 100th-percentile duels won and 97th-percentile defensive duel win rate confirm he is not a soft build-up player benefiting from Dinamo's possession share." }
+      ],
+      "system": [
+        { "name": "Passing volume and progressive carry output", "desc": "First in HNL among defenders in passes per 90. In a team that possesses less or presses higher, both numbers will fall. The quality of the actions will survive. The volume will not, and nor should it: a different environment asks different things from the role." },
+        { "name": "Man-marking aggression", "desc": "Works because the HNL allows it. At the next level, forwards who understand how to use his aggression against him will drag him out of position more deliberately and more profitably. He needs a positional defensive system that keeps him in structure rather than giving him man-marking freedom." }
+      ],
+      "exposed": [
+        { "name": "Long pass accuracy under pressure", "desc": "42nd-percentile long pass accuracy in the HNL dataset. When the short option is not available he goes long and it often does not connect. A better build-up partner, or a system that keeps him in cleaner situations, mitigates this. But it will be targeted by any pressing team that identifies it." },
+        { "name": "Quick-twitch isolation wingers", "desc": "The Europa games exposed the gap. Against technically good, quick wingers in wide isolation scenarios, the recovery speed and positional security are not yet where they need to be. RCB in a back four is right." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "1.91m, long-legged, lightweight-looking frame. The athleticism is deceptive because the frame looks lean but moves quickly. Long stride length means he covers ground faster than the silhouette suggests. Fast-twitch muscle quality is visible in the carry actions and in recovery runs." },
+        { "label": "Pace", "value": "Fast, though probably not elite top-end sprint speed. Quick enough for a back four at RCB in most top-five league systems. The specific concern is versus elite quick-twitch wide dribblers in isolation." },
+        { "label": "Aerial", "value": "67th-percentile win rate, 4th in the HNL in aerial duels won per 90. The height helps. The intelligence helps more. Directs contacts rather than just winning them." },
+        { "label": "Duels", "value": "First in the HNL among defenders for total duels won. 74th-percentile defensive duel win rate. Wins physical contests through body use, positioning, and timing. Bumps opponents and more often than not comes out ahead." },
+        { "label": "Endurance", "value": "2,500+ minutes in the HNL season, plus European minutes. Full-match presence throughout. Top-level endurance both physically and mentally for one of the most cognitively demanding positions in the game." }
+      ],
+      "cognitive": [
+        { "label": "Processing speed", "value": "The standout quality. Recognizes runs before they develop, reads passes between the lines, and makes transition decisions (with and without the ball) quickly." },
+        { "label": "Progressive mindset", "value": "Lowest lateral-pass share in the HNL dataset for a player at his volume. He is not a recycler. He is constantly looking to advance, carry, or play forward. That orientation is cognitive and formed." },
+        { "label": "Defensive anticipation", "value": "Good positional awareness domestically. Normally well-positioned to stop the ball. The man-marking instinct overrides the positional default when he is very engaged, which is the one cognitive limitation in the profile." },
+        { "label": "Europa gap", "value": "Against Betis and Midtjylland the profile looked materially different from the domestic games. More reactive, less settled, positional gaps were punished more than once. This is an experience and exposure problem, not a ceiling problem." }
+      ],
+      "psychological": [
+        { "label": "Decision at 20", "value": "Left Barcelona for Zagreb at 20. That is a specific kind of clear-eyed self-assessment: recognizing that the pathway was blocked, finding a serious but less glamorous alternative, and backing himself to excel there." },
+        { "label": "Immediate adaptation", "value": "Regular starter at Dinamo within his first season. New country, new league, new teammates. The adjustment was fast and the quality was immediate. That is a low-maintenance profile." },
+        { "label": "Resilience under setback", "value": "Own goal in Europa and was back demanding the ball within the same game. No shrinking. Competitive engagement did not drop. That is a marker worth noting specifically because it is the kind of setback that causes younger players to go quiet." },
+        { "label": "Discipline", "value": "Four yellow cards but no reds across a full competitive season including European football. Competitive without being reckless." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "A third option between the progressive pass and the punt", "text": "When clean short options disappear and the press is on, he goes long and it too often does not connect. He needs to develop a reliable medium-range option, a pass that buys time and retains possession under pressure rather than surrendering it at range." },
+      { "num": "02", "title": "Positional discipline when defending aggressively", "text": "The man-marking instinct that works in the HNL will be exploited at the next level. Forwards who understand how to drag him out of structure will do so deliberately. A system that constrains the man-marking tendency within a clearer positional framework, combined with deliberate training attention on when to step and when to hold, is the development work here." },
+      { "num": "03", "title": "European-level competitive exposure", "text": "The night-and-day difference between domestic and Europa performances is an experience problem. The solution is more exposure: a better domestic league provides regular competition against forwards who punish positional gaps and press with real coordination. Two seasons in a top-ten European domestic league before Europa League starts are probably the right development sequence." }
+    ],
+    "travelScore": {
+      "score": "9",
+      "prose": [
+        "The technical quality, the physical profile, and the cognitive habits are all already functioning well above HNL level. La Masia technical foundation plus genuine duel dominance at 21 in a league he clearly outclasses is a combination that does not need further proving in Croatia.",
+        "The 9 reflects that. The one point withheld reflects the gap between his domestic authority and his European performances. The profile against Betis and Midtjylland was materially different from the domestic one, and that matters because it is the level that a top-six Serie A or Bundesliga side would represent. He is ready for a strong mid-table Bundesliga, Serie A, or Ligue 1 club. He is not yet ready for European competition from that platform without more adjustment time.",
+        "Another full season in the same domestic context risks becoming repetitive. He can still improve at Dinamo, particularly through European matches, but the HNL does not consistently expose the two areas that require the most work: positional discipline and decision-making under an organised press. The next useful step is a stronger weekly league, not simply a larger club."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Serie A",      "score": 8.2, "width": "82%", "high": true,  "note": "The strongest immediate fit. Italian CB culture, tactical sophistication, and the mid-tier transfer market make this a natural landing spot. La Masia passing habits and physical duel quality become immediately visible at mid-table level. Market value at €2.5M represents genuine value." },
+      { "league": "Bundesliga",   "score": 8.0, "width": "80%", "high": true,  "note": "Close second. Bundesliga possession systems and high-line defending suit the passing profile. A mid-table club with a positional system would provide the structural framework the man-marking tendency currently lacks." },
+      { "league": "Ligue 1",      "score": 7.6, "width": "76%", "high": true,  "note": "Strong fit. French football rewards the technical CB who builds from the back. Physical demands are manageable at this age and frame." },
+      { "league": "Premier League","score": 6.0, "width": "60%", "high": false, "note": "Physical and pace demands at the top end are significant. The passing profile and duel quality translate but the quick-twitch wide isolator concern is real. Mid-table with a patient manager and a positional system." },
+      { "league": "La Liga",       "score": 7.2, "width": "72%", "high": false, "note": "Natural fit technically and culturally. La Masia background makes him immediately legible to Spanish clubs. Mid-table La Liga regularly features wide attackers quick enough to stress the isolation gap, which matters." },
+      { "league": "Eredivisie",    "score": 8.6, "width": "86%", "high": true,  "note": "Maximum readiness as an intermediate step if a top-five club does not move immediately. Dutch football possession and technical demands sit between HNL and top-five, precisely where his positional discipline gap needs to be stress-tested before the bigger step." }
+    ],
+    "riskGauges": [
+      { "score": 1, "label": "Development",  "meaning": "Minimal risk", "note": "Technical foundation is elite for the age. Physical profile suits the next level. The gaps are positional and experiential, both of which resolve with exposure to better competition." },
+      { "score": 1, "label": "Psychological","meaning": "Minimal risk", "note": "Left Barcelona at 20 for Zagreb and excelled immediately. Own goal in Europa, demanded the ball within minutes. Low-maintenance, adaptable, mature beyond years." },
+      { "score": 3, "label": "Market",       "meaning": "Medium risk",  "note": "At €2.5M the current value is genuinely low. After a strong season, mid-tier Serie A or Bundesliga interest could push the fee to €12–15M quickly. The buying window is narrow before valuation escalates." },
+      { "score": 2, "label": "Systemic",     "meaning": "Low risk",     "note": "Profile fits most systems that use a CB pair with ball-playing demands. The one constraint: a high-line system that exposes the right flank to quick wide attackers regularly would stress the identified gap before it has been resolved." }
+    ],
+    "trajectoryNote": "First in the HNL among 87 defenders in passes per 90 and received passes. First in total duels won. Top three in defensive duel win rate. Top four in aerial duel win percentage. 94th-percentile progressive passes. He is not benefiting passively from Dinamo's possession. He is generating it.",
+    "nowAge": 21,
+    "verdict": {
+      "statement": "Buy the technical quality, the duel dominance, and the progressive mindset. Accept the Europa-level adjustment period and invest in a positional defensive system that constrains the man-marking tendency. The price is €2.5M for a 21-year-old La Masia-trained centre-back who leads the HNL in passing and duels. That does not stay at €2.5M for long.",
+      "travels": [
+        "La Masia technical quality: passing range, first touch, composure under pressure already functioning at senior level",
+        "First in HNL among 87 defenders in passes per 90, received passes, and total duels won",
+        "94th-percentile progressive passes, 90th-percentile progressive runs: not a recycler",
+        "Box defending: body positioning, swivel tracking, willingness to take physical contests on",
+        "Aerial heading intelligence: directs contacts toward teammates rather than clearing blindly",
+        "Psychological resilience: own goal in Europa, demanding the ball within the same game"
+      ],
+      "targeted": [
+        "Long pass accuracy under pressure: 42nd percentile in HNL; needs a third option between progressive pass and punt",
+        "Positional discipline: man-marking aggression that works in HNL will be exploited by smarter forwards at the next level",
+        "European competition adjustment: night-and-day performance gap between HNL and Europa needs time and better domestic competition to close",
+        "Quick-twitch wide isolators: the specific gap that keeps the ceiling from being fully unlocked in the most demanding systems"
+      ],
+      "potentialRating": "8/10",
+      "potentialBalls": 8,
+      "potentialProjection": "A first-choice ball-playing centre-back at a top-flight European club within three seasons. The technical and cognitive foundation for that ceiling is already present. The positional discipline and European-level composure will follow with the right environment and exposure."
+    }
   }]
 }
