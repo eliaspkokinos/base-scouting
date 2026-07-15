@@ -4621,5 +4621,157 @@
       "potentialBalls": 8,
       "potentialProjection": "A first-choice ball-playing centre-back at a top-flight European club within three seasons. The technical and cognitive foundation for that ceiling is already present. The positional discipline and European-level composure will follow with the right environment and exposure."
     }
+  },
+  {
+    "slug": "diar-halili",
+    "handcrafted": true,
+    "firstName": "Diar",
+    "lastName": "Halili",
+    "positionTag": "Centre-Back / No-Nonsense CB",
+    "positionCategory": "Defenders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/diar-halili.png",
+    "photoAlt": "Diar Halili",
+    "verdictLine": "Almost nothing in Diar Halili's statistical profile happens going forward. Everything interesting happens in reverse. He spends matches retreating, reading, colliding, defending, and winning.",
+    "bio": {
+      "dob": "2 Jul 2003",
+      "nationality": "🇦🇱 Albanian",
+      "club": "KF Tirana (loan)",
+      "league": "Kategoria Superiore (Albania)",
+      "contractExpiry": "Jun 2029",
+      "marketValue": "€250k",
+      "preferredFoot": "Right",
+      "height": "1.93m",
+      "agent": "Relatives"
+    },
+    "scores": {
+      "basePotential": "7",
+      "travelReadiness": "8",
+      "reportDate": "Jun '26"
+    },
+    "role": {
+      "primaryRole": "No-Nonsense CB",
+      "description": [
+        "A right-footed CB deployed across RCB, CB, and LCB by Tirana, whose profile is built almost entirely on defensive output. Porto U19 development background, 1.93m frame, physically dominant in aerial and ground duels. Playing for a team that finished 6th of 10 with the second-lowest possession average in the league at 45.5% and the highest expected goals against, he spent the season defending under sustained pressure. The defensive numbers are produced in that context, which makes them more meaningful than if they came from a dominant side."
+      ],
+      "formationName": "4–3–3 Shape",
+      "formationLabelBottom": "Halili — highlighted position",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60,  "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 100, "cy": 330, "label": "LCM" },
+        { "cx": 200, "cy": 315, "label": "CM" },
+        { "cx": 300, "cy": 330, "label": "RCM" },
+        { "cx": 72,  "cy": 178, "label": "LW" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 248, "cy": 468, "label": "RCB" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Lifts his head and looks forward", "text": "The passing numbers are limited, but the tape shows a player who scans and attempts passes into space rather than recycling sideways. The execution is unreliable. The intent is already there, and that is the harder part to develop." },
+        { "title": "Sprints back immediately after playing a pass", "text": "A specific habit on tape: he plays a forward ball and immediately retreats into defensive shape, even when the situation does not require it. It reads as someone who has been coached hard on positional responsibility and has overcorrected. The habit is correctable." },
+        { "title": "Can be a set-piece threat", "text": "1.93m with good aerial timing. Looks to contribute on both first and second balls from set pieces in both boxes." }
+      ],
+      "offBall": [
+        { "title": "Dominant aerially", "text": "Good timing, confident in contested aerial situations, reads the flight of the ball early enough to arrive rather than react. Directs headers away from danger rather than simply winning the contest. The combination of size, timing, and composure in the air is the strongest quality in the profile." },
+        { "title": "Good anticipation on interceptions", "text": "Reads passing lanes, positions early, and collects the ball cleanly. The interceptions look anticipatory rather than reactive, which is consistent with the Porto background." },
+        { "title": "Fluid body control for a big man", "text": "Spins, tracks, and recovers with more coordination than the frame suggests. The hip swivel to stay between ball and goal when tracking an attacker who cuts inside is quick and well-timed." },
+        { "title": "Uses his physicality deliberately", "text": "Aware of his size advantage and imposes it. Wins shoulder-to-shoulder contests more often than not. The duel output reflects genuine physical competition, not just volume against weak attackers." },
+        { "title": "Aggressiveness has a foul problem", "text": "Uses his arms to hold opponents when beaten. Goes to ground too often in areas where holding shape is the disciplined option. The contact habits suggest a player who has not yet been punished consistently enough for them to require correction." },
+        { "title": "Man-marking tendency", "text": "Follows his assigned attacker aggressively. Forwards who understand how to use that aggression to drag him out of structure will do so at the next level. The same intensity that makes him dominant here becomes a positional liability when the opponent is smart enough to exploit it." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Aerial timing and composure", "desc": "The timing of the jump, the reading of the ball's flight, and the confidence under aerial challenge are not products of Albanian attackers being weak. They are products of coordination and spatial awareness that function independently of opponent quality." },
+        { "name": "Body control and fluid movement", "desc": "The hip swivel, the spin, the recovery run: for a 1.93m player these are unusual. Movement quality at this frame scales up because it does not depend on the opponent being slower." },
+        { "name": "Passing intent", "desc": "The tape shows a player who lifts his head and looks forward rather than recycling sideways or clearing. The execution is not yet reliable, but the intent is present and it cannot be coached in easily." }
+      ],
+      "context": [
+        { "name": "Low-possession team context", "desc": "Tirana's 45.5% possession average and league-leading xGA put Halili in maximum defensive exposure. The numbers reflect that context honestly: he was defending constantly, not in comfort. That is a more meaningful stress test than a dominant team's CB would face." }
+      ],
+      "system": [
+        { "name": "Defensive action volume", "desc": "10.65 defensive actions per 90. Partly a product of how much defending Tirana asked him to do this season. In a team that possesses more, both the volume and the raw opportunity to intercept and block fall. The quality of the actions travels; the frequency is context-driven." },
+        { "name": "Duel dominance rate", "desc": "72.29% defensive duel win rate against Albanian attackers. The rate is real, but it has been earned against a group that the tape confirms is consistently weaker than what he will face at the next level." }
+      ],
+      "exposed": [
+        { "name": "Arm use and foul discipline", "desc": "Uses arms to hold opponents when beaten and goes to ground more often than the situation warrants. At the next level, technically better forwards will manipulate both habits deliberately: they will invite the arm contact to win free kicks and use movement to pull him into dangerous ground duels." },
+        { "name": "On-ball output ceiling", "desc": "Progressive passes, carries, accelerations, xA: all essentially absent from the data. The ceiling on this profile without significant on-ball development is a defensive specialist who can pass safely but does not drive possession value." },
+        { "name": "Man-marking aggression", "desc": "Works in Albania because the attackers do not know how to use it. At the next level, a technically intelligent forward will identify the man-marking tendency within two or three matches and begin pulling him out of structure deliberately." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "1.93m, physically dominant. No physical concerns for any league in the world at this height and build. Uses the size deliberately: shields, blocks, imposes in contact." },
+        { "label": "Movement", "value": "Better than the frame suggests. Fluid body control, quick hip swivel in tracking situations, good coordination through turns." },
+        { "label": "Aerial", "value": "The standout quality. Good jump timing, reads the ball's flight early, arrives in the right spot with authority. Confident and assured under aerial challenge in both boxes." },
+        { "label": "Ground duels", "value": "72.29% defensive duel win rate. The going-to-ground habit is the one physical tendency that undercuts the quality: a cleaner approach to ground challenges would reduce the foul count without losing the duel win rate." }
+      ],
+      "cognitive": [
+        { "label": "Anticipation", "value": "The strongest cognitive quality. Reads passing lanes and positions for interceptions rather than just reacting when the ball arrives. 7.56 pAdj interceptions per 90 reflect a player who is reading the game ahead of the action." },
+        { "label": "Aerial reading", "value": "Reads the flight of the ball well. Arrives early rather than adjusting late. The timing habits look coached rather than purely instinctive, consistent with the Porto background." },
+        { "label": "Passing intent", "value": "Looks forward and attempts passes. The cognitive orientation is there even when the technical execution fails." },
+        { "label": "Positional discipline", "value": "Gap. The man-marking instinct overrides positional structure when he is engaged. Requires a system that constrains it with clear positional rules." }
+      ],
+      "psychological": [
+        { "label": "Competitive intensity", "value": "Visibly high. Constantly seeking the ball, aggressively engaging. Some of that is Tirana's defensive context, but the intensity appears personal as well as situational." },
+        { "label": "Porto pathway", "value": "Entered a high-standard academy environment at youth level and returned to the Balkan region for senior minutes. The question it leaves open is whether Porto found a ceiling or simply ran out of time with him." },
+        { "label": "Foul habits as character signal", "value": "The arm-use and going-to-ground tendencies are discipline habits that reflect a player who has not yet been punished consistently enough for them to require correction. A more demanding environment changes that calculus quickly." },
+        { "label": "Set piece confidence", "value": "Looks to contribute on set pieces in both boxes. For a 22-year-old CB, that willingness to be involved offensively is a positive psychological signal." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Foul discipline and arm use", "text": "The most urgent gap because it is the one that will be deliberately targeted at the next level. Technically better forwards will invite the contact and win free kicks. The going-to-ground habit needs to be replaced with a cleaner approach: track, hold position, force the error rather than lunge." },
+      { "num": "02", "title": "On-ball execution, not intent", "text": "The intent to play forward is there. The delivery is not yet reliable. Technical passing work in training, particularly under simulated pressure, is the specific work. Trusting the pass enough to watch it arrive before recovering is part of the technical correction." },
+      { "num": "03", "title": "A step into a league with better attackers", "text": "The remaining question that Albania cannot answer. Jupiler Pro League or lower Serie A provides technically better forwards who control a football, interpret space, and can punish positional gaps. Two seasons in that environment answers the Porto question definitively." }
+    ],
+    "travelScore": {
+      "score": "8",
+      "prose": [
+        "The aerial quality, the body control, the interception reading, and the physical dominance in duels are all functioning at a level that belongs above Albanian football. The 8 reflects that the defensive foundation is already clear and does not need another season in Albania to prove itself further.",
+        "The one point withheld reflects the on-ball limitations and the foul habit. Neither is disqualifying in this profile, but both require active management from the buying club. A positional system that reduces man-marking freedom and a technical environment that addresses passing execution are not optional extras: they are the conditions under which this profile develops rather than stagnates.",
+        "Returning to Kosovo or staying in Albania does not answer the right questions. The Jupiler Pro League or lower-table Serie A is the correct next step: demanding enough to expose and correct the foul habit and the positional discipline gap, while accessible enough that the defensive qualities have room to establish themselves before the environment becomes too punishing."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Premier League",     "score": 3.4, "width": "34%", "high": false, "note": "Too early. The on-ball demands and the pace of wide attackers in the Premier League would expose both gaps simultaneously before the profile has had time to establish itself." },
+      { "league": "Bundesliga",         "score": 4.0, "width": "40%", "high": false, "note": "Pressing system demands on the ball are significant. The defensive qualities could show but the on-ball and positional discipline gaps would be targeted quickly. Better as a destination after Belgium or lower Italy." },
+      { "league": "Serie A",            "score": 5.8, "width": "58%", "high": false, "note": "Lower-table Serie A is a realistic medium-term destination. Italian defensive culture and the CB market at that level suit the profile. The physical and aerial qualities are immediately relevant." },
+      { "league": "Eredivisie",         "score": 6.4, "width": "64%", "high": false, "note": "Better fit than Serie A as an immediate next step. Dutch football rewards defensive aggression and aerial quality, while providing technically better forwards than Albania to answer the open questions." },
+      { "league": "Jupiler Pro League", "score": 8.0, "width": "80%", "high": true,  "note": "The best immediate fit. Belgian football provides the technical attacker quality needed to answer the Porto question, within a physical environment where the defensive qualities immediately transfer." },
+      { "league": "Kosovo / Albania",   "score": 3.8, "width": "38%", "high": false, "note": "Another season at this level answers nothing new. The defensive dominance is already established. Staying risks the foul habits going unchallenged and the on-ball gap remaining unaddressed for another full season." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development",  "meaning": "Low risk",     "note": "The defensive foundation is already formed. The gaps are discipline and on-ball execution, both coachable with the right environment. No regression risk in the core defensive qualities." },
+      { "score": 1, "label": "Psychological","meaning": "Minimal risk", "note": "Competitive, engaged, looks for set piece involvement, clearly motivated. The foul habits are discipline rather than character. No concerns about attitude or application." },
+      { "score": 1, "label": "Market",       "meaning": "Minimal risk", "note": "€250k with a contract to 2029. Acquirable at a price where the risk profile is entirely manageable. No competitive acquisition pressure currently at this valuation." },
+      { "score": 2, "label": "Systemic",     "meaning": "Low risk",     "note": "Profile fits any system that uses a defensive-first CB pair. The one constraint: a system that gives him man-marking freedom without positional structure will accelerate the exposure of the discipline gaps rather than containing them." }
+    ],
+    "trajectoryNote": "A reliable starter at a mid-table club in a top-ten European domestic league. The ceiling is not the complete CB profile because the on-ball development has too much ground to cover. The floor is more useful than the ceiling sounds.",
+    "nowAge": 22,
+    "verdict": {
+      "statement": "Buy the aerial dominance, the interception reading, and the physical duel quality. Accept the on-ball limitations as a development project and build a positional defensive system around the man-marking tendency. The Jupiler Pro League at €250k is the correct next environment: it answers the Porto question, stress-tests the defensive habits honestly, and gives the foul discipline a reason to improve.",
+      "travels": [
+        "Aerial timing and composure: consistently good across the season, not a product of weak opponents",
+        "Interception reading: anticipatory, not reactive — 7.56 pAdj interceptions per 90",
+        "Body control for his frame: fluid hip swivel, recovery tracking, good coordination for 1.93m",
+        "Physical duel dominance: 72.29% defensive duel win rate under sustained defensive pressure",
+        "Passing intent: lifts his head and looks forward, which is the part that cannot be coached in later"
+      ],
+      "targeted": [
+        "Foul discipline: arm use and going to ground will be exploited by technically better forwards immediately",
+        "On-ball execution: intent is present, delivery is unreliable — needs a better technical environment",
+        "Positional discipline: man-marking aggression requires a structural defensive system to contain it before the next level exposes it deliberately"
+      ],
+      "potentialRating": "7/10",
+      "potentialBalls": 7,
+      "potentialProjection": "A reliable starter at a mid-table club in a top-ten European domestic league. The ceiling is not the complete CB profile because the on-ball development has too much ground to cover. The floor is more useful than the ceiling sounds: clean aerial dominance, genuine interception quality, and duel competitiveness are not common at €250k."
+    }
   }]
 }
