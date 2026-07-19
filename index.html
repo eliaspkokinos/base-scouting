@@ -176,8 +176,14 @@
       .coverage-grid{grid-template-columns:1fr; gap:56px;}
       .footer-grid{grid-template-columns:1fr 1fr;}
     }
+    .nav-burger{display:none;background:none;border:none;cursor:pointer;padding:4px 8px;font-size:22px;color:var(--brown);line-height:1;}
+    .nav-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;z-index:99;background:rgba(245,240,232,0.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:8px 24px 16px;}
+    .nav-mobile-menu.open{display:block;}
+    .nav-mobile-menu a{display:block;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--muted);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--border2);letter-spacing:0.05em;}
+    .nav-mobile-menu a:last-child{border-bottom:none;}
+    .nav-mobile-menu a:hover{color:var(--brown);}
     @media(max-width:768px){
-      nav{padding:0 24px;} .nav-links{display:none;}
+      nav{padding:0 24px;} .nav-links{display:none;} .nav-burger{display:block;}
       .hero,.positions-section,.reports-section,.method-teaser,.coverage-section,.cta-section,footer{padding-left:24px; padding-right:24px;}
       .positions-grid{grid-template-columns:1fr 1fr;}
       .reports-grid{grid-template-columns:1fr;}
@@ -207,7 +213,17 @@
     <li><a href="about.html">About</a></li>
   </ul>
   <a href="contact.html" class="nav-contact">Get in touch</a>
+  <button class="nav-burger" aria-label="Open menu" onclick="document.getElementById('mobileMenu').classList.toggle('open')">&#9776;</button>
 </nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="goalkeepers.html">Goalkeepers</a>
+  <a href="defenders.html">Defenders</a>
+  <a href="midfielders.html">Midfielders</a>
+  <a href="attackers.html">Attackers</a>
+  <a href="reports.html">Reports</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="about.html">About</a>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -216,7 +232,7 @@
     <h1>Balkan<br /><em>Analytical</em><br />Scouting</h1>
     <div class="hero-evaluation">&amp; Evaluation</div>
     <p class="hero-intro">
-      There's a region of Europe that keeps producing remarkable footballers — and most clubs still aren't watching closely enough. B.A.S.E. is an attempt to change that, one report at a time.
+      The Balkans and Turkey remain one of Europe's most productive and unevenly covered talent markets. B.A.S.E. evaluates what is real, what transfers and what stronger competition may expose.
     </p>
     <div class="hero-actions">
       <a href="reports.html" class="btn-primary">Browse reports</a>
@@ -226,7 +242,7 @@
   <div class="hero-right">
     <div class="hero-stat">
       <div class="stat-num">12</div>
-      <div class="stat-label">Countries covered</div>
+      <div class="stat-label">Countries in scope</div>
       <div class="stat-note">Balkans &amp; Turkey</div>
     </div>
     <div class="hero-stat">
@@ -255,7 +271,7 @@
     <a href="goalkeepers.html" class="pos-card">
       <div class="pos-icon">🧤</div>
       <div class="pos-name">Goalkeepers</div>
-      <p class="pos-desc">Shot-stoppers, sweeper-keepers, and distribution specialists from across the region.</p>
+      <p class="pos-desc">Framework in development — read why.</p>
       <div class="pos-cta">View profiles →</div>
     </a>
     <a href="defenders.html" class="pos-card">
@@ -375,8 +391,8 @@
   <div class="coverage-grid">
     <div class="coverage-prose">
       <span class="kicker">The territory</span>
-      <h2 class="section-h" style="margin-bottom:24px;">One region.<br /><em>Untapped talent.</em></h2>
-      <p>The Balkans have a deep footballing heritage and a proven track record. Serbia, Croatia, Greece, Romania, Bosnia — these leagues keep producing technically gifted players that major European clubs are only now starting to look at seriously.</p>
+      <h2 class="section-h" style="margin-bottom:24px;">One region.<br /><em>Unevenly understood.</em></h2>
+      <p>The obvious clubs and prospects are heavily watched. Beneath that first layer, the depth and consistency of analysis vary significantly, particularly when the question moves beyond identifying talent and toward understanding role, scalability, risk and transferability.</p>
       <p>B.A.S.E. covers <strong>12 countries</strong> across the region — from the Adriatic coast to the Black Sea — with a focus on players aged 16–24 who have the tools to succeed at higher levels but haven't yet had the platform to prove it.</p>
       <a href="about.html" class="btn-text" style="margin-top:8px; display:inline-block;">About the project →</a>
     </div>
@@ -405,7 +421,7 @@
   <div class="cta-inner">
     <div class="cta-kicker">Get in touch</div>
     <h2>Know a player worth watching?</h2>
-    <p>B.A.S.E. is built on curiosity and connections. If you're a club looking at this part of the world, an agent with a player who belongs in the database, or anyone with a lead worth following — reach out.</p>
+    <p>B.A.S.E. is built on curiosity and connections. If you work in recruitment and want to discuss the region, a player or the evaluation framework — reach out.</p>
     <a href="contact.html" class="btn-cream">Contact →</a>
   </div>
 </div>
@@ -429,8 +445,7 @@
     <div class="fcol">
       <h6>Reference</h6>
       <ul>
-        <li><a href="reports.html">Reports</a></li>
-    <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="methodology.html">Methodology</a></li>
         <li><a href="reports.html">All reports</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -446,4 +461,12 @@
   </div>
   <div class="footer-bottom">
     <span>© 2026 B.A.S.E. Scouting. All rights reserved.</span>
-    <span style="
+    <span style="font-family:'Lora',serif;font-style:italic;font-size:12px;">Balkan Analytical Scouting &amp; Evaluation</span>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click',function(e){var m=document.getElementById('mobileMenu');if(m&&!m.contains(e.target)&&!e.target.closest('.nav-burger'))m.classList.remove('open');});
+</script>
+</body>
+</html>

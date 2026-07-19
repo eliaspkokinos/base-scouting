@@ -131,8 +131,14 @@
     .page-header { animation:fadeUp 0.6s ease both 0.1s; }
     .main-inner { animation:fadeUp 0.6s ease both 0.2s; }
 
+    .nav-burger{display:none;background:none;border:none;cursor:pointer;padding:4px 8px;font-size:22px;color:var(--brown);line-height:1;}
+    .nav-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;z-index:99;background:rgba(245,240,232,0.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:8px 24px 16px;}
+    .nav-mobile-menu.open{display:block;}
+    .nav-mobile-menu a{display:block;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--muted);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--border2);letter-spacing:0.05em;}
+    .nav-mobile-menu a:last-child{border-bottom:none;}
+    .nav-mobile-menu a:hover{color:var(--brown);}
     @media(max-width:900px){
-      nav{padding:0 24px;} .nav-links{display:none;}
+      nav{padding:0 24px;} .nav-links{display:none;} .nav-burger{display:block;}
       .page-header{padding:100px 24px 48px;}
       .main{padding:56px 24px 80px;}
       .main-inner{grid-template-columns:1fr; gap:48px;}
@@ -158,7 +164,17 @@
     <li><a href="about.html">About</a></li>
   </ul>
   <a href="contact.html" class="nav-contact">Get in touch</a>
+  <button class="nav-burger" aria-label="Open menu" onclick="document.getElementById("mobileMenu").classList.toggle("open")">&#9776;</button>
 </nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="goalkeepers.html">Goalkeepers</a>
+  <a href="defenders.html">Defenders</a>
+  <a href="midfielders.html">Midfielders</a>
+  <a href="attackers.html">Attackers</a>
+  <a href="reports.html">Reports</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="about.html">About</a>
+</div>
 
 <!-- PAGE HEADER -->
 <div class="page-header">
@@ -276,8 +292,7 @@
       <p>Balkan Analytical Scouting & Evaluation. An independent project identifying top emerging talent across 12 countries.</p>
     </div>
     <div class="fcol"><h6>Players</h6><ul><li><a href="goalkeepers.html">Goalkeepers</a></li><li><a href="defenders.html">Defenders</a></li><li><a href="midfielders.html">Midfielders</a></li><li><a href="attackers.html">Attackers</a></li></ul></div>
-    <div class="fcol"><h6>Reference</h6><ul><li><a href="reports.html">Reports</a></li>
-    <li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="fcol"><h6>Reference</h6><ul><li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
     <div class="fcol"><h6>Contact</h6><ul><li><a href="mailto:eliaspkokinos@gmail.com">eliaspkokinos@gmail.com</a></li><li>California, USA</li></ul></div>
   </div>
   <div class="footer-bottom">
@@ -286,5 +301,8 @@
   </div>
 </footer>
 
+<script>
+document.addEventListener("click",function(e){var m=document.getElementById("mobileMenu");if(m&&!m.contains(e.target)&&!e.target.closest(".nav-burger"))m.classList.remove("open");});
+</script>
 </body>
 </html>

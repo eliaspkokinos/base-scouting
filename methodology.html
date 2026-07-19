@@ -181,8 +181,14 @@
     @media(max-width:1024px){
       .risk-grid { grid-template-columns:1fr; }
     }
+    .nav-burger{display:none;background:none;border:none;cursor:pointer;padding:4px 8px;font-size:22px;color:var(--brown);line-height:1;}
+    .nav-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;z-index:99;background:rgba(245,240,232,0.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:8px 24px 16px;}
+    .nav-mobile-menu.open{display:block;}
+    .nav-mobile-menu a{display:block;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--muted);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--border2);letter-spacing:0.05em;}
+    .nav-mobile-menu a:last-child{border-bottom:none;}
+    .nav-mobile-menu a:hover{color:var(--brown);}
     @media(max-width:900px){
-      nav{padding:0 24px;} .nav-links{display:none;}
+      nav{padding:0 24px;} .nav-links{display:none;} .nav-burger{display:block;}
       .meth-hero { padding:100px 24px 56px; grid-template-columns:1fr; gap:40px; }
       .meth-section { padding:56px 24px; grid-template-columns:1fr; gap:40px; }
       .meth-cta { padding:56px 24px; }
@@ -206,7 +212,17 @@
     <li><a href="about.html">About</a></li>
   </ul>
   <a href="contact.html" class="nav-contact">Get in touch</a>
+  <button class="nav-burger" aria-label="Open menu" onclick="document.getElementById("mobileMenu").classList.toggle("open")">&#9776;</button>
 </nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="goalkeepers.html">Goalkeepers</a>
+  <a href="defenders.html">Defenders</a>
+  <a href="midfielders.html">Midfielders</a>
+  <a href="attackers.html">Attackers</a>
+  <a href="reports.html">Reports</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="about.html">About</a>
+</div>
 
 <!-- HERO -->
 <div class="meth-hero">
@@ -311,7 +327,7 @@
     <span class="section-kicker">Risk Assessment</span>
     <h2 class="section-title">Four axes,<br /><em>scored 1–5.</em></h2>
     <p>Every report includes a four-axis risk assessment scored independently. <strong>1 = minimal risk, 5 = extreme risk.</strong> Each axis is evaluated on its own — a player can score low on three and high on one, and that tells you something specific about where the danger lies.</p>
-    <p>A profile without a risk breakdown is only half a picture. The risk section is where the honest part of the evaluation lives.</p>
+    <p>A profile without a risk breakdown is only half a picture. The risk section is where uncertainty is made explicit.</p>
 
     <div class="risk-scale">
       <div class="risk-scale-title">Score guide</div>
@@ -333,7 +349,7 @@
       <div class="risk-axis">
         <div class="risk-axis-num">Axis 2</div>
         <div class="risk-axis-name">Psychological</div>
-        <p class="risk-axis-q">Uncertainty around mentality, motivation, and adaptability.</p>
+        <p class="risk-axis-q">Uncertainty around observable competitive behaviour and, where reliable information is available, adaptability, professionalism and motivation.</p>
       </div>
       <div class="risk-axis">
         <div class="risk-axis-num">Axis 3</div>
@@ -363,29 +379,29 @@
       <div class="travel-band t-high">
         <div class="travel-score">9–10</div>
         <div>
-          <div class="travel-label">UCL-level ceiling</div>
-          <div class="travel-desc">Elite transferability across systems. Core traits hold at the highest level.</div>
+          <div class="travel-label">Elite transferability</div>
+          <div class="travel-desc">Core qualities appear robust against major increases in speed, pressure and tactical complexity.</div>
         </div>
       </div>
       <div class="travel-band t-good">
         <div class="travel-score">7–8</div>
         <div>
-          <div class="travel-label">Top division ready</div>
-          <div class="travel-desc">Transferable across multiple leagues right now. Limited adjustment required.</div>
+          <div class="travel-label">Strong transferability</div>
+          <div class="travel-desc">Most important qualities should survive a higher level, with manageable adaptation requirements.</div>
         </div>
       </div>
       <div class="travel-band t-mid">
         <div class="travel-score">5–6</div>
         <div>
-          <div class="travel-label">System dependent</div>
-          <div class="travel-desc">Needs the right environment. Functional at mid-level with conditions.</div>
+          <div class="travel-label">Conditional transferability</div>
+          <div class="travel-desc">Effectiveness depends materially on role, structure or development.</div>
         </div>
       </div>
       <div class="travel-band t-low">
         <div class="travel-score">1–4</div>
         <div>
-          <div class="travel-label">High risk</div>
-          <div class="travel-desc">Significant adaptation required. Profile may not survive a step up.</div>
+          <div class="travel-label">High transfer risk</div>
+          <div class="travel-desc">Current advantages appear vulnerable to significant environmental change.</div>
         </div>
       </div>
     </div>
@@ -437,5 +453,8 @@
   </div>
 </footer>
 
+<script>
+document.addEventListener("click",function(e){var m=document.getElementById("mobileMenu");if(m&&!m.contains(e.target)&&!e.target.closest(".nav-burger"))m.classList.remove("open");});
+</script>
 </body>
 </html>

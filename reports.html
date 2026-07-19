@@ -185,8 +185,14 @@
       .report-row { grid-template-columns:72px 1fr 160px 80px; }
       .row-date { display:none; }
     }
+    .nav-burger{display:none;background:none;border:none;cursor:pointer;padding:4px 8px;font-size:22px;color:var(--brown);line-height:1;}
+    .nav-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;z-index:99;background:rgba(245,240,232,0.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:8px 24px 16px;}
+    .nav-mobile-menu.open{display:block;}
+    .nav-mobile-menu a{display:block;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--muted);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--border2);letter-spacing:0.05em;}
+    .nav-mobile-menu a:last-child{border-bottom:none;}
+    .nav-mobile-menu a:hover{color:var(--brown);}
     @media(max-width:900px){
-      nav{padding:0 24px;} .nav-links{display:none;}
+      nav{padding:0 24px;} .nav-links{display:none;} .nav-burger{display:block;}
       .page-header{padding:100px 24px 48px;}
       .header-grid{grid-template-columns:1fr;}
       .stats-panel{margin-top:32px;}
@@ -226,7 +232,17 @@
     <li><a href="about.html">About</a></li>
   </ul>
   <a href="/cdn-cgi/l/email-protection#8beee7e2eaf8fbe0e4e0e2e5e4f8cbece6eae2e7a5e8e4e6" class="nav-contact">Get in touch</a>
+  <button class="nav-burger" aria-label="Open menu" onclick="document.getElementById("mobileMenu").classList.toggle("open")">&#9776;</button>
 </nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="goalkeepers.html">Goalkeepers</a>
+  <a href="defenders.html">Defenders</a>
+  <a href="midfielders.html">Midfielders</a>
+  <a href="attackers.html">Attackers</a>
+  <a href="reports.html">Reports</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="about.html">About</a>
+</div>
 
 <!-- PAGE HEADER -->
 <div class="page-header">

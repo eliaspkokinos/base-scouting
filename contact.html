@@ -100,7 +100,7 @@
     .cr-twitter { margin-top:48px; }
     .cr-twitter a { font-family:'DM Sans',sans-serif; font-size:12px; font-weight:500; letter-spacing:0.08em; text-transform:uppercase; color:rgba(245,240,232,0.4); text-decoration:none; transition:color 0.2s; display:flex; align-items:center; gap:8px; }
     .cr-twitter a:hover { color:rgba(245,240,232,0.8); }
-    .cr-twitter a::before { content:'𝕏'; font-size:14px; }
+    .cr-twitter a::before { content:'in'; font-size:14px; font-weight:700; font-family:'DM Sans',sans-serif; }
 
     /* FOOTER */
     footer { background:var(--cream2); border-top:1px solid var(--border); padding:56px 48px 36px; }
@@ -116,8 +116,14 @@
     @keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
     .contact-left, .contact-right { animation:fadeUp 0.5s ease both 0.1s; }
 
+    .nav-burger{display:none;background:none;border:none;cursor:pointer;padding:4px 8px;font-size:22px;color:var(--brown);line-height:1;}
+    .nav-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;z-index:99;background:rgba(245,240,232,0.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:8px 24px 16px;}
+    .nav-mobile-menu.open{display:block;}
+    .nav-mobile-menu a{display:block;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--muted);text-decoration:none;padding:12px 0;border-bottom:1px solid var(--border2);letter-spacing:0.05em;}
+    .nav-mobile-menu a:last-child{border-bottom:none;}
+    .nav-mobile-menu a:hover{color:var(--brown);}
     @media(max-width:900px){
-      nav{padding:0 24px;} .nav-links{display:none;}
+      nav{padding:0 24px;} .nav-links{display:none;} .nav-burger{display:block;}
       .page{grid-template-columns:1fr; min-height:unset;}
       .contact-left{padding:112px 24px 56px; border-right:none; border-bottom:1px solid var(--border);}
       .contact-right{padding:56px 24px 64px;}
@@ -141,7 +147,17 @@
     <li><a href="about.html">About</a></li>
   </ul>
   <a href="contact.html" class="nav-contact">Get in touch</a>
+  <button class="nav-burger" aria-label="Open menu" onclick="document.getElementById("mobileMenu").classList.toggle("open")">&#9776;</button>
 </nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="goalkeepers.html">Goalkeepers</a>
+  <a href="defenders.html">Defenders</a>
+  <a href="midfielders.html">Midfielders</a>
+  <a href="attackers.html">Attackers</a>
+  <a href="reports.html">Reports</a>
+  <a href="methodology.html">Methodology</a>
+  <a href="about.html">About</a>
+</div>
 
 <div class="page">
 
@@ -151,17 +167,13 @@
       <div class="breadcrumb"><a href="index.html">B.A.S.E. Scouting</a></div>
       <h1 class="page-title">Get in<br /><em>touch.</em></h1>
       <p class="contact-intro">
-        B.A.S.E. is an independent project, so there's no contact form or ticketing system. Just an email. If you have something worth saying, send it.
+        B.A.S.E. is an independent scouting project. For questions about the region, a player or the evaluation framework, contact me directly by email.
       </p>
 
       <div class="reasons">
         <div class="reason">
           <div class="reason-dot"></div>
           <p class="reason-text"><strong>You're a club or analyst</strong> looking at the Balkan region and want to talk about what's in the database.</p>
-        </div>
-        <div class="reason">
-          <div class="reason-dot"></div>
-          <p class="reason-text"><strong>You're an agent</strong> with a player you think belongs in the database and want them evaluated.</p>
         </div>
         <div class="reason">
           <div class="reason-dot"></div>
@@ -185,7 +197,7 @@
     <div class="cr-email-block">
       <div class="cr-kicker">Contact</div>
       <h2 class="cr-title">Elias Kokinos</h2>
-      <p class="cr-body">Founder of B.A.S.E. Scouting. Video analyst in MLS. Based in California. Building toward a career in recruitment and sporting direction.</p>
+      <p class="cr-body">Founder of B.A.S.E. Scouting. Video Analyst with the San Jose Earthquakes, based in California.</p>
       <div class="cr-email-label">Email</div>
       <a href="mailto:eliaspkokinos@gmail.com" class="cr-email">eliaspkokinos@gmail.com</a>
     </div>
@@ -199,7 +211,7 @@
         </div>
         <div class="cr-detail">
           <span class="cr-detail-label">Current role</span>
-          <span class="cr-detail-value">Video Analyst, MLS</span>
+          <span class="cr-detail-value">Video Analyst — San Jose Earthquakes</span>
         </div>
         <div class="cr-detail">
           <span class="cr-detail-label">Coverage</span>
@@ -211,7 +223,7 @@
         </div>
       </div>
       <div class="cr-twitter">
-        <a href="https://twitter.com/basescouting" target="_blank">Follow on X / Twitter</a>
+        <a href="https://www.linkedin.com/in/elias-kokinos-3b13121b0/" target="_blank">Connect on LinkedIn</a>
       </div>
     </div>
   </div>
@@ -226,8 +238,7 @@
       <p>Balkan Analytical Scouting & Evaluation. An independent project identifying top emerging talent across 12 countries.</p>
     </div>
     <div class="fcol"><h6>Players</h6><ul><li><a href="goalkeepers.html">Goalkeepers</a></li><li><a href="defenders.html">Defenders</a></li><li><a href="midfielders.html">Midfielders</a></li><li><a href="attackers.html">Attackers</a></li></ul></div>
-    <div class="fcol"><h6>Reference</h6><ul><li><a href="reports.html">Reports</a></li>
-    <li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
+    <div class="fcol"><h6>Reference</h6><ul><li><a href="methodology.html">Methodology</a></li><li><a href="reports.html">All reports</a></li><li><a href="about.html">About</a></li></ul></div>
     <div class="fcol"><h6>Contact</h6><ul><li><a href="mailto:eliaspkokinos@gmail.com">eliaspkokinos@gmail.com</a></li><li>California, USA</li></ul></div>
   </div>
   <div class="footer-bottom">
@@ -236,5 +247,8 @@
   </div>
 </footer>
 
+<script>
+document.addEventListener("click",function(e){var m=document.getElementById("mobileMenu");if(m&&!m.contains(e.target)&&!e.target.closest(".nav-burger"))m.classList.remove("open");});
+</script>
 </body>
 </html>
