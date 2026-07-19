@@ -4773,5 +4773,150 @@
       "potentialBalls": 7,
       "potentialProjection": "A reliable starter at a mid-table club in a top-ten European domestic league. The ceiling is not the complete CB profile because the on-ball development has too much ground to cover. The floor is more useful than the ceiling sounds: clean aerial dominance, genuine interception quality, and duel competitiveness are not common at €250k."
     }
+  },
+  {
+    "slug": "dino-beader-trajanovski",
+    "handcrafted": true,
+    "firstName": "Dino Beader",
+    "lastName": "Trajanovski",
+    "positionTag": "Deep-Lying Playmaker",
+    "positionCategory": "Midfielders",
+    "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/dino-beader-trajanovski.png",
+    "photoAlt": "Dino Beader Trajanovski",
+    "verdictLine": "Dino Beader Trajanovski already knows how to move a game forward. The harder question is whether he will eventually learn to hurt it. At sixteen, he already sees where possession should go next. The next stage is learning which pass changes the match rather than merely advancing it.",
+    "bio": {
+      "dob": "29 Jan 2010",
+      "nationality": "Croatian",
+      "club": "Lokomotiva Zagreb U17",
+      "league": "Croatia U17",
+      "contractExpiry": "Jan 2028",
+      "marketValue": "",
+      "preferredFoot": "Right",
+      "height": "1.86m",
+      "agent": "BD1"
+    },
+    "scores": { "basePotential": "9", "travelReadiness": "5", "reportDate": "Jul '26" },
+    "role": {
+      "primaryRole": "Deep-Lying Playmaker",
+      "description": ["A 16-year-old Croatian midfielder who receives early, sees the next space quickly and moves possession through pressure without needing to dominate the ball physically. His role changes between club and country, but the underlying function remains the same: find the free player, connect the next phase and keep the game moving."],
+      "formationName": "4–3–3 Shape",
+      "formationLabelBottom": "Beader Trajanovski — highlighted",
+      "formationPositions": [
+        { "cx": 200, "cy": 548, "label": "GK" },
+        { "cx": 60,  "cy": 460, "label": "LB" },
+        { "cx": 152, "cy": 468, "label": "LCB" },
+        { "cx": 248, "cy": 468, "label": "RCB" },
+        { "cx": 340, "cy": 460, "label": "RB" },
+        { "cx": 110, "cy": 300, "label": "LCM" },
+        { "cx": 290, "cy": 300, "label": "RCM" },
+        { "cx": 72,  "cy": 178, "label": "LW" },
+        { "cx": 200, "cy": 158, "label": "ST" },
+        { "cx": 328, "cy": 178, "label": "RW" }
+      ],
+      "highlightedPosition": { "cx": 200, "cy": 360, "label": "DM" },
+      "heatmapZones": [],
+      "heatmapEllipses": []
+    },
+    "behaviors": {
+      "onBall": [
+        { "title": "Scans constantly before receiving", "text": "Spatial awareness begins before the ball arrives. He identifies positions, passing lanes, and movement patterns while the ball is still in transit. The pre-receive scanning is what converts a good first touch into a useful action rather than a recovery." },
+        { "title": "Excellent first touch in tight areas", "text": "Technical security on the receive creates time: the ball settles in a position that already suggests the next action. That is a different quality from settling the ball and then looking for options." },
+        { "title": "Manages tempo deliberately", "text": "Knows when to slow the game and when to accelerate it. That sense of tempo at 16 is either learned very early or intuitive. Either way it is the cognitive quality that separates a ball-circulator from a game-controller." },
+        { "title": "Broad passing range", "text": "Short and medium passing outstanding. Long-range diagonals present. Initiates attacks through the switch when operating from deep, consistent with the deep-lying playmaker role rather than a box-to-box one." },
+        { "title": "Positions between the lines", "text": "Consistently provides a passing outlet by occupying half-zones rather than obvious positions. First in final-third entries and second in progressive passes, achieved without elite carry or run volume, means the ball found him in advanced positions through positioning rather than movement." }
+      ],
+      "offBall": [
+        { "title": "Defensive footprint is average", "text": "Duel win rate respectable, interception volume slightly above the midfield median, but total defensive action volume sat in the bottom third of the tournament group. Not a player who imposes himself defensively or covers ground aggressively. Needs a physical midfield partner." },
+        { "title": "Weak left foot", "text": "The clearest technical gap and the one with the most direct tactical implication. Defenders who identify the right-foot preference can press him into predictable exits and reduce the passing solution pool. Needs deliberate development." },
+        { "title": "Physical robustness in contact duels is not there yet", "text": "Lacks comfort when the game becomes physical. Already pointing toward technical-dominant systems that protect him rather than ask him to lead the press. Not unusual at 16, but a constraint that requires active system management at every level he progresses to." },
+        { "title": "The creation gap", "text": "Moved the ball forward constantly and accurately. Very little of it converted to measurable danger. Whether that is a role question, a quality-of-receiving-teammates question, or a ceiling on his ability to break the final line is exactly what three tournament matches cannot answer." }
+      ]
+    },
+    "dna": {
+      "pure": [
+        { "name": "Spatial intelligence and pre-receive scanning", "desc": "The habit of processing the pitch before the ball arrives is cognitive and formed. It does not depend on the quality of the opponent. Against better opponents the passing windows narrow, but the habit of looking for them before the ball arrives only becomes more valuable." },
+        { "name": "First touch quality", "desc": "Technical security on the receive is already present under tournament pressure. The ball goes where the next action requires rather than where it was convenient. This scales with level because it is not athleticism: it is mechanics and habit." },
+        { "name": "Tempo management", "desc": "Knowing when to slow and when to accelerate is a cognitive quality that exists well before a player knows what to do with it. At 16, having it at all is the signal. How consistently it is applied under higher pressure is what the next three years will reveal." }
+      ],
+      "context": [
+        { "name": "Passing volume and progression output", "desc": "First in a U17 Euros tournament for passes to the final third. That number is shaped by Croatia's structure and the quality of opposition. The passing quality travels; the volume and ranking reflect a specific context." }
+      ],
+      "system": [
+        { "name": "Positioning between the lines", "desc": "The half-zone positioning that produces the progression numbers depends on a system that creates and protects those spaces. In a more physically congested structure the positioning opportunities change. The intelligence to find space scales; the specific spaces are system-created." },
+        { "name": "Game influence volume", "desc": "Croatia's structure routed possession through him. A different system, one that builds differently or with a different hierarchy, will change the touch volume and reception frequency significantly. The quality of actions within the touches he receives is what matters as the system changes." }
+      ],
+      "exposed": [
+        { "name": "Left foot", "desc": "The most immediately exploitable gap. A pressing structure that identifies the right-foot dominance and channels accordingly will reduce his passing options and slow his decision cycle. This is correctable with deliberate work. Until it is corrected it is a known weakness that opponents at any level above U17 will find quickly." },
+        { "name": "Physical contest avoidance", "desc": "Lacks comfort in contact duels. At 16 that is normal. At 18, playing for a senior club, it becomes the thing that restricts which systems can use him and which positions he can realistically occupy. Development of physical robustness is the longest lead-time item in the profile." }
+      ]
+    },
+    "profiles": {
+      "athletic": [
+        { "label": "Frame", "value": "1.86m. Handles aerial duels reasonably well for his height and age. Frame is not a concern and not a weapon. Standard for the profile." },
+        { "label": "Physicality", "value": "Not yet present in contact duels. The development of physical robustness is the longest runway item. Will determine how much system protection he requires at senior level." },
+        { "label": "Ball control", "value": "The standout athletic quality. First touch and close control in limited spaces already functioning at a level the tournament data confirms. Carries the ball effectively when given space in transition." },
+        { "label": "Finishing", "value": "Capable of a powerful right-footed shot from outside the box. Arrives in the penalty area with the ball at his feet and positions well for quick shooting opportunities. Not a primary profile trait but present." }
+      ],
+      "cognitive": [
+        { "label": "Spatial reading", "value": "The defining quality at this age. Finds pockets, scans before receiving, reads movement before it fully develops. Spatial reading at 16 that produces top-two tournament rankings in progressive passing metrics is not common." },
+        { "label": "Decision speed", "value": "Makes fast, accurate decisions under U17 tournament pressure. Remains calm when pressed. 93.1% accurate forward passes reflects decision-making that does not degrade when the situation tightens." },
+        { "label": "Information filtering", "value": "The creation gap — strong progression output with modest xA — raises an open question: is he finding teammates in good positions and they are not converting, or is the final pass selection not yet finding the right action at the right moment?" },
+        { "label": "Game sense", "value": "Deliberately manages tempo. Knows when to slow and when to accelerate. For a 16-year-old that is an unusual cognitive marker. Whether it is consistently applied or situationally present is what the next years will confirm." }
+      ],
+      "psychological": [
+        { "label": "National team regularity", "value": "15 caps for Croatia U17 with 2 goals. Trusted consistently at international level at 16. The volume of caps suggests the staff see him as a reliable reference point, not an experimental selection." },
+        { "label": "Composure", "value": "Described consistently across multiple scouting sources as calm under pressure and composed in tight situations. The 91.82% overall pass accuracy in a tournament context is the data that best supports this." },
+        { "label": "Collaborative orientation", "value": "The profile is organized around collective benefit. He positions to give options, manages tempo for the team, and looks for the through ball rather than the dribble. At 16 that orientation is a psychological signal as much as a tactical one." },
+        { "label": "Development runway", "value": "Everything about this profile is early. The cognitive and technical foundations are present at an age where most players are still developing basic habits. The physical and left-foot gaps have years of development ahead of them." }
+      ]
+    },
+    "devPriorities": [
+      { "num": "01", "title": "Left foot", "text": "The most urgent technical priority and the one with the clearest developmental path. Deliberate training repetition. Every session that asks him to use the left foot in game-realistic situations closes the gap. Without it, pressing structures have a reliable exploit. With it, the passing solution pool doubles." },
+      { "num": "02", "title": "Physical robustness in contact situations", "text": "The longest lead-time item. Strength and conditioning work alongside deliberate exposure to physical midfield environments. Lokomotiva's U17 and eventual senior structures need to be asking him to compete physically in training before the senior game asks it in competition." },
+      { "num": "03", "title": "Final-pass selection and chance creation", "text": "The gap between progression output and creation output is the open question the next few years need to answer. Whether he develops the instinct to pick the pass that breaks the last line, rather than the one that advances play safely into a good area, is the difference between a player who dictates games and one who facilitates them." }
+    ],
+    "travelScore": {
+      "score": "5",
+      "prose": [
+        "The 5 is honest about what U17 football at 16 can tell you, even with extended watching. The cognitive and technical foundations are present. The physical robustness is not, the left foot is not, and the creation gap is unresolved. A club acquiring him now is not buying a ready midfielder. It is buying a profile with the foundations for something significantly better, and accepting that two or three years of patient development comes with the purchase.",
+        "The right next environment is not a higher league but a better club structure: one with a serious youth development pathway, deliberate physical conditioning, and a system that asks him to use both feet and compete physically in training before the senior game demands it. Lokomotiva Zagreb is a reasonable environment at 16. The question is what happens at 18.",
+        "The 5 does not reflect doubt about the ceiling. It reflects that the ceiling is several years away and the route to it requires the right club making the right decisions consistently over a significant development period. That is a different kind of risk from a 21-year-old with proven senior minutes."
+      ]
+    },
+    "leagueScores": [
+      { "league": "Croatia / HNL",     "score": 8.2, "width": "82%", "high": true,  "note": "The right environment for the next 18-24 months. Senior HNL football as early as possible will expose the physical and left-foot gaps in a context where the quality of technical play rewards what he already does well." },
+      { "league": "Eredivisie",        "score": 7.6, "width": "76%", "high": true,  "note": "A strong medium-term target if HNL development goes well. Dutch football's possession orientation and technical development culture suit the profile. The physical demands are the test." },
+      { "league": "Jupiler Pro League","score": 7.4, "width": "74%", "high": true,  "note": "Belgian football's track record of developing technically intelligent midfielders makes this a natural medium-term pathway. Physical and pressing demands will test the gaps." },
+      { "league": "Bundesliga",        "score": 5.8, "width": "58%", "high": false, "note": "The eventual destination if the technical ceiling develops as the profile suggests. Not before 19 or 20 at the earliest, and only after the physical development questions are resolved." },
+      { "league": "Serie A",           "score": 6.2, "width": "62%", "high": false, "note": "His game translates extremely well to Italian football tactically. The positional intelligence, tempo management, passing range: all legible in Serie A culture. He should only go if a club intends to use him in the first team." },
+      { "league": "La Liga",           "score": 5.4, "width": "54%", "high": false, "note": "Technical and tactical culture fits the profile. The physical demands and pace of pressing at mid-table La Liga level are the test. A realistic long-term destination contingent on the physical development gap closing first." }
+    ],
+    "riskGauges": [
+      { "score": 2, "label": "Development",  "meaning": "Low risk",     "note": "The cognitive and technical foundations are already present. The gaps are left foot, physical robustness, and creation output. All three are coachable with sufficient development time and the right environment." },
+      { "score": 1, "label": "Psychological","meaning": "Minimal risk", "note": "15 Croatia U17 caps, composure under tournament pressure, collaborative orientation, consistent trust from national team staff. No psychological concerns visible in any source reviewed." },
+      { "score": 2, "label": "Market",       "meaning": "Low risk",     "note": "Contract until January 2028 with BD1 representation. The current acquisition window is open. The risk is primarily opportunity cost: a club that moves now is paying for potential before the senior proof exists." },
+      { "score": 3, "label": "Systemic",     "meaning": "Medium risk",  "note": "A deep-lying playmaker profile travels well across most possession-oriented systems. The constraint is a physical midfield partner and structural protection from direct play." }
+    ],
+    "trajectoryNote": "The ceiling of what the cognitive and technical foundations suggest is possible: a first-choice deep-lying playmaker at a UCL-level club, capable of controlling games through intelligence, range, and tempo rather than athleticism or physicality. The 9 reflects the ceiling. The Travel Ready 5 reflects where the profile actually is. Both numbers are honest. The distance between them is the development project.",
+    "nowAge": 16,
+    "verdict": {
+      "statement": "Follow the profile. The cognitive foundations at 16 justify the attention. The gaps in left foot, physical robustness, and final-pass selection are real and require years of deliberate development. Any club acquiring him now is buying development time alongside the player, and should price both accordingly. The right next environment is not a higher league but a serious youth structure with the patience to develop what is already there.",
+      "travels": [
+        "Spatial intelligence and pre-receive scanning: rare at 16 and already producing tournament-leading passing output",
+        "First touch quality under pressure: 91.82% overall pass accuracy across three tournament matches",
+        "Tempo management: deliberate, not accidental",
+        "15 Croatia U17 caps: consistent national team trust at 16",
+        "Composure and collaborative orientation: consistent across all sources reviewed"
+      ],
+      "targeted": [
+        "Left foot: exploitable now, correctable with deliberate work",
+        "Physical robustness in contact duels: longest lead-time item in the profile",
+        "Final-pass selection and chance creation: the gap between where the ball went and what it produced is unresolved",
+        "Defensive contribution: minimal, requires structural system protection at every level"
+      ],
+      "potentialRating": "9/10",
+      "potentialBalls": 9,
+      "potentialProjection": "The ceiling of what the cognitive and technical foundations suggest is possible: a first-choice deep-lying playmaker at a UCL-level club, capable of controlling games through intelligence, range, and tempo rather than athleticism or physicality. The 9 reflects the ceiling. The Travel Ready 5 reflects where the profile actually is. Both numbers are honest. The distance between them is the development project."
+    }
   }]
 }
