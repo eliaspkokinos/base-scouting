@@ -1,6 +1,154 @@
 {
   "players": [
     {
+      "slug": "milan-roganovic",
+      "handcrafted": true,
+      "firstName": "Milan",
+      "lastName": "Roganović",
+      "positionTag": "Complete Fullback",
+      "positionCategory": "Defenders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/milan-roganovic.png",
+      "photoAlt": "Milan Roganović",
+      "verdictLine": "Milan Roganović is almost always where the game needs him. He sees the pass, the run and the danger early enough that very little on his side feels accidental. The remaining question is whether arriving first will be enough.",
+      "bio": {
+        "dob": "28 Oct 2005",
+        "nationality": "Montenegrin",
+        "club": "Partizan Belgrade",
+        "league": "Serbian SuperLiga",
+        "contractExpiry": "Jun 2030",
+        "marketValue": "€4.0M",
+        "preferredFoot": "Right",
+        "height": "1.82m",
+        "agent": "Red Ball Agency"
+      },
+      "scores": { "basePotential": "8.5", "travelReadiness": "8", "reportDate": "Jul '26" },
+      "role": {
+        "primaryRole": "Complete Fullback",
+        "description": [
+          "A right-back who can function across a variety of positions depending on the gamestate. Partizan played him 3,004 minutes at 20, which is the strongest single endorsement in the profile. He presses with intent, carries in the wide corridor, and delivers into the box from deeper positions than most full-backs attempt.",
+          "The value is concentrated in positioning, timing, and decision quality rather than in athletic separation or volume of defensive actions. Seven senior caps for Montenegro."
+        ],
+        "formationName": "4-3-3",
+        "formationLabelBottom": "Roganović — highlighted position",
+        "formationPositions": [
+          {"cx": 200, "cy": 548, "label": "GK"}, {"cx": 60, "cy": 460, "label": "LB"},
+          {"cx": 152, "cy": 468, "label": "LCB"}, {"cx": 248, "cy": 468, "label": "RCB"},
+          {"cx": 340, "cy": 455, "label": "RB"}, {"cx": 110, "cy": 330, "label": "LCM"},
+          {"cx": 200, "cy": 315, "label": "CM"}, {"cx": 290, "cy": 330, "label": "RCM"},
+          {"cx": 72, "cy": 178, "label": "LW"}, {"cx": 200, "cy": 158, "label": "ST"},
+          {"cx": 328, "cy": 178, "label": "RW"}
+        ],
+        "highlightedPosition": {"cx": 340, "cy": 455, "label": "RB"},
+        "heatmapZones": [], "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          {"title": "Delivery into the box is the best thing he does with the ball.", "text": "Crosses and passes into the penalty area arrive at a standard well beyond what the league requires, and from deeper starting positions than most full-backs attempt. The long pass accuracy holds up alongside it."},
+          {"title": "Knows which pass the moment wants.", "text": "Back to the goalkeeper, line-breaker into a centre-forward holding it up, first-time return in a one-two, switch across the pitch. The selection is varied and it is usually right."},
+          {"title": "Carries in the wide corridor and inverts when the structure needs it.", "text": "Comfortable driving the touchline, equally willing to step inside for a central option, and constantly looking for the one-two. It suits a system that pushes the right-back high."},
+          {"title": "The pass connects; the receiver is not always safe.", "text": "He completes the ball and takes the statistic, then the teammate loses possession because he arrived into pressure rather than away from it. Occasionally the pass finds nobody at all and the transition runs the other way."},
+          {"title": "First touch is adequate rather than secure.", "text": "Fine against the pressing his league generates. Against sustained man-oriented pressure the answer is more likely to be his movement pulling markers away than his ability to solve it on the ball."}
+        ],
+        "offBall": [
+          {"title": "Positioning and timing are the profile.", "text": "He arrives before the action rather than reacting to it, and the anticipation is consistent enough that it reads as trained rather than instinctive. Facing a two-against-one he sets his body so he can either stay with the runner or step to the ball, which is a detail most 20-year-old full-backs get wrong."},
+          {"title": "Confident in isolation.", "text": "Comfortable defending one-against-one, willing to take the duel on rather than retreat into cover. The willingness is not the issue."},
+          {"title": "He harasses without finishing.", "text": "He gets to the contest on time and then gets dribbled past or shouldered off it. The tackle timing is right. The physical resolution of the tackle is not."},
+          {"title": "Movement to stay in the game.", "text": "He makes himself available continuously, finding the angle his teammate needs rather than the position his role prescribes. Partizan's build-up is noticeably easier because he is where they want to look."},
+          {"title": "Presses and counterpresses with real intent.", "text": "High work rate, high fitness, does not go to ground and does not stop. The intensity of the off-ball work does not drop late in matches or late in the season."}
+        ]
+      },
+      "dna": {
+        "pure": [
+          {"name": "Anticipation and positional timing", "desc": "Arriving early is a habit of attention, and habits of attention do not degrade when the opponent improves. What changes at a higher level is that the margin for arriving early shrinks. A player who already reads the action a beat ahead has more of that margin to lose than one who is reacting."},
+          {"name": "Pass selection under varied conditions", "desc": "Choosing correctly between four available options is separate from executing any of them. The execution will be tested by better pressing; the selection is a form of understanding that better pressing tends to reward rather than punish."},
+          {"name": "Delivery into the penalty area", "desc": "A technical action performed from a deep starting position with no defender contesting the strike. Almost nothing about the next level changes the conditions under which he executes it."},
+          {"name": "Durability and intensity of off-ball work", "desc": "Full seasons at high engagement without a visible drop. The pressing volume may be asked to change shape in a different system, but the physical capacity to sustain it is his own."}
+        ],
+        "context": [
+          {"name": "What survives the peer change", "desc": "Against every under-22 full-back in the global dataset his rate metrics hold and his volume metrics collapse: thirteenth for defensive duel win percentage, beyond a hundredth for forward passes and tackles. The efficiency is his. The quantity belonged to Partizan."}
+        ],
+        "system": [
+          {"name": "Completion rates and passing volume", "desc": "Top-four in the league for pass accuracy and ninth for volume. Partizan control most domestic games and he receives in clean conditions. In a team that concedes possession the accuracy will fall before the judgement does, and the judgement is the part worth buying."},
+          {"name": "Advanced positioning and carry output", "desc": "The progressive carrying and the deep delivery both require a structure that lets the right-back leave the back line. A system that keeps its full-backs low would remove roughly half of what he currently contributes and leave the defensive half intact."}
+        ],
+        "exposed": [
+          {"name": "Physical resolution of the duel", "desc": "Wingers who can hold contact will find that arriving on time is not the same as winning, and they will find it quickly. A stronger league does not just contain better dribblers; it contains dribblers who understand how to invite a full-back into a contest he cannot finish."},
+          {"name": "Right-foot dependence", "desc": "Heavily right-footed. A press that channels him onto the left removes the delivery that is his best asset and forces the touch that is his weakest."},
+          {"name": "Pace over distance", "desc": "Sharp across five yards, ordinary across forty. In a high line against a forward running the channel, the positioning that protects him domestically stops being sufficient."}
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          {"label": "Frame", "value": "1.82m, athletic without being imposing. Nothing about the build prevents him from competing against senior Balkan football, and nothing about it wins him contests on its own."},
+          {"label": "Acceleration", "value": "Deceptively quick across short distances. Sharp bursts, agile through direction change, faster than the frame suggests. The recovery running over longer distances is where the ceiling sits."},
+          {"label": "Contact", "value": "Does not go to ground and does not back out of physical exchanges. What he does not yet do is win them at the rate his timing deserves. The willingness is present; the assertion is not."},
+          {"label": "Endurance", "value": "A full domestic season at 20 with European football alongside it. High fitness, no visible fade in the pressing work late in matches."}
+        ],
+        "cognitive": [
+          {"label": "Spatial reading", "value": "The defining quality. He is positioned before the action requires him to be, which is why his duel volume is low and his duel win rate is the highest among league full-backs. Good positioning is a way of choosing which contests to have."},
+          {"label": "Decision quality", "value": "More often right than wrong, across a wide range of situations, at speed. He recognises which of several available actions the moment actually wants."},
+          {"label": "Modelling the receiver", "value": "The gap. He solves his own problem and passes the next one along. Reading the pressure a teammate is about to face is a different act of processing from reading the pressure on yourself, and it is the one piece of his game intelligence that is not yet developed."},
+          {"label": "Positional versatility", "value": "Understands the wing-back role and the third-centre-back role well enough to fill both. The tactical comprehension is broader than the position he plays."}
+        ],
+        "psychological": [
+          {"label": "Responsibility", "value": "He asks for the ball and asks for the load. Long runs into advanced positions, demands involvement, organises around him. A captaincy at Partizan seems to be coming sooner rather than later."},
+          {"label": "Reliability", "value": "The value of a player a manager stops thinking about is difficult to quantify and easy to underrate. There is a utility in only having to pick 10 names on every matchweek because he picks himself."},
+          {"label": "Self-assessment", "value": "He believes his on-ball ability is better than it is, and the belief makes it better than it is. Whether that survives an environment that punishes the belief is a real question rather than a rhetorical one."},
+          {"label": "Discipline", "value": "Low foul count and low card count for a full-back who presses this aggressively. The engagement is constant without being reckless."}
+        ]
+      },
+      "devPriorities": [
+        {"num": "01", "title": "Winning the duel he has already reached.", "text": "Everything else in the profile is either good or fixable. This is the item that determines whether he becomes a top-flight starter or a very intelligent squad player. The work is physical and it is technical: strength through the shoulder, a lower centre of gravity into contact, and a decision to commit to the tackle rather than shepherd. He is already in the right place often enough that a marginal improvement here changes his output significantly."},
+        {"num": "02", "title": "Passing with the receiver's next action in mind.", "text": "Video work rather than training-ground repetition. He needs to see the sequences where his completed pass created a problem two seconds later. The intelligence to fix this is clearly available; the habit of looking for it is not yet there."},
+        {"num": "03", "title": "Left foot to a functional standard.", "text": "Not a second delivery foot. Enough that a press channelling him inside does not immediately end the possession. At 20, with this much technical security on the right, the return on deliberate weak-foot work is high."}
+      ],
+      "travelScore": {
+        "score": "8",
+        "prose": [
+          "The positioning, the decision-making, the delivery and the durability are all functioning above the level of the league he is in. A club buying him is buying a profile that has already done the hard part, and the hard part in a full-back is knowing where to be.",
+          "The two points withheld are the duel resolution and the pace over distance. Both are real, both will be tested immediately, and one of them is coachable. A team that presses high and defends a large pitch will find the second one before the first.",
+          "Unusually for a player at this stage, staying is not a mistake. Partizan give him European minutes, a captain's role in waiting, and a domestic league in which he is already the best full-back at what he does well. But 3,004 minutes at 20 in this league is close to the maximum information it can provide. The next season teaches him more somewhere else than it does here."
+        ]
+      },
+      "leagueScores": [
+        {"league": "Bundesliga", "score": 8.2, "width": "82%", "high": true, "note": "The best fit. Structured possession sides push the right-back high, reward positional intelligence over isolation dribbling, and coach the physical side of defending seriously."},
+        {"league": "Eredivisie", "score": 8.0, "width": "80%", "high": true, "note": "The safest useful step. Forgiving enough on the physical side that the duel work can be addressed without the profile being buried while it happens, which also makes it less diagnostic than Germany."},
+        {"league": "Serie A", "score": 7.8, "width": "78%", "high": true, "note": "Tactically the most natural home for a full-back whose value is comprehension, and Italian coaching addresses defensive detail directly. The concern is the one Serie A always raises with 20-year-old imports: he needs to be a plan, not a squad filler."},
+        {"league": "Jupiler Pro League", "score": 7.4, "width": "74%", "high": true, "note": "A reasonable intermediate move with a strong resale pathway that would put the duel resolution under real examination. It is also a lateral step in league quality from a Partizan starting role."},
+        {"league": "Ligue 1", "score": 7.0, "width": "70%", "high": false, "note": "Athletic wide forwards in every fixture examine both weaknesses at once. Viable in a compact structure, uncomfortable in a high line."},
+        {"league": "Premier League", "score": 5.8, "width": "58%", "high": false, "note": "Too early. Recovery pace and physical duel resolution are exactly what the league's wide attackers hunt, and no version of this profile survives that examination in its current form."}
+      ],
+      "riskGauges": [
+        {"score": 2, "label": "Development", "meaning": "Low risk", "note": "The cognitive foundation is established and the two open items are a physical habit and a video-room habit. Neither requires a change in who the player is."},
+        {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Seeks responsibility, sustains intensity, disciplined across a full senior season at 20. A leadership profile rather than a management project."},
+        {"score": 3, "label": "Market", "meaning": "Medium risk", "note": "Valued at €4M after a quadrupling in twelve months, contracted to 2030. Partizan hold the leverage and have no need to sell. Another season at this level moves the fee, not the profile."},
+        {"score": 2, "label": "Systemic", "meaning": "Low risk", "note": "Functions at right-back in a four, right wing-back in a three, and can cover centre-back. The versatility is genuine tactical comprehension. The only structure that wastes him is one that keeps its full-backs deep."}
+      ],
+      "trajectoryNote": "Roganović's value may be in how little needs transforming around him. He will defend, attack, invert, overlap and make himself available again.",
+      "nowAge": 20,
+      "verdict": {
+        "statement": "Buy the positioning, the decision-making, the delivery and the durability, and understand that you are buying a full-back who will be reliable long before he is spectacular and may never be spectacular at all. Put him in a structured possession side that pushes its full-backs high and coaches contact defending directly. Do not buy him expecting the game to change when he gets the ball. Buy him because it stops going wrong on his side of the pitch.",
+        "travels": [
+          "Positioning and anticipation: arrives before the action, sets his body correctly in outnumbered situations",
+          "First among 64 SuperLiga full-backs for defensive duel win rate, sixth on the defensive composite",
+          "Pass selection across a wide range of situations, right more often than wrong and made at speed",
+          "Delivery into the penalty area from deep positions, supported by unusually good long-pass accuracy",
+          "Durability and off-ball intensity across a full senior season at 20 with no visible fade",
+          "Genuine tactical versatility: right-back in a four, wing-back in a three, emergency centre-back",
+          "Leadership orientation: asks for responsibility, low foul count, a captain in waiting"
+        ],
+        "targeted": [
+          "Physical resolution of duels he has already reached: the item that decides how high the profile goes",
+          "Modelling the receiver: completed passes that leave a teammate in trouble, and occasional balls to nobody",
+          "Right-foot dependence: a press channelling him inside removes his best asset and exposes his weakest touch",
+          "Recovery pace over distance: manageable in a compact structure, a genuine problem in a high line"
+        ],
+        "potentialRating": "8.5",
+        "potentialBalls": 9,
+        "potentialProjection": "A first-choice right-back at a top-five league club competing for the Champions League places and capable of a knockout round or two. A decade or more of top-flight football rather than a highlight reel. The ceiling is not a full-back who transforms matches, and the honest question underneath the rating is whether a right-back needs to."
+      }
+    },
+    {
       "slug": "matej-deket",
       "handcrafted": true,
       "firstName": "Matej",
