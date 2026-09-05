@@ -1,6 +1,162 @@
 {
   "players": [
     {
+      "slug": "nejc-viher",
+      "handcrafted": true,
+      "firstName": "Nejc",
+      "lastName": "Viher",
+      "positionTag": "Deep-Lying Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/nejc-viher.png",
+      "photoAlt": "Nejc Viher",
+      "verdictLine": "Nejc Viher does not need many touches to sit inside a game. He sees pressure developing, moves somewhere useful and releases the ball before the problem becomes his. The numbers make him look peripheral. Watching him, it rarely feels that way.",
+      "bio": {
+        "dob": "13 Feb 2008",
+        "nationality": "Slovenian",
+        "club": "NK Maribor",
+        "league": "1. SNL (Slovenia)",
+        "contractExpiry": "May 2028",
+        "marketValue": "€450k",
+        "preferredFoot": "Right",
+        "height": "1.85m",
+        "agent": "Niagara Sports"
+      },
+      "scores": { "basePotential": "8.5", "travelReadiness": "7.5", "reportDate": "Aug '26" },
+      "role": {
+        "primaryRole": "Deep-Lying Playmaker",
+        "description": [
+          "Neither a destroyer nor a creator. An 18-year-old whose value sits one action upstream of everything the box score records: he is the reason a teammate had an option, rather than the name attached to what the option produced. Maribor route play through him more often than his touch volume suggests. Regular starter at 2,243 minutes in his first senior season, called into the Slovenia U21 squad at 17, and 1.85m with the frame still filling out."
+        ],
+        "formationName": "4–2–3–1 Shape",
+        "formationLabelBottom": "Viher — highlighted position",
+        "formationPositions": [
+          {"cx": 200, "cy": 548, "label": "GK"},
+          {"cx": 60, "cy": 465, "label": "LB"},
+          {"cx": 152, "cy": 472, "label": "LCB"},
+          {"cx": 248, "cy": 472, "label": "RCB"},
+          {"cx": 340, "cy": 465, "label": "RB"},
+          {"cx": 150, "cy": 360, "label": "DM"},
+          {"cx": 250, "cy": 360, "label": "DM"},
+          {"cx": 200, "cy": 255, "label": "AM"},
+          {"cx": 72, "cy": 230, "label": "LW"},
+          {"cx": 328, "cy": 230, "label": "RW"},
+          {"cx": 200, "cy": 140, "label": "ST"}
+        ],
+        "highlightedPosition": {"cx": 150, "cy": 360, "label": "DM"},
+        "heatmapZones": [], "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          {"title": "Receives between the lines and releases in one touch.", "text": "Confident taking the ball with a defender behind him, and he has usually decided what happens next before it arrives. He rarely takes more touches than the situation allows."},
+          {"title": "Takes his touch into the space rather than away from the defender.", "text": "A small distinction with a large consequence: the first touch buys him the angle for the next pass instead of only protecting the ball."},
+          {"title": "Passing empathy.", "text": "He accounts for what his teammate will face on receipt. The ball arrives on the side that lets them turn, or into the stride rather than at the feet. His assist against Bravo broke a line thirty yards forward into a runner already moving."},
+          {"title": "Drifts wide to buy time and open the picture.", "text": "Pops out to either flank when the middle congests, which gives him a longer look at the pitch and gives whoever is under pressure an exit."},
+          {"title": "Long passes hang.", "text": "They arrive, and the accuracy is respectable, but the flight is high and slow enough that a defence has time to reset around them. There is no zip on the ball."},
+          {"title": "Occasionally attempts a pass beyond his execution.", "text": "He sees it, which is the harder part, and then underhits it or picks the version of it that only a handful of players anywhere complete. The vision is running ahead of the technique."}
+        ],
+        "offBall": [
+          {"title": "He makes himself available continuously.", "text": "The clearest single trait in the profile. He moves to where the space is in order to take pressure off a teammate, not to receive for its own sake, and he covers a lot of ground doing it. Nothing about the habit depends on the system he is in."},
+          {"title": "Scans without stopping.", "text": "Head constantly moving before and after the ball arrives. He appears to know where the pressure is developing rather than where it currently is."},
+          {"title": "Presses through the full sequence.", "text": "Maribor use a man-oriented press and he commits to it, including following a dropping opponent into the box when the build-up creates an overload behind him."},
+          {"title": "Defends by delay as well as by winning it.", "text": "Understands his assignment in the shape and is content to hold a runner off rather than dive at the ball. He knows when the job is containment."},
+          {"title": "Engine holds into stoppage time.", "text": "Still engaged and still moving into the last minutes. Ninth globally among under-20 players in 60 leagues for out-of-possession distance covered per 90."},
+          {"title": "Tackling needs care.", "text": "Committed and generally well timed, but he can catch a man when the timing slips. At a level where referees protect the ball-carrier more, this becomes a booking problem."}
+        ]
+      },
+      "dna": {
+        "pure": [
+          {"name": "Scanning for solutions rather than for passes", "desc": "When the first option is taken away he finds a second and a third. That is a different cognitive act from arriving with a plan and executing it, and it is the trait that raises the ceiling most, because better opposition removes first options as a matter of routine."},
+          {"name": "Self-availability", "desc": "Moving to where a teammate needs an exit is a decision he makes without being asked, in every phase, regardless of shape. Systems can amplify it. No system creates it."},
+          {"name": "Passing empathy", "desc": "Weighting and placing the ball for the receiver's next action rather than for the completion. This is understanding rather than technique, and understanding does not degrade when the opponent improves."},
+          {"name": "Engine", "desc": "Top ten in the world for out-of-possession distance among under-20 players across 60 leagues. The number is the same number wherever he plays."}
+        ],
+        "context": [
+          {"name": "Absent forward output", "desc": "Fifteenth percentile for progressive passes and fifth for progressive runs, in a Maribor side without runners to find. The tape shows him looking forward and diagonally forward constantly, and shows the occasional line-break when a target exists. Whether the output is a limitation or an absence of teammates is the single most important open question in the profile, and Slovenia is not going to settle it."},
+          {"name": "A body still arriving", "desc": "Long-legged, strong base, already physically competitive with senior professionals at 18, and not yet entirely at home in the frame. Some of the current technical inconsistency plausibly belongs to that rather than to the technique."}
+        ],
+        "system": [
+          {"name": "Touch and reception volume", "desc": "Twentieth percentile for passes per 90 and seventh for passes received. In a side that builds patiently through midfield both numbers change immediately and substantially, because the limiting factor is how often the ball comes to him rather than what he does with it."},
+          {"name": "Pressing volume", "desc": "The distance is his and the shape of it is not. A zonal or lower-block side converts the same engine into far less ground covered, which means the leaderboard placing falls even though nothing about the player has changed."}
+        ],
+        "exposed": [
+          {"name": "Ball speed on the long pass", "desc": "A defence that is quicker to reorganise punishes a switch that spends too long in the air. The accuracy survives the step up. The trajectory does not."},
+          {"name": "Press-resistance under real pressure", "desc": "The touch is good rather than secure, and he avoids needing more by moving the ball on early. A coordinated press that shuts the exit before it opens will find that out, and it is the specific gap between him and the players he is modelled on."},
+          {"name": "Right-foot reliance", "desc": "Not urgent, and not a weakness that costs him possession at this level. It narrows the angles available to him, which matters more as the space he receives in shrinks."}
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          {"label": "Frame", "value": "1.85m, long-legged, strong base. Wins and holds the ball in contact against senior opposition at 18. The coordination is not yet fully caught up to the size, which reads as recent growth rather than a limitation."},
+          {"label": "Mobility", "value": "Good acceleration and change of direction for a midfielder of his height. Covers ground quickly enough to press through a sequence rather than only trigger it."},
+          {"label": "Engine", "value": "The standout physical trait and externally corroborated: ninth globally among under-20 players across 60 leagues for out-of-possession distance per 90. Still active in stoppage time."},
+          {"label": "Duels", "value": "Competitive rather than dominant. Uses timing and leverage more than mass. Aerially around the league median, which is the honest ceiling on how much of a screening role he can take on immediately."}
+        ],
+        "cognitive": [
+          {"label": "The sequence", "value": "Scan, recognise where pressure is developing, move somewhere useful, present an angle, receive, release before the pressure becomes his problem. The whole profile is that loop run repeatedly, and it is unusually complete for 18."},
+          {"label": "Multiple solutions", "value": "Not a predetermined passer. When the first option closes he is still looking, which is why the ceiling is higher than the current output suggests."},
+          {"label": "Economy", "value": "Takes what the situation allows and no more. The restraint is a decision rather than a limitation, and it is what makes the low touch count misleading."},
+          {"label": "Defensive reading", "value": "Knows the assignment within the shape and knows when delaying is worth more than winning the ball. Positional discipline is ahead of his age."}
+        ],
+        "psychological": [
+          {"label": "Responsibility without appetite", "value": "He wants the load without wanting the ball for its own sake. He is not the protagonist of possessions and does not try to be. He is simply available often enough that most of them involve him."},
+          {"label": "Progression", "value": "Into the Slovenia U21 squad at 17 and a regular senior starter at 18 having come through the Maribor academy. The trajectory has been steep and he has not looked overtaken by it."},
+          {"label": "Composure", "value": "Comfortable receiving in tight areas with pressure behind him, and willing to take the ball in moments where a less confident 18-year-old hides. That willingness is the psychological precondition for the role."},
+          {"label": "Modelling", "value": "The influence is legible on tape and appears deliberate. A player at 18 who has chosen a stylistic model and organised his game around it is a player who has thought about what he is trying to become."}
+        ]
+      },
+      "devPriorities": [
+        {"num": "01", "title": "Velocity on the long pass.", "text": "The most correctable item and the one with the clearest immediate return. He gets the ball there; he does not get it there quickly enough to stop a defence reorganising. This is striking technique and repetition rather than decision-making, which makes it the cheapest improvement available to him."},
+        {"num": "02", "title": "Matching pass selection to current execution.", "text": "He attempts passes he can see but cannot yet reliably play. The instruction is not to stop looking, which would cost him the thing that makes him interesting. It is to recognise which version of the pass he can actually deliver today and take that one, while the harder version is built in training."},
+        {"num": "03", "title": "Press-resistance as a separate skill.", "text": "Rondo and small-sided work with the release deliberately delayed, so that holding the ball inside a closing press becomes a second option rather than a failure state. The ceiling described in this report requires both answers, and he currently has one."}
+      ],
+      "travelScore": {
+        "score": "7.5",
+        "prose": [
+          "The cognitive work is already done. The scanning, the availability, the pass weighting and the defensive reading are functioning at a level the Slovenian league does not require, and a full senior season at 18 has established that they hold up against adults.",
+          "The score sits below the potential rating for one reason, and it is not a doubt about quality. The list of clubs that would get the most out of him is much shorter than the list of leagues he could play in. He needs a side that builds patiently, keeps the ball on the ground, and has forwards who run. Drop him into a transition team and the profile produces very little that shows up anywhere.",
+          "There is nothing further for him in Slovenia. He has taken what the league can teach and the open question in his profile, whether the absent forward output is his or his team's, cannot be answered here. The next move should be chosen on the identity of the club rather than the ranking of the competition."
+        ]
+      },
+      "leagueScores": [
+        {"league": "Eredivisie", "score": 8.6, "width": "86%", "high": true, "note": "The best next step. Dutch football builds through midfield, trusts teenagers with senior minutes, and puts genuine runners ahead of the ball. It also answers the forward-output question within a season, which is worth more than the ranking of the league."},
+        {"league": "Serie A", "score": 8.0, "width": "80%", "high": true, "note": "Stylistically the closest match anywhere. Italian midfield football is built around exactly this kind of positional intelligence and rotation. The reservation is the familiar one about how Italian clubs use 18-year-old imports, and it is a real reservation rather than a formality."},
+        {"league": "Ligue 1", "score": 7.8, "width": "78%", "high": true, "note": "A strong option at a possession side with pace ahead of him. French football gives young midfielders real minutes and the athletic demands suit the engine."},
+        {"league": "Jupiler Pro League", "score": 7.4, "width": "74%", "high": true, "note": "Reliable development pathway with a proven resale route. Slightly more transitional on average than is ideal for him, which is the only thing separating it from the Netherlands."},
+        {"league": "Bundesliga", "score": 6.8, "width": "68%", "high": false, "note": "The vertical, high-intensity default of most German sides asks for a different midfielder. At a possession-led club it works; at a typical one his release-early solution to pressure gets taken away before he has developed the alternative."},
+        {"league": "Premier League", "score": 5.6, "width": "56%", "high": false, "note": "Too early. Physical duel resolution and press-resistance are both still developing, and they are the two things the league examines first and hardest."}
+      ],
+      "riskGauges": [
+        {"score": 2, "label": "Development", "meaning": "Low risk", "note": "The hard part is present and the open items are technical. Ball velocity and press-resistance both respond to coaching, and the frame still has filling out to do."},
+        {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Takes responsibility without needing the ball, handled a steep promotion without visible strain, and shows every sign of being coachable and low-maintenance."},
+        {"score": 3, "label": "Market", "meaning": "Medium risk", "note": "€450k is a low number against a contract expiring in May 2028 and three separate CIES leaderboard appearances already in public circulation. The price is right today and the leverage moves next summer."},
+        {"score": 3, "label": "Systemic", "meaning": "Medium risk", "note": "Half the teams in any league have half the ball. Add the ones that build patiently and put runners ahead of the ball and you are still describing something like a third of clubs across the top five leagues plus most of the Eredivisie and a good chunk of Belgium. That is not a narrow landing zone, but he does need a possession side to be reached, and a direct team would waste him."}
+      ],
+      "trajectoryNote": "The cognition is ahead. The body and technique are still catching it. At eighteen, I am fairly comfortable betting on which of those I would rather already have.",
+      "nowAge": 18,
+      "verdict": {
+        "statement": "Buy the cognition and accept that the output has not arrived yet. This is a player whose value at 18 is almost entirely in how he thinks, and whose numbers will not show you that until he is in a team built to use it. Choose the club before the league: a patient, ball-dominant side with runners ahead of him turns this profile into something considerable within two seasons. A transition team turns it into nothing at all.",
+        "travels": [
+          "Continuous scanning that produces second and third solutions when the first is taken away",
+          "Self-availability: moves to relieve a teammate rather than to receive, and no system is required for it",
+          "Passing empathy: weight and placement chosen for the receiver's next action",
+          "93rd percentile for second assists, the one creative metric that records the pass before the pass",
+          "Engine: ninth globally for out-of-possession distance among under-20 players in 60 leagues",
+          "Economy of touch and positional discipline unusual for a first senior season",
+          "Takes responsibility without needing the ball, and handled promotion to senior football without strain"
+        ],
+        "targeted": [
+          "Velocity on the long pass: it arrives, but slowly enough for a defence to reset around it",
+          "Pass selection matched to current execution rather than to current vision",
+          "Press-resistance: holding the ball inside a closing press, not only beating it to the release",
+          "Physical duel resolution as the frame finishes filling out",
+          "Tackling discipline, which becomes a booking problem at a level that protects the carrier more"
+        ],
+        "potentialRating": "8.5",
+        "potentialBalls": 9,
+        "potentialProjection": "A press-resistant deep-lying playmaker at Champions League level, the player a possession side builds its structure around and the first name a teammate would write on a teamsheet. The cognitive foundation for that already exists. Whether the technique catches up to it decides whether the rating is met or missed, and at 18 there is a great deal of time for it to."
+      }
+    },
+    {
       "slug": "milan-roganovic",
       "handcrafted": true,
       "firstName": "Milan",
