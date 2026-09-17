@@ -1,6 +1,156 @@
 {
   "players": [
     {
+      "slug": "ivan-canjuga",
+      "handcrafted": true,
+      "firstName": "Ivan",
+      "lastName": "Čanjuga",
+      "positionTag": "Roaming Playmaker",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/ivan-canjuga.png",
+      "photoAlt": "Ivan Canjuga",
+      "verdictLine": "Ivan Canjuga spent two years looking like a winger who probably belonged somewhere else. Back in midfield at Varaždin, the picture makes considerably more sense. The flair is still there. Now it has somewhere useful to go.",
+      "bio": {
+        "dob": "30 Nov 2005",
+        "nationality": "Croatian",
+        "club": "NK Varaždin",
+        "league": "1. HNL (Croatia)",
+        "contractExpiry": "Dec 2028",
+        "marketValue": "€450k",
+        "preferredFoot": "Left",
+        "height": "",
+        "agent": "VS Sports Mgmt"
+      },
+      "scores": { "basePotential": "7.5", "travelReadiness": "7", "reportDate": "Sep '26" },
+      "role": {
+        "primaryRole": "Roaming Playmaker",
+        "description": [
+          "A left-footed right-sided eight who benefits from freedom rather than fixed positioning. Canjuga moves between the half-space and wider areas to receive, turn and carry, with the structure around him ideally creating space for him to drift onto his stronger foot. The role should maximise his involvement without asking him to organise possession as a six or create separation as a winger."
+        ],
+        "formationName": "4-3-3",
+        "formationLabelBottom": "Canjuga — highlighted position",
+        "formationPositions": [
+          {"cx": 200, "cy": 548, "label": "GK"},
+          {"cx": 60, "cy": 462, "label": "LB"},
+          {"cx": 152, "cy": 470, "label": "LCB"},
+          {"cx": 248, "cy": 470, "label": "RCB"},
+          {"cx": 340, "cy": 462, "label": "RB"},
+          {"cx": 200, "cy": 370, "label": "DM"},
+          {"cx": 112, "cy": 285, "label": "LCM"},
+          {"cx": 288, "cy": 285, "label": "RCM"},
+          {"cx": 72, "cy": 170, "label": "LW"},
+          {"cx": 200, "cy": 150, "label": "ST"},
+          {"cx": 328, "cy": 170, "label": "RW"}
+        ],
+        "highlightedPosition": {"cx": 288, "cy": 285, "label": "RCM"},
+        "heatmapZones": [], "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          {"title": "Genuine ball striker.", "text": "When he connects properly with a shot it goes. Set-piece delivery is consistently dangerous and he is trusted with it at 20, which is a piece of information about the coaching staff as much as about him."},
+          {"title": "Turns into pressure and drives.", "text": "Comfortable receiving with a man on him, rolling away and attacking the space diagonally. Quick feet and sharp changes of direction let him leave the first presser behind, and long legs keep the ball with him through contact."},
+          {"title": "Passing range is real and varied.", "text": "Chipped balls in behind, switches, line-breakers through the middle, crosses from deeper positions with both inswing and outswing available. The weight is right more often than not."},
+          {"title": "Shoots when a better option exists.", "text": "The eagerness to pull the trigger is the clearest decision-making error in the profile, and it appears most often in exactly the positions where his vision would otherwise be the most valuable thing on the pitch."},
+          {"title": "Final actions are hit or miss.", "text": "The ambition of the attempt is consistent. The execution at the end of sequences is not, and the gap between those two is where most of his wasted possessions live."}
+        ],
+        "offBall": [
+          {"title": "Scans constantly and finds pockets in build-up.", "text": "Makes himself available between opposition lines rather than waiting on the ball to reach his zone, and drifts to the right touchline to get a clean look at the pitch when the middle congests."},
+          {"title": "Times his runs into the box well.", "text": "Arrives rather than waits, and gets into shooting positions from central and half-space starting points. The movement is one of the better-developed parts of his game."},
+          {"title": "Competes physically without being physical.", "text": "Uses his frame and balance to hold position in duels and does not avoid contact. Aerially he is winning three quarters of his contests this season, which is not what the eye expects from the profile."},
+          {"title": "One-against-one in central areas is a weakness.", "text": "He does not often lose his runner, but when he is isolated against a dribbler in the middle of the pitch he can be beaten, and the engagement level in those moments drops below where it needs to be."},
+          {"title": "Pressing lacks shading.", "text": "He goes to the ball rather than to the angle, which means he arrives without having closed the pass he was supposed to be preventing. This is a teachable detail and currently an untaught one."}
+        ]
+      },
+      "dna": {
+        "pure": [
+          {"name": "Striking technique", "desc": "How cleanly a player hits a ball does not depend on who he is playing against. The shooting and the set-piece delivery are mechanical qualities that arrive at the next club intact, and they are the least conditional things in the profile."},
+          {"name": "Escape in tight areas", "desc": "Balance, body feints and change of direction over the first two yards. Better opponents close the space faster, which raises the value of getting out of it rather than lowering it. The quality is his rather than the league's."},
+          {"name": "Bravery in possession", "desc": "He rarely goes passive when a difficult option is the right one. Plenty of talented young players stop attempting things when the level rises, and the disposition that prevents that is temperamental rather than technical."},
+          {"name": "Timing of runs into the box", "desc": "Knowing when to leave is a reading of the sequence rather than a function of the space available. It survives a move to a league where that space is smaller."}
+        ],
+        "context": [
+          {"name": "Role-dependent influence", "desc": "Canjuga's involvement changes significantly depending on where possession finds him. Wide, he is asked to create separation he does not naturally possess. Deeper, too much of the game happens in front of him without his defensive profile justifying the role. As an eight, the same qualities become useful because receiving, carrying and creating can exist inside the same sequence."}
+        ],
+        "system": [
+          {"name": "Progressive output", "desc": "Third in the league this season for progressive passes per 90. Varaždin give him the ball in positions to do it and the freedom to go looking when they do not. In a side with a fixed midfield hierarchy, a large share of that volume goes to somebody else."},
+          {"name": "Positional licence", "desc": "His value rises the more the structure lets him roam between the right half-space and the touchline. A system that fixes him to a zone removes the drift that gets him onto his left foot in dangerous areas."}
+        ],
+        "exposed": [
+          {"name": "Shot selection", "desc": "At this level a speculative effort costs a possession. At a higher one it costs a counterattack, and opponents who notice the tendency will happily invite the shot rather than concede the pass behind them."},
+          {"name": "Isolated defending in central areas", "desc": "A dribbler who can attack him one against one through the middle will find joy, and better midfields are built to create exactly that situation deliberately."},
+          {"name": "Pressing angles", "desc": "Going to the ball instead of to the passing lane is survivable against opponents who play slowly. Against a side that plays through the first presser on purpose, it turns his effort into their advantage."}
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          {"label": "Movement quality", "value": "Light, quick feet and sharp changes of direction. The agility is the athletic trait that matters most here. He unbalances defenders through footwork rather than through pace."},
+          {"label": "Speed", "value": "Good acceleration, ordinary top end. Quick enough to be dangerous driving from midfield and not quick enough to separate from a full-back over forty yards, which is most of the argument against the winger experiment."},
+          {"label": "Frame and duels", "value": "Long-legged, balanced, uses his body intelligently to shield. Difficult to knock off the ball for a player who does not look especially strong. Winning 75% of aerial duels this season on a small sample."},
+          {"label": "Robustness", "value": "Two injuries at Lokomotiva interrupted the development window. He has been available consistently since the move back, which is the relevant recent evidence, but it is not yet a long record."}
+        ],
+        "cognitive": [
+          {"label": "Scanning and pause", "value": "Scans continuously and has a genuine feel for when to slow a sequence down. The pause is the more unusual half of that. Young creative midfielders typically have one speed and it is fast."},
+          {"label": "Vision", "value": "Sees difficult passes and attempts them. Chipped balls in behind and quick combinations are both in the repertoire rather than accidents."},
+          {"label": "Decision-making under a shooting opportunity", "value": "The one place the processing consistently fails, and the failure is revealing: sight of goal appears to end his search for options rather than becoming one of them. He stops scanning at the moment the scanning is worth most."}
+        ],
+        "psychological": [
+          {"label": "Confidence", "value": "Visibly high and productive rather than destructive. The flourishes in low-stakes moments are the same disposition that produces the difficult pass in a high-stakes one."},
+          {"label": "Response to a stalled spell", "value": "Left his boyhood club at 16, did not establish himself, returned at 20 and became central to the side within months. Nothing about the return suggests a player whose confidence was damaged by the intervening period."},
+          {"label": "Responsibility", "value": "Takes set pieces at 20 and does not hide when the game is difficult. He looks for the ball in the phases where a less certain player would let it pass him by."}
+        ]
+      },
+      "devPriorities": [
+        {"num": "01", "title": "Shot selection.", "text": "The highest-value correction available and the simplest to diagnose. He needs to see the sequences where the shot he took closed down a better option two passes later. Video work rather than training-ground repetition, and it wants doing before a move to a level where a wasted possession becomes a counterattack."},
+        {"num": "02", "title": "Pressing angles and final-third engagement.", "text": "Two separate problems with the same root, which is that his defending is reactive rather than planned. Learning to press the passing lane rather than the man would improve both the effectiveness of his own pressure and the shape of everything behind him."},
+        {"num": "03", "title": "One-against-one defending in midfield.", "text": "His positioning generally keeps him connected to the action, but when the sequence becomes an isolated duel he can become too easy to move past. The aim is not to turn him into a ball-winner; it is to make sure the freedom he receives in possession does not require somebody else to constantly protect him without it."}
+      ],
+      "travelScore": {
+        "score": "7",
+        "prose": [
+          "The technical qualities travel without much argument. Striking, escape in tight areas, passing range and bravery in possession are all things he owns rather than things his environment lends him, and a stronger league would find most of them intact.",
+          "The 7 reflects timing more than doubt. He has been a central midfielder again for eight months. Before that he was a winger for two seasons, injured for part of them, and the senior evidence about the player he actually is amounts to roughly one good half-season. Moving now means a club buys the position change rather than the player who came out of it.",
+          "The sensible course is the unglamorous one: finish this season in Croatia, accumulate a full campaign of midfield minutes, and move next summer with a complete sample behind him. He is unlikely to be overwhelmed by a step up whenever it comes, and he has more to gain from arriving with proof than from arriving early."
+        ]
+      },
+      "leagueScores": [
+        {"league": "1. HNL (stay)", "score": 8.4, "width": "84%", "high": true, "note": "The best use of the next nine months. A full season of midfield minutes converts a promising fragment into a real body of evidence, and Varaždin are already giving him the role and the freedom that suit him."},
+        {"league": "Serie A", "score": 7.8, "width": "78%", "high": true, "note": "The roaming eight is a recognised and valued role in Italian football, and the tactical coaching would address the pressing detail directly. The usual caveat about how Italian clubs deploy young imports applies with force to a player who has already lost two years to being used wrongly."},
+        {"league": "Eredivisie", "score": 7.6, "width": "76%", "high": true, "note": "A stronger cultural willingness to use young technical midfielders. The technical demands suit him and the defensive ones would be gentler than elsewhere, which is either the appeal or the drawback depending on how urgently you want the pressing fixed."},
+        {"league": "Jupiler Pro League", "score": 7.4, "width": "74%", "high": true, "note": "A proven route for Balkan midfielders with a clear resale pathway. More transitional than ideal, which would ask him to defend in open field more often than his current profile would like."},
+        {"league": "Ligue 1", "score": 6.6, "width": "66%", "high": false, "note": "Athletic midfields everywhere and a physical standard that would test the one-against-one defending immediately. Workable at a possession side, uncomfortable at most others."},
+        {"league": "Premier League", "score": 4.8, "width": "48%", "high": false, "note": "Not a current conversation. The defensive responsibilities placed on a central midfielder in this league are exactly the parts of his game that are least developed."}
+      ],
+      "riskGauges": [
+        {"score": 2, "label": "Development", "meaning": "Low risk", "note": "The open items are shot selection and defensive detail, both of which respond to coaching. The technical base feels pretty established."},
+        {"score": 2, "label": "Psychological", "meaning": "Low risk", "note": "Confident, brave in possession, trusted with set pieces, and unbowed by a spell that did not work."},
+        {"score": 3, "label": "Market", "meaning": "Medium risk", "note": "€450k against a contract to December 2028 and a form curve pointing sharply upward. If the season continues as it has started, the price at which this is an obvious piece of business will not last it out."},
+        {"score": 3, "label": "Systemic", "meaning": "Medium risk", "note": "The important concern is somebody seeing 'DM / winger / midfielder,' deciding he is versatile, and once again making versatility an excuse not to identify what he actually is."}
+      ],
+      "trajectoryNote": "Canjuga looks expressive, almost unserious at times, while playing a fairly responsible version of midfield underneath it.",
+      "nowAge": 20,
+      "verdict": {
+        "statement": "Track him through to May rather than moving on him now. The technical qualities are real and the position change has clearly worked, but eight months of midfield football inside a disrupted career is a fragment rather than a case. Buy him as a right-sided eight with licence to roam, never as a six, and be aware that the registration will tell a less careful buyer otherwise. At this price the downside is small and the window is more likely to close through form than through anything else.",
+        "travels": [
+          "Striking technique: shooting and set-piece delivery are mechanical qualities that arrive intact",
+          "Escape in tight areas through balance, feints and first-two-yard quickness",
+          "Passing range across chipped balls, switches, line-breakers and crosses from deep",
+          "Bravery in possession: rarely goes passive when the difficult option is the right one",
+          "Scanning and a genuine feel for slowing a sequence down, which is unusual at 20",
+          "Timing of runs into the box, and enough physical intelligence to compete in duels"
+        ],
+        "targeted": [
+          "Shot selection: takes the shot when the pass is better, often enough to read as a default",
+          "Pressing angles: goes to the man rather than the lane, so the effort achieves little",
+          "One-against-one defending in central areas, and engagement in the final third",
+          "A second option when coming inside from the left, where the move is currently one move",
+          "Consistency of final actions, which are ambitious and roughly half-effective"
+        ],
+        "potentialRating": "7.5",
+        "potentialBalls": 8,
+        "potentialProjection": "A starting central midfielder at a mid-table club in a top-five league, or a leading one in a league just below it. The creative and technical qualities are good enough to carry him there and the defensive limitations are the reason the ceiling is not higher. What he needs most is somebody to leave him in one position long enough to find out."
+      }
+    },
+    {
       "slug": "nejc-viher",
       "handcrafted": true,
       "firstName": "Nejc",
