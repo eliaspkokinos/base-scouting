@@ -4,12 +4,12 @@
       "slug": "matej-gastarov",
       "handcrafted": true,
       "firstName": "Matej",
-      "lastName": "Gašarov",
+      "lastName": "Gaštarov",
       "positionTag": "Hybrid Six",
       "positionCategory": "Midfielders",
       "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/matej-gashtarov.png",
-      "photoAlt": "Matej Gašarov",
-      "verdictLine": "Matej Gašarov has the frame of a midfielder you should be able to press. The problem is what happens when you try. At 1.90m, he turns, carries and escapes pressure with a freedom his body really should not allow.",
+      "photoAlt": "Matej Gaštarov",
+      "verdictLine": "Matej Gaštarov has the frame of a midfielder you should be able to press. The problem is what happens when you try. At 1.90m, he turns, carries and escapes pressure with a freedom his body really should not allow.",
       "bio": {
         "dob": "15 Nov 2006",
         "nationality": "Macedonian",
@@ -28,7 +28,7 @@
           "A 1.90m right-footed midfielder operating as the left of Crvena Zvezda's double pivot, dropping deep into the build-up and occasionally filling in across the left of a back three. Lean rather than heavy, with hip mobility and a turning radius that do not match the frame. Born in Skopje, moved to Serbia at seventeen, spent half a season on loan in the Serbian second division and returned to establish himself. Holds both Macedonian and Serbian passports, with five senior caps for North Macedonia."
         ],
         "formationName": "3-2-4-1",
-        "formationLabelBottom": "Gašarov — highlighted position",
+        "formationLabelBottom": "Gaštarov — highlighted position",
         "formationPositions": [
           {"cx": 200, "cy": 548, "label": "GK"},
           {"cx": 104, "cy": 468, "label": "LCB"},
