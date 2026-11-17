@@ -1,6 +1,162 @@
 {
   "players": [
     {
+      "slug": "matej-gastarov",
+      "handcrafted": true,
+      "firstName": "Matej",
+      "lastName": "Gašarov",
+      "positionTag": "Hybrid Six",
+      "positionCategory": "Midfielders",
+      "photoUrl": "https://raw.githubusercontent.com/eliaspkokinos/base-scouting/main/images/matej-gashtarov.png",
+      "photoAlt": "Matej Gašarov",
+      "verdictLine": "Matej Gašarov has the frame of a midfielder you should be able to press. The problem is what happens when you try. At 1.90m, he turns, carries and escapes pressure with a freedom his body really should not allow.",
+      "bio": {
+        "dob": "15 Nov 2006",
+        "nationality": "Macedonian",
+        "club": "Crvena Zvezda",
+        "league": "SuperLiga Serbia",
+        "contractExpiry": "Jun 2031",
+        "marketValue": "€1.5M",
+        "preferredFoot": "Right",
+        "height": "1.90m",
+        "agent": "FPA"
+      },
+      "scores": { "basePotential": "8.5", "travelReadiness": "7.5", "reportDate": "Sep '26" },
+      "role": {
+        "primaryRole": "Hybrid Six",
+        "description": [
+          "A 1.90m right-footed midfielder operating as the left of Crvena Zvezda's double pivot, dropping deep into the build-up and occasionally filling in across the left of a back three. Lean rather than heavy, with hip mobility and a turning radius that do not match the frame. Born in Skopje, moved to Serbia at seventeen, spent half a season on loan in the Serbian second division and returned to establish himself. Holds both Macedonian and Serbian passports, with five senior caps for North Macedonia."
+        ],
+        "formationName": "3-2-4-1",
+        "formationLabelBottom": "Gašarov — highlighted position",
+        "formationPositions": [
+          {"cx": 200, "cy": 548, "label": "GK"},
+          {"cx": 104, "cy": 468, "label": "LCB"},
+          {"cx": 200, "cy": 476, "label": "CB"},
+          {"cx": 296, "cy": 468, "label": "RCB"},
+          {"cx": 150, "cy": 372, "label": "LDM"},
+          {"cx": 250, "cy": 372, "label": "RDM"},
+          {"cx": 62, "cy": 252, "label": "LW"},
+          {"cx": 154, "cy": 240, "label": "LAM"},
+          {"cx": 246, "cy": 240, "label": "RAM"},
+          {"cx": 338, "cy": 252, "label": "RW"},
+          {"cx": 200, "cy": 140, "label": "ST"}
+        ],
+        "highlightedPosition": {"cx": 150, "cy": 372, "label": "LDM"},
+        "heatmapZones": [], "heatmapEllipses": []
+      },
+      "behaviors": {
+        "onBall": [
+          {"title": "Knows where the ball is going before it arrives.", "text": "He scans continuously and the decision appears made by the time the pass reaches him. The result is a player who rarely needs a settling touch, which is most of why he is difficult to press despite how often he receives in congested areas."},
+          {"title": "Turns and goes.", "text": "For a player this tall he needs very little space to rotate. The hips move, the ball comes with him and he is facing forward in one action rather than three. Most 1.90m midfielders take adjustment steps to do the same thing."},
+          {"title": "Picks his moments to drive.", "text": "He does not take on the carry at every opportunity, and when he does the first defender beaten is rarely the end of it: somebody behind has to leave a man to deal with him. Long strides, a high top end, and opponents who stop trying to catch him and foul him instead."},
+          {"title": "First receiver from the back.", "text": "Drops into the first line, takes the ball with defenders in front of him and switches play accurately. Comfortable being the outlet rather than the option, which is a different temperament from wanting the ball in space."},
+          {"title": "Final-third passing is the safe version.", "text": "The range that produces line-breaking passes in midfield thins out once the pitch shortens. His expected assists sit at the 43rd percentile and shot assists at the 18th, and the tape agrees with both: in the last thirty metres he takes the pass that keeps the ball rather than the one that creates."}
+        ],
+        "offBall": [
+          {"title": "Reach is a defensive weapon.", "text": "Long limbs let him affect passing lanes and stretch into tackles from distances most midfielders cannot reach. 83rd percentile for possession-adjusted tackles and interceptions, achieved without covering unusual ground."},
+          {"title": "Constantly offering himself during build-up.", "text": "He moves to the angle rather than waiting in the zone, which is part of why he receives more often than almost anyone in the league at his position."},
+          {"title": "Steps out early and sometimes too early.", "text": "Willing to leave his position to engage, and the willingness is not in question. The timing is. He gambles on the interception in moments where delaying the attack would have been the better outcome, and against quicker opponents that becomes a problem rather than a habit."},
+          {"title": "Wins duels through timing and leverage.", "text": "95th percentile for overall duels and 85th aerially, and almost none of it comes from mass. He uses height and reach to get to the ball first rather than to bully anyone out of the way."},
+          {"title": "Struggles one against one against skilful opponents.", "text": "In isolation in central areas he can be gone past. The same eagerness that produces the regains produces the moments where a dribbler wrong-foots him."}
+        ]
+      },
+      "dna": {
+        "pure": [
+          {"name": "Pass security at volume", "desc": "Accuracy and volume usually trade against each other. He is 95th percentile on one and 91st on the other, which means the security is not purchased by taking easy options. A harder league shrinks the windows; it does not change the fact that he is already completing passes at that rate while being one of the most-used players on the pitch."},
+          {"name": "Hip mobility and turning radius", "desc": "Biomechanical rather than tactical. The ability to rotate out of pressure in one movement at 1.90m is the thing underneath the press resistance, the carrying and the escape, and it is the part of the profile that is simply his. Better pressing arrives faster. It does not make him slower to turn."},
+          {"name": "Forward orientation", "desc": "Third-lowest lateral pass share among 65 league midfielders. That is a disposition rather than a skill, and dispositions do not usually reverse when a player moves. What changes is how often the forward option exists, not how hard he looks for it."},
+          {"name": "Pre-receive scanning", "desc": "Deciding before the ball arrives is a habit of attention. Coaches can work on what a player does once he has the picture. Getting the picture early is much harder to install and he already has it."}
+        ],
+        "context": [
+          {"name": "Carrying as selection rather than volume", "desc": "Progressive runs at the 58th percentile reads as ordinary until you look at what happens inside them. Dribble success sits at the 79th and fouls drawn at the 90th, which is not the signature of a player being stopped. He is not carrying often. He is carrying when it comes off. A side that cedes more possession would raise the frequency, and whether the success rate survives that increase is the one thing Serbian football cannot tell us."},
+          {"name": "A frame not yet filled", "desc": "Lean at 1.90m with obvious room to add. Some of what currently reads as a reluctance to dominate physically is a nineteen-year-old who has not finished growing into himself, and some of it is temperament. Two or three years will separate those two."}
+        ],
+        "system": [
+          {"name": "Touch and reception volume", "desc": "91st percentile for passes received, inside a side that has the ball for most of every domestic game. In a team that cedes possession the number falls sharply, and with it the opportunity to demonstrate the forward orientation that currently defines him. The disposition survives. The platform for it might not."},
+          {"name": "Defensive workload", "desc": "60th percentile for successful defensive actions, which is modest next to his 83rd for tackles and interceptions. He is efficient rather than busy, and the reason is that his team rarely asks him to be busy. A side that defends more would tell us whether the efficiency holds across three times the volume."},
+          {"name": "Positional elasticity", "desc": "Used across the base of midfield and the left of a back three. The deeper he starts the more of the pitch he influences, which is a feature of this structure rather than of him. A system with a fixed six takes away half of what makes the profile interesting."}
+        ],
+        "exposed": [
+          {"name": "Defensive patience", "desc": "Stepping out early works when the opponent is slower to punish it. At a higher level, forwards who recognise the tendency will bait the step deliberately, and the space behind a six who has gambled is the most valuable space on the pitch."},
+          {"name": "Isolated 1v1 defending", "desc": "Beatable in central areas by a dribbler with real quality. His current protection is that the league contains few of them. That protection does not travel."},
+          {"name": "Physical assertion in contact", "desc": "The duel win rate is excellent and it is built on reach and timing rather than strength. Against opponents who can hold contact and who arrive with momentum, winning the ball first becomes harder and there is currently no second method underneath it."},
+          {"name": "Final-third ambition", "desc": "The safe pass near the box is a choice he makes consistently, not an execution failure. It costs nothing in a side that generates chances elsewhere. In a team that needs its six to unlock a low block, it would be the first thing an opponent stopped worrying about."}
+        ]
+      },
+      "profiles": {
+        "athletic": [
+          {"label": "Frame", "value": "1.90m, long-limbed, lean. The reach is already an asset defensively. The mass is not there yet, and the profile currently works around that rather than through it."},
+          {"label": "Mobility", "value": "The standout physical quality and the one that does not fit the frame. Short turning radius, good balance, quick feet in tight areas. He moves like a smaller player without having given up the size."},
+          {"label": "Speed with the ball", "value": "Nations League tracking at 32.11 km/h with a 30.56 average top speed. The narrow gap between the two matters more than the peak: he gets near that ceiling most weeks. He is fouled at the 90th percentile, and a good share of those are opponents declining the chase once he has gone."},
+          {"label": "Aerial", "value": "85th percentile win rate, produced by height and timing. He gets to the ball rather than through the man, which is effective now and a question at a level where the contact comes harder."}
+        ],
+        "cognitive": [
+          {"label": "Pre-reception processing", "value": "The defining quality. He scans before the ball and acts as though the picture was formed two seconds earlier. Press resistance at his age is usually a technical story. With him it is mostly a timing one."},
+          {"label": "Positional reading in build-up", "value": "Finds the angle a teammate needs rather than the position his role prescribes. The reception volume is partly a measure of how often he is somewhere useful."},
+          {"label": "Defensive anticipation", "value": "The weaker half of the cognitive profile and the reason the stepping out goes wrong. He reads that something is about to happen before he reads precisely what, and then commits."},
+          {"label": "Risk calibration by zone", "value": "Ambitious in midfield and conservative in the final third. Whether that is a deliberate reading of his role or a narrower set of solutions near the box is the open question in his decision-making."}
+        ],
+        "psychological": [
+          {"label": "Appetite for the ball", "value": "He wants it in the difficult moments. Receiving as the first outlet with pressure arriving is a choice, and at nineteen most players in that position take a step away rather than toward."},
+          {"label": "Path so far", "value": "Left Macedonia at seventeen, moved clubs twice, spent half a season in the Serbian second division and came back into a squad competing in Europe. No part of that sequence looks like it dented him."},
+          {"label": "Aggression", "value": "Willing to the point of occasionally being a problem. He wants to end the action rather than contain it, which is the right instinct badly timed rather than the wrong instinct."},
+          {"label": "National ambiguity", "value": "Dual Macedonian and Serbian eligibility with five senior caps already for North Macedonia. The federation question looks settled in practice, which removes a complication buyers sometimes have to price."}
+        ]
+      },
+      "devPriorities": [
+        {"num": "01", "title": "Defensive patience.", "text": "The single highest-value correction and the one that will not improve on its own, because the league currently rewards the gamble more often than it punishes it. The work is video and repetition: showing him the sequences where holding position would have ended the attack, and drilling the delay as an active choice rather than a failure to engage."},
+        {"num": "02", "title": "A second method in contact.", "text": "Winning the ball first is a strategy that thins out as opponents get stronger. He needs the version of the duel where he does not get there first and still comes away with it, which is strength work plus technical coaching on body position at the moment of contact."},
+        {"num": "03", "title": "Ambition in the final third.", "text": "Only worth pursuing if the club wants their six contributing to chance creation. If the answer is yes, the solutions have to be built, because the current repertoire near the box is narrower than the one he uses in midfield. If the answer is no, this is not a weakness at all."}
+      ],
+      "travelScore": {
+        "score": "7.5",
+        "prose": [
+          "Almost everything that makes him valuable is already functioning at a level above this competition. The pass security, the scanning, the turning radius and the duel win rate would all survive a step up more or less intact, and at nineteen he is further along than the profile has any obligation to be.",
+          "What holds the score at 7.5 is that nothing is forcing the issue to leave. He has European football, a contract to 2031, a club that clearly trusts him, a role that suits him and a physical development curve still running. The gaps that would get punished elsewhere, the defensive timing and the contact strength, are gaps a serious club is already in a position to work on.",
+          "Two different questions sit underneath that score and they do not have the same answer. The player develops best by staying where he is for another season. The club that wants him develops no such advantage by waiting. Readiness and price move in opposite directions here, and the 7.5 measures only the first of them."
+        ]
+      },
+      "leagueScores": [
+        {"league": "Crvena Zvezda (stay)", "score": 8.4, "width": "84%", "high": true, "note": "The right place for his next season, and the reason has nothing to do with the domestic league. European nights supply opposition the SuperLiga cannot, and the role already gives him the deep starting position that lets him influence the most pitch."},
+        {"league": "Eredivisie", "score": 8.2, "width": "82%", "high": true, "note": "Build-up through the six is standard and the reception volume would hold. Dutch football would also stress-test the defensive timing weekly without making him pay for every error, which is the right sequencing for his specific gap."},
+        {"league": "Bundesliga", "score": 8.0, "width": "80%", "high": true, "note": "The best eventual destination. German sides press in ways that reward a midfielder who turns out of trouble in one movement, and the physical coaching addresses the contact gap directly. Not before the strength work has started."},
+        {"league": "Serie A", "score": 7.8, "width": "78%", "high": true, "note": "Italian coaching of the positional six is the most likely place for the defensive patience to be fixed properly. The reservation is the usual one about how Italian clubs use nineteen-year-old imports, which matters more for a player whose development needs minutes than for one who needs polish."},
+        {"league": "Jupiler Pro League", "score": 7.2, "width": "72%", "high": true, "note": "A proven pathway, but a lateral step from a starting role with European football attached. More useful as a fallback than a plan."},
+        {"league": "Premier League", "score": 6.0, "width": "60%", "high": false, "note": "Premature rather than unrealistic. A six in this league is isolated against skilful dribblers several times a match, and that is currently the weakest thing he does."}
+      ],
+      "riskGauges": [
+        {"score": 2, "label": "Development", "meaning": "Low risk", "note": "The cognitive and technical base is established at nineteen. The open items are defensive timing and contact strength, both of which respond to coaching and to a frame that is still filling out."},
+        {"score": 1, "label": "Psychological", "meaning": "Minimal risk", "note": "Moved countries at seventeen, came back from a second-division loan into a European squad, and wants the ball when it is uncomfortable. Nothing in the record suggests fragility."},
+        {"score": 4, "label": "Market", "meaning": "High risk", "note": "The highest risk on the board. Contracted to 2031 by a club with no need to sell, a valuation that has gone from nothing to €1.5M inside a year, and a profile already circulating publicly. Crvena Zvezda hold every card."},
+        {"score": 2, "label": "Systemic", "meaning": "Low risk", "note": "A six who can build, carry, defend space and fill in at centre-back fits most structures. A side that fixes him to a narrow screening role would waste him rather than expose him."}
+      ],
+      "trajectoryNote": "I kept coming back to how little his body and his football seem to agree with each other.",
+      "nowAge": 19,
+      "verdict": {
+        "statement": "Buy the processing speed and the forward orientation, and accept that you are also buying two years of physical development and a defensive timing problem. He is a six whose value is concentrated in the phase before the one that gets measured, which makes him easy to undervalue on a spreadsheet and difficult to replace once you have him. Do not buy him expecting creation from deep. Buy him because the ball moves forward every time it reaches him.",
+        "travels": [
+          "Deciding before the ball arrives: the press resistance is a timing quality, not a technical one",
+          "95th percentile pass accuracy at 91st percentile volume, a combination that is not bought with safe options",
+          "Third-lowest lateral pass share of 65 league midfielders",
+          "Hip mobility and turning radius that do not belong on a 1.90m frame",
+          "95th percentile duels won and 85th aerially, won through reach and timing",
+          "Sixth of 65 on both the possession and defensive composites, and first on both among under-21s",
+          "Wants the ball in uncomfortable moments and has already handled two club moves and a second-division loan"
+        ],
+        "targeted": [
+          "Defensive patience: steps out early and the league rarely punishes it yet",
+          "A method in contact for the duels he does not reach first",
+          "One-against-one defending centrally against skilful dribblers",
+          "Final-third ambition, if the buying club needs creation from the six",
+          "Physical mass to match the frame, which is time rather than work"
+        ],
+        "potentialRating": "8.5",
+        "potentialBalls": 9,
+        "potentialProjection": "A starting defensive midfielder at a Champions League club, and the deepest point of a possession structure rather than its most decorated one. The processing, the frame and the forward disposition are all already in place. What decides whether the rating is met is whether the defensive timing catches up before a bigger league starts charging him for it."
+      }
+    },
+    {
       "slug": "ivan-canjuga",
       "handcrafted": true,
       "firstName": "Ivan",
